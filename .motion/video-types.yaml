@@ -1,0 +1,67 @@
+version: 1
+video_types:
+  product-launch:
+    narrative: [hook, establish, feature, proof, payoff, end-card]
+    core_capabilities: [creative-direction, shot-design, cinematography, choreography, transitions, sound-design, remotion-engineering, visual-qa]
+    preferred_primitives: [scene.hero-product, reveal.hero-settle, camera.macro-push, camera.parallax-2_5d, transition.depth-cut, audio.impact-stack]
+    avoid: [feature-checklist-slideshow, identical-shot-lengths, transition-per-feature]
+
+  ui-demo:
+    narrative: [hook, establish, feature, proof, payoff, end-card]
+    core_capabilities: [creative-direction, shot-design, ui-motion, cinematography, choreography, transitions, remotion-engineering, visual-qa]
+    preferred_primitives: [scene.ui-feature, ui.cursor-focus, ui.viewport-push, ui.layered-product-frame, reveal.precision-rise]
+    avoid: [fake-ui-when-real-ui-is-available, cursor-teleportation, unreadable-zoom-speed]
+
+  brand-film:
+    narrative: [hook, establish, feature, proof, payoff, end-card]
+    core_capabilities: [creative-direction, shot-design, cinematography, choreography, kinetic-typography, transitions, sound-design, visual-qa]
+    preferred_primitives: [scene.editorial-statement, reveal.hero-settle, transition.match-move, effect.light-sweep, audio.impact-stack]
+    avoid: [generic-brand-montage, gratuitous-logo-repetition, constant-high-energy]
+
+  explainer:
+    narrative: [hook, establish, feature, proof, payoff, end-card]
+    core_capabilities: [creative-direction, shot-design, choreography, kinetic-typography, ui-motion, data-animation, remotion-engineering, visual-qa]
+    preferred_primitives: [data.chart-build, data.metric-proof, typography.metric-counter, scene.ui-feature]
+    avoid: [animating-all-information-at-once, decorative-camera-motion, chart-junk]
+
+  kinetic-type:
+    narrative: [hook, establish, feature, proof, payoff, end-card]
+    core_capabilities: [creative-direction, kinetic-typography, choreography, transitions, sound-design, remotion-engineering, visual-qa]
+    preferred_primitives: [scene.editorial-statement, typography.word-stagger, typography.line-reveal, transition.match-move, audio.beat-map]
+    avoid: [random-word-directions, unreadable-overlap, effect-per-word]
+
+  data-story:
+    narrative: [hook, establish, feature, proof, payoff, end-card]
+    core_capabilities: [creative-direction, data-animation, kinetic-typography, choreography, remotion-engineering, visual-qa]
+    preferred_primitives: [data.chart-build, data.metric-proof, typography.metric-counter]
+    avoid: [dashboard-dump, simultaneous-series-reveal, animation-without-analytical-purpose]
+
+  social:
+    narrative: [hook, establish, feature, proof, payoff, end-card]
+    core_capabilities: [creative-direction, shot-design, kinetic-typography, choreography, transitions, sound-design, remotion-engineering, visual-qa]
+    preferred_primitives: [typography.word-stagger, transition.match-move, audio.beat-map, scene.ui-feature]
+    avoid: [slow-unearned-intro, desktop-safe-area-assumptions, tiny-type]
+
+  presentation:
+    narrative: [hook, establish, feature, proof, payoff, end-card]
+    core_capabilities: [creative-direction, kinetic-typography, data-animation, choreography, remotion-engineering, visual-qa]
+    preferred_primitives: [typography.line-reveal, data.metric-proof, reveal.precision-rise]
+    avoid: [slide-by-slide-crossfade, tiny-slide-text, identical-timing-everywhere]
+
+  logo-identity:
+    narrative: [hook, establish, feature, proof, payoff, end-card]
+    core_capabilities: [creative-direction, choreography, shot-design, sound-design, remotion-engineering, visual-qa]
+    preferred_primitives: [reveal.hero-settle, effect.light-sweep, audio.impact-stack]
+    avoid: [unmotivated-particles, excessive-3d-spin, repeated-reveal]
+
+  cinematic-3d:
+    narrative: [hook, establish, feature, proof, payoff, end-card]
+    core_capabilities: [creative-direction, shot-design, cinematography, three-d, choreography, sound-design, rendering, visual-qa]
+    preferred_primitives: [camera.product-orbit, camera.macro-push, scene.hero-product, effect.light-sweep, audio.impact-stack]
+    avoid: [continuous-orbit, camera-without-subject, depth-for-depth-sake]
+
+  experimental:
+    narrative: [hook, establish, feature, proof, payoff, end-card]
+    core_capabilities: [creative-direction, shot-design, choreography, webgl, three-d, sound-design, rendering, visual-qa]
+    preferred_primitives: [webgl.shader-field, effect.particle-accent, transition.match-move]
+    avoid: [novelty-without-message, illegibility, uncontrolled-render-cost]
