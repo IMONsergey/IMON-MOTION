@@ -1,0 +1,16 @@
+{
+  "name": "@imon-motion/remotion-kit",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@imon-motion/core": "0.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=19",
+    "remotion": ">=4"
+  }
+}
