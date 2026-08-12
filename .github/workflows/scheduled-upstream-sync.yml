@@ -1,0 +1,64 @@
+name: Scheduled Motion Donor Refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: imon-motion-scheduled-upstream-sync
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Install sync dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rsync git-lfs
+          git lfs install
+
+      - name: Refresh all donor snapshots
+        run: bash scripts/sync-upstreams.sh
+
+      - name: Rebuild content-aware donor index
+        run: node scripts/build-index.mjs
+
+      - name: Rebuild license and bundled-asset provenance
+        run: node scripts/license-audit.mjs
+
+      - name: Validate generated corpus metadata
+        run: |
+          test "$(find upstream -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')" = "15"
+          test "$(node -p "require('./index/catalog.json').version")" = "2"
+          test "$(node -p "require('./provenance/LICENSE-STATUS.json').summary.donors")" = "15"
+
+      - name: Commit refresh only when upstream changed
+        run: |
+          git config user.name "IMON MOTION Bot"
+          git config user.email "imon-motion-bot@users.noreply.github.com"
+          git add upstream index provenance
+          if git diff --cached --quiet; then
+            echo "All 15 donor snapshots are already current."
+            exit 0
+          fi
+          git commit -m "chore: scheduled refresh of 15 motion donors"
+          git pull --rebase origin main
+          git push origin HEAD:main
