@@ -1,4 +1,4 @@
-version: 1
+version: 2
 statuses: [planned, experimental, ready, deprecated]
 
 adapters:
@@ -11,19 +11,27 @@ adapters:
     fallback: camera.parallax-2_5d
 
   remotion-three:
-    status: planned
-    capabilities: [three-d, remotion-engineering, rendering]
+    status: experimental
+    capabilities: [three-d, cinematography, choreography, remotion-engineering]
     primitive_ids: [camera.product-orbit]
-    research_donors: [remotion-skills, theatre]
-    requirements: [remotion-compatible-three-runtime, deterministic-frame-state]
+    research_donors: [remotion-skills, theatre, video-shotcraft]
+    source_path: adapters/remotion-three/src/orbit.ts
+    smoke_test: adapters/remotion-three/test/orbit.test.ts
+    proof_path: status/three-runtime.json
+    implemented_features: [deterministic-orbit-math, frame-binding, real-three-studio-composition]
+    readiness_gate: [composition-discovery, two-frame-render-smoke, distinct-render-hashes]
     fallback: camera.parallax-2_5d
 
   webgl:
-    status: planned
-    capabilities: [webgl, three-d, rendering]
-    primitive_ids: [webgl.shader-field, effect.particle-accent]
-    research_donors: [motion-skills, motion-canvas-examples, theatre]
-    requirements: [deterministic-seed, browser-gpu-support, render-cost-budget]
+    status: experimental
+    capabilities: [webgl, three-d, rendering, choreography]
+    primitive_ids: [webgl.shader-field]
+    research_donors: [motion-skills, motion-canvas-examples, theatre, remotion-skills]
+    source_path: adapters/webgl/src/shader-field.ts
+    smoke_test: adapters/webgl/test/shader-field.test.ts
+    proof_path: status/webgl-runtime.json
+    implemented_features: [deterministic-glsl, frame-time-uniform, seed-control, real-webgl-studio-composition]
+    readiness_gate: [composition-discovery, two-frame-render-smoke, distinct-render-hashes]
     fallback: static-or-css-material
 
   motion-canvas:
@@ -39,20 +47,25 @@ adapters:
     capabilities: [ui-motion, shot-design]
     primitive_ids: [ui.cursor-focus, ui.viewport-push]
     research_donors: [remotion-cinematic, video-shotcraft]
-    requirements: [stable-viewport, privacy-scrub, geometry-metadata]
     source_path: adapters/product-capture/src/index.ts
+    runner_path: apps/capture-runner/src/capture.ts
     smoke_test: adapters/product-capture/test/product-capture.test.ts
-    implemented_features: [capture-manifest-validation, privacy-gate, exact-element-anchors, normalized-coordinates, deterministic-cursor-curves]
-    missing_for_ready: [browser-capture-runner, automatic-dom-geometry-export, production-fixture]
+    proof_path: status/capture-runtime.json
+    implemented_features: [capture-manifest-validation, privacy-gate, exact-element-anchors, deterministic-cursor-curves, playwright-browser-runner, selector-redaction, screenshot-state-export, dom-geometry-export]
+    readiness_gate: [chromium-execution, interaction-state-change, privacy-manifest, screenshot-differentiation, geometry-export]
     fallback: approved-static-product-states
 
   audio-analysis:
-    status: planned
+    status: experimental
     capabilities: [sound-design, choreography]
     primitive_ids: [audio.beat-map, audio.impact-stack]
     research_donors: [video-shotcraft]
-    requirements: [deterministic-analysis-output, licensed-audio-input]
-    fallback: manual-beat-map
+    source_path: adapters/audio-analysis/src/index.ts
+    smoke_test: adapters/audio-analysis/test/audio-analysis.test.ts
+    proof_path: status/audio-runtime.json
+    implemented_features: [energy-envelope, adaptive-transient-detection, event-strength, event-to-frame-mapping]
+    limitations: [not-authoritative-musical-beat-tracking, decoded-mono-float32-input]
+    fallback: manual-reviewed-beat-map
 
 adapter_template:
   status: experimental
@@ -63,3 +76,4 @@ adapter_template:
   fallback: null
   source_path: "adapters/<adapter-id>"
   smoke_test: null
+  proof_path: null

@@ -1,156 +1,159 @@
 # IMON MOTION
 
-**IMON MOTION** is an AI-native motion production system built around Remotion, a Creative Director protocol, deterministic context routing, normalized motion primitives, automated QA, and a preserved upstream knowledge corpus.
+**AI-native motion production system built around Remotion, selective context routing, reusable motion grammar, runtime adapters and a preserved 15-repository research corpus.**
 
-The core rule is simple: **store the full source corpus, but load and execute only what the current video actually needs.**
+IMON MOTION is deliberately not a template pack. It stores a large motion-design knowledge base while forcing agents to use a small, query-specific production context.
 
-## Current release — v0.2
+## Core idea
 
-v0.2 adds the first executable IMON-native layer above the 15 imported donor repositories:
+```text
+VIDEO BRIEF
+    ↓
+ROUTE + DELIVERY PARSING
+    ↓
+NORMALIZED MOTION PRIMITIVES
+    ↓
+RUNTIME READINESS
+    ↓
+2–6 RELEVANT DONORS
+    ↓
+EXACT FILE RESEARCH
+    ↓
+BYTE-BUDGETED CONTEXT PACK
+    ↓
+CREATIVE DIRECTION + STORYBOARD
+    ↓
+REMOTION / ADAPTER IMPLEMENTATION
+    ↓
+REPRESENTATIVE-FRAME + MOTION QA
+    ↓
+DELIVERY
+```
 
-- typed motion brief / delivery model;
-- canonical motion tokens;
-- normalized primitive catalog with provenance;
-- deterministic brief classifier and donor ranker;
-- narrative storyboard skeleton generation;
-- reusable Remotion choreography and React primitives;
-- Creative Director production protocol;
-- video-type and technique profiles;
-- structural validator, unit tests, route CLI, and GitHub Actions CI.
+The rule is simple: **preserve the full corpus, never dump the full corpus into the model context.**
 
-## Architecture
+## What is in the repository
 
-### Agent / direction layer
+### Full donor corpus
 
-- `SKILL.md` — entry point for GPT/Codex/agents.
-- `core/creative-director/PROTOCOL.md` — production decision protocol before implementation.
-- `.motion/ROUTER.md` — context routing rules.
-- `.motion/video-types.yaml` — production profiles by video type.
-- `.motion/techniques.yaml` — normalized technique families and selection rules.
-- `.motion/capabilities.yaml` — capability → donor research map.
-- `.motion/styles.yaml` — visual-language principles.
-- `.motion/quality-gates.yaml` — compile/frame/motion/render QA gates.
+`upstream/` preserves complete working-tree snapshots of 15 motion/design/runtime donors. Exact upstream repository, commit SHA, branch, snapshot date, file count, size and detected license files are stored in `provenance/SOURCES.lock.yaml`.
+
+Donor source is immutable research material. Production code lives outside `upstream/**`.
+
+### Content-aware index
+
+`index/` is a v2 routing index built from paths plus bounded file content. It records categories and technical signals such as camera/orbit/parallax, spring/interpolate/sequence, kinetic type, shader/Three.js, chart/data, audio/beat, tokens, masks and particles.
 
 ### Normalized runtime
 
-- `packages/motion-core/` — brief types, house tokens, primitive registry, routing, donor ranking, storyboard model.
-- `packages/remotion-kit/` — normalized Remotion choreography and reusable React primitives.
-- `library/` — curated higher-order scenes/patterns promoted after successful reuse.
-- `adapters/` — bridges for donor-specific or non-Remotion systems such as Theatre/WebGL/Motion Canvas.
+`@imon-motion/core` contains typed briefs, house motion tokens, semantic primitive catalog, deterministic routing, storyboard generation and capability-aware QA.
 
-### Research corpus
+`@imon-motion/remotion-kit` contains reusable Remotion execution primitives and higher-order scenes including precision reveals, hero settles, kinetic words, 2.5D camera/depth layers, product frames, product hero scenes, UI feature scenes and editorial statement scenes.
 
-- `upstream/` — immutable snapshots of all 15 donor repositories.
-- `index/` — generated searchable catalog and per-donor file/capability indexes.
-- `provenance/SOURCES.lock.yaml` — exact upstream repository, commit SHA, branch, import date, file count, size, and license discovery.
+### Specialized adapters
 
-`upstream/**` is research material. Production code should not depend directly on raw donor paths when a normalized primitive can express the behavior.
+`adapters/` keeps specialized runtimes isolated from core:
 
-## Context flow
+- product capture / DOM geometry / cursor paths;
+- true 3D product-orbit camera path;
+- deterministic WebGL shader field;
+- audio transient → Remotion frame mapping;
+- planned Theatre/Motion Canvas bridges.
 
-```text
-USER BRIEF
-   ↓
-SKILL.md
-   ↓
-CREATIVE DIRECTOR
-   ↓
-routeBrief()
-   ↓
-VIDEO TYPE + STYLE + CAPABILITIES
-   ↓
-NORMALIZED PRIMITIVES
-   ↓
-BOUNDED DONOR RESEARCH (normally 2–6)
-   ↓
-STORYBOARD
-   ↓
-REMOTION KIT / LIBRARY / ADAPTERS
-   ↓
-RENDER → INSPECT → FIX → RENDER
-```
+Adapter source presence is not treated as readiness. Each runtime has an independent proof workflow and remains `experimental` until its execution/render gates pass.
 
-The model should never open all donor repositories for a single task.
+### Agent skills
 
-## Normalized primitives
+`.agents/skills/` provides focused entry points for product films, UI demos, kinetic typography, data stories, cinematic 3D and motion QA. They route through one shared system rather than duplicating donor knowledge.
 
-The first catalog already covers:
-
-- restrained and hero reveals;
-- exits and state swaps;
-- kinetic typography and numeric proof points;
-- geometry-aware UI focus patterns;
-- 2.5D parallax and product camera language;
-- depth/mask/match-move transitions;
-- chart/data storytelling patterns;
-- restrained light and particle accents;
-- WebGL shader direction;
-- beat mapping and impact sound structure;
-- hero product, UI feature, and editorial scene grammar.
-
-See `packages/motion-core/src/catalog.ts` for the machine-readable registry and provenance.
-
-## Remotion kit
-
-`@imon-motion/remotion-kit` currently exposes foundational primitives including:
-
-- `MotionScene`
-- `PrecisionReveal`
-- `HeroSettle`
-- `KineticWords`
-- `Camera2D`
-- `DepthPlane`
-- `ProductFrame`
-
-These are building blocks, not a visual template. Art direction remains brief-specific.
-
-## Route a brief
+## Primary commands
 
 ```bash
 npm install
-npm run route -- "35 second premium product launch with controlled 3D orbit, UI detail and cinematic sound"
+
+# Classify a brief and get primitives/donors/storyboard/QA/runtime readiness
+npm run route -- "35 second premium product launch with 3D orbit and UI"
+
+# Exact-file bounded donor research
+npm run research -- "35 second premium product launch with 3D orbit and UI"
+
+# One JSON production plan
+npm run plan -- "35 second premium product launch with 3D orbit and UI"
+
+# Materialize a byte-budgeted model context pack
+npm run context -- "35 second premium product launch with 3D orbit and UI"
+
+# Read current proof-aware runtime state
+npm run health
+
+# Main Remotion normalized-runtime Studio
+npm run studio
 ```
 
-The command returns normalized brief classification, capabilities, bounded donor set, selected primitives with provenance, and a storyboard skeleton.
+## Delivery parsing
 
-## Verification
+The router understands duration, FPS, explicit resolution, aspect ratio and common platform intent from English/Russian briefs. A brief such as `24-секундный Reels, 9:16, 4K, 60 fps` is planned as a 24-second vertical 2160×3840 / 60fps delivery rather than falling back to generic 1080p/30fps.
 
-```bash
-npm run system:validate
-npm run typecheck
-npm test
+## Context isolation
+
+The normal agent flow is:
+
+`SKILL.md → plan → context → normalized runtime → exact donor excerpts`.
+
+`npm run context` has a global byte budget and per-file limits. Large donor files become excerpts around content hits; ignored donors are not allowed into the context pack unless the brief is rerouted.
+
+## Runtime proof model
+
+Separate workflows validate failure domains independently:
+
+- core routing/context/Remotion Studio;
+- Three.js product orbit;
+- Playwright product capture;
+- representative-frame QA rendering;
+- audio analysis;
+- WebGL shader rendering.
+
+Successful gates write proof files under `status/`. `node scripts/health.mjs` distinguishes proven/current, stale and unproven runtime paths.
+
+**Do not infer production readiness from a TypeScript file merely existing.**
+
+## QA
+
+QA is generated from the brief. It samples entry/read/exit states per storyboard beat and checks baseline plus capability-specific rules: hierarchy, typography, safe areas, settled states, UI truth, camera continuity, type rhythm, data truth, 3D depth, WebGL cost/purpose, sound sync, transition purpose and an explicit anti-AI-slop gate.
+
+`scripts/render-qa.mts` can materialize representative frames as PNGs with SHA-256 and a QA manifest.
+
+## Provenance / licensing
+
+`npm run license:audit` regenerates `provenance/LICENSE-STATUS.json/.md` from the synchronized snapshots. Missing/unclassified license files are `review-required`; bundled media/fonts/3D/PDF assets receive a separate rights-review flag. The automated report is a provenance signal, not legal advice.
+
+## Repository map
+
+```text
+.agents/                specialized agent skills
+.motion/                routing, video types, techniques, runtime readiness, quality gates
+adapters/               capture / Three / WebGL / audio and future specialized runtimes
+apps/                   normalized, Three, WebGL and capture test/Studio workspaces
+core/creative-director/ creative direction protocol
+index/                  content-aware donor index
+library/                reusable promoted production patterns
+packages/motion-core/   semantic system, routing, storyboard, QA
+packages/remotion-kit/  normalized Remotion execution layer
+provenance/             exact donor snapshots + license/asset status
+scripts/                sync, plan, research, context, QA and health tooling
+status/                 successful runtime proof records
+upstream/               full immutable donor snapshots
 ```
 
-or run the complete local gate:
+## Development rules
 
-```bash
-npm run ci
-```
+1. Route before donor browsing.
+2. Normalized runtime before donor implementation.
+3. Never edit `upstream/**` manually.
+4. Promote recurring patterns into `library/`, `remotion-kit` or `adapters/`.
+5. Named brand references are translated into principles, not copied branded graphics.
+6. Preserve product truth/privacy in UI capture.
+7. Keep runtime blockers explicit.
+8. A hero film is not complete because TypeScript compiles.
 
-GitHub Actions runs the same architecture validation, TypeScript checks, routing tests, and a real route smoke test.
-
-## Upstream sync
-
-```bash
-npm run upstream:sync
-npm run index:build
-```
-
-The automated sync keeps the full donor working trees in `upstream/`, regenerates indexes, and records exact upstream SHAs. Do not manually edit donor snapshots.
-
-## Production rules
-
-1. Route before reading upstream.
-2. Creative direction before implementation for substantive new videos.
-3. Prefer normalized primitives over donor copy/paste.
-4. Real product/UI capture is preferred when reproducing a real product state.
-5. One scene should have one dominant motion idea.
-6. Camera movement must reveal/follow something meaningful.
-7. Effects and large impacts are scarce emphasis devices.
-8. Production/hero work requires representative-frame and motion review.
-9. Hero films require final render validation.
-10. Preserve provenance and upstream licenses.
-
-## Upstream policy
-
-Each imported project keeps its original license files where present. Exact source metadata is recorded in `provenance/SOURCES.lock.yaml`. Review source and asset licensing before redistributing or commercializing donor-derived material.
+See `docs/WORKFLOW.md`, `docs/CONTEXT-ENGINE.md`, `docs/READINESS.md` and `docs/PROVENANCE-LICENSES.md`.

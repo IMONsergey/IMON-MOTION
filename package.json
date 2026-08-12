@@ -20,8 +20,14 @@
     "studio:compositions": "npm run compositions -w @imon-motion/studio",
     "system:validate": "node scripts/validate-system.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "node --import tsx --test packages/motion-core/test/*.test.ts adapters/product-capture/test/*.test.ts",
-    "ci": "npm run license:audit && npm run system:validate && npm run typecheck && npm test && npm run studio:compositions"
+    "test": "node --import tsx --test packages/motion-core/test/*.test.ts adapters/product-capture/test/*.test.ts adapters/remotion-three/test/*.test.ts adapters/audio-analysis/test/*.test.ts adapters/webgl/test/*.test.ts",
+    "ci": "npm run license:audit && npm run system:validate && npm run extensions:validate && npm run typecheck && npm test && npm run studio:compositions",
+    "health": "node scripts/health.mjs",
+    "qa:render": "tsx scripts/render-qa.mts",
+    "extensions:validate": "node scripts/validate-extensions.mjs",
+    "three:compositions": "npm run compositions -w @imon-motion/three-studio",
+    "webgl:compositions": "npm run compositions -w @imon-motion/webgl-studio",
+    "capture": "npm run capture -w @imon-motion/capture-runner --"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
