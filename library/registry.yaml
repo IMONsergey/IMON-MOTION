@@ -5,7 +5,82 @@ policy:
   provenance_required: true
   qa_required_for: [candidate, approved]
 
-items: {}
+items:
+  product-hero:
+    id: scene.product-hero
+    status: candidate
+    kind: scene
+    summary: "Premium product hero with one focal visual, restrained depth/camera motion, headline hierarchy and a deliberate settled state."
+    video_types: [product-launch, brand-film]
+    styles: [premium-minimal, cinematic-product, tech-minimal]
+    capabilities: [creative-direction, shot-design, cinematography, choreography]
+    primitive_ids: [scene.hero-product, reveal.hero-settle, camera.parallax-2_5d]
+    adapters: []
+    runtime: "@imon-motion/remotion-kit#ProductHeroScene"
+    source_path: packages/remotion-kit/src/scenes.tsx
+    provenance:
+      - donor: video-shotcraft
+        role: "single focal shot / camera grammar / breathing-room research"
+      - donor: onda
+        role: "restrained house-motion vocabulary research"
+      - donor: motion-design-skill
+        role: "hierarchy and choreography research"
+    qa:
+      representative_frames: true
+      motion_review: true
+      final_render_required: false
+      validated_in: apps/studio/src/SystemPreview.tsx
+    anti_patterns: [continuous-camera-drift, multiple-hero-actions, decorative-glow-stack]
+
+  ui-feature:
+    id: scene.ui-feature-production
+    status: candidate
+    kind: scene
+    summary: "Feature demonstration built around a real or approved UI state, one interaction goal, spatial focus and a readable post-action hold."
+    video_types: [ui-demo, product-launch, explainer]
+    styles: [premium-minimal, tech-minimal, cinematic-product]
+    capabilities: [ui-motion, shot-design, cinematography, choreography]
+    primitive_ids: [scene.ui-feature, ui.viewport-push, ui.layered-product-frame]
+    adapters: [product-capture]
+    runtime: "@imon-motion/remotion-kit#UiFeatureScene"
+    source_path: packages/remotion-kit/src/scenes.tsx
+    provenance:
+      - donor: remotion-cinematic
+        role: "geometry-aware UI/camera choreography research"
+      - donor: video-shotcraft
+        role: "real product-state and shot-grammar research"
+    qa:
+      representative_frames: true
+      motion_review: true
+      final_render_required: false
+      validated_in: apps/studio/src/SystemPreview.tsx
+    anti_patterns: [fake-ui-when-real-state-exists, cursor-teleportation, unreadable-camera-speed]
+
+  editorial-statement:
+    id: scene.editorial-statement-production
+    status: candidate
+    kind: scene
+    summary: "Editorial statement scene with one dominant typographic idea, controlled word cadence and a deliberate final reading state."
+    video_types: [kinetic-type, brand-film, social, presentation]
+    styles: [editorial, expressive, premium-minimal]
+    capabilities: [creative-direction, kinetic-typography, choreography]
+    primitive_ids: [scene.editorial-statement, typography.word-stagger, reveal.precision-rise]
+    adapters: []
+    runtime: "@imon-motion/remotion-kit#EditorialStatementScene"
+    source_path: packages/remotion-kit/src/scenes.tsx
+    provenance:
+      - donor: motion-design-skill
+        role: "type hierarchy and motion-purpose research"
+      - donor: motion-skills
+        role: "kinetic typography research"
+      - donor: onda
+        role: "stagger vocabulary research"
+    qa:
+      representative_frames: true
+      motion_review: true
+      final_render_required: false
+      validated_in: apps/studio/src/SystemPreview.tsx
+    anti_patterns: [random-word-directions, effect-per-word, unreadable-overlap]
 
 promotion_template:
   id: "family.name"
