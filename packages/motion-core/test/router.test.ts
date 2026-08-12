@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { buildStoryboardSkeleton, routeBrief } from '../src/index.js';
+import { buildQaPlan, buildStoryboardSkeleton, routeBrief } from '../src/index.js';
 
 test('routes a premium 3D product launch into cinematic donors and primitives', () => {
   const route = routeBrief('Create a 35 second Apple-like premium product launch with a controlled 3D orbit, UI details and cinematic sound.');
@@ -43,4 +43,17 @@ test('builds a complete storyboard that exactly fills the requested duration', (
   const total = storyboard.beats.reduce((sum, beat) => sum + beat.durationInFrames, 0);
   assert.equal(total, 900);
   assert.ok(storyboard.beats.every((beat) => beat.primitiveIds.length > 0));
+});
+
+test('creates hero-film QA samples and capability-aware required checks', () => {
+  const route = routeBrief('Apple-like hero product launch with UI, 3D camera orbit and cinematic sound.');
+  const storyboard = buildStoryboardSkeleton(route, 30, 30);
+  const qa = buildQaPlan(route, storyboard);
+
+  assert.equal(qa.quality, 'hero-film');
+  assert.equal(qa.finalRenderRequired, true);
+  assert.equal(qa.sampleFrames.length, storyboard.beats.length * 3);
+  assert.ok(qa.checks.some((item) => item.id === 'camera-purpose'));
+  assert.ok(qa.checks.some((item) => item.id === 'final-render-validation'));
+  assert.ok(qa.checks.some((item) => item.id === 'anti-ai-slop'));
 });
