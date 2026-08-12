@@ -17,7 +17,7 @@
     "studio:compositions": "npm run compositions -w @imon-motion/studio",
     "system:validate": "node scripts/validate-system.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "node --import tsx --test packages/motion-core/test/*.test.ts",
+    "test": "node --import tsx --test packages/motion-core/test/*.test.ts adapters/product-capture/test/*.test.ts",
     "ci": "npm run system:validate && npm run typecheck && npm test && npm run studio:compositions"
   },
   "devDependencies": {
