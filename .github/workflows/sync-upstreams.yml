@@ -9,6 +9,7 @@ on:
       - .github/workflows/sync-upstreams.yml
       - scripts/sync-upstreams.sh
       - scripts/build-index.mjs
+      - scripts/license-audit.mjs
       - .motion/donors.yaml
 
 permissions:
@@ -47,13 +48,19 @@ jobs:
       - name: Build routed context index
         run: node scripts/build-index.mjs
 
-      - name: Validate donor count
+      - name: Audit donor licenses and bundled assets
+        run: node scripts/license-audit.mjs
+
+      - name: Validate donor count and generated metadata
         run: |
           test "$(find upstream -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')" = "15"
           test -f provenance/SOURCES.lock.yaml
+          test -f provenance/LICENSE-STATUS.json
+          test -f provenance/LICENSE-STATUS.md
           test -f index/catalog.json
           test -f index/catalog.md
           test "$(node -p "require('./index/catalog.json').version")" = "2"
+          test "$(node -p "require('./provenance/LICENSE-STATUS.json').summary.donors")" = "15"
 
       - name: Commit synchronized corpus
         run: |
@@ -61,7 +68,7 @@ jobs:
           git config user.email "imon-motion-bot@users.noreply.github.com"
           git add upstream provenance index
           if git diff --cached --quiet; then
-            echo "No upstream/index changes to commit."
+            echo "No upstream/index/provenance changes to commit."
             exit 0
           fi
           git commit -m "chore: sync 15 motion upstream donors"
