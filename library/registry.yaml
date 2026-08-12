@@ -1,0 +1,26 @@
+version: 1
+policy:
+  default_selection_order: [approved, candidate, experimental]
+  raw_upstream_forbidden: true
+  provenance_required: true
+  qa_required_for: [candidate, approved]
+
+items: {}
+
+promotion_template:
+  id: "family.name"
+  status: experimental
+  kind: scene-or-shot-or-transition-or-system
+  summary: "Reusable production behavior"
+  video_types: []
+  styles: []
+  capabilities: []
+  primitive_ids: []
+  adapters: []
+  source_path: "library/<family>/<name>"
+  provenance: []
+  qa:
+    representative_frames: true
+    motion_review: true
+    final_render_required: false
+  anti_patterns: []
