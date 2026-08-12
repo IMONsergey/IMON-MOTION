@@ -1,6 +1,6 @@
 import type { CSSProperties, ReactNode } from 'react';
 import { AbsoluteFill } from 'remotion';
-import { Camera2D, DepthPlane, HeroSettle, KineticWords, MotionScene, PrecisionReveal, ProductFrame } from './primitives.js';
+import { Camera2D, DepthPlane, HeroSettle, KineticWords, MotionScene, PrecisionReveal, ProductFrame } from './primitives';
 
 const SYSTEM_FONT = 'Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
 
