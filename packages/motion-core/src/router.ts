@@ -75,7 +75,7 @@ const DONOR_PRIORITY: Record<string, number> = {
   'motion-skills': 3,
   'emilkowalski-skills': 2,
   'chuk-motion': 2,
-  'theatre': 2,
+  theatre: 2,
   'motion-canvas-examples': 2,
   'remotion-scenes': 1,
   'remotion-templates': 1,
@@ -131,6 +131,77 @@ const inferQuality = (text: string): QualityLevel => {
   return 'production';
 };
 
+const parsePositiveNumber = (raw?: string): number | undefined => {
+  if (!raw) return undefined;
+  const value = Number(raw.replace(',', '.'));
+  return Number.isFinite(value) && value > 0 ? value : undefined;
+};
+
+const inferDelivery = (text: string): NonNullable<MotionBrief['delivery']> | undefined => {
+  const delivery: NonNullable<MotionBrief['delivery']> = {};
+  const durationMatch = text.match(/(\d+(?:[.,]\d+)?)\s*(?:-|–|—)?\s*(?:s\b|sec\b|secs\b|second\b|seconds\b|сек\b|секунд(?:а|ы|у|ный|ного|ное|ную|ные)?\b)/i);
+  const durationSeconds = parsePositiveNumber(durationMatch?.[1]);
+  if (durationSeconds) delivery.durationSeconds = durationSeconds;
+
+  const fpsMatch = text.match(/\b(\d{2,3})\s*(?:fps|кадр(?:а|ов)?\s*(?:\/|в)\s*с(?:ек)?)/i);
+  const fps = parsePositiveNumber(fpsMatch?.[1]);
+  if (fps && fps <= 240) delivery.fps = Math.round(fps);
+
+  const dimensionMatch = text.match(/\b(\d{3,5})\s*[x×х]\s*(\d{3,5})\b/i);
+  if (dimensionMatch) {
+    delivery.width = Number(dimensionMatch[1]);
+    delivery.height = Number(dimensionMatch[2]);
+  }
+
+  const aspectMatch = text.match(/\b(\d{1,2})\s*:\s*(\d{1,2})\b/);
+  if (aspectMatch) delivery.aspectRatio = `${Number(aspectMatch[1])}:${Number(aspectMatch[2])}`;
+
+  const isVerticalPlatform = /tiktok|reels?|shorts|stories|story|сторис|рилс/.test(text);
+  const isSquare = /\b1\s*:\s*1\b|square|квадрат/.test(text);
+  if (!delivery.aspectRatio) {
+    if (isSquare) delivery.aspectRatio = '1:1';
+    else if (isVerticalPlatform || /vertical|portrait|вертикаль|портрет/.test(text)) delivery.aspectRatio = '9:16';
+    else if (/widescreen|landscape|горизонталь/.test(text)) delivery.aspectRatio = '16:9';
+  }
+
+  if (!delivery.width && !delivery.height) {
+    if (/\b4k\b|uhd/.test(text)) {
+      if (delivery.aspectRatio === '9:16') {
+        delivery.width = 2160;
+        delivery.height = 3840;
+      } else if (delivery.aspectRatio === '1:1') {
+        delivery.width = 2160;
+        delivery.height = 2160;
+      } else {
+        delivery.width = 3840;
+        delivery.height = 2160;
+        delivery.aspectRatio ??= '16:9';
+      }
+    } else if (/\b1080p\b|full\s*hd|fhd/.test(text)) {
+      if (delivery.aspectRatio === '9:16') {
+        delivery.width = 1080;
+        delivery.height = 1920;
+      } else if (delivery.aspectRatio === '1:1') {
+        delivery.width = 1080;
+        delivery.height = 1080;
+      } else {
+        delivery.width = 1920;
+        delivery.height = 1080;
+        delivery.aspectRatio ??= '16:9';
+      }
+    }
+  }
+
+  if (/tiktok/.test(text)) delivery.platform = 'TikTok';
+  else if (/reels?|рилс/.test(text)) delivery.platform = 'Instagram Reels';
+  else if (/shorts/.test(text)) delivery.platform = 'YouTube Shorts';
+  else if (/youtube/.test(text)) delivery.platform = 'YouTube';
+  else if (/instagram|инстаграм/.test(text)) delivery.platform = 'Instagram';
+  else if (/linkedin/.test(text)) delivery.platform = 'LinkedIn';
+
+  return Object.keys(delivery).length > 0 ? delivery : undefined;
+};
+
 const unique = <T>(items: T[]): T[] => [...new Set(items)];
 
 export const classifyBrief = (input: string | MotionBrief): MotionBrief => {
@@ -148,6 +219,7 @@ export const classifyBrief = (input: string | MotionBrief): MotionBrief => {
     camera: dimensionality === '3d' || dimensionality === 'webgl' ? 'cinematic' : /camera|zoom|orbit|камера|пролет/.test(text) ? 'spatial' : 'subtle',
     audio: /voice|voiceover|озвуч|диктор/.test(text) ? 'voice-led' : /music|sound|sfx|audio|музык|звук/.test(text) ? 'mixed' : 'none',
     quality: inferQuality(text),
+    delivery: inferDelivery(text),
   };
 };
 
@@ -221,6 +293,9 @@ export const routeBrief = (input: string | MotionBrief): RoutePlan => {
       `video-type:${brief.videoType}`,
       `styles:${brief.styles.join(',')}`,
       `dimensionality:${brief.dimensionality}`,
+      ...(brief.delivery?.durationSeconds ? [`duration:${brief.delivery.durationSeconds}s`] : []),
+      ...(brief.delivery?.aspectRatio ? [`aspect:${brief.delivery.aspectRatio}`] : []),
+      ...(brief.delivery?.fps ? [`fps:${brief.delivery.fps}`] : []),
       `selected ${primitives.length} normalized primitives before opening raw donor files`,
       `selected ${donors.length} donors as bounded context`,
     ],
