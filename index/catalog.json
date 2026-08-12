@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-12T05:25:20.698Z",
+  "generatedAt": "2026-08-12T05:26:52.780Z",
   "purpose": "Path + bounded-content routing index. Agents should choose donors first, then exact files; raw corpus-wide loading is prohibited.",
   "indexedContentBytesPerFile": 131072,
   "donors": {
