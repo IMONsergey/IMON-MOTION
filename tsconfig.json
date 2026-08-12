@@ -17,6 +17,8 @@
     "packages/**/*.tsx",
     "apps/**/*.ts",
     "apps/**/*.tsx",
+    "adapters/**/*.ts",
+    "adapters/**/*.tsx",
     "scripts/**/*.ts",
     "scripts/**/*.mts"
   ],
