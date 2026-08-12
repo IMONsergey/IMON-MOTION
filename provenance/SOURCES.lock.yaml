@@ -1,0 +1,153 @@
+version: 1
+generated_at: "2026-08-12T04:59:52Z"
+sources:
+  video-shotcraft:
+    repository: "Vincentwei1021/video-shotcraft"
+    url: "https://github.com/Vincentwei1021/video-shotcraft.git"
+    commit: "41ee360d82f4c491ba9d88a24a4add7d8ff1cf8b"
+    branch: "main"
+    upstream_commit_date: "2026-08-09T18:25:43+08:00"
+    path: "upstream/video-shotcraft"
+    files: 855
+    size_kb: 51856
+    license_files: "LICENSE"
+  onda:
+    repository: "degueba/onda"
+    url: "https://github.com/degueba/onda.git"
+    commit: "3c814051269597b31fee1603bef7ccfb93d091b6"
+    branch: "main"
+    upstream_commit_date: "2026-06-16T20:09:33-04:00"
+    path: "upstream/onda"
+    files: 735
+    size_kb: 9056
+    license_files: "LICENSE"
+  motion-skills:
+    repository: "iart-ai/motion-skills"
+    url: "https://github.com/iart-ai/motion-skills.git"
+    commit: "945c4c70f7cf82a4502cfe3877ff8466972d2842"
+    branch: "master"
+    upstream_commit_date: "2026-06-30T23:02:01+08:00"
+    path: "upstream/motion-skills"
+    files: 9
+    size_kb: 3632
+    license_files: "LICENSE"
+  motion-design-skill:
+    repository: "LottieFiles/motion-design-skill"
+    url: "https://github.com/LottieFiles/motion-design-skill.git"
+    commit: "f9a8a041b85185ee4881b3471d3415e939aac772"
+    branch: "main"
+    upstream_commit_date: "2026-05-18T20:30:13+09:00"
+    path: "upstream/motion-design-skill"
+    files: 20
+    size_kb: 116
+    license_files: "LICENSE"
+  emilkowalski-skills:
+    repository: "emilkowalski/skills"
+    url: "https://github.com/emilkowalski/skills.git"
+    commit: "78761e1b57f97dce65b983d640c70a68f39e8163"
+    branch: "main"
+    upstream_commit_date: "2026-08-10T15:58:24+02:00"
+    path: "upstream/emilkowalski-skills"
+    files: 20
+    size_kb: 244
+    license_files: "LICENSE"
+  claude-remotion-skill:
+    repository: "haidrrrry/claude-remotion-skill"
+    url: "https://github.com/haidrrrry/claude-remotion-skill.git"
+    commit: "48acfe4a0591fbb5f6f8a8f4d3135e9521736f4f"
+    branch: "main"
+    upstream_commit_date: "2026-06-13T15:28:53+05:00"
+    path: "upstream/claude-remotion-skill"
+    files: 11
+    size_kb: 7352
+    license_files: "LICENSE"
+  remotion-skills:
+    repository: "remotion-dev/skills"
+    url: "https://github.com/remotion-dev/skills.git"
+    commit: "b12104ef5f1b1ca2ca5590fcc7c1804fbc85556f"
+    branch: "main"
+    upstream_commit_date: "2026-08-11T11:09:19+02:00"
+    path: "upstream/remotion-skills"
+    files: 279
+    size_kb: 3432
+    license_files: ""
+  product-launch-video-skill:
+    repository: "memex-lab/product-launch-video-skill"
+    url: "https://github.com/memex-lab/product-launch-video-skill.git"
+    commit: "9de027d1947ce8f8b60ccf70aa89e482bf80ecea"
+    branch: "main"
+    upstream_commit_date: "2026-06-01T17:24:40+08:00"
+    path: "upstream/product-launch-video-skill"
+    files: 7
+    size_kb: 124
+    license_files: "LICENSE"
+  remotion-cinematic:
+    repository: "codeverbojan/remotion-cinematic"
+    url: "https://github.com/codeverbojan/remotion-cinematic.git"
+    commit: "18dbb50ce797b778f0867a5dd7bac82b5ce105ac"
+    branch: "main"
+    upstream_commit_date: "2026-04-25T11:05:01+02:00"
+    path: "upstream/remotion-cinematic"
+    files: 169
+    size_kb: 12864
+    license_files: "LICENSE"
+  chuk-motion:
+    repository: "IBM/chuk-motion"
+    url: "https://github.com/IBM/chuk-motion.git"
+    commit: "76ad7ea41b70787b902b3bf748d17634781efd07"
+    branch: "main"
+    upstream_commit_date: "2026-02-06T18:07:40Z"
+    path: "upstream/chuk-motion"
+    files: 559
+    size_kb: 5472
+    license_files: "LICENSE"
+  skill-remotion-geist:
+    repository: "vercel-labs/skill-remotion-geist"
+    url: "https://github.com/vercel-labs/skill-remotion-geist.git"
+    commit: "4f7201370f10b31a4517c82619400c1acb0ed4e1"
+    branch: "main"
+    upstream_commit_date: "2026-01-29T13:51:45-07:00"
+    path: "upstream/skill-remotion-geist"
+    files: 10
+    size_kb: 84
+    license_files: ""
+  remotion-scenes:
+    repository: "lifeprompt-team/remotion-scenes"
+    url: "https://github.com/lifeprompt-team/remotion-scenes.git"
+    commit: "02c7a84241da7010b5f59c420b0110aafd1d6f0d"
+    branch: "main"
+    upstream_commit_date: "2026-02-05T17:18:57+09:00"
+    path: "upstream/remotion-scenes"
+    files: 253
+    size_kb: 2064
+    license_files: "LICENSE"
+  remotion-templates:
+    repository: "reactvideoeditor/remotion-templates"
+    url: "https://github.com/reactvideoeditor/remotion-templates.git"
+    commit: "6209b724798e48ff395f8df1a6fa2d26082372b5"
+    branch: "main"
+    upstream_commit_date: "2026-04-21T11:01:10+07:00"
+    path: "upstream/remotion-templates"
+    files: 82
+    size_kb: 380
+    license_files: ""
+  motion-canvas-examples:
+    repository: "motion-canvas/examples"
+    url: "https://github.com/motion-canvas/examples.git"
+    commit: "8ffefed144368d33de4b0e451894c718eb95d574"
+    branch: "master"
+    upstream_commit_date: "2024-03-21T11:23:02+01:00"
+    path: "upstream/motion-canvas-examples"
+    files: 280
+    size_kb: 45072
+    license_files: "LICENSE"
+  theatre:
+    repository: "theatre-js/theatre"
+    url: "https://github.com/theatre-js/theatre.git"
+    commit: "6ea82b938ea49609489f6377ded693ccc6ee8f5b"
+    branch: "main"
+    upstream_commit_date: "2024-04-11T11:35:04+02:00"
+    path: "upstream/theatre"
+    files: 1029
+    size_kb: 14072
+    license_files: "LICENSE"

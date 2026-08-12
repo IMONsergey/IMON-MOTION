@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "donor": "remotion-templates",
+  "summary": {
+    "fileCount": 82,
+    "totalBytes": 226568,
+    "textFiles": 82,
+    "binaryFiles": 0,
+    "topExtensions": {
+      ".tsx": 81,
+      ".md": 1
+    },
+    "categoryCounts": {
+      "examples-templates": 81,
+      "transitions": 15,
+      "typography": 13,
+      "data-animation": 6,
+      "effects": 4,
+      "camera-cinematography": 3,
+      "ui-motion": 1,
+      "audio-sound": 1
+    }
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8276,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "templates/animated-list.tsx",
+      "bytes": 2655,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/animated-text.tsx",
+      "bytes": 1758,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/area-chart.tsx",
+      "bytes": 6235,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/blinds-transition.tsx",
+      "bytes": 3539,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/bokeh-circles.tsx",
+      "bytes": 1989,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/bounce-text.tsx",
+      "bytes": 2335,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/bubble-pop-text.tsx",
+      "bytes": 1784,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/camera-shake.tsx",
+      "bytes": 2050,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/card-flip.tsx",
+      "bytes": 2113,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/chapter-title.tsx",
+      "bytes": 2900,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/chart-animation.tsx",
+      "bytes": 5487,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/cinematic-title-intro.tsx",
+      "bytes": 2263,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/circular-progress.tsx",
+      "bytes": 3532,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/clock-wipe.tsx",
+      "bytes": 2992,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/comparison-chart.tsx",
+      "bytes": 5429,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/countdown-intro.tsx",
+      "bytes": 2966,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/countdown-timer.tsx",
+      "bytes": 2051,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/credits-roll.tsx",
+      "bytes": 2558,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/cross-dissolve.tsx",
+      "bytes": 2445,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/donut-chart.tsx",
+      "bytes": 5705,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/end-card.tsx",
+      "bytes": 3530,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/fade-through-black.tsx",
+      "bytes": 3193,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/film-burn.tsx",
+      "bytes": 2570,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/floating-bubble-text.tsx",
+      "bytes": 1673,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/gallery-grid.tsx",
+      "bytes": 1731,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/geometric-patterns.tsx",
+      "bytes": 1551,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/glitch-text.tsx",
+      "bytes": 1389,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/gradient-shift.tsx",
+      "bytes": 1801,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/grid-pulse.tsx",
+      "bytes": 1789,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/image-carousel.tsx",
+      "bytes": 2421,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/image-comparison-slider.tsx",
+      "bytes": 2788,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/image-zoom-reveal.tsx",
+      "bytes": 1967,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/iris-transition.tsx",
+      "bytes": 3141,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/ken-burns.tsx",
+      "bytes": 1145,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/letterbox-reveal.tsx",
+      "bytes": 2051,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/line-chart.tsx",
+      "bytes": 5552,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/liquid-wave.tsx",
+      "bytes": 1274,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/logo-blur-reveal.tsx",
+      "bytes": 2216,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/logo-bounce-drop.tsx",
+      "bytes": 2436,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/logo-fade-reveal.tsx",
+      "bytes": 2745,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/logo-glitch-reveal.tsx",
+      "bytes": 5424,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/logo-scale-rotate.tsx",
+      "bytes": 2304,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/logo-spin-reveal.tsx",
+      "bytes": 2973,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/logo-split-reveal.tsx",
+      "bytes": 3278,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/logo-stroke-draw.tsx",
+      "bytes": 3039,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/logo-typewriter.tsx",
+      "bytes": 2268,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/lower-third.tsx",
+      "bytes": 2849,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/masonry-gallery.tsx",
+      "bytes": 2306,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/matrix-rain.tsx",
+      "bytes": 1630,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/morph-transition.tsx",
+      "bytes": 2898,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/noise-grain.tsx",
+      "bytes": 2559,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/notification-pop.tsx",
+      "bytes": 4391,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/parallax-pan.tsx",
+      "bytes": 1964,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/particle-explosion.tsx",
+      "bytes": 2384,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/photo-stack.tsx",
+      "bytes": 2378,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/picture-in-picture.tsx",
+      "bytes": 1806,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/pie-chart.tsx",
+      "bytes": 4808,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/pixel-transition.tsx",
+      "bytes": 2040,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/polaroid-frame.tsx",
+      "bytes": 1665,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/popping-text.tsx",
+      "bytes": 2303,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/progress-bars.tsx",
+      "bytes": 4059,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/progress-steps.tsx",
+      "bytes": 5153,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/pulsing-text.tsx",
+      "bytes": 2177,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/push-transition.tsx",
+      "bytes": 2666,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/quote-card.tsx",
+      "bytes": 2071,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/rotating-carousel.tsx",
+      "bytes": 3312,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/slide-text.tsx",
+      "bytes": 1189,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/slide-wipe.tsx",
+      "bytes": 2605,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/sound-wave.tsx",
+      "bytes": 1439,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/split-screen.tsx",
+      "bytes": 3184,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/spotlight-reveal.tsx",
+      "bytes": 2631,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/starfield.tsx",
+      "bytes": 2078,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/stat-counter.tsx",
+      "bytes": 3393,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/subscribe-reminder.tsx",
+      "bytes": 2591,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/text-highlight.tsx",
+      "bytes": 2475,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/title-split.tsx",
+      "bytes": 1935,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/typewriter-subtitle.tsx",
+      "bytes": 1804,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/vignette-pulse.tsx",
+      "bytes": 1482,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/whip-pan.tsx",
+      "bytes": 3030,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/zoom-pulse.tsx",
+      "bytes": 1241,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "templates/zoom-through.tsx",
+      "bytes": 2761,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-12T05:00:03.880Z",
+  "purpose": "Path-level routing index. Agents should use this to narrow context before opening donor files.",
+  "donors": {
+    "chuk-motion": {
+      "fileCount": 559,
+      "totalBytes": 3678174,
+      "textFiles": 559,
+      "binaryFiles": 0,
+      "topExtensions": {
+        ".py": 384,
+        ".md": 80,
+        ".j2": 51,
+        ".json": 11,
+        ".bak": 10,
+        "[none]": 8,
+        ".yml": 5,
+        ".toml": 2,
+        ".ts": 2,
+        ".old": 2,
+        ".tsx": 1,
+        ".bak2": 1,
+        ".bak3": 1,
+        ".lock": 1
+      },
+      "categoryCounts": {
+        "examples-templates": 123,
+        "tests": 101,
+        "ui-motion": 68,
+        "typography": 68,
+        "data-animation": 64,
+        "design-system": 36,
+        "rendering": 26,
+        "3d-webgl-shaders": 21,
+        "transitions": 19,
+        "remotion": 10,
+        "shots-scenes-storyboard": 9
+      }
+    },
+    "claude-remotion-skill": {
+      "fileCount": 11,
+      "totalBytes": 7482219,
+      "textFiles": 9,
+      "binaryFiles": 2,
+      "topExtensions": {
+        ".md": 5,
+        "[none]": 2,
+        ".gif": 1,
+        ".mp4": 1,
+        ".ts": 1,
+        ".skill": 1
+      },
+      "categoryCounts": {
+        "remotion": 5,
+        "data-animation": 5,
+        "examples-templates": 2,
+        "skills": 2,
+        "design-system": 1
+      }
+    },
+    "emilkowalski-skills": {
+      "fileCount": 20,
+      "totalBytes": 164168,
+      "textFiles": 20,
+      "binaryFiles": 0,
+      "topExtensions": {
+        ".md": 17,
+        "[none]": 3
+      },
+      "categoryCounts": {
+        "skills": 16,
+        "examples-templates": 1,
+        "ui-motion": 1
+      }
+    },
+    "motion-canvas-examples": {
+      "fileCount": 280,
+      "totalBytes": 45134352,
+      "textFiles": 228,
+      "binaryFiles": 52,
+      "topExtensions": {
+        ".tsx": 54,
+        ".meta": 53,
+        ".ts": 50,
+        ".png": 48,
+        ".svg": 29,
+        ".json": 18,
+        ".glsl": 12,
+        ".js": 5,
+        "[none]": 4,
+        ".mp3": 4,
+        ".yml": 1,
+        ".md": 1,
+        ".grammar": 1
+      },
+      "categoryCounts": {
+        "examples-templates": 263,
+        "shots-scenes-storyboard": 88,
+        "camera-cinematography": 56,
+        "3d-webgl-shaders": 24,
+        "rendering": 8,
+        "audio-sound": 5,
+        "data-animation": 4,
+        "design-system": 2,
+        "ui-motion": 2,
+        "transitions": 1,
+        "typography": 1,
+        "tests": 1
+      }
+    },
+    "motion-design-skill": {
+      "fileCount": 20,
+      "totalBytes": 61257,
+      "textFiles": 20,
+      "binaryFiles": 0,
+      "topExtensions": {
+        ".md": 18,
+        "[none]": 2
+      },
+      "categoryCounts": {
+        "skills": 17,
+        "data-animation": 1,
+        "typography": 1
+      }
+    },
+    "motion-skills": {
+      "fileCount": 9,
+      "totalBytes": 3684766,
+      "textFiles": 8,
+      "binaryFiles": 1,
+      "topExtensions": {
+        ".sh": 3,
+        ".md": 2,
+        "[none]": 1,
+        ".gif": 1,
+        ".html": 1,
+        ".mjs": 1
+      },
+      "categoryCounts": {
+        "shots-scenes-storyboard": 1
+      }
+    },
+    "onda": {
+      "fileCount": 735,
+      "totalBytes": 6781421,
+      "textFiles": 730,
+      "binaryFiles": 5,
+      "topExtensions": {
+        ".json": 205,
+        ".tsx": 179,
+        ".ts": 163,
+        ".md": 149,
+        ".mjs": 12,
+        ".svg": 7,
+        ".yml": 5,
+        ".mp3": 5,
+        "[none]": 4,
+        ".yaml": 2,
+        ".txt": 2,
+        ".xml": 1,
+        ".css": 1
+      },
+      "categoryCounts": {
+        "transitions": 99,
+        "remotion": 40,
+        "tests": 36,
+        "ui-motion": 32,
+        "data-animation": 24,
+        "effects": 23,
+        "typography": 21,
+        "camera-cinematography": 18,
+        "audio-sound": 17,
+        "rendering": 8,
+        "skills": 6,
+        "design-system": 6,
+        "shots-scenes-storyboard": 4,
+        "examples-templates": 3
+      }
+    },
+    "product-launch-video-skill": {
+      "fileCount": 7,
+      "totalBytes": 84314,
+      "textFiles": 7,
+      "binaryFiles": 0,
+      "topExtensions": {
+        ".md": 4,
+        "[none]": 2,
+        ".mjs": 1
+      },
+      "categoryCounts": {
+        "skills": 4,
+        "ui-motion": 1,
+        "rendering": 1
+      }
+    },
+    "remotion-cinematic": {
+      "fileCount": 169,
+      "totalBytes": 12612170,
+      "textFiles": 160,
+      "binaryFiles": 9,
+      "topExtensions": {
+        ".ts": 79,
+        ".tsx": 57,
+        ".md": 16,
+        ".mp3": 8,
+        ".json": 4,
+        "[none]": 3,
+        ".yml": 1,
+        ".gif": 1
+      },
+      "categoryCounts": {
+        "ui-motion": 49,
+        "tests": 35,
+        "audio-sound": 15,
+        "shots-scenes-storyboard": 14,
+        "camera-cinematography": 9,
+        "typography": 8,
+        "data-animation": 8,
+        "examples-templates": 5,
+        "transitions": 4,
+        "remotion": 3,
+        "design-system": 3,
+        "rendering": 1
+      }
+    },
+    "remotion-scenes": {
+      "fileCount": 253,
+      "totalBytes": 1505772,
+      "textFiles": 252,
+      "binaryFiles": 1,
+      "topExtensions": {
+        ".tsx": 224,
+        ".ts": 9,
+        ".md": 6,
+        ".json": 5,
+        "[none]": 2,
+        ".yaml": 2,
+        ".yml": 1,
+        ".mjs": 1,
+        ".html": 1,
+        ".svg": 1,
+        ".png": 1
+      },
+      "categoryCounts": {
+        "shots-scenes-storyboard": 221,
+        "design-system": 34,
+        "effects": 32,
+        "ui-motion": 27,
+        "examples-templates": 19,
+        "typography": 17,
+        "transitions": 17,
+        "camera-cinematography": 12,
+        "data-animation": 11,
+        "3d-webgl-shaders": 6,
+        "tests": 2,
+        "remotion": 1,
+        "rendering": 1
+      }
+    },
+    "remotion-skills": {
+      "fileCount": 279,
+      "totalBytes": 2277809,
+      "textFiles": 254,
+      "binaryFiles": 25,
+      "topExtensions": {
+        ".md": 162,
+        ".yaml": 25,
+        ".png": 25,
+        ".tsx": 20,
+        ".json": 18,
+        ".ts": 17,
+        ".mjs": 8,
+        ".geojson": 4
+      },
+      "categoryCounts": {
+        "skills": 274,
+        "remotion": 271,
+        "rendering": 36,
+        "examples-templates": 20,
+        "data-animation": 20,
+        "3d-webgl-shaders": 14,
+        "audio-sound": 10,
+        "typography": 8,
+        "transitions": 6,
+        "design-system": 4,
+        "effects": 2,
+        "shots-scenes-storyboard": 2
+      }
+    },
+    "remotion-templates": {
+      "fileCount": 82,
+      "totalBytes": 226568,
+      "textFiles": 82,
+      "binaryFiles": 0,
+      "topExtensions": {
+        ".tsx": 81,
+        ".md": 1
+      },
+      "categoryCounts": {
+        "examples-templates": 81,
+        "transitions": 15,
+        "typography": 13,
+        "data-animation": 6,
+        "effects": 4,
+        "camera-cinematography": 3,
+        "ui-motion": 1,
+        "audio-sound": 1
+      }
+    },
+    "skill-remotion-geist": {
+      "fileCount": 10,
+      "totalBytes": 48686,
+      "textFiles": 10,
+      "binaryFiles": 0,
+      "topExtensions": {
+        ".md": 10
+      },
+      "categoryCounts": {
+        "skills": 9,
+        "remotion": 9,
+        "shots-scenes-storyboard": 2,
+        "typography": 1,
+        "data-animation": 1,
+        "examples-templates": 1
+      }
+    },
+    "theatre": {
+      "fileCount": 1029,
+      "totalBytes": 10313056,
+      "textFiles": 1016,
+      "binaryFiles": 13,
+      "topExtensions": {
+        ".ts": 363,
+        ".tsx": 333,
+        ".json": 99,
+        "[none]": 57,
+        ".html": 38,
+        ".js": 33,
+        ".md": 31,
+        ".sql": 17,
+        ".png": 13,
+        ".yml": 9,
+        ".svg": 9,
+        ".css": 5,
+        ".glb": 4,
+        ".cjs": 3,
+        ".ico": 3,
+        ".txt": 3
+      },
+      "categoryCounts": {
+        "tests": 154,
+        "ui-motion": 151,
+        "shots-scenes-storyboard": 109,
+        "data-animation": 97,
+        "examples-templates": 54,
+        "typography": 13,
+        "camera-cinematography": 10,
+        "rendering": 5,
+        "3d-webgl-shaders": 5,
+        "skills": 4,
+        "effects": 3,
+        "design-system": 2,
+        "audio-sound": 1,
+        "transitions": 1
+      }
+    },
+    "video-shotcraft": {
+      "fileCount": 855,
+      "totalBytes": 50605326,
+      "textFiles": 582,
+      "binaryFiles": 273,
+      "topExtensions": {
+        ".md": 321,
+        ".tsx": 222,
+        ".mp3": 165,
+        ".jpg": 66,
+        ".png": 42,
+        ".svg": 8,
+        ".json": 7,
+        ".ts": 5,
+        "[none]": 4,
+        ".yml": 2,
+        ".js": 2,
+        ".py": 2,
+        ".html": 2,
+        ".txt": 2,
+        ".yaml": 1,
+        ".mjs": 1
+      },
+      "categoryCounts": {
+        "examples-templates": 282,
+        "audio-sound": 181,
+        "shots-scenes-storyboard": 172,
+        "ui-motion": 129,
+        "transitions": 126,
+        "typography": 123,
+        "data-animation": 99,
+        "effects": 75,
+        "camera-cinematography": 54,
+        "3d-webgl-shaders": 12,
+        "design-system": 12,
+        "tests": 5,
+        "skills": 3,
+        "remotion": 2
+      }
+    }
+  }
+}

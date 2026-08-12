@@ -1,0 +1,344 @@
+import React from 'react';
+import { AbsoluteFill, useCurrentFrame, useVideoConfig, interpolate, spring } from 'remotion';
+
+interface TabConfig {
+  title: string;
+  active: boolean;
+}
+
+interface BrowserFrameProps {
+  startFrame: number;
+  durationInFrames: number;
+  url: string;
+  theme: 'light' | 'dark' | 'chrome' | 'firefox' | 'safari' | 'arc';
+  tabs?: TabConfig[] | string;
+  showStatus: boolean;
+  statusText: string;
+  content?: React.ReactNode;
+  width: number;
+  height: number;
+  position: string;
+  shadow: boolean;
+}
+
+export const BrowserFrame: React.FC<BrowserFrameProps> = ({
+  startFrame,
+  durationInFrames,
+  url = 'https://example.com',
+  theme = 'chrome',
+  tabs,
+  showStatus = false,
+  statusText = '',
+  content,
+  width = 1200,
+  height = 800,
+  position = 'center',
+  shadow = true,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+
+  // Visibility check
+  if (frame < startFrame || frame >= startFrame + durationInFrames) {
+    return null;
+  }
+
+  const relativeFrame = frame - startFrame;
+
+  // Parse tabs if it's a string
+  const parsedTabs: TabConfig[] = typeof tabs === 'string' ? JSON.parse(tabs) : (tabs || []);
+
+  // Theme-specific variations using design tokens
+  const isDark = theme === 'dark' || theme === 'chrome' || theme === 'firefox' || theme === 'arc';
+  const isBrowserTheme = theme === 'chrome' || theme === 'firefox' || theme === 'arc';
+
+  // Window button colors based on theme
+  const showColoredButtons = theme === 'safari' || theme === 'arc';
+
+  // Default tabs if none provided
+  const defaultTabs: TabConfig[] = parsedTabs.length > 0 ? parsedTabs : [
+    { title: 'Documentation', active: false },
+    { title: 'Dashboard', active: true },
+    { title: 'Settings', active: false },
+  ];
+
+  // Position mappings
+  const positionMap: Record<string, { top?: string; left?: string; right?: string; bottom?: string; transform?: string }> = {
+    center: {
+      top: '50%',
+      left: '50%',
+      transform: 'translate(-50%, -50%)',
+    },
+    'top-left': { top: '[[ spacing.spacing.xl ]]', left: '[[ spacing.spacing.xl ]]' },
+    'top-center': { top: '[[ spacing.spacing.xl ]]', left: '50%', transform: 'translateX(-50%)' },
+    'top-right': { top: '[[ spacing.spacing.xl ]]', right: '[[ spacing.spacing.xl ]]' },
+    'center-left': { top: '50%', left: '[[ spacing.spacing.xl ]]', transform: 'translateY(-50%)' },
+    'center-right': { top: '50%', right: '[[ spacing.spacing.xl ]]', transform: 'translateY(-50%)' },
+    'bottom-left': { bottom: '[[ spacing.spacing.xl ]]', left: '[[ spacing.spacing.xl ]]' },
+    'bottom-center': { bottom: '[[ spacing.spacing.xl ]]', left: '50%', transform: 'translateX(-50%)' },
+    'bottom-right': { bottom: '[[ spacing.spacing.xl ]]', right: '[[ spacing.spacing.xl ]]' },
+  };
+
+  // Entrance animation
+  const entrance = spring({
+    frame: relativeFrame,
+    fps: fps,
+    config: {
+      damping: [[ motion.default_spring.config.damping ]],
+      stiffness: [[ motion.default_spring.config.stiffness ]],
+      mass: [[ motion.default_spring.config.mass ]],
+    },
+  });
+
+  const opacity = interpolate(relativeFrame, [0, 15], [0, 1], { extrapolateRight: 'clamp' });
+  const scaleAnimation = interpolate(entrance, [0, 1], [0.95, 1]);
+
+  const chromeHeight = 140;
+  const statusHeight = showStatus ? parseInt('[[ spacing.spacing.xl ]]') : 0;
+  const contentHeight = height - chromeHeight - statusHeight;
+
+  return (
+    <AbsoluteFill
+      style={{
+        ...positionMap[position],
+        width,
+        height,
+        opacity,
+        transform: `${positionMap[position].transform || ''} scale(${scaleAnimation})`,
+      }}
+    >
+      <div
+        style={{
+          width: '100%',
+          height: '100%',
+          background: isDark ? '[[ colors.background.darker ]]' : '[[ colors.background.light ]]',
+          borderRadius: '[[ spacing.border_radius.lg ]]',
+          overflow: 'hidden',
+          filter: shadow ? `drop-shadow(0 10px 40px [[ colors.shadow.dark ]])` : 'none',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
+        {/* Chrome/Title bar */}
+        <div
+          style={{
+            height: `${chromeHeight}px`,
+            background: isDark ? '[[ colors.background.darker ]]' : '[[ colors.background.light ]]',
+            borderBottom: `1px solid [[ colors.border.medium ]]`,
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          {/* Window controls and tabs */}
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              padding: '[[ spacing.spacing.sm ]] [[ spacing.spacing.md ]] 0',
+              gap: '[[ spacing.spacing.sm ]]',
+            }}
+          >
+            {/* Window controls */}
+            <div style={{ display: 'flex', gap: '[[ spacing.spacing.xs ]]', marginRight: '[[ spacing.spacing.md ]]' }}>
+              {showColoredButtons ? (
+                <>
+                  <div style={{ width: 14, height: 14, borderRadius: '50%', background: '[[ colors.semantic.error ]]' }} />
+                  <div style={{ width: 14, height: 14, borderRadius: '50%', background: '[[ colors.semantic.warning ]]' }} />
+                  <div style={{ width: 14, height: 14, borderRadius: '50%', background: '[[ colors.semantic.success ]]' }} />
+                </>
+              ) : (
+                <>
+                  <div style={{ width: 14, height: 14, borderRadius: '50%', background: '[[ colors.border.strong ]]' }} />
+                  <div style={{ width: 14, height: 14, borderRadius: '50%', background: '[[ colors.border.strong ]]' }} />
+                  <div style={{ width: 14, height: 14, borderRadius: '50%', background: '[[ colors.border.strong ]]' }} />
+                </>
+              )}
+            </div>
+
+            {/* Tabs */}
+            <div style={{ display: 'flex', gap: `${parseInt('[[ spacing.border_width.medium ]]')}px`, flex: 1 }}>
+              {defaultTabs.map((tab, index) => (
+                <div
+                  key={index}
+                  style={{
+                    background: tab.active
+                      ? (isDark ? '[[ colors.background.glass ]]' : '[[ colors.background.light ]]')
+                      : (isDark ? '[[ colors.background.darker ]]' : 'rgba(0, 0, 0, 0.05)'),
+                    padding: '[[ spacing.spacing.xs ]] [[ spacing.spacing.md ]]',
+                    borderRadius: '[[ spacing.border_radius.sm ]] [[ spacing.border_radius.sm ]] 0 0',
+                    color: isDark ? '[[ colors.text.on_dark ]]' : '[[ colors.text.on_light ]]',
+                    fontSize: parseInt('[[ typography.font_sizes[typography.default_resolution].base ]]'),
+                    fontFamily: "'[[ "', '".join(typography.body_font.fonts) ]]'",
+                    minWidth: '180px',
+                    maxWidth: '250px',
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    whiteSpace: 'nowrap',
+                    opacity: tab.active ? 1 : 0.7,
+                  }}
+                >
+                  {tab.title}
+                </div>
+              ))}
+            </div>
+
+            {/* New tab button */}
+            <div
+              style={{
+                width: parseInt('[[ spacing.spacing.lg ]]'),
+                height: parseInt('[[ spacing.spacing.lg ]]'),
+                borderRadius: '[[ spacing.border_radius.sm ]]',
+                background: '[[ colors.border.strong ]]',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: isDark ? '[[ colors.text.on_dark ]]' : '[[ colors.text.on_light ]]',
+                fontSize: parseInt('[[ typography.font_sizes[typography.default_resolution].sm ]]'),
+              }}
+            >
+              +
+            </div>
+          </div>
+
+          {/* URL bar */}
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              padding: '[[ spacing.spacing.sm ]] [[ spacing.spacing.md ]]',
+              gap: '[[ spacing.spacing.sm ]]',
+            }}
+          >
+            {/* Navigation buttons */}
+            <div style={{ display: 'flex', gap: '[[ spacing.spacing.xs ]]' }}>
+              <div
+                style={{
+                  width: parseInt('[[ spacing.spacing.xl ]]'),
+                  height: parseInt('[[ spacing.spacing.xl ]]'),
+                  borderRadius: '[[ spacing.border_radius.sm ]]',
+                  background: '[[ colors.border.strong ]]',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  color: isDark ? '[[ colors.text.on_dark ]]' : '[[ colors.text.on_light ]]',
+                  fontSize: parseInt('[[ typography.font_sizes[typography.default_resolution].xs ]]'),
+                }}
+              >
+                ←
+              </div>
+              <div
+                style={{
+                  width: parseInt('[[ spacing.spacing.xl ]]'),
+                  height: parseInt('[[ spacing.spacing.xl ]]'),
+                  borderRadius: '[[ spacing.border_radius.sm ]]',
+                  background: '[[ colors.border.strong ]]',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  color: isDark ? '[[ colors.text.on_dark ]]' : '[[ colors.text.on_light ]]',
+                  fontSize: parseInt('[[ typography.font_sizes[typography.default_resolution].xs ]]'),
+                }}
+              >
+                →
+              </div>
+              <div
+                style={{
+                  width: parseInt('[[ spacing.spacing.xl ]]'),
+                  height: parseInt('[[ spacing.spacing.xl ]]'),
+                  borderRadius: '[[ spacing.border_radius.sm ]]',
+                  background: '[[ colors.border.strong ]]',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  color: isDark ? '[[ colors.text.on_dark ]]' : '[[ colors.text.on_light ]]',
+                  fontSize: parseInt('[[ typography.font_sizes[typography.default_resolution].xs ]]'),
+                }}
+              >
+                ↻
+              </div>
+            </div>
+
+            {/* Address bar */}
+            <div
+              style={{
+                flex: 1,
+                height: 42,
+                background: isDark ? '[[ colors.background.glass ]]' : '[[ colors.background.light ]]',
+                borderRadius: '[[ spacing.border_radius.full ]]',
+                display: 'flex',
+                alignItems: 'center',
+                padding: '0 [[ spacing.spacing.md ]]',
+                color: isDark ? '[[ colors.text.on_dark ]]' : '[[ colors.text.on_light ]]',
+                fontSize: parseInt('[[ typography.font_sizes[typography.default_resolution].base ]]'),
+                fontFamily: "'[[ "', '".join(typography.body_font.fonts) ]]'",
+              }}
+            >
+              <span style={{ opacity: 0.6, marginRight: '[[ spacing.spacing.xs ]]' }}>🔒</span>
+              <span>{url}</span>
+            </div>
+
+            {/* Menu button */}
+            <div
+              style={{
+                width: parseInt('[[ spacing.spacing.xl ]]'),
+                height: parseInt('[[ spacing.spacing.xl ]]'),
+                borderRadius: '[[ spacing.border_radius.sm ]]',
+                background: '[[ colors.border.strong ]]',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: isDark ? '[[ colors.text.on_dark ]]' : '[[ colors.text.on_light ]]',
+                fontSize: parseInt('[[ typography.font_sizes[typography.default_resolution].xs ]]'),
+              }}
+            >
+              ⋮
+            </div>
+          </div>
+        </div>
+
+        {/* Content area */}
+        <div
+          style={{
+            flex: 1,
+            background: isDark ? '[[ colors.background.dark ]]' : '[[ colors.background.light ]]',
+            position: 'relative',
+            overflow: 'hidden',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              inset: 0,
+              display: 'flex',
+              flexDirection: 'column',
+            }}
+          >
+            {content}
+          </div>
+        </div>
+
+        {/* Status bar */}
+        {showStatus && (
+          <div
+            style={{
+              height: `${statusHeight}px`,
+              background: isDark ? '[[ colors.background.darker ]]' : '[[ colors.background.light ]]',
+              borderTop: `1px solid [[ colors.border.medium ]]`,
+              display: 'flex',
+              alignItems: 'center',
+              padding: '0 [[ spacing.spacing.md ]]',
+              color: isDark ? '[[ colors.text.on_dark ]]' : '[[ colors.text.on_light ]]',
+              fontSize: parseInt('[[ typography.font_sizes[typography.default_resolution].sm ]]'),
+              fontFamily: "'[[ "', '".join(typography.body_font.fonts) ]]'",
+              opacity: 0.8,
+            }}
+          >
+            {statusText}
+          </div>
+        )}
+      </div>
+    </AbsoluteFill>
+  );
+};

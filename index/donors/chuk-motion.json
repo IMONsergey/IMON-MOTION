@@ -1,0 +1,4887 @@
+{
+  "version": 1,
+  "donor": "chuk-motion",
+  "summary": {
+    "fileCount": 559,
+    "totalBytes": 3678174,
+    "textFiles": 559,
+    "binaryFiles": 0,
+    "topExtensions": {
+      ".py": 384,
+      ".md": 80,
+      ".j2": 51,
+      ".json": 11,
+      ".bak": 10,
+      "[none]": 8,
+      ".yml": 5,
+      ".toml": 2,
+      ".ts": 2,
+      ".old": 2,
+      ".tsx": 1,
+      ".bak2": 1,
+      ".bak3": 1,
+      ".lock": 1
+    },
+    "categoryCounts": {
+      "examples-templates": 123,
+      "tests": 101,
+      "ui-motion": 68,
+      "typography": 68,
+      "data-animation": 64,
+      "design-system": 36,
+      "rendering": 26,
+      "3d-webgl-shaders": 21,
+      "transitions": 19,
+      "remotion": 10,
+      "shots-scenes-storyboard": 9
+    }
+  },
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 645,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 3488,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/workflows/fly-deploy.yml",
+      "bytes": 356,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "bytes": 1248,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "bytes": 820,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "bytes": 1820,
+      "ext": ".yml",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 652,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 3880,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10173,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "Makefile",
+      "bytes": 20050,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 25190,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "coverage.json",
+      "bytes": 150584,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/ALL_YOUTUBE_LAYOUTS.md",
+      "bytes": 9486,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/SPECIALIZED_LAYOUTS.md",
+      "bytes": 10116,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/YOUTUBE_LAYOUTS.md",
+      "bytes": 12519,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/artifact-mcp-tools.md",
+      "bytes": 13353,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/component-builders-guide.md",
+      "bytes": 21714,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "docs/components/COMPONENT_DESIGN.md",
+      "bytes": 10720,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/components/README.md",
+      "bytes": 11438,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/components/content/CodeBlock.md",
+      "bytes": 6639,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/components/content/TypingCode.md",
+      "bytes": 7357,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/components/layouts/AsymmetricLayout.md",
+      "bytes": 7451,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/components/layouts/Grid.md",
+      "bytes": 6918,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/components/overlays/LowerThird.md",
+      "bytes": 6473,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/components/overlays/TitleScene.md",
+      "bytes": 6967,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "docs/project-management.md",
+      "bytes": 25132,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/themes.md",
+      "bytes": 14915,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "docs/tokens.md",
+      "bytes": 23803,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "docs/virtual-filesystem.md",
+      "bytes": 10562,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "examples/LAYOUT_SHOWCASE_README.md",
+      "bytes": 4965,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 8638,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/animations_showcase.py",
+      "bytes": 13089,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/artifacts_e2e_demo.py",
+      "bytes": 13646,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "examples/basics/code_display.py",
+      "bytes": 8891,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/basics/fibonacci_demo.py",
+      "bytes": 6274,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/basics/generate_video.py",
+      "bytes": 6253,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/charts/data_visualization_overlay.py",
+      "bytes": 7835,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/charts_showcase.py",
+      "bytes": 12185,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/code_showcase.py",
+      "bytes": 11739,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/complete/generate_preview.py",
+      "bytes": 9459,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/complete/multi_track_showcase.py",
+      "bytes": 13408,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/complete/ultimate_product_launch.py",
+      "bytes": 19894,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/content_showcase.py",
+      "bytes": 13983,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/design-system/design_system_showcase.py",
+      "bytes": 12867,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/design-system/explore_design_system.py",
+      "bytes": 5845,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/design-system/interactive_explorer.py",
+      "bytes": 9103,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/design-system/safe_margins_demo.py",
+      "bytes": 12510,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/design-system/theme_switching_demo.py",
+      "bytes": 9802,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/design-system/tokens_showcase.py",
+      "bytes": 13596,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/frames/demo_realism_showcase.py",
+      "bytes": 12475,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/frames/frames_showcase.py",
+      "bytes": 15498,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/frames/pixel_transition_demo.py",
+      "bytes": 7871,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/frames_showcase.py",
+      "bytes": 15498,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/image_layouts_showcase.py",
+      "bytes": 19796,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/layouts/grid_code.py",
+      "bytes": 8046,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/layouts/layout_animations_showcase.py",
+      "bytes": 11934,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/layouts/layout_showcase.py",
+      "bytes": 13077,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/layouts/layout_transition_examples.py",
+      "bytes": 5228,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/layouts/panel_cascade_examples.py",
+      "bytes": 4709,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/layouts_showcase.py",
+      "bytes": 13077,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/mcp_workflow_test.py",
+      "bytes": 5252,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "examples/overlays_showcase.py",
+      "bytes": 11987,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/render_video_e2e.py",
+      "bytes": 12850,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "examples/simple_video_e2e.py",
+      "bytes": 2175,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "examples/text/all_text_animations_demo.py",
+      "bytes": 10528,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/text/true_focus_demo.py",
+      "bytes": 8293,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/transitions_showcase.py",
+      "bytes": 12913,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "fly.toml",
+      "bytes": 1471,
+      "ext": ".toml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 2953,
+      "ext": ".toml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "remotion-templates/.gitignore",
+      "bytes": 48,
+      "ext": "[none]",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "remotion-templates/package.json",
+      "bytes": 698,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "remotion-templates/remotion.config.ts",
+      "bytes": 333,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "remotion-templates/src/Root.tsx",
+      "bytes": 502,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "remotion-templates/src/index.ts",
+      "bytes": 109,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "remotion-templates/tsconfig.json",
+      "bytes": 423,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "scripts/audit_hardcoded_values.py",
+      "bytes": 13104,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "scripts/generate_component_docs.py",
+      "bytes": 12070,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/__init__.py",
+      "bytes": 922,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/async_server.py",
+      "bytes": 22571,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/__init__.py",
+      "bytes": 9012,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/Counter/__init__.py",
+      "bytes": 246,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/Counter/builder.py",
+      "bytes": 1513,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/animations/Counter/component.md",
+      "bytes": 1895,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/Counter/schema.py",
+      "bytes": 2830,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/Counter/template.tsx.j2",
+      "bytes": 4873,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/animations/Counter/template.tsx.j2.bak",
+      "bytes": 4859,
+      "ext": ".bak",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/animations/Counter/tool.py",
+      "bytes": 2300,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/LayoutEntrance/__init__.py",
+      "bytes": 314,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/LayoutEntrance/builder.py",
+      "bytes": 1311,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/animations/LayoutEntrance/component.md",
+      "bytes": 4019,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/LayoutEntrance/renderer.py",
+      "bytes": 1853,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/animations/LayoutEntrance/schema.py",
+      "bytes": 2953,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/LayoutEntrance/template.tsx.j2",
+      "bytes": 9707,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/animations/LayoutEntrance/tool.py",
+      "bytes": 6328,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/PanelCascade/__init__.py",
+      "bytes": 313,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/PanelCascade/builder.py",
+      "bytes": 1304,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/animations/PanelCascade/component.md",
+      "bytes": 5730,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/PanelCascade/renderer.py",
+      "bytes": 2127,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/animations/PanelCascade/schema.py",
+      "bytes": 3020,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/PanelCascade/template.tsx.j2",
+      "bytes": 12628,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/animations/PanelCascade/tool.py",
+      "bytes": 6998,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/README.md",
+      "bytes": 532,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/animations/__init__.py",
+      "bytes": 29,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/base.py",
+      "bytes": 1211,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/charts/AreaChart/__init__.py",
+      "bytes": 303,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/AreaChart/builder.py",
+      "bytes": 1494,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/AreaChart/component.md",
+      "bytes": 1874,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/AreaChart/schema.py",
+      "bytes": 2481,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/AreaChart/template.tsx.j2",
+      "bytes": 10176,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/AreaChart/template.tsx.j2.bak",
+      "bytes": 10162,
+      "ext": ".bak",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/AreaChart/tool.py",
+      "bytes": 2649,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/BarChart/__init__.py",
+      "bytes": 306,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/BarChart/builder.py",
+      "bytes": 1496,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/BarChart/component.md",
+      "bytes": 1857,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/BarChart/schema.py",
+      "bytes": 2513,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/BarChart/template.tsx.j2",
+      "bytes": 8835,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/BarChart/template.tsx.j2.bak",
+      "bytes": 8821,
+      "ext": ".bak",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/BarChart/tool.py",
+      "bytes": 2904,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/DonutChart/__init__.py",
+      "bytes": 316,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/DonutChart/builder.py",
+      "bytes": 1428,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/DonutChart/component.md",
+      "bytes": 1814,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/DonutChart/schema.py",
+      "bytes": 2480,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/DonutChart/template.tsx.j2",
+      "bytes": 10504,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/DonutChart/template.tsx.j2.bak",
+      "bytes": 10490,
+      "ext": ".bak",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/DonutChart/tool.py",
+      "bytes": 2457,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/HorizontalBarChart/__init__.py",
+      "bytes": 336,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/HorizontalBarChart/builder.py",
+      "bytes": 1437,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/HorizontalBarChart/component.md",
+      "bytes": 1835,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/HorizontalBarChart/schema.py",
+      "bytes": 2408,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/HorizontalBarChart/template.tsx.j2",
+      "bytes": 10469,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/HorizontalBarChart/template.tsx.j2.bak",
+      "bytes": 10455,
+      "ext": ".bak",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/HorizontalBarChart/tool.py",
+      "bytes": 2611,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/LineChart/__init__.py",
+      "bytes": 303,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/LineChart/builder.py",
+      "bytes": 1397,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/LineChart/component.md",
+      "bytes": 1866,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/LineChart/schema.py",
+      "bytes": 2692,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/LineChart/template.tsx.j2",
+      "bytes": 9384,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/LineChart/template.tsx.j2.bak",
+      "bytes": 9370,
+      "ext": ".bak",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/LineChart/tool.py",
+      "bytes": 2690,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/PieChart/__init__.py",
+      "bytes": 306,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/PieChart/builder.py",
+      "bytes": 1239,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/PieChart/component.md",
+      "bytes": 1708,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/PieChart/schema.py",
+      "bytes": 2179,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/PieChart/template.tsx.j2",
+      "bytes": 9646,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/PieChart/template.tsx.j2.bak",
+      "bytes": 9632,
+      "ext": ".bak",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/PieChart/tool.py",
+      "bytes": 2433,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/README.md",
+      "bytes": 921,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/charts/__init__.py",
+      "bytes": 24,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/code/CodeBlock/__init__.py",
+      "bytes": 252,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/CodeBlock/builder.py",
+      "bytes": 1528,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/code/CodeBlock/component.md",
+      "bytes": 2193,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/CodeBlock/schema.py",
+      "bytes": 3222,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/CodeBlock/template.tsx.j2",
+      "bytes": 12895,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/code/CodeBlock/tool.py",
+      "bytes": 2392,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/CodeDiff/__init__.py",
+      "bytes": 276,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/CodeDiff/builder.py",
+      "bytes": 2553,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/code/CodeDiff/component.md",
+      "bytes": 887,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/CodeDiff/schema.py",
+      "bytes": 5292,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/CodeDiff/template.tsx.j2",
+      "bytes": 16457,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/code/CodeDiff/tool.py",
+      "bytes": 2844,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/README.md",
+      "bytes": 683,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/TypingCode/__init__.py",
+      "bytes": 255,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/TypingCode/builder.py",
+      "bytes": 1621,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/code/TypingCode/component.md",
+      "bytes": 2172,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/TypingCode/schema.py",
+      "bytes": 3440,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/TypingCode/template.tsx.j2",
+      "bytes": 21254,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/code/TypingCode/tool.py",
+      "bytes": 2565,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/code/__init__.py",
+      "bytes": 23,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/component_helpers.py",
+      "bytes": 2003,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/DemoBox/__init__.py",
+      "bytes": 269,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/DemoBox/builder.py",
+      "bytes": 1021,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/DemoBox/component.md",
+      "bytes": 1286,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/DemoBox/schema.py",
+      "bytes": 1565,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/DemoBox/template.tsx.j2",
+      "bytes": 2066,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/DemoBox/tool.py",
+      "bytes": 1704,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/ImageContent/METADATA",
+      "bytes": 113,
+      "ext": "[none]",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/ImageContent/__init__.py",
+      "bytes": 208,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/ImageContent/builder.py",
+      "bytes": 1591,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/ImageContent/component.md",
+      "bytes": 4711,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/ImageContent/schema.py",
+      "bytes": 2823,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/ImageContent/template.tsx.j2",
+      "bytes": 1376,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/ImageContent/tool.py",
+      "bytes": 2858,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/README.md",
+      "bytes": 881,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/StylizedWebPage/__init__.py",
+      "bytes": 293,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/StylizedWebPage/builder.py",
+      "bytes": 1971,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/StylizedWebPage/component.md",
+      "bytes": 2735,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/StylizedWebPage/schema.py",
+      "bytes": 4558,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/StylizedWebPage/template.tsx.j2",
+      "bytes": 8597,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/StylizedWebPage/tool.py",
+      "bytes": 3850,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/VideoContent/METADATA",
+      "bytes": 122,
+      "ext": "[none]",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/VideoContent/__init__.py",
+      "bytes": 210,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/VideoContent/builder.py",
+      "bytes": 1908,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/VideoContent/component.md",
+      "bytes": 5181,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/VideoContent/schema.py",
+      "bytes": 3669,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/VideoContent/template.tsx.j2",
+      "bytes": 1553,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/VideoContent/tool.py",
+      "bytes": 3952,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/WebPage/__init__.py",
+      "bytes": 269,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/WebPage/builder.py",
+      "bytes": 1397,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/WebPage/component.md",
+      "bytes": 3097,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/WebPage/schema.py",
+      "bytes": 4351,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/WebPage/template.tsx.j2",
+      "bytes": 5362,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/content/WebPage/tool.py",
+      "bytes": 3187,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/content/__init__.py",
+      "bytes": 188,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/frames/BrowserFrame/__init__.py",
+      "bytes": 284,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/BrowserFrame/builder.py",
+      "bytes": 2197,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/BrowserFrame/component.md",
+      "bytes": 874,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/BrowserFrame/schema.py",
+      "bytes": 4246,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/BrowserFrame/template.tsx.j2",
+      "bytes": 13392,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/BrowserFrame/tool.py",
+      "bytes": 2534,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/DeviceFrame/__init__.py",
+      "bytes": 294,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/DeviceFrame/builder.py",
+      "bytes": 1908,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/DeviceFrame/component.md",
+      "bytes": 855,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/DeviceFrame/schema.py",
+      "bytes": 3347,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/DeviceFrame/template.tsx.j2",
+      "bytes": 9552,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/DeviceFrame/tool.py",
+      "bytes": 2172,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/README.md",
+      "bytes": 680,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/frames/Terminal/__init__.py",
+      "bytes": 285,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/frames/Terminal/builder.py",
+      "bytes": 2152,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/Terminal/component.md",
+      "bytes": 874,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/frames/Terminal/schema.py",
+      "bytes": 4551,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/frames/Terminal/template.tsx.j2",
+      "bytes": 10243,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/frames/Terminal/tool.py",
+      "bytes": 2481,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/frames/__init__.py",
+      "bytes": 47,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/AsymmetricLayout/__init__.py",
+      "bytes": 296,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/AsymmetricLayout/builder.py",
+      "bytes": 1465,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/AsymmetricLayout/component.md",
+      "bytes": 2329,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/AsymmetricLayout/schema.py",
+      "bytes": 3182,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/AsymmetricLayout/template.tsx.j2",
+      "bytes": 4715,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/AsymmetricLayout/tool.py",
+      "bytes": 3673,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/BeforeAfterSlider/__init__.py",
+      "bytes": 295,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/BeforeAfterSlider/builder.py",
+      "bytes": 3127,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/BeforeAfterSlider/component.md",
+      "bytes": 1046,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/BeforeAfterSlider/schema.py",
+      "bytes": 5619,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/BeforeAfterSlider/template.tsx.j2",
+      "bytes": 12203,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/BeforeAfterSlider/tool.py",
+      "bytes": 3491,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Container/__init__.py",
+      "bytes": 252,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Container/builder.py",
+      "bytes": 1450,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Container/component.md",
+      "bytes": 1881,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Container/schema.py",
+      "bytes": 2908,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Container/template.tsx.j2",
+      "bytes": 2245,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Container/tool.py",
+      "bytes": 3122,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/DialogueFrame/__init__.py",
+      "bytes": 287,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/DialogueFrame/builder.py",
+      "bytes": 1370,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/DialogueFrame/component.md",
+      "bytes": 2146,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/DialogueFrame/schema.py",
+      "bytes": 2817,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/DialogueFrame/template.tsx.j2",
+      "bytes": 2929,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/DialogueFrame/tool.py",
+      "bytes": 3621,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/FocusStrip/__init__.py",
+      "bytes": 278,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/FocusStrip/builder.py",
+      "bytes": 1337,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/FocusStrip/component.md",
+      "bytes": 2087,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/FocusStrip/schema.py",
+      "bytes": 2776,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/FocusStrip/template.tsx.j2",
+      "bytes": 2555,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/FocusStrip/tool.py",
+      "bytes": 3029,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Grid/__init__.py",
+      "bytes": 237,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Grid/builder.py",
+      "bytes": 1331,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Grid/component.md",
+      "bytes": 2135,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Grid/schema.py",
+      "bytes": 3158,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Grid/template.tsx.j2",
+      "bytes": 3272,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Grid/tool.py",
+      "bytes": 3402,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/HUDStyle/__init__.py",
+      "bytes": 272,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/HUDStyle/builder.py",
+      "bytes": 1536,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/HUDStyle/component.md",
+      "bytes": 1908,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/HUDStyle/schema.py",
+      "bytes": 2414,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/HUDStyle/template.tsx.j2",
+      "bytes": 3399,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/HUDStyle/tool.py",
+      "bytes": 4114,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Mosaic/__init__.py",
+      "bytes": 266,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Mosaic/builder.py",
+      "bytes": 1151,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Mosaic/component.md",
+      "bytes": 1544,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Mosaic/schema.py",
+      "bytes": 2338,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Mosaic/template.tsx.j2",
+      "bytes": 4931,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Mosaic/tool.py",
+      "bytes": 2876,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/OverTheShoulder/__init__.py",
+      "bytes": 293,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/OverTheShoulder/builder.py",
+      "bytes": 1401,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/OverTheShoulder/component.md",
+      "bytes": 2019,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/OverTheShoulder/schema.py",
+      "bytes": 2619,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/OverTheShoulder/template.tsx.j2",
+      "bytes": 2392,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/OverTheShoulder/tool.py",
+      "bytes": 3331,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/PerformanceMultiCam/__init__.py",
+      "bytes": 305,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/PerformanceMultiCam/builder.py",
+      "bytes": 1313,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/PerformanceMultiCam/component.md",
+      "bytes": 1639,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/PerformanceMultiCam/schema.py",
+      "bytes": 2054,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/PerformanceMultiCam/template.tsx.j2",
+      "bytes": 4936,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/PerformanceMultiCam/tool.py",
+      "bytes": 3576,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/PiP/__init__.py",
+      "bytes": 257,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/PiP/builder.py",
+      "bytes": 1334,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/PiP/component.md",
+      "bytes": 2075,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/PiP/schema.py",
+      "bytes": 2803,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/PiP/template.tsx.j2",
+      "bytes": 2412,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/PiP/tool.py",
+      "bytes": 3039,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/README.md",
+      "bytes": 1761,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/SplitScreen/__init__.py",
+      "bytes": 258,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/SplitScreen/builder.py",
+      "bytes": 1494,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/SplitScreen/component.md",
+      "bytes": 1885,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/SplitScreen/schema.py",
+      "bytes": 2841,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/SplitScreen/template.tsx.j2",
+      "bytes": 1966,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/SplitScreen/tool.py",
+      "bytes": 3043,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/StackedReaction/__init__.py",
+      "bytes": 293,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/StackedReaction/builder.py",
+      "bytes": 1377,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/StackedReaction/component.md",
+      "bytes": 2114,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/StackedReaction/schema.py",
+      "bytes": 2819,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/StackedReaction/template.tsx.j2",
+      "bytes": 4511,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/StackedReaction/tool.py",
+      "bytes": 3232,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeByThreeGrid/__init__.py",
+      "bytes": 296,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeByThreeGrid/builder.py",
+      "bytes": 1342,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeByThreeGrid/component.md",
+      "bytes": 2018,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeByThreeGrid/schema.py",
+      "bytes": 2518,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeByThreeGrid/template.tsx.j2",
+      "bytes": 3033,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeByThreeGrid/tool.py",
+      "bytes": 2719,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeColumnLayout/__init__.py",
+      "bytes": 299,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeColumnLayout/builder.py",
+      "bytes": 1663,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeColumnLayout/component.md",
+      "bytes": 2413,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeColumnLayout/schema.py",
+      "bytes": 3403,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeColumnLayout/template.tsx.j2",
+      "bytes": 2900,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeColumnLayout/tool.py",
+      "bytes": 3987,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeRowLayout/__init__.py",
+      "bytes": 290,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeRowLayout/builder.py",
+      "bytes": 1519,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeRowLayout/component.md",
+      "bytes": 2376,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeRowLayout/schema.py",
+      "bytes": 3344,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeRowLayout/template.tsx.j2",
+      "bytes": 2900,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/ThreeRowLayout/tool.py",
+      "bytes": 3858,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Timeline/__init__.py",
+      "bytes": 272,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Timeline/builder.py",
+      "bytes": 1363,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Timeline/component.md",
+      "bytes": 1686,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Timeline/schema.py",
+      "bytes": 2486,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Timeline/template.tsx.j2",
+      "bytes": 3822,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Timeline/tool.py",
+      "bytes": 3473,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Vertical/__init__.py",
+      "bytes": 272,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Vertical/builder.py",
+      "bytes": 1288,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Vertical/component.md",
+      "bytes": 2106,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Vertical/schema.py",
+      "bytes": 2858,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Vertical/template.tsx.j2",
+      "bytes": 2319,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/Vertical/tool.py",
+      "bytes": 3341,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/layouts/__init__.py",
+      "bytes": 712,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/EndScreen/__init__.py",
+      "bytes": 252,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/EndScreen/builder.py",
+      "bytes": 1389,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/EndScreen/component.md",
+      "bytes": 1717,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/EndScreen/schema.py",
+      "bytes": 2001,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/EndScreen/template.tsx.j2",
+      "bytes": 11389,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/EndScreen/tool.py",
+      "bytes": 2475,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/LowerThird/__init__.py",
+      "bytes": 255,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/LowerThird/builder.py",
+      "bytes": 1379,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/LowerThird/component.md",
+      "bytes": 2052,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/LowerThird/schema.py",
+      "bytes": 3068,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/LowerThird/template.tsx.j2",
+      "bytes": 5680,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/LowerThird/tool.py",
+      "bytes": 1952,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/README.md",
+      "bytes": 845,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/SubscribeButton/__init__.py",
+      "bytes": 270,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/SubscribeButton/builder.py",
+      "bytes": 1446,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/SubscribeButton/component.md",
+      "bytes": 2031,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/SubscribeButton/schema.py",
+      "bytes": 3074,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/SubscribeButton/template.tsx.j2",
+      "bytes": 6300,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/SubscribeButton/tool.py",
+      "bytes": 2023,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/TextOverlay/__init__.py",
+      "bytes": 258,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/TextOverlay/builder.py",
+      "bytes": 1389,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/TextOverlay/component.md",
+      "bytes": 1944,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/TextOverlay/schema.py",
+      "bytes": 3025,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/TextOverlay/template.tsx.j2",
+      "bytes": 7804,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/TextOverlay/tool.py",
+      "bytes": 1941,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/TitleScene/__init__.py",
+      "bytes": 255,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/TitleScene/builder.py",
+      "bytes": 1353,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/TitleScene/component.md",
+      "bytes": 2132,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/TitleScene/schema.py",
+      "bytes": 2743,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/TitleScene/template.tsx.j2",
+      "bytes": 6804,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/TitleScene/tool.py",
+      "bytes": 2754,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/overlays/__init__.py",
+      "bytes": 27,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/DecryptedText/METADATA.json",
+      "bytes": 1943,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/DecryptedText/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/DecryptedText/builder.py",
+      "bytes": 1577,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/DecryptedText/component.md",
+      "bytes": 4072,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/DecryptedText/schema.py",
+      "bytes": 3984,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/DecryptedText/template.tsx.j2",
+      "bytes": 4660,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/DecryptedText/tool.py",
+      "bytes": 2879,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/FuzzyText/METADATA.json",
+      "bytes": 2023,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/FuzzyText/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/FuzzyText/builder.py",
+      "bytes": 1620,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/FuzzyText/component.md",
+      "bytes": 4064,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/FuzzyText/schema.py",
+      "bytes": 4163,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/FuzzyText/template.tsx.j2",
+      "bytes": 6611,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/FuzzyText/tool.py",
+      "bytes": 4313,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/StaggerText/METADATA.json",
+      "bytes": 2326,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/StaggerText/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/StaggerText/builder.py",
+      "bytes": 1675,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/StaggerText/component.md",
+      "bytes": 5687,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/StaggerText/schema.py",
+      "bytes": 4786,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/StaggerText/template.tsx.j2",
+      "bytes": 5305,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/StaggerText/tool.py",
+      "bytes": 3670,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TrueFocus/METADATA.json",
+      "bytes": 2639,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TrueFocus/README.md",
+      "bytes": 6563,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TrueFocus/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TrueFocus/builder.py",
+      "bytes": 1764,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TrueFocus/component.md",
+      "bytes": 6641,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TrueFocus/schema.py",
+      "bytes": 4857,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TrueFocus/template.tsx.j2",
+      "bytes": 7854,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TrueFocus/tool.py",
+      "bytes": 4475,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TypewriterText/METADATA.json",
+      "bytes": 2139,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TypewriterText/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TypewriterText/builder.py",
+      "bytes": 1717,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TypewriterText/component.md",
+      "bytes": 5548,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TypewriterText/schema.py",
+      "bytes": 4335,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TypewriterText/template.tsx.j2",
+      "bytes": 4461,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/TypewriterText/tool.py",
+      "bytes": 3644,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/WavyText/METADATA.json",
+      "bytes": 2121,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/WavyText/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/WavyText/builder.py",
+      "bytes": 1668,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/WavyText/component.md",
+      "bytes": 5273,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/WavyText/schema.py",
+      "bytes": 4449,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/WavyText/template.tsx.j2",
+      "bytes": 4054,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/text_animations/WavyText/tool.py",
+      "bytes": 3609,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/LayoutTransition/METADATA.json",
+      "bytes": 1250,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/LayoutTransition/__init__.py",
+      "bytes": 487,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/LayoutTransition/builder.py",
+      "bytes": 1608,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/LayoutTransition/component.md",
+      "bytes": 3905,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/LayoutTransition/schema.py",
+      "bytes": 4297,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/LayoutTransition/template.tsx.j2",
+      "bytes": 10074,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/LayoutTransition/tool.py",
+      "bytes": 6640,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/PixelTransition/METADATA.json",
+      "bytes": 1855,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/PixelTransition/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/PixelTransition/builder.py",
+      "bytes": 1676,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/PixelTransition/component.md",
+      "bytes": 3839,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/PixelTransition/schema.py",
+      "bytes": 3567,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/PixelTransition/template.tsx.j2",
+      "bytes": 4580,
+      "ext": ".j2",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/components/transitions/PixelTransition/tool.py",
+      "bytes": 4523,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/generator/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/generator/component_builder.py",
+      "bytes": 10091,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/generator/composition_builder.py",
+      "bytes": 40347,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/generator/timeline.py",
+      "bytes": 13315,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/models/__init__.py",
+      "bytes": 1027,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/models/artifact_models.py",
+      "bytes": 9966,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/models/responses.py",
+      "bytes": 1831,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/registry/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/registry/components.py",
+      "bytes": 32369,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/render/__init__.py",
+      "bytes": 425,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/render/project_exporter.py",
+      "bytes": 7496,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/render/video_renderer.py",
+      "bytes": 10881,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/renderer/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/rendering/__init__.py",
+      "bytes": 255,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/rendering/remotion_renderer.py",
+      "bytes": 11393,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/server.py",
+      "bytes": 4335,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/storage/__init__.py",
+      "bytes": 149,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/storage/artifact_storage.py",
+      "bytes": 21734,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/themes/__init__.py",
+      "bytes": 49,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/themes/models.py",
+      "bytes": 4101,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/themes/theme_manager.py",
+      "bytes": 10063,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/themes/youtube_themes.py",
+      "bytes": 7735,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/themes/youtube_themes.py.bak",
+      "bytes": 7185,
+      "ext": ".bak",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tokens/__init__.py",
+      "bytes": 49,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tokens/brand.py",
+      "bytes": 15876,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tokens/captions.py",
+      "bytes": 16967,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tokens/colors.py",
+      "bytes": 7904,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tokens/motion.py",
+      "bytes": 29972,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tokens/spacing.py",
+      "bytes": 17544,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tokens/token_manager.py",
+      "bytes": 19310,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tokens/typography.py",
+      "bytes": 7130,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tools/__init__.py",
+      "bytes": 163,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/tools/artifact_tools.py",
+      "bytes": 27891,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/tools/theme_tools.py",
+      "bytes": 15296,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tools/token_tools.py",
+      "bytes": 27384,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tools/token_tools.py.bak",
+      "bytes": 26462,
+      "ext": ".bak",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tools/token_tools.py.bak2",
+      "bytes": 26610,
+      "ext": ".bak2",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/tools/token_tools.py.bak3",
+      "bytes": 26602,
+      "ext": ".bak3",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/chuk_motion/utils/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/utils/async_project_manager.py",
+      "bytes": 11983,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/chuk_motion/video_manager.py",
+      "bytes": 14866,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "tests/README_TEMPLATE_TESTS.md",
+      "bytes": 9349,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/__init__.py",
+      "bytes": 0,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/animations/Counter/test_counter.py",
+      "bytes": 6118,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/animations/LayoutEntrance/test_layoutentrance.py",
+      "bytes": 16273,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/animations/PanelCascade/test_panelcascade.py",
+      "bytes": 19814,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/charts/AreaChart/test_area_chart.py",
+      "bytes": 7988,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/charts/BarChart/test_bar_chart.py",
+      "bytes": 7848,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/charts/DonutChart/test_donut_chart.py",
+      "bytes": 7752,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/charts/HorizontalBarChart/test_horizontal_bar_chart.py",
+      "bytes": 8096,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/charts/LineChart/test_linechart.py",
+      "bytes": 14054,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/charts/PieChart/test_pie_chart.py",
+      "bytes": 7511,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/code/CodeBlock/test_codeblock.py",
+      "bytes": 11783,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/code/CodeDiff/test_codediff.py",
+      "bytes": 8192,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/code/TypingCode/test_typingcode.py",
+      "bytes": 12640,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/conftest.py",
+      "bytes": 3048,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/content/DemoBox/test_demobox.py",
+      "bytes": 5396,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/content/ImageContent/test_imagecontent.py",
+      "bytes": 9236,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/content/StylizedWebPage/test_stylizedwebpage.py",
+      "bytes": 13569,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/content/VideoContent/test_videocontent.py",
+      "bytes": 10091,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/content/WebPage/test_webpage.py",
+      "bytes": 10952,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/frames/BrowserFrame/test_browserframe.py",
+      "bytes": 8195,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/frames/DeviceFrame/test_deviceframe.py",
+      "bytes": 6275,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/frames/Terminal/test_terminal.py",
+      "bytes": 8045,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/AsymmetricLayout/test_asymmetriclayout.py",
+      "bytes": 6649,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/BeforeAfterSlider/test_beforeafterslider.py",
+      "bytes": 8235,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/Container/test_container.py",
+      "bytes": 6570,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/DialogueFrame/test_dialogueframe.py",
+      "bytes": 6551,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/FocusStrip/test_focusstrip.py",
+      "bytes": 6453,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/Grid/test_grid.py",
+      "bytes": 12214,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/HUDStyle/test_hudstyle.py",
+      "bytes": 6570,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/Mosaic/test_mosaic.py",
+      "bytes": 8234,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/OverTheShoulder/test_overtheshoulder.py",
+      "bytes": 6504,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/PerformanceMultiCam/test_performancemulticam.py",
+      "bytes": 9878,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/PiP/test_pip.py",
+      "bytes": 6205,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/SplitScreen/test_splitscreen.py",
+      "bytes": 6711,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/StackedReaction/test_stackedreaction.py",
+      "bytes": 6497,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/ThreeByThreeGrid/test_threebythreegrid.py",
+      "bytes": 8505,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/ThreeColumnLayout/test_threecolumnlayout.py",
+      "bytes": 6775,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/ThreeRowLayout/test_threerowlayout.py",
+      "bytes": 6565,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/Timeline/test_timeline.py",
+      "bytes": 9974,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/layouts/Vertical/test_vertical.py",
+      "bytes": 6327,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/overlays/EndScreen/test_end_screen.py",
+      "bytes": 5328,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/overlays/LowerThird/test_lowerthird.py",
+      "bytes": 10715,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/overlays/SubscribeButton/test_subscribe_button.py",
+      "bytes": 5367,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/overlays/TextOverlay/test_text_overlay.py",
+      "bytes": 5905,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/overlays/TitleScene/test_titlescene.py",
+      "bytes": 10279,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/test_base.py",
+      "bytes": 3976,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/test_component_helpers.py",
+      "bytes": 5150,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/text_animations/DecryptedText/test_decryptedtext.py",
+      "bytes": 7406,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/text_animations/FuzzyText/test_fuzzytext.py",
+      "bytes": 6474,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/text_animations/StaggerText/test_staggertext.py",
+      "bytes": 6476,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/text_animations/TrueFocus/test_truefocus.py",
+      "bytes": 6968,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/text_animations/TypewriterText/test_typewritertext.py",
+      "bytes": 6909,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/text_animations/WavyText/test_wavytext.py",
+      "bytes": 6395,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "typography",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/transitions/LayoutTransition/test_layout_transition.py",
+      "bytes": 12687,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/components/transitions/PixelTransition/test_pixeltransition.py",
+      "bytes": 11051,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 8224,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/generator/__init__.py",
+      "bytes": 31,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/generator/test_composition_builder.py",
+      "bytes": 47031,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/generator/test_timeline.py",
+      "bytes": 17553,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/integration/__init__.py",
+      "bytes": 41,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/integration/test_async_project_manager.py",
+      "bytes": 3172,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/render/__init__.py",
+      "bytes": 28,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/render/test_project_exporter.py",
+      "bytes": 12782,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/render/test_video_renderer.py",
+      "bytes": 25282,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/rendering/__init__.py",
+      "bytes": 37,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/rendering/test_remotion_renderer.py",
+      "bytes": 23198,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "rendering",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/storage/__init__.py",
+      "bytes": 31,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/storage/test_artifact_storage.py",
+      "bytes": 21838,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/__init__.py",
+      "bytes": 42,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/conftest.py",
+      "bytes": 2497,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/content/__init__.py",
+      "bytes": 42,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/content/test_codeblock.py",
+      "bytes": 6698,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/content/test_linechart.py.old",
+      "bytes": 9180,
+      "ext": ".old",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/content/test_typingcode.py",
+      "bytes": 7457,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/layouts/__init__.py",
+      "bytes": 41,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/layouts/test_container.py",
+      "bytes": 905,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/layouts/test_grid.py",
+      "bytes": 4725,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/layouts/test_splitscreen.py.old",
+      "bytes": 1087,
+      "ext": ".old",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/overlays/__init__.py",
+      "bytes": 42,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/overlays/test_lowerthird.py",
+      "bytes": 5785,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/overlays/test_titlescene.py",
+      "bytes": 5726,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/templates/test_component_builder.py",
+      "bytes": 10229,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/test_theme_manager.py",
+      "bytes": 16358,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/test_theme_tools.py",
+      "bytes": 11402,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/test_token_manager.py",
+      "bytes": 30701,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/test_token_tools.py",
+      "bytes": 26922,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/test_token_tools.py.bak",
+      "bytes": 26842,
+      "ext": ".bak",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/test_video_manager.py",
+      "bytes": 17496,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/tokens/__init__.py",
+      "bytes": 64,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/tokens/test_brand.py",
+      "bytes": 16706,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/tokens/test_captions.py",
+      "bytes": 17781,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/tokens/test_motion.py",
+      "bytes": 17256,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ]
+    },
+    {
+      "path": "tests/tokens/test_spacing.py",
+      "bytes": 16006,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ]
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 426707,
+      "ext": ".lock",
+      "binary": false,
+      "categories": []
+    }
+  ]
+}

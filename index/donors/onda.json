@@ -1,0 +1,5815 @@
+{
+  "version": 1,
+  "donor": "onda",
+  "summary": {
+    "fileCount": 735,
+    "totalBytes": 6781421,
+    "textFiles": 730,
+    "binaryFiles": 5,
+    "topExtensions": {
+      ".json": 205,
+      ".tsx": 179,
+      ".ts": 163,
+      ".md": 149,
+      ".mjs": 12,
+      ".svg": 7,
+      ".yml": 5,
+      ".mp3": 5,
+      "[none]": 4,
+      ".yaml": 2,
+      ".txt": 2,
+      ".xml": 1,
+      ".css": 1
+    },
+    "categoryCounts": {
+      "transitions": 99,
+      "remotion": 40,
+      "tests": 36,
+      "ui-motion": 32,
+      "data-animation": 24,
+      "effects": 23,
+      "typography": 21,
+      "camera-cinematography": 18,
+      "audio-sound": 17,
+      "rendering": 8,
+      "skills": 6,
+      "design-system": 6,
+      "shots-scenes-storyboard": 4,
+      "examples-templates": 3
+    }
+  },
+  "files": [
+    {
+      "path": ".claude/skills/issues/SKILL.md",
+      "bytes": 10268,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "bytes": 2009,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 1056,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 1857,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/workflows/lint-pr.yml",
+      "bytes": 1767,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "bytes": 2424,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "bytes": 2416,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 1755,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".release-please-manifest.json",
+      "bytes": 30,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1428,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 11959,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 2369,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2906,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1072,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 8813,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 2061,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/onda-logo-light.svg",
+      "bytes": 1611,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/onda-logo.svg",
+      "bytes": 1949,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/onda-mark-animated-light.svg",
+      "bytes": 1466,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/onda-mark-animated.svg",
+      "bytes": 1590,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/onda-mark-light.svg",
+      "bytes": 1706,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/onda-mark.svg",
+      "bytes": 1241,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 841,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/catalog.md",
+      "bytes": 3498,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/component-reference.md",
+      "bytes": 3131,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/composing-agent-helpers.md",
+      "bytes": 4821,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "docs/composing-media.md",
+      "bytes": 8090,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/composing-placement.md",
+      "bytes": 5041,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/composing-timeline.md",
+      "bytes": 8214,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/composing-with-onda.md",
+      "bytes": 3495,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/deploy.md",
+      "bytes": 7672,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/design-philosophy.md",
+      "bytes": 1127,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/motion-language.md",
+      "bytes": 3590,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/product-roadmap.md",
+      "bytes": 953,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/remotion-capabilities.md",
+      "bytes": 23526,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "docs/tech-stack.md",
+      "bytes": 1433,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/techspecs/001-project-foundation/design.md",
+      "bytes": 6074,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/001-project-foundation/roadmap.md",
+      "bytes": 2202,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/002-distribution-model/design.md",
+      "bytes": 5274,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/002-distribution-model/roadmap.md",
+      "bytes": 1727,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/003-walking-skeleton/design.md",
+      "bytes": 5810,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/003-walking-skeleton/roadmap.md",
+      "bytes": 4305,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/004-site-bootstrap/design.md",
+      "bytes": 6982,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/004-site-bootstrap/roadmap.md",
+      "bytes": 5236,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/005-motion-vocabulary-v2/design.md",
+      "bytes": 5730,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/005-motion-vocabulary-v2/roadmap.md",
+      "bytes": 3188,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/006-cli/design.md",
+      "bytes": 12647,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/006-cli/roadmap.md",
+      "bytes": 9351,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/007-component-theming-api/design.md",
+      "bytes": 10012,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/007-component-theming-api/roadmap.md",
+      "bytes": 6505,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/008-canvas-aware-components/design.md",
+      "bytes": 13442,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/008-canvas-aware-components/roadmap.md",
+      "bytes": 10955,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/010-media-primitives/design.md",
+      "bytes": 10035,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/010-media-primitives/roadmap.md",
+      "bytes": 6540,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/011-audio-primitives/design.md",
+      "bytes": 19077,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/011-audio-primitives/roadmap.md",
+      "bytes": 5932,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/012-ci-and-dependency-hygiene/design.md",
+      "bytes": 7321,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/012-ci-and-dependency-hygiene/roadmap.md",
+      "bytes": 3374,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/013-agent-contract-helpers/design.md",
+      "bytes": 9406,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/013-agent-contract-helpers/roadmap.md",
+      "bytes": 4578,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/014-typography-prop-extensions/design.md",
+      "bytes": 6387,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/015-library-uniformity/design.md",
+      "bytes": 8744,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/016-composer-typography/design.md",
+      "bytes": 6813,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/017-transitions/design.md",
+      "bytes": 10594,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/018-runtime-manifest-export/design.md",
+      "bytes": 9770,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/019-cli-polish/design.md",
+      "bytes": 9236,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/020-typography-text-props-completion/design.md",
+      "bytes": 5052,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/021-kind-discriminator/design.md",
+      "bytes": 6070,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/022-completeness-program/design.md",
+      "bytes": 25085,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/027-manifest-picking-enrichment/design.md",
+      "bytes": 16213,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/techspecs/028-motion-blur/design.md",
+      "bytes": 3283,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "effects",
+        "tests"
+      ]
+    },
+    {
+      "path": "docs/theming.md",
+      "bytes": 5038,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/vision.md",
+      "bytes": 1909,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/adaptive-player.tsx",
+      "bytes": 8155,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/canvas-presets.ts",
+      "bytes": 1392,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/canvas-schemas.ts",
+      "bytes": 2279,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/canvas.tsx",
+      "bytes": 4814,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/choreography.ts",
+      "bytes": 13076,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "lib/composition-json-schema.ts",
+      "bytes": 426,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "lib/composition-renderer.tsx",
+      "bytes": 6967,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "lib/composition.ts",
+      "bytes": 1417,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "lib/easing.ts",
+      "bytes": 987,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/elevation.ts",
+      "bytes": 1968,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/hooks.ts",
+      "bytes": 8272,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/index.ts",
+      "bytes": 2920,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/motion.ts",
+      "bytes": 4069,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/primitives/Camera.tsx",
+      "bytes": 2583,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "lib/primitives/Glow.tsx",
+      "bytes": 1185,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "lib/primitives/GridField.tsx",
+      "bytes": 1429,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/primitives/MotionBlur.tsx",
+      "bytes": 2169,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "lib/primitives/Surface.tsx",
+      "bytes": 2506,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/primitives/index.ts",
+      "bytes": 599,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/random.ts",
+      "bytes": 873,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/registry-summary.ts",
+      "bytes": 9341,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/text-timing.ts",
+      "bytes": 2072,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "lib/theme.tsx",
+      "bytes": 3889,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "lib/timing.ts",
+      "bytes": 3547,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "lib/tokens.ts",
+      "bytes": 4180,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "package.json",
+      "bytes": 1179,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/.gitignore",
+      "bytes": 34,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/CHANGELOG.md",
+      "bytes": 5101,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/README.md",
+      "bytes": 10997,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/build-manifest.mjs",
+      "bytes": 2947,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "packages/cli/build-motion.mjs",
+      "bytes": 1516,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "packages/cli/package.json",
+      "bytes": 2065,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/commands/add.ts",
+      "bytes": 9210,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/commands/list.ts",
+      "bytes": 5568,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/help.ts",
+      "bytes": 2943,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/lib/argv.ts",
+      "bytes": 2538,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/lib/barrel.ts",
+      "bytes": 13773,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/lib/manifest.ts",
+      "bytes": 5290,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/lib/pkg-manager.ts",
+      "bytes": 1331,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/lib/project-shape.ts",
+      "bytes": 5039,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/lib/resolve.ts",
+      "bytes": 2308,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/lib/rewrite-imports.ts",
+      "bytes": 5551,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/lib/write.ts",
+      "bytes": 3455,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/motion.ts",
+      "bytes": 1013,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/src/onda.ts",
+      "bytes": 2874,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/tsconfig.json",
+      "bytes": 640,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/tsconfig.manifest.json",
+      "bytes": 466,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "packages/cli/tsconfig.motion.json",
+      "bytes": 495,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 168369,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "bytes": 37,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/audio-clip/AudioClip.tsx",
+      "bytes": 3296,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "registry/components/audio-clip/README.md",
+      "bytes": 6097,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "registry/components/audio-clip/audio-clip.meta.json",
+      "bytes": 702,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "registry/components/audio-clip/schema.ts",
+      "bytes": 2619,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "registry/components/audio-visualizer/AudioVisualizer.tsx",
+      "bytes": 19544,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "registry/components/audio-visualizer/README.md",
+      "bytes": 6057,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "registry/components/audio-visualizer/audio-visualizer.meta.json",
+      "bytes": 679,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "registry/components/audio-visualizer/schema.ts",
+      "bytes": 6227,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "registry/components/bar-chart/BarChart.tsx",
+      "bytes": 4270,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/components/bar-chart/README.md",
+      "bytes": 3353,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/components/bar-chart/bar-chart.meta.json",
+      "bytes": 598,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/components/bar-chart/schema.ts",
+      "bytes": 2462,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/components/bento-grid/BentoGrid.tsx",
+      "bytes": 4074,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/bento-grid/README.md",
+      "bytes": 2210,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/bento-grid/bento-grid.meta.json",
+      "bytes": 638,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/bento-grid/schema.ts",
+      "bytes": 3600,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/blur-reveal/BlurReveal.tsx",
+      "bytes": 1943,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/components/blur-reveal/README.md",
+      "bytes": 2741,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/components/blur-reveal/blur-reveal.meta.json",
+      "bytes": 536,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/components/blur-reveal/schema.ts",
+      "bytes": 2736,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/components/bounding-box/BoundingBox.tsx",
+      "bytes": 5439,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/bounding-box/README.md",
+      "bytes": 3856,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/bounding-box/bounding-box.meta.json",
+      "bytes": 722,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/bounding-box/schema.ts",
+      "bytes": 2071,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/browser-frame/BrowserFrame.tsx",
+      "bytes": 2834,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/components/browser-frame/README.md",
+      "bytes": 1140,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/components/browser-frame/browser-frame.meta.json",
+      "bytes": 610,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/components/browser-frame/schema.ts",
+      "bytes": 1133,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/components/button/Button.tsx",
+      "bytes": 3576,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/button/README.md",
+      "bytes": 1457,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/button/button.meta.json",
+      "bytes": 602,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/button/schema.ts",
+      "bytes": 1909,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/callout/Callout.tsx",
+      "bytes": 3991,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/callout/README.md",
+      "bytes": 3868,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/callout/callout.meta.json",
+      "bytes": 727,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/callout/schema.ts",
+      "bytes": 2272,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/camera-shake/CameraShake.tsx",
+      "bytes": 2251,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "registry/components/camera-shake/README.md",
+      "bytes": 3133,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "registry/components/camera-shake/camera-shake.meta.json",
+      "bytes": 624,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "registry/components/camera-shake/schema.ts",
+      "bytes": 1502,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "registry/components/captions/Captions.tsx",
+      "bytes": 3625,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/captions/README.md",
+      "bytes": 3435,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/captions/captions.meta.json",
+      "bytes": 657,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/captions/schema.ts",
+      "bytes": 2181,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/chapter-card/ChapterCard.tsx",
+      "bytes": 4085,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/chapter-card/README.md",
+      "bytes": 4560,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/chapter-card/chapter-card.meta.json",
+      "bytes": 735,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/chapter-card/schema.ts",
+      "bytes": 3153,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/code-block/CodeBlock.tsx",
+      "bytes": 4783,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/code-block/README.md",
+      "bytes": 1778,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/code-block/code-block.meta.json",
+      "bytes": 643,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/code-block/schema.ts",
+      "bytes": 2240,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/code-diff/CodeDiff.tsx",
+      "bytes": 3120,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/code-diff/README.md",
+      "bytes": 1457,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/code-diff/code-diff.meta.json",
+      "bytes": 594,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/code-diff/schema.ts",
+      "bytes": 2008,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/confetti/Confetti.tsx",
+      "bytes": 3545,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/confetti/README.md",
+      "bytes": 1724,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/confetti/confetti.meta.json",
+      "bytes": 643,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/confetti/schema.ts",
+      "bytes": 1896,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/count-up/CountUp.tsx",
+      "bytes": 2420,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/count-up/README.md",
+      "bytes": 3965,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/count-up/count-up.meta.json",
+      "bytes": 614,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/count-up/schema.ts",
+      "bytes": 2359,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/cursor/Cursor.tsx",
+      "bytes": 2806,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/components/cursor/README.md",
+      "bytes": 1279,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/components/cursor/cursor.meta.json",
+      "bytes": 571,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/components/cursor/schema.ts",
+      "bytes": 1376,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/components/device-frame/DeviceFrame.tsx",
+      "bytes": 2931,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/components/device-frame/README.md",
+      "bytes": 1067,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/components/device-frame/device-frame.meta.json",
+      "bytes": 565,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/components/device-frame/schema.ts",
+      "bytes": 1029,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/components/draw-on/DrawOn.tsx",
+      "bytes": 1787,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/draw-on/README.md",
+      "bytes": 4164,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/draw-on/draw-on.meta.json",
+      "bytes": 616,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/draw-on/schema.ts",
+      "bytes": 1615,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/dynamic-grid/DynamicGrid.tsx",
+      "bytes": 1207,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/dynamic-grid/README.md",
+      "bytes": 1098,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/dynamic-grid/dynamic-grid.meta.json",
+      "bytes": 652,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/dynamic-grid/schema.ts",
+      "bytes": 1130,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/end-card/EndCard.tsx",
+      "bytes": 4392,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/end-card/README.md",
+      "bytes": 4372,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/end-card/end-card.meta.json",
+      "bytes": 699,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/end-card/schema.ts",
+      "bytes": 2754,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/fade-in/FadeIn.tsx",
+      "bytes": 1342,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/fade-in/README.md",
+      "bytes": 2275,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/fade-in/fade-in.meta.json",
+      "bytes": 474,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/fade-in/schema.ts",
+      "bytes": 2431,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/fade-out/FadeOut.tsx",
+      "bytes": 1514,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/fade-out/README.md",
+      "bytes": 2572,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/fade-out/fade-out.meta.json",
+      "bytes": 536,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/fade-out/schema.ts",
+      "bytes": 1908,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/gradient-shift/GradientShift.tsx",
+      "bytes": 1280,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/components/gradient-shift/README.md",
+      "bytes": 3368,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/components/gradient-shift/gradient-shift.meta.json",
+      "bytes": 652,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/components/gradient-shift/schema.ts",
+      "bytes": 1048,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/components/grain-overlay/GrainOverlay.tsx",
+      "bytes": 1359,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/grain-overlay/README.md",
+      "bytes": 3132,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/grain-overlay/grain-overlay.meta.json",
+      "bytes": 660,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/grain-overlay/schema.ts",
+      "bytes": 976,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/highlight/Highlight.tsx",
+      "bytes": 2510,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/highlight/README.md",
+      "bytes": 4537,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/highlight/highlight.meta.json",
+      "bytes": 575,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/highlight/schema.ts",
+      "bytes": 2548,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/icon-pop/IconPop.tsx",
+      "bytes": 2183,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/icon-pop/README.md",
+      "bytes": 2727,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/icon-pop/icon-pop.meta.json",
+      "bytes": 586,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/icon-pop/schema.ts",
+      "bytes": 1708,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/image-reveal/ImageReveal.tsx",
+      "bytes": 3347,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/components/image-reveal/README.md",
+      "bytes": 5168,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/components/image-reveal/image-reveal.meta.json",
+      "bytes": 649,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/components/image-reveal/schema.ts",
+      "bytes": 2166,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/components/input-field/InputField.tsx",
+      "bytes": 4311,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/input-field/README.md",
+      "bytes": 1725,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/input-field/input-field.meta.json",
+      "bytes": 626,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/input-field/schema.ts",
+      "bytes": 2225,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/kanban-board/KanbanBoard.tsx",
+      "bytes": 6410,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/kanban-board/README.md",
+      "bytes": 1994,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/kanban-board/kanban-board.meta.json",
+      "bytes": 651,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/kanban-board/schema.ts",
+      "bytes": 2856,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/ken-burns/KenBurns.tsx",
+      "bytes": 2167,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/ken-burns/README.md",
+      "bytes": 3682,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/ken-burns/ken-burns.meta.json",
+      "bytes": 642,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/ken-burns/schema.ts",
+      "bytes": 1844,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/line-chart/LineChart.tsx",
+      "bytes": 2897,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/components/line-chart/README.md",
+      "bytes": 1187,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/components/line-chart/line-chart.meta.json",
+      "bytes": 588,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/components/line-chart/schema.ts",
+      "bytes": 1316,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/components/logo-sting/LogoSting.tsx",
+      "bytes": 3738,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/logo-sting/README.md",
+      "bytes": 4100,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/logo-sting/logo-sting.meta.json",
+      "bytes": 714,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/logo-sting/schema.ts",
+      "bytes": 2167,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/lower-third/LowerThird.tsx",
+      "bytes": 4361,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/lower-third/README.md",
+      "bytes": 3994,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/lower-third/lower-third.meta.json",
+      "bytes": 689,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/lower-third/schema.ts",
+      "bytes": 2648,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/marquee/Marquee.tsx",
+      "bytes": 3064,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/marquee/README.md",
+      "bytes": 3472,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/marquee/marquee.meta.json",
+      "bytes": 556,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/marquee/schema.ts",
+      "bytes": 1585,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/mask-reveal/MaskReveal.tsx",
+      "bytes": 2606,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/components/mask-reveal/README.md",
+      "bytes": 3418,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/components/mask-reveal/mask-reveal.meta.json",
+      "bytes": 595,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/components/mask-reveal/schema.ts",
+      "bytes": 2494,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/components/matrix-decode/MatrixDecode.tsx",
+      "bytes": 2099,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/matrix-decode/README.md",
+      "bytes": 1499,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/matrix-decode/matrix-decode.meta.json",
+      "bytes": 601,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/matrix-decode/schema.ts",
+      "bytes": 2117,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/mesh-gradient/MeshGradient.tsx",
+      "bytes": 1426,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/components/mesh-gradient/README.md",
+      "bytes": 1022,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/components/mesh-gradient/mesh-gradient.meta.json",
+      "bytes": 609,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/components/mesh-gradient/schema.ts",
+      "bytes": 1034,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/components/node-graph/NodeGraph.tsx",
+      "bytes": 7325,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/components/node-graph/README.md",
+      "bytes": 2488,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/components/node-graph/node-graph.meta.json",
+      "bytes": 693,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/components/node-graph/schema.ts",
+      "bytes": 3475,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/components/parallax/Parallax.tsx",
+      "bytes": 2151,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "registry/components/parallax/README.md",
+      "bytes": 3035,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "registry/components/parallax/parallax.meta.json",
+      "bytes": 567,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "registry/components/parallax/schema.ts",
+      "bytes": 1582,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "registry/components/pie-reveal/PieReveal.tsx",
+      "bytes": 3419,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/components/pie-reveal/README.md",
+      "bytes": 2996,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/components/pie-reveal/pie-reveal.meta.json",
+      "bytes": 610,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/components/pie-reveal/schema.ts",
+      "bytes": 2064,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/components/pricing-card/PricingCard.tsx",
+      "bytes": 6105,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/pricing-card/README.md",
+      "bytes": 1965,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/pricing-card/pricing-card.meta.json",
+      "bytes": 676,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/pricing-card/schema.ts",
+      "bytes": 2235,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/progress-bar/ProgressBar.tsx",
+      "bytes": 3231,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/progress-bar/README.md",
+      "bytes": 2814,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/progress-bar/progress-bar.meta.json",
+      "bytes": 580,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/progress-bar/schema.ts",
+      "bytes": 2037,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/progress-steps/ProgressSteps.tsx",
+      "bytes": 2618,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/progress-steps/README.md",
+      "bytes": 1351,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/progress-steps/progress-steps.meta.json",
+      "bytes": 624,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/progress-steps/schema.ts",
+      "bytes": 1638,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/pulsing-indicator/PulsingIndicator.tsx",
+      "bytes": 1759,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/pulsing-indicator/README.md",
+      "bytes": 990,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/pulsing-indicator/pulsing-indicator.meta.json",
+      "bytes": 619,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/pulsing-indicator/schema.ts",
+      "bytes": 1203,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/quote-card/QuoteCard.tsx",
+      "bytes": 6687,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/quote-card/README.md",
+      "bytes": 4998,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/quote-card/quote-card.meta.json",
+      "bytes": 814,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/quote-card/schema.ts",
+      "bytes": 2957,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/rgb-glitch-text/README.md",
+      "bytes": 1592,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/components/rgb-glitch-text/RgbGlitchText.tsx",
+      "bytes": 2221,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/components/rgb-glitch-text/rgb-glitch-text.meta.json",
+      "bytes": 672,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/components/rgb-glitch-text/schema.ts",
+      "bytes": 2005,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/components/rotate-in/README.md",
+      "bytes": 3183,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/rotate-in/RotateIn.tsx",
+      "bytes": 1886,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/rotate-in/rotate-in.meta.json",
+      "bytes": 566,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/rotate-in/schema.ts",
+      "bytes": 2418,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/scale-in/README.md",
+      "bytes": 2821,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/scale-in/ScaleIn.tsx",
+      "bytes": 1292,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/scale-in/scale-in.meta.json",
+      "bytes": 475,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/scale-in/schema.ts",
+      "bytes": 2435,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/shimmer-sweep/README.md",
+      "bytes": 1437,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/shimmer-sweep/ShimmerSweep.tsx",
+      "bytes": 2097,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/shimmer-sweep/schema.ts",
+      "bytes": 2030,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/shimmer-sweep/shimmer-sweep.meta.json",
+      "bytes": 564,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/skeleton-card/README.md",
+      "bytes": 1620,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/skeleton-card/SkeletonCard.tsx",
+      "bytes": 3712,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/skeleton-card/schema.ts",
+      "bytes": 1936,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/skeleton-card/skeleton-card.meta.json",
+      "bytes": 711,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/slide-in/README.md",
+      "bytes": 2854,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/slide-in/SlideIn.tsx",
+      "bytes": 1343,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/slide-in/schema.ts",
+      "bytes": 2579,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/slide-in/slide-in.meta.json",
+      "bytes": 540,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/slide-out/README.md",
+      "bytes": 2962,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/slide-out/SlideOut.tsx",
+      "bytes": 2007,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/slide-out/schema.ts",
+      "bytes": 2086,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/slide-out/slide-out.meta.json",
+      "bytes": 556,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/slot-machine-roll/README.md",
+      "bytes": 1422,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/slot-machine-roll/SlotMachineRoll.tsx",
+      "bytes": 2653,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/slot-machine-roll/schema.ts",
+      "bytes": 1969,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/slot-machine-roll/slot-machine-roll.meta.json",
+      "bytes": 562,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/split-screen/README.md",
+      "bytes": 2242,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/split-screen/SplitScreen.tsx",
+      "bytes": 3860,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/split-screen/schema.ts",
+      "bytes": 1778,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/split-screen/split-screen.meta.json",
+      "bytes": 626,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/spotlight/README.md",
+      "bytes": 2957,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/spotlight/Spotlight.tsx",
+      "bytes": 2074,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/spotlight/schema.ts",
+      "bytes": 1420,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/spotlight/spotlight.meta.json",
+      "bytes": 598,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/spotlight-card/README.md",
+      "bytes": 1221,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/spotlight-card/SpotlightCard.tsx",
+      "bytes": 2215,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/spotlight-card/schema.ts",
+      "bytes": 1412,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/spotlight-card/spotlight-card.meta.json",
+      "bytes": 596,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/stagger-group/README.md",
+      "bytes": 3798,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/stagger-group/StaggerGroup.tsx",
+      "bytes": 2477,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/stagger-group/schema.ts",
+      "bytes": 2216,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/stagger-group/stagger-group.meta.json",
+      "bytes": 678,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/stat-card/README.md",
+      "bytes": 4817,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/stat-card/StatCard.tsx",
+      "bytes": 4510,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/stat-card/schema.ts",
+      "bytes": 2888,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/stat-card/stat-card.meta.json",
+      "bytes": 788,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/terminal/README.md",
+      "bytes": 1461,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/terminal/Terminal.tsx",
+      "bytes": 2747,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/terminal/schema.ts",
+      "bytes": 2102,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/terminal/terminal.meta.json",
+      "bytes": 588,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/text-fade-replace/README.md",
+      "bytes": 1284,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/components/text-fade-replace/TextFadeReplace.tsx",
+      "bytes": 2515,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/components/text-fade-replace/schema.ts",
+      "bytes": 1838,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/components/text-fade-replace/text-fade-replace.meta.json",
+      "bytes": 591,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/components/timeline/README.md",
+      "bytes": 3514,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/timeline/Timeline.tsx",
+      "bytes": 5978,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/timeline/schema.ts",
+      "bytes": 2426,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/timeline/timeline.meta.json",
+      "bytes": 679,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/title-card/README.md",
+      "bytes": 3453,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/components/title-card/TitleCard.tsx",
+      "bytes": 3754,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/components/title-card/schema.ts",
+      "bytes": 2774,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/components/title-card/title-card.meta.json",
+      "bytes": 724,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/components/tracking-in/README.md",
+      "bytes": 1198,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/tracking-in/TrackingIn.tsx",
+      "bytes": 1916,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/tracking-in/schema.ts",
+      "bytes": 1832,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/tracking-in/tracking-in.meta.json",
+      "bytes": 580,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/typewriter/README.md",
+      "bytes": 4074,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/typewriter/Typewriter.tsx",
+      "bytes": 2422,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/typewriter/schema.ts",
+      "bytes": 2944,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/typewriter/typewriter.meta.json",
+      "bytes": 601,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/underline/README.md",
+      "bytes": 4320,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/underline/Underline.tsx",
+      "bytes": 2419,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/underline/schema.ts",
+      "bytes": 2626,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/underline/underline.meta.json",
+      "bytes": 569,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/video-clip/README.md",
+      "bytes": 5845,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "registry/components/video-clip/VideoClip.tsx",
+      "bytes": 3674,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "registry/components/video-clip/schema.ts",
+      "bytes": 2627,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "registry/components/video-clip/video-clip.meta.json",
+      "bytes": 703,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "registry/components/vignette/README.md",
+      "bytes": 3083,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/vignette/Vignette.tsx",
+      "bytes": 1038,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/vignette/schema.ts",
+      "bytes": 875,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/vignette/vignette.meta.json",
+      "bytes": 645,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/word-rotate/README.md",
+      "bytes": 3160,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/word-rotate/WordRotate.tsx",
+      "bytes": 3071,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/word-rotate/schema.ts",
+      "bytes": 2346,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/word-rotate/word-rotate.meta.json",
+      "bytes": 524,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/word-stagger/README.md",
+      "bytes": 3707,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/word-stagger/WordStagger.tsx",
+      "bytes": 2582,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/word-stagger/schema.ts",
+      "bytes": 3146,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/components/word-stagger/word-stagger.meta.json",
+      "bytes": 521,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/audio-clip.json",
+      "bytes": 14408,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "registry/r/audio-visualizer.json",
+      "bytes": 34816,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "registry/r/bar-chart.json",
+      "bytes": 12266,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/r/bento-grid.json",
+      "bytes": 12172,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/blur-reveal.json",
+      "bytes": 9432,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/r/blur.json",
+      "bytes": 5494,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/r/bounding-box.json",
+      "bytes": 13879,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/browser-frame.json",
+      "bytes": 7250,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/r/button.json",
+      "bytes": 9040,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/callout.json",
+      "bytes": 12551,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/camera-shake.json",
+      "bytes": 9018,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "registry/r/captions.json",
+      "bytes": 11478,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/chapter-card.json",
+      "bytes": 14288,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/chromatic-aberration.json",
+      "bytes": 6408,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/clock-wipe.json",
+      "bytes": 5789,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/r/code-block.json",
+      "bytes": 11062,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/code-diff.json",
+      "bytes": 8686,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/confetti.json",
+      "bytes": 9290,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/count-up.json",
+      "bytes": 10920,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/cross-fade.json",
+      "bytes": 8556,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/cursor.json",
+      "bytes": 7431,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/r/depth-push.json",
+      "bytes": 7086,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "registry/r/device-frame.json",
+      "bytes": 7036,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/r/device-pullback.json",
+      "bytes": 11164,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/r/dip-to-color.json",
+      "bytes": 7339,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/draw-on.json",
+      "bytes": 9643,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/dynamic-grid.json",
+      "bytes": 5557,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/end-card.json",
+      "bytes": 13920,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/expand-morph.json",
+      "bytes": 9748,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/fade-in.json",
+      "bytes": 7878,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/fade-out.json",
+      "bytes": 7981,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/flip.json",
+      "bytes": 5560,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/glass-wipe.json",
+      "bytes": 6517,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/r/gradient-shift.json",
+      "bytes": 7849,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/r/grain-overlay.json",
+      "bytes": 7639,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/grid-pixelate.json",
+      "bytes": 6665,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/highlight.json",
+      "bytes": 11740,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/icon-pop.json",
+      "bytes": 8674,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/image-reveal.json",
+      "bytes": 13032,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/r/input-field.json",
+      "bytes": 10514,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/iris.json",
+      "bytes": 5441,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/kanban-board.json",
+      "bytes": 13616,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/ken-burns.json",
+      "bytes": 9828,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lib-adaptive-player.json",
+      "bytes": 9190,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lib-canvas-presets.json",
+      "bytes": 2090,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lib-canvas.json",
+      "bytes": 8213,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lib-choreography.json",
+      "bytes": 14117,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/r/lib-composition-json-schema.json",
+      "bytes": 1205,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "registry/r/lib-composition-renderer.json",
+      "bytes": 7993,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "registry/r/lib-composition.json",
+      "bytes": 2055,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "registry/r/lib-easing.json",
+      "bytes": 1585,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lib-elevation.json",
+      "bytes": 2516,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lib-hooks.json",
+      "bytes": 9114,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lib-motion.json",
+      "bytes": 4751,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lib-primitives.json",
+      "bytes": 9775,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lib-random.json",
+      "bytes": 1387,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lib-registry-summary.json",
+      "bytes": 10348,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lib-timing.json",
+      "bytes": 4314,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lib-tokens.json",
+      "bytes": 4803,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "registry/r/line-chart.json",
+      "bytes": 7472,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/r/logo-sting.json",
+      "bytes": 12441,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/lower-third.json",
+      "bytes": 13376,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/marquee.json",
+      "bytes": 10087,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/mask-reveal.json",
+      "bytes": 10681,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/r/matrix-decode.json",
+      "bytes": 7835,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/mesh-gradient.json",
+      "bytes": 5534,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/r/morph.json",
+      "bytes": 6052,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/node-graph.json",
+      "bytes": 15749,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "registry/r/parallax.json",
+      "bytes": 8729,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "registry/r/pie-reveal.json",
+      "bytes": 10632,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/r/pricing-card.json",
+      "bytes": 12751,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/progress-bar.json",
+      "bytes": 10197,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/progress-steps.json",
+      "bytes": 7759,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/pulsing-indicator.json",
+      "bytes": 6090,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/push.json",
+      "bytes": 6512,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/quote-card.json",
+      "bytes": 17355,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/rgb-glitch-text.json",
+      "bytes": 8095,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/r/rotate-in.json",
+      "bytes": 9549,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/scale-in.json",
+      "bytes": 8422,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/shimmer-sweep.json",
+      "bytes": 7625,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/skeleton-card.json",
+      "bytes": 9646,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/slide-in.json",
+      "bytes": 8788,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/slide-out.json",
+      "bytes": 9108,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/slide.json",
+      "bytes": 6355,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/slot-machine-roll.json",
+      "bytes": 8184,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/split-screen.json",
+      "bytes": 10109,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/spotlight-card.json",
+      "bytes": 6972,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/spotlight.json",
+      "bytes": 8484,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/stagger-group.json",
+      "bytes": 10855,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/stat-card.json",
+      "bytes": 14796,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/terminal.json",
+      "bytes": 8359,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/text-fade-replace.json",
+      "bytes": 7764,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/r/timeline.json",
+      "bytes": 14294,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/title-card.json",
+      "bytes": 12410,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "registry/r/tracking-in.json",
+      "bytes": 6984,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/type-mask.json",
+      "bytes": 9737,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/r/typewriter.json",
+      "bytes": 11605,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/underline.json",
+      "bytes": 11489,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/video-clip.json",
+      "bytes": 14626,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "registry/r/vignette.json",
+      "bytes": 7052,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/wipe.json",
+      "bytes": 5340,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/r/word-rotate.json",
+      "bytes": 10656,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/word-stagger.json",
+      "bytes": 11469,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/r/zoom.json",
+      "bytes": 7490,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/registry.json",
+      "bytes": 38920,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "registry/transitions/blur/README.md",
+      "bytes": 1290,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/transitions/blur/blur.meta.json",
+      "bytes": 549,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/transitions/blur/blur.tsx",
+      "bytes": 1636,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/transitions/blur/schema.ts",
+      "bytes": 695,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "registry/transitions/chromatic-aberration/README.md",
+      "bytes": 1300,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/chromatic-aberration/chromatic-aberration.meta.json",
+      "bytes": 670,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/chromatic-aberration/chromaticAberration.tsx",
+      "bytes": 2032,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/chromatic-aberration/schema.ts",
+      "bytes": 788,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/clock-wipe/README.md",
+      "bytes": 1813,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/clock-wipe/clock-wipe.meta.json",
+      "bytes": 629,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/clock-wipe/clockWipe.tsx",
+      "bytes": 1178,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/clock-wipe/schema.ts",
+      "bytes": 715,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/cross-fade/README.md",
+      "bytes": 3746,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/cross-fade/cross-fade.meta.json",
+      "bytes": 637,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/cross-fade/crossFade.tsx",
+      "bytes": 1406,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/cross-fade/schema.ts",
+      "bytes": 1226,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/depth-push/README.md",
+      "bytes": 1767,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/depth-push/depth-push.meta.json",
+      "bytes": 650,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/depth-push/depthPush.tsx",
+      "bytes": 2319,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/depth-push/schema.ts",
+      "bytes": 840,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/device-pullback/README.md",
+      "bytes": 1480,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/transitions/device-pullback/device-pullback.meta.json",
+      "bytes": 741,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/transitions/device-pullback/devicePullback.tsx",
+      "bytes": 6286,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/transitions/device-pullback/schema.ts",
+      "bytes": 881,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "registry/transitions/dip-to-color/README.md",
+      "bytes": 1843,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/dip-to-color/dip-to-color.meta.json",
+      "bytes": 664,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/dip-to-color/dipToColor.tsx",
+      "bytes": 2547,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/dip-to-color/schema.ts",
+      "bytes": 729,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/expand-morph/README.md",
+      "bytes": 2044,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/expand-morph/expand-morph.meta.json",
+      "bytes": 777,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/expand-morph/expandMorph.tsx",
+      "bytes": 4019,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/expand-morph/schema.ts",
+      "bytes": 1205,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/flip/README.md",
+      "bytes": 1584,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/flip/flip.meta.json",
+      "bytes": 603,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/flip/flip.tsx",
+      "bytes": 1110,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/flip/schema.ts",
+      "bytes": 879,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/glass-wipe/README.md",
+      "bytes": 1199,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/glass-wipe/glass-wipe.meta.json",
+      "bytes": 640,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/glass-wipe/glassWipe.tsx",
+      "bytes": 2573,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/glass-wipe/schema.ts",
+      "bytes": 599,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/grid-pixelate/README.md",
+      "bytes": 1286,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/grid-pixelate/grid-pixelate.meta.json",
+      "bytes": 626,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/grid-pixelate/gridPixelate.tsx",
+      "bytes": 2471,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/grid-pixelate/schema.ts",
+      "bytes": 741,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/iris/README.md",
+      "bytes": 1741,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/iris/iris.meta.json",
+      "bytes": 598,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/iris/iris.tsx",
+      "bytes": 1067,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/iris/schema.ts",
+      "bytes": 677,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/morph/README.md",
+      "bytes": 1541,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/morph/morph.meta.json",
+      "bytes": 629,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/morph/morph.tsx",
+      "bytes": 1778,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/morph/schema.ts",
+      "bytes": 689,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/push/README.md",
+      "bytes": 1519,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/push/push.meta.json",
+      "bytes": 621,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/push/push.tsx",
+      "bytes": 2318,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/push/schema.ts",
+      "bytes": 646,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/slide/README.md",
+      "bytes": 2152,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/slide/schema.ts",
+      "bytes": 838,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/slide/slide.meta.json",
+      "bytes": 662,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/slide/slide.tsx",
+      "bytes": 1246,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/type-mask/README.md",
+      "bytes": 1687,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/type-mask/schema.ts",
+      "bytes": 1096,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/type-mask/type-mask.meta.json",
+      "bytes": 618,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/type-mask/typeMask.tsx",
+      "bytes": 4788,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/wipe/README.md",
+      "bytes": 1441,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/wipe/schema.ts",
+      "bytes": 564,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/wipe/wipe.meta.json",
+      "bytes": 644,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/wipe/wipe.tsx",
+      "bytes": 1293,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/zoom/README.md",
+      "bytes": 1903,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/zoom/schema.ts",
+      "bytes": 1038,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/zoom/zoom.meta.json",
+      "bytes": 615,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "registry/transitions/zoom/zoom.tsx",
+      "bytes": 2503,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "release-please-config.json",
+      "bytes": 1249,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "remotion.config.ts",
+      "bytes": 860,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "scripts/add-kind-discriminator.mjs",
+      "bytes": 5282,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "scripts/generate-llms.mjs",
+      "bytes": 4064,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "scripts/inject-kind-jsx.mjs",
+      "bytes": 4705,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "scripts/refactor-schemas-ast.mjs",
+      "bytes": 15117,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "scripts/sync-manifest-module.mjs",
+      "bytes": 8874,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "scripts/sync-manifests.mjs",
+      "bytes": 4626,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "scripts/sync-registry.mjs",
+      "bytes": 5510,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "scripts/themeify-tokens.mjs",
+      "bytes": 2856,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/Preview.tsx",
+      "bytes": 614,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/Root.tsx",
+      "bytes": 1515,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 93,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/showcases.ts",
+      "bytes": 8320,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 799,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "vercel.json",
+      "bytes": 221,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/.gitignore",
+      "bytes": 40,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/next.config.ts",
+      "bytes": 307,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/package.json",
+      "bytes": 1097,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/postcss.config.mjs",
+      "bytes": 70,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/public/BingSiteAuth.xml",
+      "bytes": 85,
+      "ext": ".xml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/public/ambient.mp3",
+      "bytes": 353000,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "www/public/company_snapshots_rows.json",
+      "bytes": 2238542,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "www/public/dance.mp3",
+      "bytes": 176840,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "www/public/llms-full.txt",
+      "bytes": 29748,
+      "ext": ".txt",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/public/llms.txt",
+      "bytes": 23577,
+      "ext": ".txt",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/public/music.mp3",
+      "bytes": 513069,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "www/public/synthwave.mp3",
+      "bytes": 176840,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "www/public/voice.mp3",
+      "bytes": 193141,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "www/scripts/sync-registry-to-public.mjs",
+      "bytes": 2631,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/apple-icon.tsx",
+      "bytes": 2446,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/brand/BrandPlayer.tsx",
+      "bytes": 3360,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/brand/page.tsx",
+      "bytes": 24244,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/compare/page.tsx",
+      "bytes": 24058,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/components/[slug]/opengraph-image.tsx",
+      "bytes": 5519,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "www/src/app/components/[slug]/page.tsx",
+      "bytes": 6453,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/components/page.tsx",
+      "bytes": 4701,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/docs/[slug]/page.tsx",
+      "bytes": 8031,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/docs/layout.tsx",
+      "bytes": 1273,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/docs/page.tsx",
+      "bytes": 11918,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/globals.css",
+      "bytes": 23091,
+      "ext": ".css",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/icon.svg",
+      "bytes": 1306,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/lab/wave-pen/WavePenLab.tsx",
+      "bytes": 708,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/lab/wave-pen/page.tsx",
+      "bytes": 1613,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/layout.tsx",
+      "bytes": 4423,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/manifest.ts",
+      "bytes": 1131,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/opengraph-image.tsx",
+      "bytes": 5154,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "www/src/app/page.tsx",
+      "bytes": 4378,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/robots.ts",
+      "bytes": 499,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/showcase/[slug]/page.tsx",
+      "bytes": 6896,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/showcase/page.tsx",
+      "bytes": 2425,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/sitemap.ts",
+      "bytes": 1359,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/app/twitter-image.tsx",
+      "bytes": 838,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/AudioBadge.tsx",
+      "bytes": 1209,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "www/src/components/CatalogPreview.tsx",
+      "bytes": 3887,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/CodeBlock.tsx",
+      "bytes": 4564,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/ComponentPreview.tsx",
+      "bytes": 16076,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/ComponentsCatalog.tsx",
+      "bytes": 21359,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/CopyButton.tsx",
+      "bytes": 628,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/DocsMobileNav.tsx",
+      "bytes": 2061,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/DocsPager.tsx",
+      "bytes": 2260,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/DocsSidebar.tsx",
+      "bytes": 1827,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/DocsToc.tsx",
+      "bytes": 2848,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/Footer.tsx",
+      "bytes": 1214,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/Hero.tsx",
+      "bytes": 1004,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/HeroComposition.tsx",
+      "bytes": 12655,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/components/HeroPlayer.tsx",
+      "bytes": 609,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/LivePreview.tsx",
+      "bytes": 1861,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/LivePreviewSection.tsx",
+      "bytes": 485,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/Nav.tsx",
+      "bytes": 5243,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/PropsControls.tsx",
+      "bytes": 34130,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/SearchPalette.tsx",
+      "bytes": 8931,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "www/src/components/ShowcaseFilter.tsx",
+      "bytes": 4366,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/ShowcasePreview.tsx",
+      "bytes": 2667,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/ThumbnailPreview.tsx",
+      "bytes": 2541,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/TryItPopover.tsx",
+      "bytes": 4419,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/componentRegistry.tsx",
+      "bytes": 15795,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/hero/MovingPenScene.tsx",
+      "bytes": 6013,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "www/src/components/hero/PersistentWave.tsx",
+      "bytes": 5608,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/hero/WaveDivider.tsx",
+      "bytes": 2122,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/hero/WavePen.tsx",
+      "bytes": 3506,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/hero/WavePenTest.tsx",
+      "bytes": 1670,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "www/src/components/logo/BrandLogo.tsx",
+      "bytes": 1756,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/logo/BrandMark.tsx",
+      "bytes": 4036,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/components/logo/WavePath.ts",
+      "bytes": 1221,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/lib/docs-nav.ts",
+      "bytes": 2339,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/lib/docs.ts",
+      "bytes": 3269,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/lib/onda-shiki-theme.ts",
+      "bytes": 3672,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "www/src/lib/registry.ts",
+      "bytes": 1800,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/lib/seo.ts",
+      "bytes": 1865,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/lib/showcase.ts",
+      "bytes": 10700,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/lib/use-is-mobile.ts",
+      "bytes": 1303,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/annotated-click/composition.tsx",
+      "bytes": 4044,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/annotated-click/meta.ts",
+      "bytes": 566,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/bento-drift/composition.tsx",
+      "bytes": 4727,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/bento-drift/meta.ts",
+      "bytes": 738,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/board-flow/composition.tsx",
+      "bytes": 4890,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/board-flow/meta.ts",
+      "bytes": 692,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/browser-walkthrough/composition.tsx",
+      "bytes": 4504,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/browser-walkthrough/meta.ts",
+      "bytes": 612,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/changelog/composition.tsx",
+      "bytes": 3080,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/changelog/meta.ts",
+      "bytes": 560,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/changelog-loop/composition.tsx",
+      "bytes": 3009,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/changelog-loop/meta.ts",
+      "bytes": 562,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/code-to-preview/composition.tsx",
+      "bytes": 4034,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/code-to-preview/meta.ts",
+      "bytes": 604,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/course-complete/composition.tsx",
+      "bytes": 4912,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/course-complete/meta.ts",
+      "bytes": 538,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/dashboard-fill/composition.tsx",
+      "bytes": 6002,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/dashboard-fill/meta.ts",
+      "bytes": 696,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/data-dashboard/composition.tsx",
+      "bytes": 6223,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "www/src/showcase/data-dashboard/meta.ts",
+      "bytes": 558,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "www/src/showcase/deploy-reveal/composition.tsx",
+      "bytes": 2377,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "transitions"
+      ]
+    },
+    {
+      "path": "www/src/showcase/deploy-reveal/meta.ts",
+      "bytes": 546,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "www/src/showcase/dev-demo/composition.tsx",
+      "bytes": 3642,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "www/src/showcase/dev-demo/meta.ts",
+      "bytes": 617,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "www/src/showcase/device-assemble/composition.tsx",
+      "bytes": 3024,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/device-assemble/meta.ts",
+      "bytes": 585,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/explainer-30s/composition.tsx",
+      "bytes": 11661,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/explainer-30s/meta.ts",
+      "bytes": 1038,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/integration-orbit/composition.tsx",
+      "bytes": 2125,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "www/src/showcase/integration-orbit/meta.ts",
+      "bytes": 665,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "www/src/showcase/kinetic-type/composition.tsx",
+      "bytes": 5110,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "typography"
+      ]
+    },
+    {
+      "path": "www/src/showcase/kinetic-type/meta.ts",
+      "bytes": 688,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "www/src/showcase/kpi-snapshot/composition.tsx",
+      "bytes": 4048,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "www/src/showcase/kpi-snapshot/meta.ts",
+      "bytes": 541,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "www/src/showcase/launch-countdown/composition.tsx",
+      "bytes": 4238,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/launch-countdown/meta.ts",
+      "bytes": 554,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/launch-trailer/composition.tsx",
+      "bytes": 5521,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/launch-trailer/meta.ts",
+      "bytes": 768,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/live-metrics/composition.tsx",
+      "bytes": 3926,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/live-metrics/meta.ts",
+      "bytes": 581,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/live-stream-overlay/composition.tsx",
+      "bytes": 3427,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/live-stream-overlay/meta.ts",
+      "bytes": 619,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/meditation-breath/composition.tsx",
+      "bytes": 4110,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/meditation-breath/meta.ts",
+      "bytes": 620,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/music-release/composition.tsx",
+      "bytes": 2970,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "www/src/showcase/music-release/meta.ts",
+      "bytes": 568,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "www/src/showcase/podcast-intro/composition.tsx",
+      "bytes": 3584,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/podcast-intro/meta.ts",
+      "bytes": 555,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/pricing-focus/composition.tsx",
+      "bytes": 5081,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/pricing-focus/meta.ts",
+      "bytes": 648,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/product-launch/composition.tsx",
+      "bytes": 5581,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/product-launch/meta.ts",
+      "bytes": 564,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/prompt-to-dashboard/composition.tsx",
+      "bytes": 6106,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/prompt-to-dashboard/meta.ts",
+      "bytes": 685,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/save-the-date/composition.tsx",
+      "bytes": 4335,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/save-the-date/meta.ts",
+      "bytes": 514,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/social-ad-vertical/composition.tsx",
+      "bytes": 4656,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/social-ad-vertical/meta.ts",
+      "bytes": 593,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/synthwave-promo/composition.tsx",
+      "bytes": 3307,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/synthwave-promo/meta.ts",
+      "bytes": 594,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/src/showcase/tutorial-intro/composition.tsx",
+      "bytes": 5611,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "www/src/showcase/tutorial-intro/meta.ts",
+      "bytes": 554,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "www/tsconfig.json",
+      "bytes": 937,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    }
+  ]
+}

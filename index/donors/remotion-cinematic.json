@@ -1,0 +1,1490 @@
+{
+  "version": 1,
+  "donor": "remotion-cinematic",
+  "summary": {
+    "fileCount": 169,
+    "totalBytes": 12612170,
+    "textFiles": 160,
+    "binaryFiles": 9,
+    "topExtensions": {
+      ".ts": 79,
+      ".tsx": 57,
+      ".md": 16,
+      ".mp3": 8,
+      ".json": 4,
+      "[none]": 3,
+      ".yml": 1,
+      ".gif": 1
+    },
+    "categoryCounts": {
+      "ui-motion": 49,
+      "tests": 35,
+      "audio-sound": 15,
+      "shots-scenes-storyboard": 14,
+      "camera-cinematography": 9,
+      "typography": 8,
+      "data-animation": 8,
+      "examples-templates": 5,
+      "transitions": 4,
+      "remotion": 3,
+      "design-system": 3,
+      "rendering": 1
+    }
+  },
+  "files": [
+    {
+      "path": ".claude/CLAUDE.md",
+      "bytes": 49178,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".claude/settings.json",
+      "bytes": 360,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "bytes": 526,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "bytes": 387,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 294,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 339,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 66,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 1145,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1439,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1088,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 8792,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 21900,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 529,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/CUSTOMIZATION.md",
+      "bytes": 8006,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/ENGINE.md",
+      "bytes": 15120,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/GETTING-STARTED.md",
+      "bytes": 3368,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "docs/SCENES.md",
+      "bytes": 8863,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "docs/assets/demo-preview.gif",
+      "bytes": 8116818,
+      "ext": ".gif",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 170858,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "package.json",
+      "bytes": 1012,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "public/music/README.md",
+      "bytes": 578,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "public/music/background.mp3",
+      "bytes": 3215778,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "public/screenshots/.gitkeep",
+      "bytes": 0,
+      "ext": "[none]",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "public/screenshots/README.md",
+      "bytes": 2721,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "public/sfx/README.md",
+      "bytes": 2108,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "public/sfx/transitions/boom.mp3",
+      "bytes": 66816,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "public/sfx/transitions/impact.mp3",
+      "bytes": 46080,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "public/sfx/transitions/whoosh.mp3",
+      "bytes": 18390,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "public/sfx/ui/click.mp3",
+      "bytes": 13056,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "public/sfx/ui/notification.mp3",
+      "bytes": 54528,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "public/sfx/ui/pop.mp3",
+      "bytes": 35328,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "public/sfx/ui/typing.mp3",
+      "bytes": 259134,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "remotion.config.ts",
+      "bytes": 157,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "src/CinematicDemo.tsx",
+      "bytes": 3082,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/CursorInteractionContext.tsx",
+      "bytes": 373,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/Root.tsx",
+      "bytes": 10908,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/VideoPropsContext.tsx",
+      "bytes": 1564,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/__tests__/appDescriptor.test.ts",
+      "bytes": 9636,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/__tests__/e2e.test.ts",
+      "bytes": 5966,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/__tests__/editorAttributes.test.ts",
+      "bytes": 5055,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/__tests__/editorDrag.test.ts",
+      "bytes": 10161,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/__tests__/editorPanels.test.ts",
+      "bytes": 5853,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/__tests__/getSceneAtFrame.test.ts",
+      "bytes": 2280,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/__tests__/rootWiring.test.ts",
+      "bytes": 2103,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/__tests__/schema.test.ts",
+      "bytes": 7941,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/__tests__/windowLayoutElements.test.ts",
+      "bytes": 7297,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/cli/cli.test.ts",
+      "bytes": 3976,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/cli/figma-client.test.ts",
+      "bytes": 3660,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/cli/figma-client.ts",
+      "bytes": 3241,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/cli/figma-to-descriptor.test.ts",
+      "bytes": 12228,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/cli/figma-to-descriptor.ts",
+      "bytes": 12674,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/cli/index.ts",
+      "bytes": 4913,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/cli/inject.test.ts",
+      "bytes": 3055,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/cli/inject.ts",
+      "bytes": 2108,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/cli/screenshot-to-descriptor.test.ts",
+      "bytes": 5064,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/cli/screenshot-to-descriptor.ts",
+      "bytes": 4560,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/content.ts",
+      "bytes": 4598,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/defaultProps.ts",
+      "bytes": 10358,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/editor/CursorPathEditor.test.ts",
+      "bytes": 2108,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/editor/CursorPathEditor.tsx",
+      "bytes": 12448,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/editor/CursorPathOverlay.test.ts",
+      "bytes": 3936,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/editor/CursorPathOverlay.tsx",
+      "bytes": 22152,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/editor/EditorOverlay.tsx",
+      "bytes": 12928,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/editor/ElementPalette.test.ts",
+      "bytes": 1269,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/editor/ElementPalette.tsx",
+      "bytes": 9431,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/editor/InlineEdit.tsx",
+      "bytes": 3745,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/editor/PropertyPanel.tsx",
+      "bytes": 19276,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/editor/SelectionBox.tsx",
+      "bytes": 4329,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/editor/SnapGuides.tsx",
+      "bytes": 3070,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/editor/TextToolbar.tsx",
+      "bytes": 5188,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/editor/index.ts",
+      "bytes": 555,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/editor/pendingCursorEdits.ts",
+      "bytes": 872,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/editor/persistence.test.ts",
+      "bytes": 2642,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/editor/propServer.ts",
+      "bytes": 3073,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/editor/updateProps.ts",
+      "bytes": 2250,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/editor/useEditorState.ts",
+      "bytes": 1791,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/engine/audio/AudioManager.tsx",
+      "bytes": 1677,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "src/engine/audio/__tests__/resolveCues.test.ts",
+      "bytes": 4589,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/audio/index.ts",
+      "bytes": 207,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "src/engine/audio/resolveCues.ts",
+      "bytes": 1783,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "src/engine/audio/types.ts",
+      "bytes": 462,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "src/engine/camera/AutoZoom.tsx",
+      "bytes": 2489,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/engine/camera/CameraRig.tsx",
+      "bytes": 1124,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/engine/camera/__tests__/interpolate.test.ts",
+      "bytes": 1986,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "camera-cinematography",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/camera/__tests__/resolveTimeline.test.ts",
+      "bytes": 2796,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/camera/index.ts",
+      "bytes": 359,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/engine/camera/interpolate.ts",
+      "bytes": 1380,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/engine/camera/resolveTimeline.ts",
+      "bytes": 1024,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/engine/camera/types.ts",
+      "bytes": 443,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/engine/choreography/__tests__/filterCursorPath.test.ts",
+      "bytes": 3996,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/choreography/__tests__/mapCursorPath.test.ts",
+      "bytes": 6417,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/choreography/__tests__/resolveWindowPose.test.ts",
+      "bytes": 7593,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/choreography/filterCursorPath.ts",
+      "bytes": 555,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/engine/choreography/index.ts",
+      "bytes": 216,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/engine/choreography/mapCursorPath.ts",
+      "bytes": 2768,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/engine/choreography/resolveWindowPose.ts",
+      "bytes": 2862,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/engine/cursor/Cursor.tsx",
+      "bytes": 9212,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/engine/cursor/CursorSprite.tsx",
+      "bytes": 4683,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/engine/cursor/__tests__/arc.test.ts",
+      "bytes": 4115,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/cursor/__tests__/cursorShape.test.ts",
+      "bytes": 936,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/cursor/__tests__/curveInterpolation.test.ts",
+      "bytes": 4164,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/cursor/__tests__/resolveAnchor.test.ts",
+      "bytes": 2263,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/cursor/arc.ts",
+      "bytes": 3167,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/engine/cursor/index.ts",
+      "bytes": 553,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/engine/cursor/resolveAnchor.ts",
+      "bytes": 1379,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/engine/cursor/types.ts",
+      "bytes": 1371,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/engine/index.ts",
+      "bytes": 1554,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/engine/layout/LayoutContext.tsx",
+      "bytes": 1304,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/engine/layout/LayoutWindow.tsx",
+      "bytes": 1514,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/engine/layout/__tests__/zones.test.ts",
+      "bytes": 9627,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/layout/index.ts",
+      "bytes": 366,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/engine/layout/types.ts",
+      "bytes": 875,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/engine/layout/useWindowRect.ts",
+      "bytes": 220,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/engine/layout/zones.ts",
+      "bytes": 4047,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/engine/types.ts",
+      "bytes": 1452,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/engine/ui-state/UIStateProvider.tsx",
+      "bytes": 730,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/engine/ui-state/__tests__/generatePressKeyframes.test.ts",
+      "bytes": 2138,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/ui-state/__tests__/resolveUIState.test.ts",
+      "bytes": 5686,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/engine/ui-state/generatePressKeyframes.ts",
+      "bytes": 651,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/engine/ui-state/index.ts",
+      "bytes": 217,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/engine/ui-state/types.ts",
+      "bytes": 840,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/fonts.ts",
+      "bytes": 318,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 109,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/primitives/CountUp.tsx",
+      "bytes": 1947,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/primitives/EndCard.tsx",
+      "bytes": 2966,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/primitives/Enter.tsx",
+      "bytes": 1758,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/primitives/Exit.tsx",
+      "bytes": 1747,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/primitives/Headline.tsx",
+      "bytes": 8197,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/primitives/Highlight.tsx",
+      "bytes": 2480,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/primitives/Pulse.tsx",
+      "bytes": 1360,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/primitives/ScenePush.tsx",
+      "bytes": 2222,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/primitives/Stagger.tsx",
+      "bytes": 1796,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/primitives/TrafficLights.tsx",
+      "bytes": 616,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/primitives/TypeWriter.tsx",
+      "bytes": 1589,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/primitives/Wallpaper.tsx",
+      "bytes": 891,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/primitives/Window.tsx",
+      "bytes": 2964,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/primitives/__tests__/Enter.test.ts",
+      "bytes": 2335,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/primitives/__tests__/Headline.test.ts",
+      "bytes": 2609,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "typography",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/primitives/__tests__/animations.test.ts",
+      "bytes": 7403,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/AppFromDescriptor.tsx",
+      "bytes": 5159,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/AppShell.tsx",
+      "bytes": 1759,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/Avatar.tsx",
+      "bytes": 788,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/Badge.tsx",
+      "bytes": 630,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/Button.tsx",
+      "bytes": 2225,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/DataTable.tsx",
+      "bytes": 3059,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/ListItems.tsx",
+      "bytes": 1516,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/MessageList.tsx",
+      "bytes": 3453,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/NotificationToast.tsx",
+      "bytes": 2012,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/Panel.tsx",
+      "bytes": 1547,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/PanelGrid.tsx",
+      "bytes": 653,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/Placeholder.tsx",
+      "bytes": 844,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/SearchBar.tsx",
+      "bytes": 1189,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/SidebarNav.tsx",
+      "bytes": 3248,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/StatCard.tsx",
+      "bytes": 1219,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/TabBar.tsx",
+      "bytes": 1929,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/TopNav.tsx",
+      "bytes": 768,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/app-ui/index.ts",
+      "bytes": 1715,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/primitives/index.ts",
+      "bytes": 1167,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/scenes/ChaosDesktop.tsx",
+      "bytes": 10356,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/Closer.tsx",
+      "bytes": 1658,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/DynamicWindows.tsx",
+      "bytes": 1902,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/FeatureShowcase.tsx",
+      "bytes": 5348,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/HeadlineResolution.tsx",
+      "bytes": 796,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/ProductReveal.tsx",
+      "bytes": 7046,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/index.ts",
+      "bytes": 243,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/schema.ts",
+      "bytes": 18172,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/tokens.ts",
+      "bytes": 1362,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 652,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "vitest.config.ts",
+      "bytes": 179,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "tests"
+      ]
+    }
+  ]
+}

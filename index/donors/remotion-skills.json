@@ -1,0 +1,2930 @@
+{
+  "version": 1,
+  "donor": "remotion-skills",
+  "summary": {
+    "fileCount": 279,
+    "totalBytes": 2277809,
+    "textFiles": 254,
+    "binaryFiles": 25,
+    "topExtensions": {
+      ".md": 162,
+      ".yaml": 25,
+      ".png": 25,
+      ".tsx": 20,
+      ".json": 18,
+      ".ts": 17,
+      ".mjs": 8,
+      ".geojson": 4
+    },
+    "categoryCounts": {
+      "skills": 274,
+      "remotion": 271,
+      "rendering": 36,
+      "examples-templates": 20,
+      "data-animation": 20,
+      "3d-webgl-shaders": 14,
+      "audio-sound": 10,
+      "typography": 8,
+      "transitions": 6,
+      "design-system": 4,
+      "effects": 2,
+      "shots-scenes-storyboard": 2
+    }
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2805,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "package.json",
+      "bytes": 627,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "scripts/prepare-embedded-skills.ts",
+      "bytes": 2835,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "scripts/sync-agent-skills.ts",
+      "bytes": 2786,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "scripts/sync-embedded-skills.ts",
+      "bytes": 2688,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "scripts/sync-readme.ts",
+      "bytes": 1975,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "scripts/validate-links.ts",
+      "bytes": 5615,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "skills/remotion-best-practices/SKILL.md",
+      "bytes": 2483,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/agents/openai.yaml",
+      "bytes": 311,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/REFERENCE.md",
+      "bytes": 954,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/agents/openai.yaml",
+      "bytes": 305,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/display-captions.md",
+      "bytes": 5493,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/import-srt-captions.md",
+      "bytes": 2269,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-captions/transcribe-captions.md",
+      "bytes": 1897,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create/REFERENCE.md",
+      "bytes": 2041,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create/agents/openai.yaml",
+      "bytes": 310,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create/tailwind.md",
+      "bytes": 386,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-create/video-layout.md",
+      "bytes": 498,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-docs/REFERENCE.md",
+      "bytes": 1355,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-docs/agents/openai.yaml",
+      "bytes": 307,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-docs/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-interactivity/REFERENCE.md",
+      "bytes": 7529,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-interactivity/agents/openai.yaml",
+      "bytes": 320,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-interactivity/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/REFERENCE.md",
+      "bytes": 1030,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/agents/openai.yaml",
+      "bytes": 293,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/TECHNIQUE.md",
+      "bytes": 3909,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets/CesiumFlythrough.tsx",
+      "bytes": 8912,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets/cesium-path.json",
+      "bytes": 12329,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets/city-path.json",
+      "bytes": 223,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets/example-Root.tsx",
+      "bytes": 923,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets/flight-path.ts",
+      "bytes": 1240,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/assets/sample-river.geojson",
+      "bytes": 6409,
+      "ext": ".geojson",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/references/3d-data-sources.md",
+      "bytes": 1451,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/references/3d-flyover-architecture.md",
+      "bytes": 7887,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/references/3d-troubleshooting.md",
+      "bytes": 6741,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/scripts/prep-cesium-path.mjs",
+      "bytes": 5561,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/mapbox/TECHNIQUE.md",
+      "bytes": 13166,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/mapbox/references/render-stability.md",
+      "bytes": 3639,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maplibre/TECHNIQUE.md",
+      "bytes": 13403,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maplibre/references/render-stability.md",
+      "bytes": 3639,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/TECHNIQUE.md",
+      "bytes": 4518,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/CountryLabel.tsx",
+      "bytes": 1849,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
+      "bytes": 2183,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/RiverReveal.tsx",
+      "bytes": 10830,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "transitions"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/example-Root.tsx",
+      "bytes": 1039,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/sample-data/country-meta.json",
+      "bytes": 333134,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/sample-data/yarlung-flow.json",
+      "bytes": 13082,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/tokens.ts",
+      "bytes": 1256,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "design-system"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/references/map-data-sources.md",
+      "bytes": 4798,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/references/map-explainer-architecture.md",
+      "bytes": 6871,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/references/map-geo-prep.md",
+      "bytes": 4098,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/references/render-stability.md",
+      "bytes": 3639,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/scripts/prep-geo.mjs",
+      "bytes": 7553,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-maps/techniques/static-map/TECHNIQUE.md",
+      "bytes": 1151,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/3d.md",
+      "bytes": 2292,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/REFERENCE.md",
+      "bytes": 11039,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/agents/openai.yaml",
+      "bytes": 310,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/audio-visualization.md",
+      "bytes": 4892,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/audio.md",
+      "bytes": 3615,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/calculate-metadata.md",
+      "bytes": 3498,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/compositions.md",
+      "bytes": 3194,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/cropping.md",
+      "bytes": 1102,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/effects.md",
+      "bytes": 8904,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "effects"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/embedding-videos.md",
+      "bytes": 3505,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/ffmpeg.md",
+      "bytes": 1099,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/gifs.md",
+      "bytes": 3783,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/google-fonts.md",
+      "bytes": 1714,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "typography"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/html-in-canvas.md",
+      "bytes": 3680,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/images.md",
+      "bytes": 1466,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/light-leaks.md",
+      "bytes": 3212,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/local-fonts.md",
+      "bytes": 1533,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "typography"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/lottie.md",
+      "bytes": 1806,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/measuring-dom-nodes.md",
+      "bytes": 995,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/measuring-text.md",
+      "bytes": 2801,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "typography"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/multi-scene-video.md",
+      "bytes": 2035,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "shots-scenes-storyboard",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/parameters.md",
+      "bytes": 2403,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/REFERENCE.md",
+      "bytes": 1030,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/agents/openai.yaml",
+      "bytes": 293,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/TECHNIQUE.md",
+      "bytes": 3909,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/CesiumFlythrough.tsx",
+      "bytes": 8912,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/cesium-path.json",
+      "bytes": 12329,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/city-path.json",
+      "bytes": 223,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/example-Root.tsx",
+      "bytes": 923,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/flight-path.ts",
+      "bytes": 1240,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/assets/sample-river.geojson",
+      "bytes": 6409,
+      "ext": ".geojson",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/references/3d-data-sources.md",
+      "bytes": 1451,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/references/3d-flyover-architecture.md",
+      "bytes": 7887,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/references/3d-troubleshooting.md",
+      "bytes": 6741,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/scripts/prep-cesium-path.mjs",
+      "bytes": 5561,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/mapbox/TECHNIQUE.md",
+      "bytes": 13166,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/mapbox/references/render-stability.md",
+      "bytes": 3639,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maplibre/TECHNIQUE.md",
+      "bytes": 13403,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maplibre/references/render-stability.md",
+      "bytes": 3639,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/TECHNIQUE.md",
+      "bytes": 4518,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/CountryLabel.tsx",
+      "bytes": 1849,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
+      "bytes": 2183,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/RiverReveal.tsx",
+      "bytes": 10830,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "transitions"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/example-Root.tsx",
+      "bytes": 1039,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/sample-data/country-meta.json",
+      "bytes": 333134,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/sample-data/yarlung-flow.json",
+      "bytes": 13082,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/tokens.ts",
+      "bytes": 1256,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "design-system"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/map-data-sources.md",
+      "bytes": 4798,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/map-explainer-architecture.md",
+      "bytes": 6871,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/map-geo-prep.md",
+      "bytes": 4098,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/render-stability.md",
+      "bytes": 3639,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/scripts/prep-geo.mjs",
+      "bytes": 7553,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/static-map/TECHNIQUE.md",
+      "bytes": 1138,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/sequencing.md",
+      "bytes": 3829,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/sfx.md",
+      "bytes": 1806,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/silence-detection.md",
+      "bytes": 2548,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/text-highlights.md",
+      "bytes": 1851,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "typography"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/timing.md",
+      "bytes": 3315,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/transitions.md",
+      "bytes": 6882,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "transitions"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/video-editing.md",
+      "bytes": 3404,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/voiceover.md",
+      "bytes": 3342,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/REFERENCE.md",
+      "bytes": 705,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/agents/openai.yaml",
+      "bytes": 317,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/get-audio-duration.md",
+      "bytes": 1357,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/get-video-dimensions.md",
+      "bytes": 1626,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-multimedia/get-video-duration.md",
+      "bytes": 1377,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render/REFERENCE.md",
+      "bytes": 470,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render/agents/openai.yaml",
+      "bytes": 286,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render/transparent-videos.md",
+      "bytes": 2267,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/REFERENCE.md",
+      "bytes": 1053,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/agents/openai.yaml",
+      "bytes": 283,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/framework.md",
+      "bytes": 1188,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/player.md",
+      "bytes": 942,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-saas/rendering.md",
+      "bytes": 3343,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-studio/REFERENCE.md",
+      "bytes": 958,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-studio/agents/openai.yaml",
+      "bytes": 237,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-studio/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-upgrade/REFERENCE.md",
+      "bytes": 1880,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-upgrade/agents/openai.yaml",
+      "bytes": 282,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-upgrade/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-captions/SKILL.md",
+      "bytes": 954,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-captions/agents/openai.yaml",
+      "bytes": 305,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-captions/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-captions/display-captions.md",
+      "bytes": 5493,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-captions/import-srt-captions.md",
+      "bytes": 2269,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-captions/transcribe-captions.md",
+      "bytes": 1897,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-create/SKILL.md",
+      "bytes": 2077,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-create/agents/openai.yaml",
+      "bytes": 310,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-create/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-create/tailwind.md",
+      "bytes": 386,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-create/video-layout.md",
+      "bytes": 498,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-docs/SKILL.md",
+      "bytes": 1379,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-docs/agents/openai.yaml",
+      "bytes": 307,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-docs/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-interactivity/SKILL.md",
+      "bytes": 7529,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-interactivity/agents/openai.yaml",
+      "bytes": 320,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-interactivity/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/SKILL.md",
+      "bytes": 1030,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/agents/openai.yaml",
+      "bytes": 293,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/TECHNIQUE.md",
+      "bytes": 3909,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets/CesiumFlythrough.tsx",
+      "bytes": 8912,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets/cesium-path.json",
+      "bytes": 12329,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets/city-path.json",
+      "bytes": 223,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets/example-Root.tsx",
+      "bytes": 923,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets/flight-path.ts",
+      "bytes": 1240,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/assets/sample-river.geojson",
+      "bytes": 6409,
+      "ext": ".geojson",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/references/3d-data-sources.md",
+      "bytes": 1451,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/references/3d-flyover-architecture.md",
+      "bytes": 7887,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/references/3d-troubleshooting.md",
+      "bytes": 6741,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/cesium/scripts/prep-cesium-path.mjs",
+      "bytes": 5561,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/mapbox/TECHNIQUE.md",
+      "bytes": 13166,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/mapbox/references/render-stability.md",
+      "bytes": 3639,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maplibre/TECHNIQUE.md",
+      "bytes": 13403,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maplibre/references/render-stability.md",
+      "bytes": 3639,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/TECHNIQUE.md",
+      "bytes": 4518,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/assets/CountryLabel.tsx",
+      "bytes": 1849,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
+      "bytes": 2183,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/assets/RiverReveal.tsx",
+      "bytes": 10830,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "transitions"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/assets/example-Root.tsx",
+      "bytes": 1039,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/assets/sample-data/country-meta.json",
+      "bytes": 333134,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/assets/sample-data/yarlung-flow.json",
+      "bytes": 13082,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/assets/tokens.ts",
+      "bytes": 1256,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "design-system"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/references/map-data-sources.md",
+      "bytes": 4798,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/references/map-explainer-architecture.md",
+      "bytes": 6871,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/references/map-geo-prep.md",
+      "bytes": 4098,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/references/render-stability.md",
+      "bytes": 3639,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/maptiler/scripts/prep-geo.mjs",
+      "bytes": 7553,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-maps/techniques/static-map/TECHNIQUE.md",
+      "bytes": 1143,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/3d.md",
+      "bytes": 2292,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/SKILL.md",
+      "bytes": 11055,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/agents/openai.yaml",
+      "bytes": 310,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/audio-visualization.md",
+      "bytes": 4892,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/audio.md",
+      "bytes": 3615,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/calculate-metadata.md",
+      "bytes": 3498,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/compositions.md",
+      "bytes": 3194,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/cropping.md",
+      "bytes": 1098,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/effects.md",
+      "bytes": 8904,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "effects"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/embedding-videos.md",
+      "bytes": 3505,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/ffmpeg.md",
+      "bytes": 1099,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/gifs.md",
+      "bytes": 3783,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/google-fonts.md",
+      "bytes": 1714,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "typography"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/html-in-canvas.md",
+      "bytes": 3680,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/images.md",
+      "bytes": 1466,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/light-leaks.md",
+      "bytes": 3212,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/local-fonts.md",
+      "bytes": 1533,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "typography"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/lottie.md",
+      "bytes": 1806,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/measuring-dom-nodes.md",
+      "bytes": 995,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/measuring-text.md",
+      "bytes": 2801,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "typography"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/multi-scene-video.md",
+      "bytes": 2035,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "shots-scenes-storyboard",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/parameters.md",
+      "bytes": 2403,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/REFERENCE.md",
+      "bytes": 1030,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/agents/openai.yaml",
+      "bytes": 293,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/TECHNIQUE.md",
+      "bytes": 3909,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets/CesiumFlythrough.tsx",
+      "bytes": 8912,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets/cesium-path.json",
+      "bytes": 12329,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets/city-path.json",
+      "bytes": 223,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets/example-Root.tsx",
+      "bytes": 923,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets/flight-path.ts",
+      "bytes": 1240,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/assets/sample-river.geojson",
+      "bytes": 6409,
+      "ext": ".geojson",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/references/3d-data-sources.md",
+      "bytes": 1451,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/references/3d-flyover-architecture.md",
+      "bytes": 7887,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/references/3d-troubleshooting.md",
+      "bytes": 6741,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/cesium/scripts/prep-cesium-path.mjs",
+      "bytes": 5561,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/mapbox/TECHNIQUE.md",
+      "bytes": 13166,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/mapbox/references/render-stability.md",
+      "bytes": 3639,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maplibre/TECHNIQUE.md",
+      "bytes": 13403,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maplibre/references/render-stability.md",
+      "bytes": 3639,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/TECHNIQUE.md",
+      "bytes": 4518,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/CountryLabel.tsx",
+      "bytes": 1849,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
+      "bytes": 2183,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/RiverReveal.tsx",
+      "bytes": 10830,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "transitions"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/example-Root.tsx",
+      "bytes": 1039,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/sample-data/country-meta.json",
+      "bytes": 333134,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/sample-data/yarlung-flow.json",
+      "bytes": 13082,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/tokens.ts",
+      "bytes": 1256,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "design-system"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/references/map-data-sources.md",
+      "bytes": 4798,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/references/map-explainer-architecture.md",
+      "bytes": 6871,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/references/map-geo-prep.md",
+      "bytes": 4098,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/references/render-stability.md",
+      "bytes": 3639,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/scripts/prep-geo.mjs",
+      "bytes": 7553,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/remotion-maps/techniques/static-map/TECHNIQUE.md",
+      "bytes": 1130,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/sequencing.md",
+      "bytes": 3829,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/sfx.md",
+      "bytes": 1806,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/silence-detection.md",
+      "bytes": 2548,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/text-highlights.md",
+      "bytes": 1847,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "typography"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/timing.md",
+      "bytes": 3315,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/transitions.md",
+      "bytes": 6882,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "transitions"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/video-editing.md",
+      "bytes": 3404,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-markup/voiceover.md",
+      "bytes": 3342,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "skills/remotion-multimedia/SKILL.md",
+      "bytes": 705,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-multimedia/agents/openai.yaml",
+      "bytes": 317,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-multimedia/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-multimedia/get-audio-duration.md",
+      "bytes": 1357,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "skills/remotion-multimedia/get-video-dimensions.md",
+      "bytes": 1626,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-multimedia/get-video-duration.md",
+      "bytes": 1377,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-render/SKILL.md",
+      "bytes": 470,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-render/agents/openai.yaml",
+      "bytes": 286,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-render/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-render/transparent-videos.md",
+      "bytes": 2267,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-saas/SKILL.md",
+      "bytes": 1053,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-saas/agents/openai.yaml",
+      "bytes": 283,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-saas/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-saas/framework.md",
+      "bytes": 1188,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-saas/player.md",
+      "bytes": 942,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-saas/rendering.md",
+      "bytes": 3343,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering"
+      ]
+    },
+    {
+      "path": "skills/remotion-studio/SKILL.md",
+      "bytes": 958,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-studio/agents/openai.yaml",
+      "bytes": 237,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-studio/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-upgrade/SKILL.md",
+      "bytes": 1880,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-upgrade/agents/openai.yaml",
+      "bytes": 282,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/remotion-upgrade/assets/remotion-icon.png",
+      "bytes": 1286,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 304,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    }
+  ]
+}

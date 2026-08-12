@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "donor": "claude-remotion-skill",
+  "summary": {
+    "fileCount": 11,
+    "totalBytes": 7482219,
+    "textFiles": 9,
+    "binaryFiles": 2,
+    "topExtensions": {
+      ".md": 5,
+      "[none]": 2,
+      ".gif": 1,
+      ".mp4": 1,
+      ".ts": 1,
+      ".skill": 1
+    },
+    "categoryCounts": {
+      "remotion": 5,
+      "data-animation": 5,
+      "examples-templates": 2,
+      "skills": 2,
+      "design-system": 1
+    }
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 10,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1109,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 7229,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "demo.gif",
+      "bytes": 5174228,
+      "ext": ".gif",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demo.mp4",
+      "bytes": 2265533,
+      "ext": ".mp4",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "remotion-motion-graphics/SKILL.md",
+      "bytes": 6874,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "remotion-motion-graphics/assets/theme.ts",
+      "bytes": 1150,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "data-animation",
+        "design-system"
+      ]
+    },
+    {
+      "path": "remotion-motion-graphics/references/design-rules.md",
+      "bytes": 4332,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "remotion-motion-graphics/references/motion-patterns.md",
+      "bytes": 9763,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "remotion-motion-graphics.skill",
+      "bytes": 10925,
+      "ext": ".skill",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "data-animation"
+      ]
+    }
+  ]
+}

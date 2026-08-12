@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "donor": "skill-remotion-geist",
+  "summary": {
+    "fileCount": 10,
+    "totalBytes": 48686,
+    "textFiles": 10,
+    "binaryFiles": 0,
+    "topExtensions": {
+      ".md": 10
+    },
+    "categoryCounts": {
+      "skills": 9,
+      "remotion": 9,
+      "shots-scenes-storyboard": 2,
+      "typography": 1,
+      "data-animation": 1,
+      "examples-templates": 1
+    }
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1037,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "skills/create-remotion-geist/SKILL.md",
+      "bytes": 5424,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/create-remotion-geist/references/code-blocks.md",
+      "bytes": 6587,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/create-remotion-geist/references/geist-colors.md",
+      "bytes": 3174,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/create-remotion-geist/references/geist-components.md",
+      "bytes": 5736,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/create-remotion-geist/references/geist-icons.md",
+      "bytes": 4890,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/create-remotion-geist/references/geist-typography.md",
+      "bytes": 3768,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "skills/create-remotion-geist/references/project-setup.md",
+      "bytes": 5418,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ]
+    },
+    {
+      "path": "skills/create-remotion-geist/references/scene-patterns.md",
+      "bytes": 7963,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "skills/create-remotion-geist/references/storyboard-template.md",
+      "bytes": 4689,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    }
+  ]
+}

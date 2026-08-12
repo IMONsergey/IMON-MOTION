@@ -1,0 +1,197 @@
+{
+  "version": 1,
+  "donor": "motion-design-skill",
+  "summary": {
+    "fileCount": 20,
+    "totalBytes": 61257,
+    "textFiles": 20,
+    "binaryFiles": 0,
+    "topExtensions": {
+      ".md": 18,
+      "[none]": 2
+    },
+    "categoryCounts": {
+      "skills": 17,
+      "data-animation": 1,
+      "typography": 1
+    }
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 30,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 3589,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "skills/motion-design/SKILL.md",
+      "bytes": 12580,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/director/choreography.md",
+      "bytes": 3035,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "skills/motion-design/director/context-adaptation.md",
+      "bytes": 3066,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "typography"
+      ]
+    },
+    {
+      "path": "skills/motion-design/director/core-philosophy.md",
+      "bytes": 1864,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/director/decision-framework.md",
+      "bytes": 2866,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/director/disney-principles.md",
+      "bytes": 3197,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/director/emotion-mapping.md",
+      "bytes": 2877,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/director/motion-personality.md",
+      "bytes": 2998,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/director/narrative-structure.md",
+      "bytes": 2407,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/patterns/ambient-continuous.md",
+      "bytes": 2823,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/patterns/entrance-exit.md",
+      "bytes": 2822,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/patterns/multi-element.md",
+      "bytes": 2362,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/patterns/state-feedback.md",
+      "bytes": 3062,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/reference/property-selection.md",
+      "bytes": 2922,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/reference/quality-checklist.md",
+      "bytes": 2080,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/reference/timing-easing-tables.md",
+      "bytes": 2900,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/motion-design/reference/troubleshooting.md",
+      "bytes": 2709,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    }
+  ]
+}

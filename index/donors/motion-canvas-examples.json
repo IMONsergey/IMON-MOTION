@@ -1,0 +1,2720 @@
+{
+  "version": 1,
+  "donor": "motion-canvas-examples",
+  "summary": {
+    "fileCount": 280,
+    "totalBytes": 45134352,
+    "textFiles": 228,
+    "binaryFiles": 52,
+    "topExtensions": {
+      ".tsx": 54,
+      ".meta": 53,
+      ".ts": 50,
+      ".png": 48,
+      ".svg": 29,
+      ".json": 18,
+      ".glsl": 12,
+      ".js": 5,
+      "[none]": 4,
+      ".mp3": 4,
+      ".yml": 1,
+      ".md": 1,
+      ".grammar": 1
+    },
+    "categoryCounts": {
+      "examples-templates": 263,
+      "shots-scenes-storyboard": 88,
+      "camera-cinematography": 56,
+      "3d-webgl-shaders": 24,
+      "rendering": 8,
+      "audio-sound": 5,
+      "data-animation": 4,
+      "design-system": 2,
+      "ui-motion": 2,
+      "transitions": 1,
+      "typography": 1,
+      "tests": 1
+    }
+  },
+  "files": [
+    {
+      "path": ".eslintrc.json",
+      "bytes": 504,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 62,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 473,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 30,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".prettierrc",
+      "bytes": 201,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1069,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 1831,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "examples/anniversary/package.json",
+      "bytes": 189,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/commits.json",
+      "bytes": 2278184,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/commits.ts",
+      "bytes": 1163,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/images/current.png",
+      "bytes": 137062,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/images/fullscreen.png",
+      "bytes": 180247,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/images/logosvg.svg",
+      "bytes": 2580,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/images/old.png",
+      "bytes": 75810,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/motion-canvas.d.ts",
+      "bytes": 54,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/projects/intro.meta",
+      "bytes": 528,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/projects/intro.ts",
+      "bytes": 146,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/projects/thumbnail.meta",
+      "bytes": 517,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/projects/thumbnail.ts",
+      "bytes": 158,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/scenes/intro.meta",
+      "bytes": 2138,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/scenes/intro.tsx",
+      "bytes": 8807,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/scenes/thumbnail.meta",
+      "bytes": 59,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/scenes/thumbnail.tsx",
+      "bytes": 1895,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/src/videos.ts",
+      "bytes": 6234,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/tsconfig.json",
+      "bytes": 132,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/anniversary/vite.config.ts",
+      "bytes": 227,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/package.json",
+      "bytes": 187,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/audio/voice.mp3",
+      "bytes": 12741658,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/image/jeff.png",
+      "bytes": 2492,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/image/logo.svg",
+      "bytes": 12063,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/motion-canvas.d.ts",
+      "bytes": 54,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/nodes/ATxt.ts",
+      "bytes": 233,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/nodes/Atlas.ts",
+      "bytes": 2026,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/nodes/Binary.ts",
+      "bytes": 2043,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/nodes/Code.ts",
+      "bytes": 5052,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/nodes/Mouse.tsx",
+      "bytes": 768,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/nodes/Page.tsx",
+      "bytes": 1880,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/nodes/Paper.tsx",
+      "bytes": 957,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/nodes/Tetrahedron.ts",
+      "bytes": 6860,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/nodes/Three.ts",
+      "bytes": 3751,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/nodes/Window.tsx",
+      "bytes": 2115,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/nodes/index.ts",
+      "bytes": 255,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/overlay.meta",
+      "bytes": 517,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/overlay.ts",
+      "bytes": 181,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/project.meta",
+      "bytes": 517,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/project.ts",
+      "bytes": 914,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/animator.meta",
+      "bytes": 670,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/animator.tsx",
+      "bytes": 15563,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/blender.meta",
+      "bytes": 899,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/blender.tsx",
+      "bytes": 14042,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/division.meta",
+      "bytes": 436,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/division.tsx",
+      "bytes": 4808,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/division2.meta",
+      "bytes": 282,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/division2.tsx",
+      "bytes": 5917,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/editor.meta",
+      "bytes": 1112,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/editor.tsx",
+      "bytes": 22966,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/ending.meta",
+      "bytes": 136,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/ending.tsx",
+      "bytes": 1728,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/intro.meta",
+      "bytes": 895,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/intro.tsx",
+      "bytes": 7136,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/memory.meta",
+      "bytes": 677,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/memory.tsx",
+      "bytes": 4378,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/mesh.meta",
+      "bytes": 920,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/mesh.tsx",
+      "bytes": 9564,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/overlay.meta",
+      "bytes": 60,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/overlay.tsx",
+      "bytes": 2189,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/reanimator.meta",
+      "bytes": 3075,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/reanimator.tsx",
+      "bytes": 18198,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/shader-graph.meta",
+      "bytes": 470,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "3d-webgl-shaders",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/shader-graph.tsx",
+      "bytes": 11771,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "3d-webgl-shaders",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/state-machine.meta",
+      "bytes": 2998,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/scenes/state-machine.tsx",
+      "bytes": 23420,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/shaders/background.glsl",
+      "bytes": 3411,
+      "ext": ".glsl",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/shaders/shader-graph.glsl",
+      "bytes": 3392,
+      "ext": ".glsl",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/styles.ts",
+      "bytes": 409,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/svg/asset-tiles.svg",
+      "bytes": 8343,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/svg/data-assets.svg",
+      "bytes": 124980,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/svg/executable.svg",
+      "bytes": 4658,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/svg/icons/animator.svg",
+      "bytes": 1984,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/svg/icons/behavior.svg",
+      "bytes": 3476,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/svg/icons/blueprint.svg",
+      "bytes": 3029,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/svg/icons/gdscript.svg",
+      "bytes": 3578,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/svg/icons/music.svg",
+      "bytes": 1250,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/svg/icons/playmaker.svg",
+      "bytes": 2060,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/svg/icons/texture.svg",
+      "bytes": 1829,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/svg/icons/yarn.svg",
+      "bytes": 2850,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/svg/spectrum.svg",
+      "bytes": 455246,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "examples/asset-code/src/three/game.ts",
+      "bytes": 1533,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/tsconfig.json",
+      "bytes": 168,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/asset-code/vite.config.ts",
+      "bytes": 154,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/package.json",
+      "bytes": 268,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/Sample.ts",
+      "bytes": 1466,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/audio/voice.mp3",
+      "bytes": 9248123,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/components/ArcVector.ts",
+      "bytes": 3530,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/components/GBuffer.tsx",
+      "bytes": 2626,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/components/Mesh.ts",
+      "bytes": 2343,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/components/Slider.tsx",
+      "bytes": 2272,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/components/Three.ts",
+      "bytes": 4182,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/components/Vector.ts",
+      "bytes": 2927,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/components/VectorBase.ts",
+      "bytes": 3268,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/components/index.ts",
+      "bytes": 157,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/frames/ball.png",
+      "bytes": 290,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/frames/ball_lookup.png",
+      "bytes": 419,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/frames/ball_normal.png",
+      "bytes": 316,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/frames/ball_palette.png",
+      "bytes": 284,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/frames/box_normal.png",
+      "bytes": 211,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/frames/colors.png",
+      "bytes": 463,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/frames/normals.png",
+      "bytes": 466,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/frames/normals_g.png",
+      "bytes": 364,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/frames/normals_r.png",
+      "bytes": 379,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/frames/table.png",
+      "bytes": 111,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/frames/table_normal.png",
+      "bytes": 102,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/frames/wireframe.png",
+      "bytes": 13057,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/icons/desktop.svg",
+      "bytes": 269,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/icons/flare.svg",
+      "bytes": 485,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/icons/functions.svg",
+      "bytes": 203,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/icons/layers.svg",
+      "bytes": 297,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/icons/point_light.svg",
+      "bytes": 314,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/layer.png",
+      "bytes": 484,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/lights/both.png",
+      "bytes": 4288,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/lights/both2.png",
+      "bytes": 2715,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/lights/left.png",
+      "bytes": 2753,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/lights/left2.png",
+      "bytes": 1876,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/lights/leftColor.png",
+      "bytes": 833,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/lights/leftColor2.png",
+      "bytes": 945,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/lights/right.png",
+      "bytes": 2765,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/lights/right2.png",
+      "bytes": 1782,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/lights/rightColor.png",
+      "bytes": 894,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/lights/shaded.png",
+      "bytes": 1278,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/lights/shaded2.png",
+      "bytes": 1479,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/preview/intensity.png",
+      "bytes": 126085,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/preview/lights.png",
+      "bytes": 100937,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/preview/normals.png",
+      "bytes": 83418,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/preview/shadows.png",
+      "bytes": 101231,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/preview2/lights.png",
+      "bytes": 127263,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/preview2/normals.png",
+      "bytes": 81861,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/preview2/shadows.png",
+      "bytes": 79808,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/images/shadows/base.png",
+      "bytes": 32042,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/motion-canvas.d.ts",
+      "bytes": 54,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/project.meta",
+      "bytes": 578,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/project.ts",
+      "bytes": 1064,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/color.meta",
+      "bytes": 1092,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/color.tsx",
+      "bytes": 5613,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/ending.meta",
+      "bytes": 59,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/ending.tsx",
+      "bytes": 466,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/layers.meta",
+      "bytes": 445,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/layers.tsx",
+      "bytes": 4318,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/light.meta",
+      "bytes": 2667,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/light.tsx",
+      "bytes": 21458,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/lightBasics.meta",
+      "bytes": 760,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/lightBasics.tsx",
+      "bytes": 6463,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/lightComposite.meta",
+      "bytes": 1346,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/lightComposite.tsx",
+      "bytes": 8219,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/normal.meta",
+      "bytes": 217,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/normal.tsx",
+      "bytes": 2207,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/normals.meta",
+      "bytes": 1303,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/normals.tsx",
+      "bytes": 10557,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/projection.meta",
+      "bytes": 1109,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/projection.tsx",
+      "bytes": 6055,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/renderer.meta",
+      "bytes": 361,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "rendering",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/renderer.tsx",
+      "bytes": 4139,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "rendering",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/shadows.meta",
+      "bytes": 689,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/shadows.tsx",
+      "bytes": 4672,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/shadowsComposite.meta",
+      "bytes": 1848,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/shadowsComposite.tsx",
+      "bytes": 14149,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/shadowsFinal.meta",
+      "bytes": 1195,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/shadowsFinal.tsx",
+      "bytes": 12724,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/transparency.meta",
+      "bytes": 773,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/scenes/transparency.tsx",
+      "bytes": 7574,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/shaders/layer.fragment.glsl",
+      "bytes": 591,
+      "ext": ".glsl",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/shaders/layer.vertex.glsl",
+      "bytes": 134,
+      "ext": ".glsl",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/shaders/light.fragment.glsl",
+      "bytes": 1606,
+      "ext": ".glsl",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/shaders/light.vertex.glsl",
+      "bytes": 361,
+      "ext": ".glsl",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/shaders/normal.fragment.glsl",
+      "bytes": 216,
+      "ext": ".glsl",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/shaders/normal.vertex.glsl",
+      "bytes": 387,
+      "ext": ".glsl",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/shaders/normalSmooth.fragment.glsl",
+      "bytes": 494,
+      "ext": ".glsl",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/shaders/normalSmooth.vertex.glsl",
+      "bytes": 754,
+      "ext": ".glsl",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/shaders/shadow.fragment.glsl",
+      "bytes": 117,
+      "ext": ".glsl",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/shaders/shadow.vertex.glsl",
+      "bytes": 833,
+      "ext": ".glsl",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/styles.ts",
+      "bytes": 773,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/three/createLight.ts",
+      "bytes": 2551,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/three/createShadow.ts",
+      "bytes": 1833,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/three/layers.ts",
+      "bytes": 2024,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/three/level.ts",
+      "bytes": 1829,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/three/light.ts",
+      "bytes": 2982,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/three/normals.ts",
+      "bytes": 2319,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/src/three/shadows.ts",
+      "bytes": 8119,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/tsconfig.json",
+      "bytes": 108,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/deferred-lighting/vite.config.ts",
+      "bytes": 154,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/logo/package.json",
+      "bytes": 178,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/logo/src/motion-canvas.d.ts",
+      "bytes": 54,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/logo/src/project.meta",
+      "bytes": 573,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/logo/src/project.ts",
+      "bytes": 142,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/logo/src/scenes/logo.meta",
+      "bytes": 60,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/logo/src/scenes/logo.tsx",
+      "bytes": 3423,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/logo/tsconfig.json",
+      "bytes": 108,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/logo/vite.config.ts",
+      "bytes": 154,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/package.json",
+      "bytes": 199,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/audio/voice.mp3",
+      "bytes": 5788189,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/motion-canvas.d.ts",
+      "bytes": 54,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/project.meta",
+      "bytes": 580,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/project.ts",
+      "bytes": 460,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/scenes/interface.meta",
+      "bytes": 134,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/scenes/interface.tsx",
+      "bytes": 816,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/scenes/layouts.meta",
+      "bytes": 135,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/scenes/layouts.tsx",
+      "bytes": 2108,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/scenes/layoutsCode.meta",
+      "bytes": 1194,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/scenes/layoutsCode.tsx",
+      "bytes": 6574,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/scenes/signals.meta",
+      "bytes": 359,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/scenes/signals.tsx",
+      "bytes": 4862,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/scenes/signalsCode.meta",
+      "bytes": 1672,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/src/scenes/signalsCode.tsx",
+      "bytes": 10180,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/tsconfig.json",
+      "bytes": 108,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/motion-canvas/vite.config.ts",
+      "bytes": 154,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/package.json",
+      "bytes": 264,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/components/Container.tsx",
+      "bytes": 913,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/components/Parallax.tsx",
+      "bytes": 2397,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/components/Repeater.ts",
+      "bytes": 2279,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/components/Upscale.tsx",
+      "bytes": 2043,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/components/index.ts",
+      "bytes": 139,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/components/previews.tsx",
+      "bytes": 2150,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/credits.meta",
+      "bytes": 497,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/credits.ts",
+      "bytes": 178,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/grid.svg",
+      "bytes": 178,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/icons/camera.svg",
+      "bytes": 348,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/icons/camera2.svg",
+      "bytes": 283,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/icons/desktop.svg",
+      "bytes": 269,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/icons/flare.svg",
+      "bytes": 485,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/icons/functions.svg",
+      "bytes": 203,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/icons/instagram.svg",
+      "bytes": 1194,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/icons/layers.svg",
+      "bytes": 297,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/icons/point_light.svg",
+      "bytes": 314,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/icons/twitter.svg",
+      "bytes": 630,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/layers/a-foreground.png",
+      "bytes": 200,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/layers/b-central.png",
+      "bytes": 143,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/layers/b-light.png",
+      "bytes": 190,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/layers/c-background.png",
+      "bytes": 204,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/layers/d-background.png",
+      "bytes": 211,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/layers/d-light.png",
+      "bytes": 306,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/upscaling/background.png",
+      "bytes": 241,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/upscaling/frame.png",
+      "bytes": 10213,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/images/upscaling/sprite.png",
+      "bytes": 131,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/motion-canvas.d.ts",
+      "bytes": 54,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/project.meta",
+      "bytes": 564,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/project.ts",
+      "bytes": 677,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/intro.meta",
+      "bytes": 622,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/intro.tsx",
+      "bytes": 7511,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/layers.meta",
+      "bytes": 3186,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/layers.tsx",
+      "bytes": 15862,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/lights.meta",
+      "bytes": 2258,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/lights.tsx",
+      "bytes": 14267,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/merge.meta",
+      "bytes": 884,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/merge.tsx",
+      "bytes": 6912,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/outro.meta",
+      "bytes": 208,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/outro.tsx",
+      "bytes": 2350,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/parallax.meta",
+      "bytes": 1989,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/parallax.tsx",
+      "bytes": 13695,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/rasterization.meta",
+      "bytes": 619,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/rasterization.tsx",
+      "bytes": 5342,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/rendering.meta",
+      "bytes": 2001,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "rendering",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/rendering.tsx",
+      "bytes": 17116,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "rendering",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/upscale.meta",
+      "bytes": 1639,
+      "ext": ".meta",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/scenes/upscale.tsx",
+      "bytes": 8727,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/styles.ts",
+      "bytes": 773,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/videos/outro.png",
+      "bytes": 278787,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "rendering",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/videos/previous.png",
+      "bytes": 113181,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "rendering",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/videos/train.png",
+      "bytes": 1702608,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "rendering",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/src/voice.mp3",
+      "bytes": 10376009,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/tsconfig.json",
+      "bytes": 132,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "examples/smooth-parallax/vite.config.ts",
+      "bytes": 154,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 177911,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "package.json",
+      "bytes": 1434,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "utils/lezer-gdscript/package-lock.json",
+      "bytes": 2207,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "utils/lezer-gdscript/package.json",
+      "bytes": 504,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "utils/lezer-gdscript/rollup.config.js",
+      "bytes": 256,
+      "ext": ".js",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "utils/lezer-gdscript/src/gdscript.grammar",
+      "bytes": 11069,
+      "ext": ".grammar",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "utils/lezer-gdscript/src/highlight.js",
+      "bytes": 1273,
+      "ext": ".js",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "utils/lezer-gdscript/src/parser.js",
+      "bytes": 47165,
+      "ext": ".js",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "utils/lezer-gdscript/src/parser.terms.js",
+      "bytes": 1636,
+      "ext": ".js",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "utils/lezer-gdscript/src/tokens.js",
+      "bytes": 5629,
+      "ext": ".js",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    }
+  ]
+}

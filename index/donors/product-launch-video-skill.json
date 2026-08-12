@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "donor": "product-launch-video-skill",
+  "summary": {
+    "fileCount": 7,
+    "totalBytes": 84314,
+    "textFiles": 7,
+    "binaryFiles": 0,
+    "topExtensions": {
+      ".md": 4,
+      "[none]": 2,
+      ".mjs": 1
+    },
+    "categoryCounts": {
+      "skills": 4,
+      "ui-motion": 1,
+      "rendering": 1
+    }
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 36,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 4683,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "skills/gemini-tts/SKILL.md",
+      "bytes": 7364,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/gemini-tts/references/prompting-guide.md",
+      "bytes": 4984,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "skills/gemini-tts/scripts/generate-tts.mjs",
+      "bytes": 17563,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/product-launch-video/SKILL.md",
+      "bytes": 48618,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "rendering"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "donor": "motion-skills",
+  "summary": {
+    "fileCount": 9,
+    "totalBytes": 3684766,
+    "textFiles": 8,
+    "binaryFiles": 1,
+    "topExtensions": {
+      ".sh": 3,
+      ".md": 2,
+      "[none]": 1,
+      ".gif": 1,
+      ".html": 1,
+      ".mjs": 1
+    },
+    "categoryCounts": {
+      "shots-scenes-storyboard": 1
+    }
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1064,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 4784,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "showcase.gif",
+      "bytes": 3651648,
+      "ext": ".gif",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "showcase.html",
+      "bytes": 18777,
+      "ext": ".html",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "tools/showcase-to-gif.mjs",
+      "bytes": 3005,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "tools/verify/README.md",
+      "bytes": 2028,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "tools/verify/contact-sheet.sh",
+      "bytes": 851,
+      "ext": ".sh",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "tools/verify/probe-mp4.sh",
+      "bytes": 1514,
+      "ext": ".sh",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "tools/verify/seek-shot.sh",
+      "bytes": 1095,
+      "ext": ".sh",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    }
+  ]
+}

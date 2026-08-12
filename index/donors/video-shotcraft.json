@@ -1,0 +1,7983 @@
+{
+  "version": 1,
+  "donor": "video-shotcraft",
+  "summary": {
+    "fileCount": 855,
+    "totalBytes": 50605326,
+    "textFiles": 582,
+    "binaryFiles": 273,
+    "topExtensions": {
+      ".md": 321,
+      ".tsx": 222,
+      ".mp3": 165,
+      ".jpg": 66,
+      ".png": 42,
+      ".svg": 8,
+      ".json": 7,
+      ".ts": 5,
+      "[none]": 4,
+      ".yml": 2,
+      ".js": 2,
+      ".py": 2,
+      ".html": 2,
+      ".txt": 2,
+      ".yaml": 1,
+      ".mjs": 1
+    },
+    "categoryCounts": {
+      "examples-templates": 282,
+      "audio-sound": 181,
+      "shots-scenes-storyboard": 172,
+      "ui-motion": 129,
+      "transitions": 126,
+      "typography": 123,
+      "data-animation": 99,
+      "effects": 75,
+      "camera-cinematography": 54,
+      "3d-webgl-shaders": 12,
+      "design-system": 12,
+      "tests": 5,
+      "skills": 3,
+      "remotion": 2
+    }
+  },
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "bytes": 549,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "bytes": 2708,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".github/workflows/pr-checks.yml",
+      "bytes": 4528,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 519,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11340,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 11973,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README_CN.md",
+      "bytes": 11675,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README_JA.md",
+      "bytes": 14925,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 15682,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 531,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "assets/audio/ATTRIBUTION.md",
+      "bytes": 22401,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/AUDITION-2026-07-27.md",
+      "bytes": 36465,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/bgm/bgm-tech-house.mp3",
+      "bytes": 9240540,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/bgm/cat-walk.mp3",
+      "bytes": 3969820,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/bgm/g-eazy-nba-type.mp3",
+      "bytes": 3340373,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/bgm/house-vibez.mp3",
+      "bytes": 4458578,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/bgm/tonight-hiphop.mp3",
+      "bytes": 3631347,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/camera/camera-autofocus.mp3",
+      "bytes": 313998,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/camera/camera-lens-shutter.mp3",
+      "bytes": 47132,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/camera/camera-shutter-hard.mp3",
+      "bytes": 18370,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/camera/camera-shutter-vintage.mp3",
+      "bytes": 30533,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/camera/click-camera.mp3",
+      "bytes": 14406,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/camera/ui-zoom-in.mp3",
+      "bytes": 19624,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/camera/ui-zoom-out.mp3",
+      "bytes": 34864,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/camera/zoom-air-fast.mp3",
+      "bytes": 42071,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/camera/zoom-futuristic.mp3",
+      "bytes": 69422,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/camera/zoom-swipe-fast.mp3",
+      "bytes": 35650,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/counter/clock-knob-spin.mp3",
+      "bytes": 16437,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/counter/clock-mech-retract.mp3",
+      "bytes": 45670,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/counter/clock-tick-single.mp3",
+      "bytes": 20508,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/counter/countdown-bleeps.mp3",
+      "bytes": 37984,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/crowd/applause-rhythmic-loop.mp3",
+      "bytes": 166404,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/crowd/clap-single.mp3",
+      "bytes": 3546,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/crowd/heartbeat-single.mp3",
+      "bytes": 36640,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/break-glitch-digital.mp3",
+      "bytes": 38314,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/data-compute.mp3",
+      "bytes": 111072,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/data-load-os.mp3",
+      "bytes": 87792,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/data-scan.mp3",
+      "bytes": 71567,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/glitch-electric-small.mp3",
+      "bytes": 36538,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/glitch-static-electric.mp3",
+      "bytes": 52196,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/glitch-static.mp3",
+      "bytes": 48177,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/glitch-virtual-quick.mp3",
+      "bytes": 66497,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/power-up-electronic.mp3",
+      "bytes": 153553,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/power-up-static.mp3",
+      "bytes": 99854,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/static-electric-present.mp3",
+      "bytes": 128770,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/sweep-digital.mp3",
+      "bytes": 38311,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/data/whoosh-electric.mp3",
+      "bytes": 72010,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "data-animation",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/film/cassette-stretch.mp3",
+      "bytes": 71499,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/film/cassette-working.mp3",
+      "bytes": 65907,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/film/projector-spin-antique.mp3",
+      "bytes": 761771,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/film/reel-rewind.mp3",
+      "bytes": 123593,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/film/tape-rewind-cine.mp3",
+      "bytes": 135704,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/film/tape-rewind-fast.mp3",
+      "bytes": 58975,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/film/vinyl-needle-drop.mp3",
+      "bytes": 12292,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/film/vinyl-scratch-small.mp3",
+      "bytes": 37797,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/fluid/liquid-bubble.mp3",
+      "bytes": 36328,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/fluid/sand-swish.mp3",
+      "bytes": 62840,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/fluid/water-bubble.mp3",
+      "bytes": 12941,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/fluid/water-drop-cave.mp3",
+      "bytes": 62144,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/fluid/water-splash.mp3",
+      "bytes": 52302,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/glass/glass-break-hammer.mp3",
+      "bytes": 36584,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/glass/glass-debris-sweep.mp3",
+      "bytes": 80791,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/glass/glass-hit-cine.mp3",
+      "bytes": 145460,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/glass/glass-plate-slide.mp3",
+      "bytes": 29486,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/bass-hit-futuristic.mp3",
+      "bytes": 73486,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/bass-hit-short.mp3",
+      "bytes": 36222,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/gravel-fall-hit.mp3",
+      "bytes": 43846,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/hit-blow.mp3",
+      "bytes": 16962,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/hit-fast-exciting.mp3",
+      "bytes": 58464,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/hit-weak.mp3",
+      "bytes": 12834,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/impact-cine-big.mp3",
+      "bytes": 225505,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/impact-deep-whoosh.mp3",
+      "bytes": 115904,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/impact-epic-trailer.mp3",
+      "bytes": 154441,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/impact-movie-epic.mp3",
+      "bytes": 161076,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/impact-transition.mp3",
+      "bytes": 154441,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/impact-zoom-quick.mp3",
+      "bytes": 39932,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/metal-spring-hit.mp3",
+      "bytes": 62622,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "remotion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/impact/stomp-apocalyptic.mp3",
+      "bytes": 91755,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/light/light-aura.mp3",
+      "bytes": 174534,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/light/light-spell.mp3",
+      "bytes": 219196,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/light/light-sweep-magic.mp3",
+      "bytes": 150006,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/light/light-transition-magic.mp3",
+      "bytes": 158830,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/light/shimmer-sparkle-sweep.mp3",
+      "bytes": 94788,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/light/sparkle-poof-hit.mp3",
+      "bytes": 83919,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/light/sparkle-touch.mp3",
+      "bytes": 73387,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/light/sparkle-wand.mp3",
+      "bytes": 77103,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/light/sparkle.mp3",
+      "bytes": 143743,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/light/stardust-swish.mp3",
+      "bytes": 150845,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/mech/door-open-futuristic.mp3",
+      "bytes": 34927,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/mech/gear-lock-metallic.mp3",
+      "bytes": 35603,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/mech/lock-digital.mp3",
+      "bytes": 34035,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/mech/lock-quick.mp3",
+      "bytes": 37894,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/mech/machine-activate-short.mp3",
+      "bytes": 77611,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/mech/mech-robotic-futuristic.mp3",
+      "bytes": 301687,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/mech/mech-tech-movement.mp3",
+      "bytes": 73906,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/mech/metal-drop-scifi-small.mp3",
+      "bytes": 45707,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/paper/paper-book-browse-fast.mp3",
+      "bytes": 306286,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/paper/paper-crumple-quick.mp3",
+      "bytes": 42178,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/paper/paper-move-quick.mp3",
+      "bytes": 31682,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/paper/paper-page-turn-big.mp3",
+      "bytes": 30379,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/paper/paper-page-turn.mp3",
+      "bytes": 18060,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/paper/paper-scissors-cut.mp3",
+      "bytes": 60324,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/paper/paper-slice-quick.mp3",
+      "bytes": 13962,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/paper/paper-slide.mp3",
+      "bytes": 37161,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/paper/paper-staple.mp3",
+      "bytes": 10006,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/paper/paper-wind-blow.mp3",
+      "bytes": 171205,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/riser/riser-cine.mp3",
+      "bytes": 145112,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/scifi/hitech-bleep.mp3",
+      "bytes": 20876,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/scifi/scifi-click.mp3",
+      "bytes": 20354,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/scifi/scifi-computer-ambience.mp3",
+      "bytes": 776699,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/scifi/space-intro-futuristic.mp3",
+      "bytes": 217447,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/scifi/tech-hum-futuristic.mp3",
+      "bytes": 156614,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/chalk-line.mp3",
+      "bytes": 36013,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/keyboard.mp3",
+      "bytes": 513831,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/marker-pen-line.mp3",
+      "bytes": 39045,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/pen-click-twice.mp3",
+      "bytes": 20965,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/pen-write-paper.mp3",
+      "bytes": 46147,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/pencil-write-short.mp3",
+      "bytes": 25257,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/typewriter-digital.mp3",
+      "bytes": 65353,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/typewriter-hit-hard.mp3",
+      "bytes": 34769,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/typewriter-hit-single.mp3",
+      "bytes": 21398,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/typewriter-hit-soft.mp3",
+      "bytes": 15396,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/typewriter-return-bell.mp3",
+      "bytes": 56060,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/write-blackboard.mp3",
+      "bytes": 444912,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/text/write-fast.mp3",
+      "bytes": 21606,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "typography",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/air-whoosh-powerful.mp3",
+      "bytes": 58983,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/air-woosh-deep.mp3",
+      "bytes": 92185,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/air-woosh-quick.mp3",
+      "bytes": 48543,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/air-zoom-vacuum.mp3",
+      "bytes": 41082,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/sweep-fast-small.mp3",
+      "bytes": 27247,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/sweep-fast.mp3",
+      "bytes": 61800,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/sweep-metal-quick.mp3",
+      "bytes": 51881,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/sweep-scifi-fast.mp3",
+      "bytes": 28596,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/sweep-short.mp3",
+      "bytes": 18057,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/swoosh-quick.mp3",
+      "bytes": 27247,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/swoosh-slow.mp3",
+      "bytes": 168187,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/transition-snap.mp3",
+      "bytes": 19051,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/transition-soft.mp3",
+      "bytes": 41082,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/transition-tech-slide.mp3",
+      "bytes": 26239,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/transition-tech.mp3",
+      "bytes": 94273,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/warp-slide.mp3",
+      "bytes": 49839,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/whoosh-big.mp3",
+      "bytes": 71724,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/whoosh-fast.mp3",
+      "bytes": 57624,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/whoosh-swirl.mp3",
+      "bytes": 79754,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/wind-pass-vibrate.mp3",
+      "bytes": 183320,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/wind-swoosh-short.mp3",
+      "bytes": 44058,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/wind-woosh-throw.mp3",
+      "bytes": 28497,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/transition/wing-flutter.mp3",
+      "bytes": 133978,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/chime-crystal.mp3",
+      "bytes": 52451,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/hitech-touch-magnet.mp3",
+      "bytes": 55004,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/pop-electric.mp3",
+      "bytes": 37423,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/pop.mp3",
+      "bytes": 15239,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/switch-click-quick.mp3",
+      "bytes": 35439,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/switch-light.mp3",
+      "bytes": 6054,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/switch-tap.mp3",
+      "bytes": 35811,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/ui-click-tone.mp3",
+      "bytes": 8455,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/ui-confirm-bleep.mp3",
+      "bytes": 17953,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/ui-confirm-tone.mp3",
+      "bytes": 43636,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/ui-message-pop.mp3",
+      "bytes": 13059,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/ui-notify-tech.mp3",
+      "bytes": 67229,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/ui-option-select.mp3",
+      "bytes": 51255,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/ui-popup-dry.mp3",
+      "bytes": 9706,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/ui-select-click.mp3",
+      "bytes": 35602,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/ui-select-modern.mp3",
+      "bytes": 4742,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/ui-success-soft.mp3",
+      "bytes": 53759,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/audio/sfx/ui/ui-tone-quick.mp3",
+      "bytes": 43375,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "assets/brand/BRAND.md",
+      "bytes": 1929,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/brand/brand-board.svg",
+      "bytes": 5090,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/brand/logo-lockup-reverse.svg",
+      "bytes": 562,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/brand/logo-lockup.svg",
+      "bytes": 554,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/brand/logo-mark-mono.svg",
+      "bytes": 381,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/brand/logo-mark-reverse.svg",
+      "bytes": 375,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/brand/logo-mark.svg",
+      "bytes": 362,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/lib/Caption.tsx",
+      "bytes": 1801,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/lib/DigitRoll.tsx",
+      "bytes": 1708,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/lib/FlashCut.tsx",
+      "bytes": 726,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "assets/lib/FlatPanel.tsx",
+      "bytes": 2129,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/lib/PageCam.tsx",
+      "bytes": 6878,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/lib/VerticalTicker.tsx",
+      "bytes": 4082,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/lib/helpers/camera.tsx",
+      "bytes": 2080,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "assets/lib/helpers/motion.ts",
+      "bytes": 1708,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/lib/helpers/rand.ts",
+      "bytes": 380,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/lib/helpers/shake.ts",
+      "bytes": 423,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "assets/scripts/capture-template.mjs",
+      "bytes": 8973,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/README.md",
+      "bytes": 3362,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_fixtures/Fixtures.tsx",
+      "bytes": 4275,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_fixtures/Motion.tsx",
+      "bytes": 3582,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/card1.png",
+      "bytes": 49799,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/card10.png",
+      "bytes": 51587,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/card2.png",
+      "bytes": 52017,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/card3.png",
+      "bytes": 58896,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/card4-hires.png",
+      "bytes": 123105,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/card4.png",
+      "bytes": 59011,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/card5.png",
+      "bytes": 59166,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/card6.png",
+      "bytes": 55584,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/card7.png",
+      "bytes": 62350,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/card8.png",
+      "bytes": 54202,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/card9.png",
+      "bytes": 59505,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/float-search.png",
+      "bytes": 11667,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/live-layout.json",
+      "bytes": 5601,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/nav.png",
+      "bytes": 10329,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/projects-empty.png",
+      "bytes": 102067,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/_textures/projects-full.png",
+      "bytes": 615341,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/basic-3d-scene/Basic3DScene.tsx",
+      "bytes": 4822,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/crash-zoom-punch/CrashImpactReal.tsx",
+      "bytes": 2480,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/crash-zoom-punch/CrashZoomReal.tsx",
+      "bytes": 2443,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/cursor-flyover/CursorFlyover.tsx",
+      "bytes": 9608,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/depth-layer-moves/DollyZoomReal.tsx",
+      "bytes": 2281,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/depth-layer-moves/MultiplaneReal.tsx",
+      "bytes": 2437,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/graze-face-tour/GrazeFaceTour.tsx",
+      "bytes": 22352,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/overhead-camera-moves/OverheadTabletopDrop.tsx",
+      "bytes": 4624,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/overhead-camera-moves/TiltReveal.tsx",
+      "bytes": 1815,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/space-camera-moves/DroneDiveLanding.tsx",
+      "bytes": 3845,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/space-camera-moves/ExplodedView.tsx",
+      "bytes": 7097,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/steep-tilt-glide/SteepTiltGlide.tsx",
+      "bytes": 16482,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/tension-camera-moves/BulletTimeFreezeOrbit.tsx",
+      "bytes": 6872,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/tension-camera-moves/DutchRollToLevel.tsx",
+      "bytes": 3923,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/tension-camera-moves/PullBackIsolation.tsx",
+      "bytes": 4407,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/tension-camera-moves/SlowPushIn.tsx",
+      "bytes": 2837,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/camera/terminal-3d/Terminal3D.tsx",
+      "bytes": 8873,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/avatar-grid-radial-build-colorize/AvatarGridRadialBuildColorize.tsx",
+      "bytes": 8450,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/before-after-slider-scrub/BeforeAfterSliderScrub.tsx",
+      "bytes": 4377,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/chart-live-moves/AxisRescaleShockV2.tsx",
+      "bytes": 11053,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/chart-live-moves/OscilloscopeStreamV2.tsx",
+      "bytes": 8604,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/chart-live-moves/UnitDotSwarmRegroupV2.tsx",
+      "bytes": 8522,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/counter-confetti/CounterConfetti.tsx",
+      "bytes": 5622,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/gauge-readout-moves/NeedleSweepSelftest.tsx",
+      "bytes": 5561,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "demos/data/gauge-readout-moves/TapeScrollFixedPointer.tsx",
+      "bytes": 4838,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/hatch-depth/HatchDepth.tsx",
+      "bytes": 5195,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/odometer-digit-roll/OdometerDigitRoll.tsx",
+      "bytes": 6103,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/particle-celebrate-hits/ConfettiCrossfire.tsx",
+      "bytes": 5361,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/particle-celebrate-hits/CounterTickSparks.tsx",
+      "bytes": 4397,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/particle-sand-fill/ParticleSandFill.tsx",
+      "bytes": 5907,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/scroll-brake-moves/BrakeReticleLock.tsx",
+      "bytes": 7289,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/scroll-brake-moves/ChangelogScrollBrake.tsx",
+      "bytes": 3739,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/data/timeline-travel/TimelineTravel.tsx",
+      "bytes": 5036,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/assemble-then-type-flyin/AssembleThenTypeFlyin.tsx",
+      "bytes": 9438,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/aurora-bloom-bg-flip/AuroraBloomBgFlip.tsx",
+      "bytes": 5049,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/brand-frame-snap/BrandFrameSnap.tsx",
+      "bytes": 5006,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/dashboard-glow-highlight-pill/DashboardGlowHighlightPill.tsx",
+      "bytes": 22457,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/fui-hud-moves/LineUnfoldPanel.tsx",
+      "bytes": 4461,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/fui-hud-moves/ReticleLockOn.tsx",
+      "bytes": 5138,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/glow-flyline-moves/FlylineArc.tsx",
+      "bytes": 6302,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/glow-flyline-moves/GlowOrbAmbient.tsx",
+      "bytes": 4784,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/glow-flyline-moves/OrbFlylineRelay.tsx",
+      "bytes": 10765,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/icon-performance-moves/AttentionBounce.tsx",
+      "bytes": 6825,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/icon-performance-moves/PopBurstConfirm.tsx",
+      "bytes": 5384,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/impact-feedback/AnimeImpact.tsx",
+      "bytes": 5692,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/impact-feedback/HitCounter.tsx",
+      "bytes": 5332,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/light-play-moves/HalationBloom.tsx",
+      "bytes": 4353,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/light-play-moves/SheenSweepRetry.tsx",
+      "bytes": 2620,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/light-play-moves/SpotlightSweepReveal.tsx",
+      "bytes": 3438,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/line-boil/LineBoil.tsx",
+      "bytes": 5346,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/radial-ripple-phone-chips/RadialRipplePhoneChips.tsx",
+      "bytes": 4948,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/riso-print-hits/RisoBeatPump.tsx",
+      "bytes": 4997,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/riso-print-hits/RisoMisregistrationHit.tsx",
+      "bytes": 4171,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/scan-bracket-sweep/ScanBracketSweep.tsx",
+      "bytes": 8132,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/scanline-annotate-focus/ScanlineAnnotateFocus.tsx",
+      "bytes": 11364,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/scanline-assemble-flyin/ScanlineAssembleFlyin.tsx",
+      "bytes": 10496,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/slam-entrance-moves/ImpactBurstKit.tsx",
+      "bytes": 6732,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/slam-entrance-moves/KanadaPerspectiveSnap.tsx",
+      "bytes": 4350,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "demos/effects/slam-entrance-moves/ScoreSlam.tsx",
+      "bytes": 7491,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/spotlight-sweep-moves/CornerSpotlightReveal.tsx",
+      "bytes": 4958,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/spotlight-sweep-moves/GlowWakeSleepPanel.tsx",
+      "bytes": 9870,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/effects/spotlight-sweep-moves/SlideSpotlightPan.tsx",
+      "bytes": 8748,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/ai-stream-response/StreamResponse.tsx",
+      "bytes": 7500,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/ai-stream-response/agent-stream.jpg",
+      "bytes": 74016,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "skills",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/autolayout-gap-dial/AutolayoutGapDial.tsx",
+      "bytes": 6344,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/canvas-materialize-moves/DiagramCascadeBuild.tsx",
+      "bytes": 6251,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/canvas-materialize-moves/PanelToCanvasMaterialize.tsx",
+      "bytes": 9170,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/chip-grid-single-select-blackout/ChipGridSingleSelectBlackout.tsx",
+      "bytes": 8212,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/chip-lift-to-user-pill/ChipLiftToUserPill.tsx",
+      "bytes": 10553,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/collab-cursor-moves/CursorCastEnsemble.tsx",
+      "bytes": 6446,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/collab-cursor-moves/CursorDialogueDuet.tsx",
+      "bytes": 5808,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/command-palette-summon/CommandPaletteSummon.tsx",
+      "bytes": 6108,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/glass-pill-dictation-typing/GlassPillDictationTyping.tsx",
+      "bytes": 6445,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/hashtag-to-pill-materialize/HashtagToPillMaterialize.tsx",
+      "bytes": 7359,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/input-trigger-moves/CursorPerformancePunchIn.tsx",
+      "bytes": 6043,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/input-trigger-moves/KeycapSmashCut.tsx",
+      "bytes": 9164,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/picker-carousel-feature-cycle/PickerCarouselFeatureCycle.tsx",
+      "bytes": 5886,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/segmented-thumb-hero/SegmentedThumbHero.tsx",
+      "bytes": 7027,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/theme-switch-moves/PaletteThemeRipple.tsx",
+      "bytes": 9632,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/theme-switch-moves/ThemeSweepToggle.tsx",
+      "bytes": 5553,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/interaction/voice-waveform-live/VoiceWaveformLive.tsx",
+      "bytes": 6604,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/opening/crane-rise-reveal/CraneRiseReveal.tsx",
+      "bytes": 3147,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/opening/dataviz-landscape-open/DatavizLandscapeOpen.tsx",
+      "bytes": 15007,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/opening/fracture/Fracture.tsx",
+      "bytes": 4089,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/opening/icon-field-colorize/IconFieldColorize.tsx",
+      "bytes": 5435,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/opening/letterspace-materialize/LetterspaceMaterialize.tsx",
+      "bytes": 3816,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/opening/magician-card-flourish/MagicianCardFlourish.tsx",
+      "bytes": 15356,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/opening/stroke-segment-build/StrokeSegmentBuild.tsx",
+      "bytes": 5061,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/opening/text-as-mask/TextAsMask.tsx",
+      "bytes": 3780,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/outro/edit-hook-moves/LogoStingButton.tsx",
+      "bytes": 4424,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/outro/grain-dissolve/GrainDissolve.tsx",
+      "bytes": 5729,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/outro/logo-shrink-wordmark-lockup/LogoShrinkWordmarkLockup.tsx",
+      "bytes": 5460,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/outro/neon-triple-marquee/NeonTripleMarquee.tsx",
+      "bytes": 3627,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/outro/ui-strip-away-outro/UiStripAwayOutro.tsx",
+      "bytes": 9726,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/outro/ui-to-brand-morph/IconFlipBloomLogo.tsx",
+      "bytes": 7167,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/outro/ui-to-brand-morph/InputMorphsIntoLogo.tsx",
+      "bytes": 7794,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/beat-cut-moves/BeatCutAccelerando.tsx",
+      "bytes": 3035,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/beat-cut-moves/PaparazziFlash.tsx",
+      "bytes": 4011,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/beat-step-list-theme-cycle/BeatStepListThemeCycle.tsx",
+      "bytes": 4351,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "design-system",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/montage-rhythm-moves/DominoCascade.tsx",
+      "bytes": 5118,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/montage-rhythm-moves/DropBlackoutSlam.tsx",
+      "bytes": 4518,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/montage-rhythm-moves/WrightTripleCut.tsx",
+      "bytes": 7569,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/panel-grid-moves/ComicPanelSplit.tsx",
+      "bytes": 7483,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/panel-grid-moves/FlipGridReflow.tsx",
+      "bytes": 4315,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/panel-grid-moves/GridFlashMosaic.tsx",
+      "bytes": 5762,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/quad-split-parallel-scenes/QuadSplitParallelScenes.tsx",
+      "bytes": 10008,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/rhythm-interrupt-moves/JumpCutPunchIn.tsx",
+      "bytes": 2595,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/rhythm-interrupt-moves/StrobeBlackFrames.tsx",
+      "bytes": 3589,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/sakuga-timing-shift/SakugaTimingShift.tsx",
+      "bytes": 5936,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/smear-multiples/SmearMultiples.tsx",
+      "bytes": 3381,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/spectrum-morph-ui/SpectrumMorphUi.tsx",
+      "bytes": 4451,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates",
+        "tests"
+      ]
+    },
+    {
+      "path": "demos/rhythm/speed-ramp-freeze/FreezeAnnotateReal.tsx",
+      "bytes": 3377,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/speed-ramp-freeze/SpeedRampReal.tsx",
+      "bytes": 2178,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/trailer-grammar-moves/CardFootageCadence.tsx",
+      "bytes": 4123,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/trailer-grammar-moves/SmashCut.tsx",
+      "bytes": 4246,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/rhythm/trailer-grammar-moves/TrailerBumper.tsx",
+      "bytes": 3442,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/bottom-push-stack-wipe/BottomPushStackWipe.tsx",
+      "bytes": 3827,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/bubble-swarm-takeover/BubbleSwarmTakeover.tsx",
+      "bytes": 7858,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/card-flip-reveal/CardFlipReveal.tsx",
+      "bytes": 4620,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/card-flock-tumble/CardFlockTumble.tsx",
+      "bytes": 17571,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/circle-match-iris/CircleMatchIris.tsx",
+      "bytes": 6275,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/color-block-step-wipe/ColorBlockStepWipe.tsx",
+      "bytes": 4824,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/cube-navigation/CubeNavigation.tsx",
+      "bytes": 7235,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/gradient-transition/GradientTransition.tsx",
+      "bytes": 3089,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/line-carry-transition/LineCarryTransition.tsx",
+      "bytes": 6062,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/mosaic-reframe/MosaicReframe.tsx",
+      "bytes": 4669,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/page-turn-transitions/BarnDoorSplit.tsx",
+      "bytes": 4159,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/page-turn-transitions/CubeRotate.tsx",
+      "bytes": 4227,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/paper-plane-messenger/PaperPlaneMessenger.tsx",
+      "bytes": 9283,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/print-texture-transitions/InkBleedReveal.tsx",
+      "bytes": 3901,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/shot-transitions/MaskWipeReal.tsx",
+      "bytes": 2830,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/shot-transitions/PortalWipeV2.tsx",
+      "bytes": 4743,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/shot-transitions/WhipBrakeReal.tsx",
+      "bytes": 2418,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/shot-transitions/WhipPanReal.tsx",
+      "bytes": 1942,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/tear-streak-transitions/GlitchDisplace.tsx",
+      "bytes": 3654,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/transition-hidden-cut/InvisibleCut.tsx",
+      "bytes": 3598,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/transition-hidden-cut/LightLeakBurn.tsx",
+      "bytes": 4656,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/transition-hidden-cut/VersusSlam.tsx",
+      "bytes": 4291,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/transition-travel/LetterformZoom.tsx",
+      "bytes": 5295,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/transition-travel/SharedElementMorph.tsx",
+      "bytes": 3743,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/white-flash-logo-simplify-cut/WhiteFlashLogoSimplifyCut.tsx",
+      "bytes": 3868,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/wipe-transitions/BlindsSlice.tsx",
+      "bytes": 4339,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/transition/wipe-transitions/ClockWipe.tsx",
+      "bytes": 3393,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/blur-slide/BlurSlide.tsx",
+      "bytes": 2681,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/brace-expand/BraceExpand.tsx",
+      "bytes": 2721,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/cel-flash-stomp/CelFlashStomp.tsx",
+      "bytes": 4314,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/countdown-arc-scatter/CountdownArcScatter.tsx",
+      "bytes": 5400,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/flying-words/FlyingWords.tsx",
+      "bytes": 4608,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/glitch-cycle/GlitchCycle.tsx",
+      "bytes": 3954,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/gradient-word-sweep/GradientWordSweep.tsx",
+      "bytes": 10635,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/marker-underline-title/MarkerUnderlineTitle.tsx",
+      "bytes": 3788,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/outline-word-fill/OutlineWordFill.tsx",
+      "bytes": 4901,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/pill-chip-slot-cycle-handled/PillChipSlotCycleHandled.tsx",
+      "bytes": 5152,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/pill-slot-cycle/PillSlotCycle.tsx",
+      "bytes": 6369,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/scramble/Scramble.tsx",
+      "bytes": 2368,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/split-flap-title/SplitFlapFlip.tsx",
+      "bytes": 5807,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/text-column-converge/TextColumnConverge.tsx",
+      "bytes": 4724,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/title-demote-to-label/TitleDemoteToLabel.tsx",
+      "bytes": 5560,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/type-assembly-moves/LetterformDriftAssembly.tsx",
+      "bytes": 4145,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/type-assembly-moves/SplitTextStagger.tsx",
+      "bytes": 3779,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/type-assembly-moves/TextOnPath.tsx",
+      "bytes": 3994,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/type-assembly-moves/TrackingExpandReveal.tsx",
+      "bytes": 3970,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/type-entrance-moves/LetterDropPhysics.tsx",
+      "bytes": 3824,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/type-entrance-moves/ScrambleDecode.tsx",
+      "bytes": 3195,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/type-rhythm-sync/FontWeightPump.tsx",
+      "bytes": 3859,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/type-rhythm-sync/KaraokeFillSync.tsx",
+      "bytes": 3023,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/typewriter-moves/TerminalTypewriter.tsx",
+      "bytes": 4784,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/typewriter-moves/TypewriterErrorRetype.tsx",
+      "bytes": 3876,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/typing-code-block/TypingCodeBlock.tsx",
+      "bytes": 3680,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/vertical-word-roll-blur-cycle/VerticalWordRollBlurCycle.tsx",
+      "bytes": 3898,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/word-relay-filmstrip/WordRelayFilmstrip.tsx",
+      "bytes": 15462,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/typography/word-relay-geometry/WordRelayGeometry.tsx",
+      "bytes": 7079,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/avatar-bracket-carousel/AvatarBracketCarousel.tsx",
+      "bytes": 4591,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/bezier-source-converge-merge/BezierSourceConvergeMerge.tsx",
+      "bytes": 11031,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/card-stack/CardStack.tsx",
+      "bytes": 3837,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/carousel-3d/Carousel3D.tsx",
+      "bytes": 5032,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "3d-webgl-shaders",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/cloner-depth-echo/ClonerDepthEcho.tsx",
+      "bytes": 3447,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/doc-park-left-pill-deal/DocParkLeftPillDeal.tsx",
+      "bytes": 9854,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/draw-svg-trace/DrawSvgTrace.tsx",
+      "bytes": 6787,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/element-body-moves/AxialStretch.tsx",
+      "bytes": 3945,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/element-body-moves/ContactShadowLift.tsx",
+      "bytes": 4513,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/floating-glossy-label-pills/FloatingGlossyLabelPills.tsx",
+      "bytes": 15894,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/integration-hub-map/IntegrationHubMap.tsx",
+      "bytes": 22466,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/list-reveal/ListReveal.tsx",
+      "bytes": 3087,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/morph-from-primitive/MorphFromPrimitive.tsx",
+      "bytes": 6303,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/neon-frame-forerun/NeonFrameForerun.tsx",
+      "bytes": 14086,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/neon-frame-orbit-drop/NeonFrameForerunOrbit.tsx",
+      "bytes": 13670,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/page-waterfall-wall/PageWaterfallWall.tsx",
+      "bytes": 2050,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/page-waterfall-wall/VerticalTicker.tsx",
+      "bytes": 4082,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/paper-craft-moves/MaskingTapeSlap.tsx",
+      "bytes": 5951,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/paper-craft-moves/PopupBookRise.tsx",
+      "bytes": 5586,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/product-card-progressive-assemble/ProductCardProgressiveAssemble.tsx",
+      "bytes": 7055,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/radial-wave/RadialWave.tsx",
+      "bytes": 2010,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/research-card-stack-scroll/ResearchCardStackScroll.tsx",
+      "bytes": 6067,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/runway-ground-skim/RunwayGroundSkim.tsx",
+      "bytes": 13458,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/skeleton-reveal/SkeletonReveal.tsx",
+      "bytes": 10984,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/svg-shape-morph/SvgShapeMorph.tsx",
+      "bytes": 2918,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/value-stagger-gradient/ValueStaggerGradient.tsx",
+      "bytes": 3928,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "effects",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/wall-reveal-moves/BentoLightUp.tsx",
+      "bytes": 4787,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/wall-reveal-moves/GridWaveFlip.tsx",
+      "bytes": 5958,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "demos/ui-entrance/wall-reveal-moves/WireframeDrawOn.tsx",
+      "bytes": 5453,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "gallery/api/library.json",
+      "bytes": 257589,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/app.js",
+      "bytes": 23395,
+      "ext": ".js",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/build-seo.py",
+      "bytes": 6237,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "gallery/fetch-media.sh",
+      "bytes": 472,
+      "ext": ".sh",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/index.html",
+      "bytes": 22474,
+      "ext": ".html",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/library.html",
+      "bytes": 57375,
+      "ext": ".html",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/llms.txt",
+      "bytes": 39422,
+      "ext": ".txt",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/logo-mark-reverse.svg",
+      "bytes": 375,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/logo-mark.svg",
+      "bytes": 362,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/assemble-then-type-flyin.jpg",
+      "bytes": 11286,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/aurora-bloom-bg-flip.jpg",
+      "bytes": 7545,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/autolayout-gap-dial.jpg",
+      "bytes": 7591,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/avatar-bracket-carousel.jpg",
+      "bytes": 12992,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/avatar-grid-radial-build-colorize.jpg",
+      "bytes": 29220,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/basic-3d-scene.jpg",
+      "bytes": 10895,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "shots-scenes-storyboard",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/beat-step-list-theme-cycle.jpg",
+      "bytes": 7391,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "audio-sound",
+        "design-system"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/before-after-slider-scrub.jpg",
+      "bytes": 8865,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/bezier-source-converge-merge.jpg",
+      "bytes": 10905,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/blur-slide.jpg",
+      "bytes": 13137,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/bottom-push-stack-wipe.jpg",
+      "bytes": 6443,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/brace-expand.jpg",
+      "bytes": 7719,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/card-stack.jpg",
+      "bytes": 6481,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/carousel-3d.jpg",
+      "bytes": 20488,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/chip-grid-single-select-blackout.jpg",
+      "bytes": 9212,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/chip-lift-to-user-pill.jpg",
+      "bytes": 5201,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/circle-match-iris.jpg",
+      "bytes": 6700,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/comic-panel-split.jpg",
+      "bytes": 8392,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/countdown-arc-scatter.jpg",
+      "bytes": 7390,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/counter-confetti.jpg",
+      "bytes": 10122,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/cube-navigation.jpg",
+      "bytes": 9745,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/cursor-flyover.jpg",
+      "bytes": 13601,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/dashboard-glow-highlight-pill.jpg",
+      "bytes": 39391,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/doc-park-left-pill-deal.jpg",
+      "bytes": 9727,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/floating-glossy-label-pills.jpg",
+      "bytes": 14825,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/flying-words.jpg",
+      "bytes": 17166,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/fracture.jpg",
+      "bytes": 19101,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/glass-pill-dictation-typing.jpg",
+      "bytes": 7649,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/glitch-cycle.jpg",
+      "bytes": 13856,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/gradient-transition.jpg",
+      "bytes": 4077,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/grain-dissolve.jpg",
+      "bytes": 7584,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/graze-face-tour.jpg",
+      "bytes": 9547,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/hatch-depth.jpg",
+      "bytes": 23610,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/list-reveal.jpg",
+      "bytes": 14026,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/logo-shrink-wordmark-lockup.jpg",
+      "bytes": 4425,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/magician-card-flourish.jpg",
+      "bytes": 5879,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/mosaic-reframe.jpg",
+      "bytes": 28989,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/neon-frame-orbit-drop.jpg",
+      "bytes": 12358,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/outline-word-fill.jpg",
+      "bytes": 7872,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/palette-theme-ripple.jpg",
+      "bytes": 8679,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/paper-title-card.jpg",
+      "bytes": 10198,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/picker-carousel-feature-cycle.jpg",
+      "bytes": 8821,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/pill-chip-slot-cycle-handled.jpg",
+      "bytes": 11723,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/product-card-progressive-assemble.jpg",
+      "bytes": 16783,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/quad-split-parallel-scenes.jpg",
+      "bytes": 13739,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/radial-ripple-phone-chips.jpg",
+      "bytes": 14505,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/radial-wave.jpg",
+      "bytes": 36113,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/research-card-stack-scroll.jpg",
+      "bytes": 18763,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/scan-bracket-sweep.jpg",
+      "bytes": 10527,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/scanline-annotate-focus.jpg",
+      "bytes": 28012,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/scanline-assemble-flyin.jpg",
+      "bytes": 23890,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/scramble.jpg",
+      "bytes": 8668,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/slide-spotlight-pan.jpg",
+      "bytes": 8928,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/spotlight-hero-card.jpg",
+      "bytes": 14592,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/svg-shape-morph.jpg",
+      "bytes": 11724,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/terminal-3d.jpg",
+      "bytes": 9042,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/typing-code-block.jpg",
+      "bytes": 17577,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/ui-strip-away-outro.jpg",
+      "bytes": 2936,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/unit-dot-swarm-regroup.jpg",
+      "bytes": 15070,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/value-stagger-gradient.jpg",
+      "bytes": 18821,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/vertical-word-roll-blur-cycle.jpg",
+      "bytes": 8200,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/white-flash-logo-simplify-cut.jpg",
+      "bytes": 5726,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/media/poster/word-relay-filmstrip.jpg",
+      "bytes": 9590,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/media/poster/word-relay-geometry.jpg",
+      "bytes": 11215,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/og-image.jpg",
+      "bytes": 99928,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "gallery/robots.txt",
+      "bytes": 94,
+      "ext": ".txt",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/sitemap.xml",
+      "bytes": 328,
+      "ext": ".xml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/ai-stream-response.md",
+      "bytes": 3440,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/assemble-then-type-flyin.md",
+      "bytes": 3955,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/aurora-bloom-bg-flip.md",
+      "bytes": 3513,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/autolayout-gap-dial.md",
+      "bytes": 3729,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/avatar-bracket-carousel.md",
+      "bytes": 5010,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/avatar-grid-radial-build-colorize.md",
+      "bytes": 3305,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "gallery/source/basic-3d-scene.md",
+      "bytes": 3028,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "gallery/source/beat-cut-moves.md",
+      "bytes": 4255,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "gallery/source/beat-step-list-theme-cycle.md",
+      "bytes": 3894,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "design-system"
+      ]
+    },
+    {
+      "path": "gallery/source/before-after-slider-scrub.md",
+      "bytes": 2390,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/bezier-source-converge-merge.md",
+      "bytes": 5735,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/blur-slide.md",
+      "bytes": 3967,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/source/bottom-push-stack-wipe.md",
+      "bytes": 3787,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/brace-expand.md",
+      "bytes": 4463,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/brand-frame-snap.md",
+      "bytes": 3557,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/brand-ink-open.md",
+      "bytes": 2409,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/bubble-swarm-takeover.md",
+      "bytes": 4171,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/canvas-materialize-moves.md",
+      "bytes": 4493,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/card-flip-reveal.md",
+      "bytes": 2873,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/card-flock-tumble.md",
+      "bytes": 3427,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/card-stack.md",
+      "bytes": 4115,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/carousel-3d.md",
+      "bytes": 4962,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "gallery/source/cel-flash-stomp.md",
+      "bytes": 3274,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/chart-live-moves.md",
+      "bytes": 3375,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "gallery/source/chip-grid-single-select-blackout.md",
+      "bytes": 3977,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/chip-lift-to-user-pill.md",
+      "bytes": 4039,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/circle-match-iris.md",
+      "bytes": 3367,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/cloner-depth-echo.md",
+      "bytes": 2195,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "gallery/source/collab-cursor-moves.md",
+      "bytes": 4510,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "gallery/source/color-block-step-wipe.md",
+      "bytes": 3735,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/command-palette-summon.md",
+      "bytes": 2420,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "gallery/source/countdown-arc-scatter.md",
+      "bytes": 5367,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/counter-confetti.md",
+      "bytes": 2888,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/crane-rise-reveal.md",
+      "bytes": 2920,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/crash-zoom-punch.md",
+      "bytes": 2044,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/cube-navigation.md",
+      "bytes": 2978,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/cursor-flyover.md",
+      "bytes": 2925,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "gallery/source/dashboard-glow-highlight-pill.md",
+      "bytes": 4280,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/source/dataviz-landscape-open.md",
+      "bytes": 4822,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "data-animation"
+      ]
+    },
+    {
+      "path": "gallery/source/deck-deal-flyin.md",
+      "bytes": 6806,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/depth-layer-moves.md",
+      "bytes": 2254,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "gallery/source/doc-park-left-pill-deal.md",
+      "bytes": 5098,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/document-typewriter-reveal.md",
+      "bytes": 3564,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/draw-svg-trace.md",
+      "bytes": 2863,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/edit-hook-moves.md",
+      "bytes": 1926,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/element-body-moves.md",
+      "bytes": 3467,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/floating-glossy-label-pills.md",
+      "bytes": 6592,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/flying-words.md",
+      "bytes": 4355,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/fracture.md",
+      "bytes": 3184,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/fui-hud-moves.md",
+      "bytes": 2663,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "gallery/source/gauge-readout-moves.md",
+      "bytes": 2755,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/glass-pill-dictation-typing.md",
+      "bytes": 3845,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/glitch-cycle.md",
+      "bytes": 4651,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/glow-flyline-moves.md",
+      "bytes": 3631,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/source/gradient-transition.md",
+      "bytes": 2925,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/source/gradient-word-sweep.md",
+      "bytes": 3124,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/source/grain-dissolve.md",
+      "bytes": 3070,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/graze-face-tour.md",
+      "bytes": 3630,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/hashtag-to-pill-materialize.md",
+      "bytes": 4009,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/hatch-depth.md",
+      "bytes": 2982,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "gallery/source/icon-field-colorize.md",
+      "bytes": 3339,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/icon-performance-moves.md",
+      "bytes": 2904,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/impact-feedback.md",
+      "bytes": 3443,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/input-trigger-moves.md",
+      "bytes": 3384,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/integration-hub-map.md",
+      "bytes": 3524,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/letterspace-materialize.md",
+      "bytes": 3206,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/light-play-moves.md",
+      "bytes": 3353,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/line-boil.md",
+      "bytes": 3159,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/line-carry-transition.md",
+      "bytes": 3260,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/list-reveal.md",
+      "bytes": 4071,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/list-stack-press.md",
+      "bytes": 4264,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/logo-shrink-wordmark-lockup.md",
+      "bytes": 3108,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/magician-card-flourish.md",
+      "bytes": 4375,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/marker-underline-title.md",
+      "bytes": 2700,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "gallery/source/montage-rhythm-moves.md",
+      "bytes": 4450,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/morph-from-primitive.md",
+      "bytes": 2946,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/mosaic-reframe.md",
+      "bytes": 2912,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/neon-frame-forerun.md",
+      "bytes": 3240,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/neon-frame-orbit-drop.md",
+      "bytes": 3005,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "gallery/source/neon-triple-marquee.md",
+      "bytes": 3790,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/odometer-digit-roll.md",
+      "bytes": 3317,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/outline-word-fill.md",
+      "bytes": 5263,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/outro-group-photo-launch.md",
+      "bytes": 3471,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/overhead-camera-moves.md",
+      "bytes": 3435,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "gallery/source/page-turn-transitions.md",
+      "bytes": 3329,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/page-waterfall-wall.md",
+      "bytes": 3456,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/panel-grid-moves.md",
+      "bytes": 3970,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/paper-craft-moves.md",
+      "bytes": 3158,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/paper-plane-messenger.md",
+      "bytes": 4234,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/paper-title-card.md",
+      "bytes": 2705,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "gallery/source/particle-celebrate-hits.md",
+      "bytes": 2715,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/source/particle-sand-fill.md",
+      "bytes": 2192,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/source/picker-carousel-feature-cycle.md",
+      "bytes": 3802,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/pill-chip-slot-cycle-handled.md",
+      "bytes": 5129,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/pill-slot-cycle.md",
+      "bytes": 3680,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/print-texture-transitions.md",
+      "bytes": 2505,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "typography"
+      ]
+    },
+    {
+      "path": "gallery/source/product-card-progressive-assemble.md",
+      "bytes": 5077,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/quad-split-parallel-scenes.md",
+      "bytes": 3220,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "gallery/source/radial-ripple-phone-chips.md",
+      "bytes": 3150,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/radial-wave.md",
+      "bytes": 3913,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/research-card-stack-scroll.md",
+      "bytes": 4855,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/rhythm-interrupt-moves.md",
+      "bytes": 2575,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/riso-print-hits.md",
+      "bytes": 3947,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/row-embed.md",
+      "bytes": 2564,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/runway-ground-skim.md",
+      "bytes": 3069,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/sakuga-timing-shift.md",
+      "bytes": 2881,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/scan-bracket-sweep.md",
+      "bytes": 3117,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/scanline-annotate-focus.md",
+      "bytes": 3534,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/scanline-assemble-flyin.md",
+      "bytes": 3767,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/scramble.md",
+      "bytes": 3729,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/scroll-brake-moves.md",
+      "bytes": 2964,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/segmented-thumb-hero.md",
+      "bytes": 3757,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/shot-transitions.md",
+      "bytes": 6186,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/skeleton-reveal.md",
+      "bytes": 3805,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/slam-entrance-moves.md",
+      "bytes": 3816,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/smear-multiples.md",
+      "bytes": 2927,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/space-camera-moves.md",
+      "bytes": 3192,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "gallery/source/spectrum-morph-ui.md",
+      "bytes": 3066,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "gallery/source/speed-ramp-freeze.md",
+      "bytes": 2319,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/split-flap-title.md",
+      "bytes": 4128,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "gallery/source/spotlight-hero-card.md",
+      "bytes": 3707,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/spotlight-sweep-moves.md",
+      "bytes": 3562,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/steep-tilt-glide.md",
+      "bytes": 3218,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/stroke-segment-build.md",
+      "bytes": 2499,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "gallery/source/svg-shape-morph.md",
+      "bytes": 5216,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/tear-streak-transitions.md",
+      "bytes": 2559,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/tension-camera-moves.md",
+      "bytes": 4763,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "gallery/source/terminal-3d.md",
+      "bytes": 2962,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "gallery/source/text-as-mask.md",
+      "bytes": 3100,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "typography"
+      ]
+    },
+    {
+      "path": "gallery/source/text-column-converge.md",
+      "bytes": 3809,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "gallery/source/theme-switch-moves.md",
+      "bytes": 2760,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "design-system"
+      ]
+    },
+    {
+      "path": "gallery/source/timeline-travel.md",
+      "bytes": 2513,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/title-demote-to-label.md",
+      "bytes": 3942,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "gallery/source/trailer-grammar-moves.md",
+      "bytes": 3740,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/transition-hidden-cut.md",
+      "bytes": 4825,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/transition-travel.md",
+      "bytes": 3993,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/type-and-filter.md",
+      "bytes": 2816,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/type-assembly-moves.md",
+      "bytes": 3690,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/type-entrance-moves.md",
+      "bytes": 3656,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/type-rhythm-sync.md",
+      "bytes": 3663,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/typewriter-moves.md",
+      "bytes": 3324,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/typing-code-block.md",
+      "bytes": 4426,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/ui-strip-away-outro.md",
+      "bytes": 4132,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "gallery/source/ui-to-brand-morph.md",
+      "bytes": 4749,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "gallery/source/value-stagger-gradient.md",
+      "bytes": 5481,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/source/vertical-word-roll-blur-cycle.md",
+      "bytes": 4571,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "effects"
+      ]
+    },
+    {
+      "path": "gallery/source/voice-waveform-live.md",
+      "bytes": 3740,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "gallery/source/wall-reveal-moves.md",
+      "bytes": 5543,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/white-flash-logo-simplify-cut.md",
+      "bytes": 2910,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/wipe-transitions.md",
+      "bytes": 3277,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ]
+    },
+    {
+      "path": "gallery/source/word-relay-filmstrip.md",
+      "bytes": 3141,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/source/word-relay-geometry.md",
+      "bytes": 5659,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/styles.css",
+      "bytes": 24273,
+      "ext": ".css",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/sync-from-cards.py",
+      "bytes": 6202,
+      "ext": ".py",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "gallery/translations.js",
+      "bytes": 61970,
+      "ext": ".js",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "references/aesthetic-rules.md",
+      "bytes": 24507,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "references/final-review.md",
+      "bytes": 6711,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "references/guided-free-creation.md",
+      "bytes": 10874,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/music-beat-sync.md",
+      "bytes": 10144,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "references/pipeline.md",
+      "bytes": 23986,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "references/sequences/.gitkeep",
+      "bytes": 0,
+      "ext": "[none]",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/sequences/promo-energy-arc.md",
+      "bytes": 3229,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/ATTRIBUTION.md",
+      "bytes": 5575,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/camera/basic-3d-scene.md",
+      "bytes": 3028,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "references/shots/camera/crash-zoom-punch.md",
+      "bytes": 2044,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "references/shots/camera/cursor-flyover.md",
+      "bytes": 2925,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/camera/depth-layer-moves.md",
+      "bytes": 2254,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "references/shots/camera/graze-face-tour.md",
+      "bytes": 3630,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "references/shots/camera/overhead-camera-moves.md",
+      "bytes": 3435,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "references/shots/camera/space-camera-moves.md",
+      "bytes": 3192,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "references/shots/camera/steep-tilt-glide.md",
+      "bytes": 3218,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "references/shots/camera/tension-camera-moves.md",
+      "bytes": 4763,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "references/shots/camera/terminal-3d.md",
+      "bytes": 2962,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "references/shots/data/avatar-grid-radial-build-colorize.md",
+      "bytes": 3305,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/data/before-after-slider-scrub.md",
+      "bytes": 2390,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/data/chart-live-moves.md",
+      "bytes": 3375,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/data/counter-confetti.md",
+      "bytes": 2888,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/data/gauge-readout-moves.md",
+      "bytes": 2755,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/data/hatch-depth.md",
+      "bytes": 2982,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/data/odometer-digit-roll.md",
+      "bytes": 3317,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/data/particle-celebrate-hits.md",
+      "bytes": 2715,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/data/particle-sand-fill.md",
+      "bytes": 2192,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/data/scroll-brake-moves.md",
+      "bytes": 2964,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/data/timeline-travel.md",
+      "bytes": 2513,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/effects/assemble-then-type-flyin.md",
+      "bytes": 3955,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/aurora-bloom-bg-flip.md",
+      "bytes": 3513,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/brand-frame-snap.md",
+      "bytes": 3557,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/dashboard-glow-highlight-pill.md",
+      "bytes": 4280,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/fui-hud-moves.md",
+      "bytes": 2663,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/glow-flyline-moves.md",
+      "bytes": 3631,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/icon-performance-moves.md",
+      "bytes": 2904,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/impact-feedback.md",
+      "bytes": 3443,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/light-play-moves.md",
+      "bytes": 3353,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/line-boil.md",
+      "bytes": 3159,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/radial-ripple-phone-chips.md",
+      "bytes": 3150,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/riso-print-hits.md",
+      "bytes": 3947,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/scan-bracket-sweep.md",
+      "bytes": 3117,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/scanline-annotate-focus.md",
+      "bytes": 3534,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/scanline-assemble-flyin.md",
+      "bytes": 3767,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/slam-entrance-moves.md",
+      "bytes": 3816,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/effects/spotlight-sweep-moves.md",
+      "bytes": 3562,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/ai-stream-response.md",
+      "bytes": 3440,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/autolayout-gap-dial.md",
+      "bytes": 3729,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/canvas-materialize-moves.md",
+      "bytes": 4493,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/chip-grid-single-select-blackout.md",
+      "bytes": 3977,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/chip-lift-to-user-pill.md",
+      "bytes": 4039,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/collab-cursor-moves.md",
+      "bytes": 4510,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/command-palette-summon.md",
+      "bytes": 2420,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/glass-pill-dictation-typing.md",
+      "bytes": 3845,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/hashtag-to-pill-materialize.md",
+      "bytes": 4009,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/input-trigger-moves.md",
+      "bytes": 3384,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/picker-carousel-feature-cycle.md",
+      "bytes": 3802,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/segmented-thumb-hero.md",
+      "bytes": 3757,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/theme-switch-moves.md",
+      "bytes": 2760,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/type-and-filter.md",
+      "bytes": 2816,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/interaction/voice-waveform-live.md",
+      "bytes": 3740,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "references/shots/opening/brand-ink-open.md",
+      "bytes": 2409,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/opening/crane-rise-reveal.md",
+      "bytes": 2920,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/opening/dataviz-landscape-open.md",
+      "bytes": 4822,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/opening/fracture.md",
+      "bytes": 3184,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/opening/icon-field-colorize.md",
+      "bytes": 3339,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/opening/letterspace-materialize.md",
+      "bytes": 3206,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/opening/magician-card-flourish.md",
+      "bytes": 4375,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/opening/spotlight-hero-card.md",
+      "bytes": 3707,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/opening/stroke-segment-build.md",
+      "bytes": 2499,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/opening/text-as-mask.md",
+      "bytes": 3100,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "typography"
+      ]
+    },
+    {
+      "path": "references/shots/outro/edit-hook-moves.md",
+      "bytes": 1926,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/outro/grain-dissolve.md",
+      "bytes": 3070,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/outro/logo-shrink-wordmark-lockup.md",
+      "bytes": 3108,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/outro/neon-triple-marquee.md",
+      "bytes": 3790,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/outro/outro-group-photo-launch.md",
+      "bytes": 3471,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/outro/ui-strip-away-outro.md",
+      "bytes": 4132,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/outro/ui-to-brand-morph.md",
+      "bytes": 4749,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/rhythm/beat-cut-moves.md",
+      "bytes": 4255,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "references/shots/rhythm/beat-step-list-theme-cycle.md",
+      "bytes": 3894,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "audio-sound",
+        "design-system"
+      ]
+    },
+    {
+      "path": "references/shots/rhythm/montage-rhythm-moves.md",
+      "bytes": 4450,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/rhythm/panel-grid-moves.md",
+      "bytes": 3970,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/rhythm/quad-split-parallel-scenes.md",
+      "bytes": 3220,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/rhythm/rhythm-interrupt-moves.md",
+      "bytes": 2575,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/rhythm/sakuga-timing-shift.md",
+      "bytes": 2881,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/rhythm/smear-multiples.md",
+      "bytes": 2927,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/rhythm/spectrum-morph-ui.md",
+      "bytes": 3066,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion",
+        "tests"
+      ]
+    },
+    {
+      "path": "references/shots/rhythm/speed-ramp-freeze.md",
+      "bytes": 2319,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/rhythm/trailer-grammar-moves.md",
+      "bytes": 3740,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "references/shots/transition/bottom-push-stack-wipe.md",
+      "bytes": 3787,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/bubble-swarm-takeover.md",
+      "bytes": 4171,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/card-flip-reveal.md",
+      "bytes": 2873,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/card-flock-tumble.md",
+      "bytes": 3427,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/circle-match-iris.md",
+      "bytes": 3367,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/color-block-step-wipe.md",
+      "bytes": 3735,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/cube-navigation.md",
+      "bytes": 2978,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/gradient-transition.md",
+      "bytes": 2925,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/transition/line-carry-transition.md",
+      "bytes": 3260,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/mosaic-reframe.md",
+      "bytes": 2912,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/page-turn-transitions.md",
+      "bytes": 3329,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/paper-plane-messenger.md",
+      "bytes": 4234,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/print-texture-transitions.md",
+      "bytes": 2505,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "typography"
+      ]
+    },
+    {
+      "path": "references/shots/transition/shot-transitions.md",
+      "bytes": 6186,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/tear-streak-transitions.md",
+      "bytes": 2559,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/transition-hidden-cut.md",
+      "bytes": 4825,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/transition-travel.md",
+      "bytes": 3993,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/white-flash-logo-simplify-cut.md",
+      "bytes": 2910,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/transition/wipe-transitions.md",
+      "bytes": 3277,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "references/shots/typography/blur-slide.md",
+      "bytes": 3967,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/typography/brace-expand.md",
+      "bytes": 4463,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/cel-flash-stomp.md",
+      "bytes": 3274,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/countdown-arc-scatter.md",
+      "bytes": 5367,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/document-typewriter-reveal.md",
+      "bytes": 3564,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/flying-words.md",
+      "bytes": 4355,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/glitch-cycle.md",
+      "bytes": 4651,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/gradient-word-sweep.md",
+      "bytes": 3124,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/typography/marker-underline-title.md",
+      "bytes": 2700,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/outline-word-fill.md",
+      "bytes": 5263,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/paper-title-card.md",
+      "bytes": 2705,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/pill-chip-slot-cycle-handled.md",
+      "bytes": 5129,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/pill-slot-cycle.md",
+      "bytes": 3680,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/scramble.md",
+      "bytes": 3729,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/split-flap-title.md",
+      "bytes": 4128,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/text-column-converge.md",
+      "bytes": 3809,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/title-demote-to-label.md",
+      "bytes": 3942,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "references/shots/typography/type-assembly-moves.md",
+      "bytes": 3690,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/type-entrance-moves.md",
+      "bytes": 3656,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/type-rhythm-sync.md",
+      "bytes": 3663,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/typewriter-moves.md",
+      "bytes": 3324,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/typing-code-block.md",
+      "bytes": 4426,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/vertical-word-roll-blur-cycle.md",
+      "bytes": 4571,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/typography/word-relay-filmstrip.md",
+      "bytes": 3141,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/typography/word-relay-geometry.md",
+      "bytes": 5659,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/avatar-bracket-carousel.md",
+      "bytes": 5010,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/bezier-source-converge-merge.md",
+      "bytes": 5735,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/card-stack.md",
+      "bytes": 4115,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/carousel-3d.md",
+      "bytes": 4962,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/cloner-depth-echo.md",
+      "bytes": 2195,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/deck-deal-flyin.md",
+      "bytes": 6806,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/doc-park-left-pill-deal.md",
+      "bytes": 5098,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/draw-svg-trace.md",
+      "bytes": 2863,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/element-body-moves.md",
+      "bytes": 3467,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/floating-glossy-label-pills.md",
+      "bytes": 6592,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/integration-hub-map.md",
+      "bytes": 3524,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/list-reveal.md",
+      "bytes": 4071,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/list-stack-press.md",
+      "bytes": 4264,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/morph-from-primitive.md",
+      "bytes": 2946,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/neon-frame-forerun.md",
+      "bytes": 3240,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/neon-frame-orbit-drop.md",
+      "bytes": 3005,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/page-waterfall-wall.md",
+      "bytes": 3456,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/paper-craft-moves.md",
+      "bytes": 3158,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/product-card-progressive-assemble.md",
+      "bytes": 5077,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/radial-wave.md",
+      "bytes": 3913,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/research-card-stack-scroll.md",
+      "bytes": 4855,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/row-embed.md",
+      "bytes": 2564,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/runway-ground-skim.md",
+      "bytes": 3069,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/skeleton-reveal.md",
+      "bytes": 3805,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/svg-shape-morph.md",
+      "bytes": 5216,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/value-stagger-gradient.md",
+      "bytes": 5481,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion",
+        "effects"
+      ]
+    },
+    {
+      "path": "references/shots/ui-entrance/wall-reveal-moves.md",
+      "bytes": 5543,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "references/sound-design.md",
+      "bytes": 23650,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ]
+    },
+    {
+      "path": "template/.gitignore",
+      "bytes": 22,
+      "ext": "[none]",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/TEMPLATE.md",
+      "bytes": 7184,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/package-lock.json",
+      "bytes": 106019,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/package.json",
+      "bytes": 476,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/audio/click-camera.mp3",
+      "bytes": 14406,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "camera-cinematography",
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/audio/impact-cine.mp3",
+      "bytes": 115904,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/audio/keyboard.mp3",
+      "bytes": 513831,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/audio/pop.mp3",
+      "bytes": 15239,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/audio/riser-cine.mp3",
+      "bytes": 145112,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/audio/sparkle.mp3",
+      "bytes": 143743,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/audio/swoosh-quick.mp3",
+      "bytes": 27247,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "ui-motion",
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/audio/transition-snap.mp3",
+      "bytes": 19051,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/audio/transition-soft.mp3",
+      "bytes": 41082,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "transitions",
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/audio/whoosh-big.mp3",
+      "bytes": 71724,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/audio/whoosh-fast.mp3",
+      "bytes": 57624,
+      "ext": ".mp3",
+      "binary": true,
+      "categories": [
+        "audio-sound",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/card1.png",
+      "bytes": 49799,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/card10.png",
+      "bytes": 51587,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/card2.png",
+      "bytes": 52017,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/card3.png",
+      "bytes": 58681,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/card4-hires.png",
+      "bytes": 123105,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/card4.png",
+      "bytes": 59011,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/card5.png",
+      "bytes": 59166,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/card6.png",
+      "bytes": 55703,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/card7.png",
+      "bytes": 62485,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/card8.png",
+      "bytes": 54202,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/card9.png",
+      "bytes": 59637,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/detail-experiments.png",
+      "bytes": 3257847,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/detail-full.png",
+      "bytes": 380073,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/float-filter.png",
+      "bytes": 2754,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/float-search.png",
+      "bytes": 11667,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/float-section.png",
+      "bytes": 4485,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/float-stats.png",
+      "bytes": 11497,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/nav.png",
+      "bytes": 12776,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/paper1.png",
+      "bytes": 98212,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/paper2.png",
+      "bytes": 95517,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/paper3.png",
+      "bytes": 95131,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/paper4.png",
+      "bytes": 87621,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/paper5.png",
+      "bytes": 90661,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/papers-full.png",
+      "bytes": 594891,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/projects-empty.png",
+      "bytes": 104520,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/projects-full.png",
+      "bytes": 617560,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/public/textures/live/wbr-full.png",
+      "bytes": 487943,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/remotion.config.ts",
+      "bytes": 186,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/Root.tsx",
+      "bytes": 312,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/Caption.tsx",
+      "bytes": 1422,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/DigitRoll.tsx",
+      "bytes": 1638,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/FlashCut.tsx",
+      "bytes": 657,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/Main.tsx",
+      "bytes": 8988,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/PaperTitleCard.tsx",
+      "bytes": 3237,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/live/PageCam.tsx",
+      "bytes": 6503,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/live/SceneDetail.tsx",
+      "bytes": 5332,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/live/SceneFlyIn.tsx",
+      "bytes": 19178,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/live/SceneOpen.tsx",
+      "bytes": 24458,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/live/SceneOutroLive.tsx",
+      "bytes": 16688,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/live/ScenePapers.tsx",
+      "bytes": 7352,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/live/SceneWbr.tsx",
+      "bytes": 11677,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/aifl/live-layout.json",
+      "bytes": 5601,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/src/index.ts",
+      "bytes": 93,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "template/tsconfig.json",
+      "bytes": 315,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    }
+  ]
+}

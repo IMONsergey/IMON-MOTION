@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "donor": "emilkowalski-skills",
+  "summary": {
+    "fileCount": 20,
+    "totalBytes": 164168,
+    "textFiles": 20,
+    "binaryFiles": 0,
+    "topExtensions": {
+      ".md": 17,
+      "[none]": 3
+    },
+    "categoryCounts": {
+      "skills": 16,
+      "examples-templates": 1,
+      "ui-motion": 1
+    }
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 68,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 10,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1070,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 3626,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "skills/animate/RECIPES.md",
+      "bytes": 7957,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/animate/SKILL.md",
+      "bytes": 11527,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/animation-vocabulary/SKILL.md",
+      "bytes": 13128,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/apple-design/SKILL.md",
+      "bytes": 22715,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/ask-sonner/API.md",
+      "bytes": 4545,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/ask-sonner/SKILL.md",
+      "bytes": 6944,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/emil-design-eng/SKILL.md",
+      "bytes": 27226,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/find-animation-opportunities/SKILL.md",
+      "bytes": 9491,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/improve-animations/AUDIT.md",
+      "bytes": 7387,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/improve-animations/PLAN-TEMPLATE.md",
+      "bytes": 3100,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "skills/improve-animations/SKILL.md",
+      "bytes": 7915,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/pick-ui-library/SKILL.md",
+      "bytes": 4514,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "skills/prototype/PICKER.md",
+      "bytes": 7548,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/prototype/SKILL.md",
+      "bytes": 7488,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/review-animations/SKILL.md",
+      "bytes": 8108,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    },
+    {
+      "path": "skills/review-animations/STANDARDS.md",
+      "bytes": 9801,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills"
+      ]
+    }
+  ]
+}

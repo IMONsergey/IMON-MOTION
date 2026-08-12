@@ -1,0 +1,2438 @@
+{
+  "version": 1,
+  "donor": "remotion-scenes",
+  "summary": {
+    "fileCount": 253,
+    "totalBytes": 1505772,
+    "textFiles": 252,
+    "binaryFiles": 1,
+    "topExtensions": {
+      ".tsx": 224,
+      ".ts": 9,
+      ".md": 6,
+      ".json": 5,
+      "[none]": 2,
+      ".yaml": 2,
+      ".yml": 1,
+      ".mjs": 1,
+      ".html": 1,
+      ".svg": 1,
+      ".png": 1
+    },
+    "categoryCounts": {
+      "shots-scenes-storyboard": 221,
+      "design-system": 34,
+      "effects": 32,
+      "ui-motion": 27,
+      "examples-templates": 19,
+      "typography": 17,
+      "transitions": 17,
+      "camera-cinematography": 12,
+      "data-animation": 11,
+      "3d-webgl-shaders": 6,
+      "tests": 2,
+      "remotion": 1,
+      "rendering": 1
+    }
+  },
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "bytes": 443,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "bytes": 678,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 668,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ]
+    },
+    {
+      "path": ".github/workflows/deploy-preview.yml",
+      "bytes": 1140,
+      "ext": ".yml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 387,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 1415,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2128,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1072,
+      "ext": "[none]",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "README.md",
+      "bytes": 5855,
+      "ext": ".md",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 441,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "package.json",
+      "bytes": 1358,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 122680,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "preview/index.html",
+      "bytes": 2054,
+      "ext": ".html",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "preview/package.json",
+      "bytes": 551,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "preview/pnpm-lock.yaml",
+      "bytes": 36683,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "preview/public/favicon.svg",
+      "bytes": 579,
+      "ext": ".svg",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "preview/public/ogp.png",
+      "bytes": 594102,
+      "ext": ".png",
+      "binary": true,
+      "categories": []
+    },
+    {
+      "path": "preview/src/App.tsx",
+      "bytes": 9526,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "preview/src/main.tsx",
+      "bytes": 214,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "preview/tsconfig.json",
+      "bytes": 663,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "preview/tsconfig.node.json",
+      "bytes": 213,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "preview/vite.config.ts",
+      "bytes": 618,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "remotion.config.ts",
+      "bytes": 424,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ]
+    },
+    {
+      "path": "src/OgpVideo.tsx",
+      "bytes": 6928,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ]
+    },
+    {
+      "path": "src/Root.tsx",
+      "bytes": 5549,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/common/colors.ts",
+      "bytes": 599,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/common/easing.ts",
+      "bytes": 467,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/common/fonts.ts",
+      "bytes": 185,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "typography"
+      ]
+    },
+    {
+      "path": "src/common/index.ts",
+      "bytes": 176,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/common/utils.ts",
+      "bytes": 421,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 109,
+      "ext": ".ts",
+      "binary": false,
+      "categories": []
+    },
+    {
+      "path": "src/scenes/BackgroundAnimations/BackgroundAurora.tsx",
+      "bytes": 2923,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/BackgroundAnimations/BackgroundBokeh.tsx",
+      "bytes": 2084,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/BackgroundAnimations/BackgroundFlowingGradient.tsx",
+      "bytes": 1188,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/BackgroundAnimations/BackgroundGeometric.tsx",
+      "bytes": 2105,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/BackgroundAnimations/BackgroundGrid.tsx",
+      "bytes": 1676,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/BackgroundAnimations/BackgroundMeshGradient.tsx",
+      "bytes": 2340,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/BackgroundAnimations/BackgroundNoiseTexture.tsx",
+      "bytes": 1794,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/BackgroundAnimations/BackgroundPerspectiveGrid.tsx",
+      "bytes": 2157,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/scenes/BackgroundAnimations/BackgroundRadial.tsx",
+      "bytes": 2024,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/BackgroundAnimations/BackgroundWaves.tsx",
+      "bytes": 1774,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/BackgroundAnimations/index.tsx",
+      "bytes": 2049,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/CinematicAnimations/CinematicAction.tsx",
+      "bytes": 3058,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/scenes/CinematicAnimations/CinematicAnime.tsx",
+      "bytes": 2813,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/scenes/CinematicAnimations/CinematicDocumentary.tsx",
+      "bytes": 2298,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/scenes/CinematicAnimations/CinematicEpic.tsx",
+      "bytes": 2871,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/scenes/CinematicAnimations/CinematicHorror.tsx",
+      "bytes": 2543,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/scenes/CinematicAnimations/CinematicMinimalEnd.tsx",
+      "bytes": 2685,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/scenes/CinematicAnimations/CinematicNoir.tsx",
+      "bytes": 2719,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/scenes/CinematicAnimations/CinematicRomance.tsx",
+      "bytes": 2613,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/scenes/CinematicAnimations/CinematicSciFi.tsx",
+      "bytes": 3153,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/scenes/CinematicAnimations/CinematicVintage.tsx",
+      "bytes": 3204,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/scenes/CinematicAnimations/index.tsx",
+      "bytes": 1885,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography"
+      ]
+    },
+    {
+      "path": "src/scenes/DataAnimations/DataBarChart.tsx",
+      "bytes": 4158,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/scenes/DataAnimations/DataGauge.tsx",
+      "bytes": 4106,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/scenes/DataAnimations/DataLineChart.tsx",
+      "bytes": 4648,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/scenes/DataAnimations/DataPieChart.tsx",
+      "bytes": 4611,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/scenes/DataAnimations/DataProgressBars.tsx",
+      "bytes": 2769,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/scenes/DataAnimations/DataRanking.tsx",
+      "bytes": 3582,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/scenes/DataAnimations/DataStatsCards.tsx",
+      "bytes": 5115,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/scenes/DataAnimations/DataTimeline.tsx",
+      "bytes": 3624,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/scenes/DataAnimations/index.tsx",
+      "bytes": 1549,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/DemoAddressBar.tsx",
+      "bytes": 5946,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/DemoCursorClick.tsx",
+      "bytes": 3453,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/DemoDragDrop.tsx",
+      "bytes": 5582,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/DemoMenuExpand.tsx",
+      "bytes": 5954,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/DemoModal.tsx",
+      "bytes": 5911,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/DemoPageTransition.tsx",
+      "bytes": 4613,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/DemoScroll.tsx",
+      "bytes": 5055,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/DemoSearchFilter.tsx",
+      "bytes": 5669,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/DemoTextInput.tsx",
+      "bytes": 4919,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/DemoTooltip.tsx",
+      "bytes": 4923,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/DemoWizard.tsx",
+      "bytes": 6936,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/DemoZoomFocus.tsx",
+      "bytes": 5428,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/index.tsx",
+      "bytes": 2030,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/shared/ClickRipple.tsx",
+      "bytes": 496,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/shared/Cursor.tsx",
+      "bytes": 1288,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/DemoAnimations/shared/Highlight.tsx",
+      "bytes": 892,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "examples-templates"
+      ]
+    },
+    {
+      "path": "src/scenes/EffectAnimations/EffectChromaticAberration.tsx",
+      "bytes": 2598,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/EffectAnimations/EffectDepthOfField.tsx",
+      "bytes": 3220,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/EffectAnimations/EffectDuotone.tsx",
+      "bytes": 2699,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/EffectAnimations/EffectFilmGrain.tsx",
+      "bytes": 2709,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/EffectAnimations/EffectGlow.tsx",
+      "bytes": 2556,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/EffectAnimations/EffectKaleidoscope.tsx",
+      "bytes": 3027,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/EffectAnimations/EffectLightLeak.tsx",
+      "bytes": 2623,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/EffectAnimations/EffectMatrix.tsx",
+      "bytes": 2789,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/EffectAnimations/EffectNoise.tsx",
+      "bytes": 2310,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/EffectAnimations/EffectVHS.tsx",
+      "bytes": 3384,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/EffectAnimations/index.tsx",
+      "bytes": 1858,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/LayoutAsymmetric.tsx",
+      "bytes": 3223,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/LayoutDiagonal.tsx",
+      "bytes": 2254,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/LayoutFrameInFrame.tsx",
+      "bytes": 3210,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/LayoutFullscreenType.tsx",
+      "bytes": 2528,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/LayoutGiantNumber.tsx",
+      "bytes": 2529,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/LayoutGridBreak.tsx",
+      "bytes": 2297,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/LayoutLayered.tsx",
+      "bytes": 2496,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/LayoutMultiColumn.tsx",
+      "bytes": 3172,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/LayoutOffGrid.tsx",
+      "bytes": 2250,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/LayoutSplitContrast.tsx",
+      "bytes": 3043,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/LayoutVerticalMix.tsx",
+      "bytes": 2413,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/LayoutWhitespace.tsx",
+      "bytes": 2004,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LayoutAnimations/index.tsx",
+      "bytes": 2199,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LiquidAnimations/LiquidBlob.tsx",
+      "bytes": 5040,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/LiquidAnimations/LiquidCalligraphyInk.tsx",
+      "bytes": 5634,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion",
+        "data-animation"
+      ]
+    },
+    {
+      "path": "src/scenes/LiquidAnimations/LiquidFluidWave.tsx",
+      "bytes": 4948,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/LiquidAnimations/LiquidInkSplash.tsx",
+      "bytes": 3232,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/LiquidAnimations/LiquidMorphBlob.tsx",
+      "bytes": 5788,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/LiquidAnimations/LiquidOilSpill.tsx",
+      "bytes": 5670,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/LiquidAnimations/LiquidPaintDrip.tsx",
+      "bytes": 5860,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/LiquidAnimations/LiquidSplatter.tsx",
+      "bytes": 6348,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/LiquidAnimations/LiquidSwirl.tsx",
+      "bytes": 5363,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/LiquidAnimations/LiquidWaterDrop.tsx",
+      "bytes": 5858,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/LiquidAnimations/index.tsx",
+      "bytes": 1848,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/LiquidAnimations/shared/blobUtils.ts",
+      "bytes": 1309,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/ListAsymmetric3.tsx",
+      "bytes": 4472,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/ListFullscreenSequence.tsx",
+      "bytes": 2889,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/ListHeroWithList.tsx",
+      "bytes": 2950,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/ListHorizontalPeek.tsx",
+      "bytes": 4149,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/ListMinimalLeft.tsx",
+      "bytes": 2914,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/ListNumberedVertical.tsx",
+      "bytes": 3222,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/ListSimpleText.tsx",
+      "bytes": 2771,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/ListStaggered.tsx",
+      "bytes": 3059,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/ListStatsFocused.tsx",
+      "bytes": 4077,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/ListTimeline.tsx",
+      "bytes": 4375,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/ListTwoColumnCompare.tsx",
+      "bytes": 3285,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/ListUnevenGrid.tsx",
+      "bytes": 4611,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ListAnimations/index.tsx",
+      "bytes": 2215,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LogoAnimations/Logo3DRotate.tsx",
+      "bytes": 1772,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/scenes/LogoAnimations/LogoGlitch.tsx",
+      "bytes": 2445,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LogoAnimations/LogoLightTrail.tsx",
+      "bytes": 2062,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LogoAnimations/LogoMaskReveal.tsx",
+      "bytes": 1869,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/LogoAnimations/LogoMorph.tsx",
+      "bytes": 2038,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LogoAnimations/LogoNeonSign.tsx",
+      "bytes": 2743,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LogoAnimations/LogoParticles.tsx",
+      "bytes": 2362,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/LogoAnimations/LogoSplitScreen.tsx",
+      "bytes": 1837,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LogoAnimations/LogoStamp.tsx",
+      "bytes": 2901,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LogoAnimations/LogoStroke.tsx",
+      "bytes": 1929,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/LogoAnimations/index.tsx",
+      "bytes": 1730,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ParticleAnimations/ParticleBubbles.tsx",
+      "bytes": 2055,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/ParticleAnimations/ParticleConfetti.tsx",
+      "bytes": 2311,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/ParticleAnimations/ParticleFireworks.tsx",
+      "bytes": 3379,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/ParticleAnimations/ParticleLightning.tsx",
+      "bytes": 2504,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/ParticleAnimations/ParticleMagneticField.tsx",
+      "bytes": 2988,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/ParticleAnimations/ParticleSakura.tsx",
+      "bytes": 2256,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/ParticleAnimations/ParticleShootingStars.tsx",
+      "bytes": 2883,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/ParticleAnimations/ParticleSmoke.tsx",
+      "bytes": 2051,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/ParticleAnimations/ParticleSnow.tsx",
+      "bytes": 2476,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/ParticleAnimations/ParticleSparks.tsx",
+      "bytes": 2910,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/ParticleAnimations/index.tsx",
+      "bytes": 1916,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/Roller3DCarousel.tsx",
+      "bytes": 3620,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerBlur.tsx",
+      "bytes": 1978,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerCountdown.tsx",
+      "bytes": 8665,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerDramaticStop.tsx",
+      "bytes": 7027,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerDrum.tsx",
+      "bytes": 2763,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerFadeSlide.tsx",
+      "bytes": 2697,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerFlip.tsx",
+      "bytes": 2407,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerGlitch.tsx",
+      "bytes": 3108,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerGradientWave.tsx",
+      "bytes": 3628,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerLiquid.tsx",
+      "bytes": 3095,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerMaskSlide.tsx",
+      "bytes": 2962,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerMultiSlot.tsx",
+      "bytes": 8081,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerOutlineHighlight.tsx",
+      "bytes": 2812,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerPerspectiveStripes.tsx",
+      "bytes": 3933,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "tests"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerScaleBounce.tsx",
+      "bytes": 1874,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerShuffle.tsx",
+      "bytes": 3758,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerSlotMachine.tsx",
+      "bytes": 3146,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerSlotReveal.tsx",
+      "bytes": 5472,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerSplitFlap.tsx",
+      "bytes": 4417,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerTypewriter.tsx",
+      "bytes": 2332,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerVerticalList.tsx",
+      "bytes": 3146,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/RollerWave.tsx",
+      "bytes": 2406,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/RollerAnimations/index.tsx",
+      "bytes": 3412,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ShapeAnimations/Shape3DCube.tsx",
+      "bytes": 2609,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/scenes/ShapeAnimations/ShapeCircularProgress.tsx",
+      "bytes": 2576,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ShapeAnimations/ShapeExplosion.tsx",
+      "bytes": 2740,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ShapeAnimations/ShapeHelix.tsx",
+      "bytes": 3440,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ShapeAnimations/ShapeHexGrid.tsx",
+      "bytes": 2446,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ShapeAnimations/ShapeMandala.tsx",
+      "bytes": 3246,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ShapeAnimations/ShapeMorphing.tsx",
+      "bytes": 2225,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ShapeAnimations/ShapeParticleField.tsx",
+      "bytes": 2054,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/ShapeAnimations/ShapeRipples.tsx",
+      "bytes": 1845,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ShapeAnimations/ShapeSpinningRings.tsx",
+      "bytes": 2824,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/ShapeAnimations/index.tsx",
+      "bytes": 2272,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/Text3DFlip.tsx",
+      "bytes": 2137,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "3d-webgl-shaders"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/TextCounter.tsx",
+      "bytes": 2034,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/TextExplode.tsx",
+      "bytes": 3662,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/TextGlitch.tsx",
+      "bytes": 3168,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/TextGradient.tsx",
+      "bytes": 1915,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/TextKinetic.tsx",
+      "bytes": 2151,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/TextMaskReveal.tsx",
+      "bytes": 1888,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/TextNeon.tsx",
+      "bytes": 2153,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/TextScramble.tsx",
+      "bytes": 2268,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/TextSplit.tsx",
+      "bytes": 2297,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/TextTypewriter.tsx",
+      "bytes": 2384,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/TextWave.tsx",
+      "bytes": 2578,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/TextAnimations/index.tsx",
+      "bytes": 2371,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/Theme3DGlass.tsx",
+      "bytes": 17662,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "3d-webgl-shaders",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/Theme3DGlassThreeJS.tsx",
+      "bytes": 7805,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "3d-webgl-shaders",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeArtDeco.tsx",
+      "bytes": 3891,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeBauhaus.tsx",
+      "bytes": 2996,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeBoho.tsx",
+      "bytes": 3056,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeBrutalistWeb.tsx",
+      "bytes": 3793,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeCosmic.tsx",
+      "bytes": 3565,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeCyberpunk.tsx",
+      "bytes": 3042,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeDarkMode.tsx",
+      "bytes": 3278,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeDuotone.tsx",
+      "bytes": 2719,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeGeometricAbstract.tsx",
+      "bytes": 2934,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeGlassmorphism.tsx",
+      "bytes": 2239,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeGradient.tsx",
+      "bytes": 1728,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "effects",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeHolographic.tsx",
+      "bytes": 2865,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeIndustrial.tsx",
+      "bytes": 4293,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeIsometric.tsx",
+      "bytes": 2634,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeJapanese.tsx",
+      "bytes": 2250,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeLuxury.tsx",
+      "bytes": 2742,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeMemphis.tsx",
+      "bytes": 4383,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeMinimalist.tsx",
+      "bytes": 1455,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeMonochrome.tsx",
+      "bytes": 2112,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeNatural.tsx",
+      "bytes": 2789,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeNeobrutalism.tsx",
+      "bytes": 2221,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeNeon.tsx",
+      "bytes": 2843,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeNeumorphism.tsx",
+      "bytes": 2591,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeOrganic.tsx",
+      "bytes": 2891,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemePaperCut.tsx",
+      "bytes": 2894,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemePop.tsx",
+      "bytes": 1544,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeRetro.tsx",
+      "bytes": 3001,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeSwiss.tsx",
+      "bytes": 3105,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeTech.tsx",
+      "bytes": 4900,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeWatercolor.tsx",
+      "bytes": 3114,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/ThemeY2K.tsx",
+      "bytes": 6909,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/ThemeAnimations/index.tsx",
+      "bytes": 4438,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "design-system"
+      ]
+    },
+    {
+      "path": "src/scenes/TransitionAnimations/TransitionBlinds.tsx",
+      "bytes": 3127,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/TransitionAnimations/TransitionBoxReveal.tsx",
+      "bytes": 2029,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/TransitionAnimations/TransitionCircleWipe.tsx",
+      "bytes": 1789,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/TransitionAnimations/TransitionDiagonalSlice.tsx",
+      "bytes": 1829,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/TransitionAnimations/TransitionFlash.tsx",
+      "bytes": 1789,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/TransitionAnimations/TransitionGlitch.tsx",
+      "bytes": 2857,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/TransitionAnimations/TransitionLineSweep.tsx",
+      "bytes": 2020,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/TransitionAnimations/TransitionLiquidMorph.tsx",
+      "bytes": 3328,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/TransitionAnimations/TransitionShutter.tsx",
+      "bytes": 2826,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/TransitionAnimations/TransitionZoomBlur.tsx",
+      "bytes": 1782,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "effects"
+      ]
+    },
+    {
+      "path": "src/scenes/TransitionAnimations/index.tsx",
+      "bytes": 2489,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions"
+      ]
+    },
+    {
+      "path": "src/scenes/UIAnimations/UIButton.tsx",
+      "bytes": 3377,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/UIAnimations/UICard.tsx",
+      "bytes": 5656,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/UIAnimations/UIDropdown.tsx",
+      "bytes": 3126,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/UIAnimations/UIForm.tsx",
+      "bytes": 4151,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/UIAnimations/UILoading.tsx",
+      "bytes": 3618,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/UIAnimations/UIModal.tsx",
+      "bytes": 4628,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/UIAnimations/UINavigation.tsx",
+      "bytes": 3241,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/UIAnimations/UITabs.tsx",
+      "bytes": 2829,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/UIAnimations/UIToast.tsx",
+      "bytes": 3179,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/UIAnimations/UIToggle.tsx",
+      "bytes": 3092,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "src/scenes/UIAnimations/index.tsx",
+      "bytes": 1547,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ]
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 525,
+      "ext": ".json",
+      "binary": false,
+      "categories": []
+    }
+  ]
+}
