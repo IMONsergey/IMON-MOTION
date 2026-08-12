@@ -46,10 +46,14 @@ const requiredFiles = [
   'apps/studio/src/SystemPreview.tsx',
   'scripts/route.mts',
   'scripts/research.mts',
+  'scripts/plan.mts',
+  'scripts/lib/runtime-registry.mts',
   'library/README.md',
   'library/registry.yaml',
   'adapters/README.md',
   'adapters/contracts.yaml',
+  'adapters/product-capture/src/index.ts',
+  'adapters/product-capture/test/product-capture.test.ts',
   'provenance/SOURCES.lock.yaml',
   'index/catalog.json',
 ];
@@ -90,12 +94,23 @@ for (const status of ['implemented', 'recipe', 'adapter-required']) {
   if (!runtimeRegistry.includes(`status: ${status}`)) failures.push(`runtime registry has no ${status} entries`);
 }
 
+const adapterContracts = fs.readFileSync(path.join(root, 'adapters/contracts.yaml'), 'utf8');
+if (!/product-capture:\s*\n\s+status:\s+experimental/m.test(adapterContracts)) {
+  failures.push('product-capture adapter must be registered as experimental until its browser capture runner is ready');
+}
+if (!adapterContracts.includes('smoke_test: adapters/product-capture/test/product-capture.test.ts')) {
+  failures.push('product-capture adapter smoke test is not registered');
+}
+
 const packageJson = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
 if (packageJson.version !== '0.2.0') failures.push(`expected root version 0.2.0, got ${packageJson.version}`);
 if (!Array.isArray(packageJson.workspaces) || !packageJson.workspaces.includes('packages/*')) failures.push('root package.json must include packages/* workspace');
 if (!Array.isArray(packageJson.workspaces) || !packageJson.workspaces.includes('apps/*')) failures.push('root package.json must include apps/* workspace');
-for (const script of ['route', 'research', 'studio', 'studio:compositions', 'system:validate', 'typecheck', 'test']) {
+for (const script of ['route', 'research', 'plan', 'studio', 'studio:compositions', 'system:validate', 'typecheck', 'test']) {
   if (!packageJson.scripts?.[script]) failures.push(`missing root npm script: ${script}`);
+}
+if (!String(packageJson.scripts?.test ?? '').includes('adapters/product-capture/test')) {
+  failures.push('root test gate does not include product-capture adapter tests');
 }
 
 const studioPackage = JSON.parse(fs.readFileSync(path.join(root, 'apps/studio/package.json'), 'utf8'));
@@ -109,4 +124,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`IMON MOTION validation OK: ${expectedDonors.length} donors, content-aware index v${donorCatalog.version}, ${primitiveIds.length} normalized primitives, runtime readiness registry, routed research, library/adapters contracts and Studio architecture present.`);
+console.log(`IMON MOTION validation OK: ${expectedDonors.length} donors, content-aware index v${donorCatalog.version}, ${primitiveIds.length} normalized primitives, runtime readiness, one-command planner, product-capture adapter, library/adapters contracts and Studio architecture present.`);
