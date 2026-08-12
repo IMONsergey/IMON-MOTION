@@ -1,0 +1,45 @@
+name: Refresh IMON MOTION Health
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Record Core CI Proof"
+      - "Record Three Runtime Proof"
+      - "Record Capture Runtime Proof"
+      - "Record QA Runtime Proof"
+      - "Record Audio Runtime Proof"
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: imon-motion-health
+  cancel-in-progress: true
+
+jobs:
+  refresh-health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Build consolidated readiness report
+        run: |
+          mkdir -p status
+          node scripts/health.mjs > status/health.json
+          node -e "JSON.parse(require('fs').readFileSync('status/health.json','utf8')); console.log('health report JSON OK')"
+
+      - name: Commit health when changed
+        run: |
+          git config user.name "IMON MOTION Bot"
+          git config user.email "imon-motion-bot@users.noreply.github.com"
+          git add status/health.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: refresh IMON MOTION runtime health"
+          git pull --rebase origin main
+          git push origin HEAD:main
