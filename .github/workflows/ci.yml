@@ -50,3 +50,27 @@ jobs:
           if (data.storyboard.beats.length < 5) throw new Error('storyboard skeleton too small');
           console.log('Route smoke test OK');
           NODE
+
+      - name: Build bounded research context plan
+        run: npm run --silent research -- "35 second premium product launch with controlled 3D orbit, UI detail and cinematic sound" > /tmp/research.json
+
+      - name: Verify research context plan
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const data = JSON.parse(fs.readFileSync('/tmp/research.json', 'utf8'));
+          if (!data.contextPolicy.normalizedFirst) throw new Error('normalized-first policy missing');
+          if (data.route.donors.length < 2 || data.route.donors.length > 6) throw new Error('donor context is not bounded');
+          if (!data.route.donors.includes('video-shotcraft')) throw new Error('expected cinematic research donor missing');
+          if (!data.normalizedContext.includes('packages/motion-core/src/catalog.ts')) throw new Error('normalized catalog missing from context plan');
+          if (!data.research.length) throw new Error('research plan is empty');
+          for (const donor of data.research) {
+            if (!data.route.donors.includes(donor.donor)) throw new Error(`unrouted donor leaked into research: ${donor.donor}`);
+            if (donor.files.length > 7) throw new Error(`too many files selected for ${donor.donor}`);
+            for (const file of donor.files) {
+              if (!file.path.startsWith(`upstream/${donor.donor}/`)) throw new Error(`invalid upstream path: ${file.path}`);
+            }
+          }
+          if (data.ignoredDonors.length === 0) throw new Error('research planner failed to exclude irrelevant donors');
+          console.log('Research context smoke test OK');
+          NODE
