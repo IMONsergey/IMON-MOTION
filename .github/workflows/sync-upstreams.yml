@@ -26,12 +26,12 @@ jobs:
 
     steps:
       - name: Checkout IMON MOTION
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
-          fetch-depth: 1
+          fetch-depth: 0
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 22
 
@@ -53,6 +53,7 @@ jobs:
           test -f provenance/SOURCES.lock.yaml
           test -f index/catalog.json
           test -f index/catalog.md
+          test "$(node -p "require('./index/catalog.json').version")" = "2"
 
       - name: Commit synchronized corpus
         run: |
@@ -60,8 +61,9 @@ jobs:
           git config user.email "imon-motion-bot@users.noreply.github.com"
           git add upstream provenance index
           if git diff --cached --quiet; then
-            echo "No upstream changes to commit."
+            echo "No upstream/index changes to commit."
             exit 0
           fi
           git commit -m "chore: sync 15 motion upstream donors"
+          git pull --rebase origin main
           git push origin HEAD:main
