@@ -37,7 +37,7 @@ jobs:
         run: npm test
 
       - name: Smoke-test routed product brief
-        run: npm run route -- "35 second premium product launch with controlled 3D orbit, UI detail and cinematic sound" > /tmp/route.json
+        run: npm run --silent route -- "35 second premium product launch with controlled 3D orbit, UI detail and cinematic sound" > /tmp/route.json
 
       - name: Verify route output
         run: |
