@@ -1,0 +1,504 @@
+{
+  "version": 1,
+  "sourceGeneratedAt": "2026-08-12T05:55:58Z",
+  "disclaimer": "Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.",
+  "policy": {
+    "missingLicenseFile": "review-required",
+    "unclassifiedLicenseFile": "review-required",
+    "assets": "review separately from source-code license before redistribution/commercial production use",
+    "normalizedImplementations": "preserve provenance and avoid assuming donor license covers third-party/bundled assets"
+  },
+  "summary": {
+    "donors": 15,
+    "withDetectedLicenseFile": 12,
+    "missingLicenseFile": [
+      "remotion-skills",
+      "remotion-templates",
+      "skill-remotion-geist"
+    ],
+    "unclassifiedLicense": [],
+    "donorsWithBundledAssets": 9
+  },
+  "sources": {
+    "chuk-motion": {
+      "repository": "IBM/chuk-motion",
+      "snapshotPath": "upstream/chuk-motion",
+      "status": "license-file-detected",
+      "detectedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "exists": true,
+          "classification": "Apache-2.0"
+        }
+      ],
+      "recognizedClassifications": [
+        "Apache-2.0"
+      ],
+      "assets": {
+        "files": 0,
+        "bytes": 0,
+        "extensions": {},
+        "samples": [],
+        "separateRightsReviewRecommended": false
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": false,
+        "bundledAssetsRequireSeparateRightsReview": false
+      }
+    },
+    "claude-remotion-skill": {
+      "repository": "haidrrrry/claude-remotion-skill",
+      "snapshotPath": "upstream/claude-remotion-skill",
+      "status": "license-file-detected",
+      "detectedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "exists": true,
+          "classification": "MIT"
+        }
+      ],
+      "recognizedClassifications": [
+        "MIT"
+      ],
+      "assets": {
+        "files": 2,
+        "bytes": 7439761,
+        "extensions": {
+          ".gif": 1,
+          ".mp4": 1
+        },
+        "samples": [
+          "demo.gif",
+          "demo.mp4"
+        ],
+        "separateRightsReviewRecommended": true
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": false,
+        "bundledAssetsRequireSeparateRightsReview": true
+      }
+    },
+    "emilkowalski-skills": {
+      "repository": "emilkowalski/skills",
+      "snapshotPath": "upstream/emilkowalski-skills",
+      "status": "license-file-detected",
+      "detectedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "exists": true,
+          "classification": "MIT"
+        }
+      ],
+      "recognizedClassifications": [
+        "MIT"
+      ],
+      "assets": {
+        "files": 0,
+        "bytes": 0,
+        "extensions": {},
+        "samples": [],
+        "separateRightsReviewRecommended": false
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": false,
+        "bundledAssetsRequireSeparateRightsReview": false
+      }
+    },
+    "motion-canvas-examples": {
+      "repository": "motion-canvas/examples",
+      "snapshotPath": "upstream/motion-canvas-examples",
+      "status": "license-file-detected",
+      "detectedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "exists": true,
+          "classification": "MIT"
+        }
+      ],
+      "recognizedClassifications": [
+        "MIT"
+      ],
+      "assets": {
+        "files": 52,
+        "bytes": 41427204,
+        "extensions": {
+          ".png": 48,
+          ".mp3": 4
+        },
+        "samples": [
+          "examples/anniversary/src/images/current.png",
+          "examples/anniversary/src/images/fullscreen.png",
+          "examples/anniversary/src/images/old.png",
+          "examples/asset-code/src/audio/voice.mp3",
+          "examples/asset-code/src/image/jeff.png",
+          "examples/deferred-lighting/src/audio/voice.mp3",
+          "examples/deferred-lighting/src/images/frames/ball.png",
+          "examples/deferred-lighting/src/images/frames/ball_lookup.png",
+          "examples/deferred-lighting/src/images/frames/ball_normal.png",
+          "examples/deferred-lighting/src/images/frames/ball_palette.png",
+          "examples/deferred-lighting/src/images/frames/box_normal.png",
+          "examples/deferred-lighting/src/images/frames/colors.png"
+        ],
+        "separateRightsReviewRecommended": true
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": false,
+        "bundledAssetsRequireSeparateRightsReview": true
+      }
+    },
+    "motion-design-skill": {
+      "repository": "LottieFiles/motion-design-skill",
+      "snapshotPath": "upstream/motion-design-skill",
+      "status": "license-file-detected",
+      "detectedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "exists": true,
+          "classification": "MIT"
+        }
+      ],
+      "recognizedClassifications": [
+        "MIT"
+      ],
+      "assets": {
+        "files": 0,
+        "bytes": 0,
+        "extensions": {},
+        "samples": [],
+        "separateRightsReviewRecommended": false
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": false,
+        "bundledAssetsRequireSeparateRightsReview": false
+      }
+    },
+    "motion-skills": {
+      "repository": "iart-ai/motion-skills",
+      "snapshotPath": "upstream/motion-skills",
+      "status": "license-file-detected",
+      "detectedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "exists": true,
+          "classification": "MIT"
+        }
+      ],
+      "recognizedClassifications": [
+        "MIT"
+      ],
+      "assets": {
+        "files": 1,
+        "bytes": 3651648,
+        "extensions": {
+          ".gif": 1
+        },
+        "samples": [
+          "showcase.gif"
+        ],
+        "separateRightsReviewRecommended": true
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": false,
+        "bundledAssetsRequireSeparateRightsReview": true
+      }
+    },
+    "onda": {
+      "repository": "degueba/onda",
+      "snapshotPath": "upstream/onda",
+      "status": "license-file-detected",
+      "detectedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "exists": true,
+          "classification": "MIT"
+        }
+      ],
+      "recognizedClassifications": [
+        "MIT"
+      ],
+      "assets": {
+        "files": 5,
+        "bytes": 1412890,
+        "extensions": {
+          ".mp3": 5
+        },
+        "samples": [
+          "www/public/ambient.mp3",
+          "www/public/dance.mp3",
+          "www/public/music.mp3",
+          "www/public/synthwave.mp3",
+          "www/public/voice.mp3"
+        ],
+        "separateRightsReviewRecommended": true
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": false,
+        "bundledAssetsRequireSeparateRightsReview": true
+      }
+    },
+    "product-launch-video-skill": {
+      "repository": "memex-lab/product-launch-video-skill",
+      "snapshotPath": "upstream/product-launch-video-skill",
+      "status": "license-file-detected",
+      "detectedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "exists": true,
+          "classification": "MIT"
+        }
+      ],
+      "recognizedClassifications": [
+        "MIT"
+      ],
+      "assets": {
+        "files": 0,
+        "bytes": 0,
+        "extensions": {},
+        "samples": [],
+        "separateRightsReviewRecommended": false
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": false,
+        "bundledAssetsRequireSeparateRightsReview": false
+      }
+    },
+    "remotion-cinematic": {
+      "repository": "codeverbojan/remotion-cinematic",
+      "snapshotPath": "upstream/remotion-cinematic",
+      "status": "license-file-detected",
+      "detectedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "exists": true,
+          "classification": "MIT"
+        }
+      ],
+      "recognizedClassifications": [
+        "MIT"
+      ],
+      "assets": {
+        "files": 9,
+        "bytes": 11825928,
+        "extensions": {
+          ".gif": 1,
+          ".mp3": 8
+        },
+        "samples": [
+          "docs/assets/demo-preview.gif",
+          "public/music/background.mp3",
+          "public/sfx/transitions/boom.mp3",
+          "public/sfx/transitions/impact.mp3",
+          "public/sfx/transitions/whoosh.mp3",
+          "public/sfx/ui/click.mp3",
+          "public/sfx/ui/notification.mp3",
+          "public/sfx/ui/pop.mp3",
+          "public/sfx/ui/typing.mp3"
+        ],
+        "separateRightsReviewRecommended": true
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": false,
+        "bundledAssetsRequireSeparateRightsReview": true
+      }
+    },
+    "remotion-scenes": {
+      "repository": "lifeprompt-team/remotion-scenes",
+      "snapshotPath": "upstream/remotion-scenes",
+      "status": "license-file-detected",
+      "detectedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "exists": true,
+          "classification": "MIT"
+        }
+      ],
+      "recognizedClassifications": [
+        "MIT"
+      ],
+      "assets": {
+        "files": 1,
+        "bytes": 594102,
+        "extensions": {
+          ".png": 1
+        },
+        "samples": [
+          "preview/public/ogp.png"
+        ],
+        "separateRightsReviewRecommended": true
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": false,
+        "bundledAssetsRequireSeparateRightsReview": true
+      }
+    },
+    "remotion-skills": {
+      "repository": "remotion-dev/skills",
+      "snapshotPath": "upstream/remotion-skills",
+      "status": "review-required-no-license-file-detected",
+      "detectedLicenseFiles": [],
+      "recognizedClassifications": [],
+      "assets": {
+        "files": 25,
+        "bytes": 32150,
+        "extensions": {
+          ".png": 25
+        },
+        "samples": [
+          "skills/remotion-best-practices/assets/remotion-icon.png",
+          "skills/remotion-best-practices/remotion-captions/assets/remotion-icon.png",
+          "skills/remotion-best-practices/remotion-create/assets/remotion-icon.png",
+          "skills/remotion-best-practices/remotion-docs/assets/remotion-icon.png",
+          "skills/remotion-best-practices/remotion-interactivity/assets/remotion-icon.png",
+          "skills/remotion-best-practices/remotion-maps/assets/remotion-icon.png",
+          "skills/remotion-best-practices/remotion-markup/assets/remotion-icon.png",
+          "skills/remotion-best-practices/remotion-markup/remotion-maps/assets/remotion-icon.png",
+          "skills/remotion-best-practices/remotion-multimedia/assets/remotion-icon.png",
+          "skills/remotion-best-practices/remotion-render/assets/remotion-icon.png",
+          "skills/remotion-best-practices/remotion-saas/assets/remotion-icon.png",
+          "skills/remotion-best-practices/remotion-studio/assets/remotion-icon.png"
+        ],
+        "separateRightsReviewRecommended": true
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": true,
+        "bundledAssetsRequireSeparateRightsReview": true
+      }
+    },
+    "remotion-templates": {
+      "repository": "reactvideoeditor/remotion-templates",
+      "snapshotPath": "upstream/remotion-templates",
+      "status": "review-required-no-license-file-detected",
+      "detectedLicenseFiles": [],
+      "recognizedClassifications": [],
+      "assets": {
+        "files": 0,
+        "bytes": 0,
+        "extensions": {},
+        "samples": [],
+        "separateRightsReviewRecommended": false
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": true,
+        "bundledAssetsRequireSeparateRightsReview": false
+      }
+    },
+    "skill-remotion-geist": {
+      "repository": "vercel-labs/skill-remotion-geist",
+      "snapshotPath": "upstream/skill-remotion-geist",
+      "status": "review-required-no-license-file-detected",
+      "detectedLicenseFiles": [],
+      "recognizedClassifications": [],
+      "assets": {
+        "files": 0,
+        "bytes": 0,
+        "extensions": {},
+        "samples": [],
+        "separateRightsReviewRecommended": false
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": true,
+        "bundledAssetsRequireSeparateRightsReview": false
+      }
+    },
+    "theatre": {
+      "repository": "theatre-js/theatre",
+      "snapshotPath": "upstream/theatre",
+      "status": "license-file-detected",
+      "detectedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "exists": true,
+          "classification": "Apache-2.0"
+        }
+      ],
+      "recognizedClassifications": [
+        "Apache-2.0"
+      ],
+      "assets": {
+        "files": 17,
+        "bytes": 1612692,
+        "extensions": {
+          ".png": 13,
+          ".glb": 4
+        },
+        "samples": [
+          "examples/dom-cra/public/logo192.png",
+          "examples/dom-cra/public/logo512.png",
+          "examples/r3f-cra/public/logo192.png",
+          "examples/r3f-cra/public/logo512.png",
+          "packages/app/public/butterfly.png",
+          "packages/playground/src/shared/camera/scene.glb",
+          "packages/playground/src/shared/instances/scene.glb",
+          "packages/playground/src/shared/r3f-rocket/scene.glb",
+          "packages/playground/src/tests/r3f-dynamic-tree/test.e2e.ts-snapshots/r3f-dynamic-tree-works-1-chromium-darwin.png",
+          "packages/playground/src/tests/r3f-dynamic-tree/test.e2e.ts-snapshots/r3f-dynamic-tree-works-1-chromium-linux.png",
+          "packages/playground/src/tests/r3f-dynamic-tree/test.e2e.ts-snapshots/r3f-dynamic-tree-works-2-chromium-darwin.png",
+          "packages/playground/src/tests/r3f-dynamic-tree/test.e2e.ts-snapshots/r3f-dynamic-tree-works-2-chromium-linux.png"
+        ],
+        "separateRightsReviewRecommended": true
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": false,
+        "bundledAssetsRequireSeparateRightsReview": true
+      }
+    },
+    "video-shotcraft": {
+      "repository": "Vincentwei1021/video-shotcraft",
+      "snapshotPath": "upstream/video-shotcraft",
+      "status": "license-file-detected",
+      "detectedLicenseFiles": [
+        {
+          "file": "LICENSE",
+          "exists": true,
+          "classification": "Apache-2.0"
+        }
+      ],
+      "recognizedClassifications": [
+        "Apache-2.0"
+      ],
+      "assets": {
+        "files": 273,
+        "bytes": 47256055,
+        "extensions": {
+          ".mp3": 165,
+          ".png": 42,
+          ".jpg": 66
+        },
+        "samples": [
+          "assets/audio/bgm/bgm-tech-house.mp3",
+          "assets/audio/bgm/cat-walk.mp3",
+          "assets/audio/bgm/g-eazy-nba-type.mp3",
+          "assets/audio/bgm/house-vibez.mp3",
+          "assets/audio/bgm/tonight-hiphop.mp3",
+          "assets/audio/sfx/camera/camera-autofocus.mp3",
+          "assets/audio/sfx/camera/camera-lens-shutter.mp3",
+          "assets/audio/sfx/camera/camera-shutter-hard.mp3",
+          "assets/audio/sfx/camera/camera-shutter-vintage.mp3",
+          "assets/audio/sfx/camera/click-camera.mp3",
+          "assets/audio/sfx/camera/ui-zoom-in.mp3",
+          "assets/audio/sfx/camera/ui-zoom-out.mp3"
+        ],
+        "separateRightsReviewRecommended": true
+      },
+      "productionPolicy": {
+        "donorSourceMayInformResearch": true,
+        "rawRedistributionOrDerivativeUseRequiresLicenseReview": false,
+        "bundledAssetsRequireSeparateRightsReview": true
+      }
+    }
+  }
+}
