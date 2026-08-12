@@ -74,3 +74,11 @@ jobs:
           if (data.ignoredDonors.length === 0) throw new Error('research planner failed to exclude irrelevant donors');
           console.log('Research context smoke test OK');
           NODE
+
+      - name: Discover normalized Remotion compositions
+        run: npm run --silent studio:compositions > /tmp/compositions.txt
+
+      - name: Verify Studio composition
+        run: |
+          cat /tmp/compositions.txt
+          grep -q "IMONSystemPreview" /tmp/compositions.txt
