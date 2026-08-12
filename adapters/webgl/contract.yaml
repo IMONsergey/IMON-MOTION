@@ -1,0 +1,22 @@
+version: 1
+id: webgl
+status: experimental
+capabilities: [webgl, three-d, rendering, choreography]
+primitive_ids: [webgl.shader-field]
+source_path: adapters/webgl/src/shader-field.ts
+smoke_test: adapters/webgl/test/shader-field.test.ts
+research_donors: [motion-skills, motion-canvas-examples, theatre, remotion-skills]
+implemented_features:
+  - deterministic vertex and fragment shader sources
+  - frame/fps-driven time uniform
+  - deterministic seed control
+  - amplitude/detail controls
+  - delivery-resolution uniform
+  - no runtime randomness
+missing_for_ready:
+  - real Remotion WebGL composition proof
+  - two-frame render differentiation proof
+  - GPU/browser fallback validation
+fallback:
+  mode: static-or-css-material
+readiness_rule: "Shader code and TypeScript tests are insufficient. Require a real Remotion/WebGL render proof before promoting webgl.shader-field to implemented."
