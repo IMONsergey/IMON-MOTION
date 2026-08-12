@@ -1,0 +1,67 @@
+name: Sync upstream donors
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/sync-upstreams.yml
+      - scripts/sync-upstreams.sh
+      - scripts/build-index.mjs
+      - .motion/donors.yaml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: imon-motion-upstream-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout IMON MOTION
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Ensure sync dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y rsync git-lfs
+          git lfs install
+
+      - name: Import complete upstream snapshots
+        run: bash scripts/sync-upstreams.sh
+
+      - name: Build routed context index
+        run: node scripts/build-index.mjs
+
+      - name: Validate donor count
+        run: |
+          test "$(find upstream -mindepth 1 -maxdepth 1 -type d | wc -l | tr -d ' ')" = "15"
+          test -f provenance/SOURCES.lock.yaml
+          test -f index/catalog.json
+          test -f index/catalog.md
+
+      - name: Commit synchronized corpus
+        run: |
+          git config user.name "IMON MOTION Bot"
+          git config user.email "imon-motion-bot@users.noreply.github.com"
+          git add upstream provenance index
+          if git diff --cached --quiet; then
+            echo "No upstream changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: sync 15 motion upstream donors"
+          git push origin HEAD:main
