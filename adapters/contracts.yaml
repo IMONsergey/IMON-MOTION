@@ -35,11 +35,15 @@ adapters:
     fallback: normalized-remotion-implementation
 
   product-capture:
-    status: planned
+    status: experimental
     capabilities: [ui-motion, shot-design]
     primitive_ids: [ui.cursor-focus, ui.viewport-push]
     research_donors: [remotion-cinematic, video-shotcraft]
     requirements: [stable-viewport, privacy-scrub, geometry-metadata]
+    source_path: adapters/product-capture/src/index.ts
+    smoke_test: adapters/product-capture/test/product-capture.test.ts
+    implemented_features: [capture-manifest-validation, privacy-gate, exact-element-anchors, normalized-coordinates, deterministic-cursor-curves]
+    missing_for_ready: [browser-capture-runner, automatic-dom-geometry-export, production-fixture]
     fallback: approved-static-product-states
 
   audio-analysis:
