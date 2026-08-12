@@ -1,0 +1,21 @@
+{
+  "name": "@imon-motion/webgl-studio",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compositions": "remotion compositions src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/three": "4.0.451",
+    "@react-three/fiber": "^9.0.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "4.0.451",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.451",
+    "@types/three": "^0.170.0"
+  }
+}
