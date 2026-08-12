@@ -1,0 +1,59 @@
+name: IMON MOTION Delivery Runtime
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/render-delivery.mts
+      - scripts/production-plan.mts
+      - scripts/shot-plan.mts
+      - apps/delivery-smoke/**
+      - .github/workflows/delivery-runtime.yml
+
+permissions:
+  contents: read
+
+jobs:
+  delivery-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout IMON MOTION
+        uses: actions/checkout@v7
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Install workspace dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Typecheck production planner and delivery runtime
+        run: npm run typecheck
+
+      - name: Render complete MP4 delivery proof
+        run: |
+          ./node_modules/.bin/tsx scripts/render-delivery.mts \
+            --entry apps/delivery-smoke/src/index.ts \
+            --composition IMONDeliverySmoke \
+            --brief "3 second production presentation video, 640x360, 30 fps, no audio, minimal editorial motion" \
+            --out /tmp/imon-delivery.mp4 \
+            --codec h264
+
+      - name: Validate delivery manifest and MP4
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const manifest = JSON.parse(fs.readFileSync('/tmp/imon-delivery.mp4.manifest.json', 'utf8'));
+          if (manifest.version !== 1) throw new Error('unexpected delivery manifest version');
+          if (manifest.runtimeBlockers.length) throw new Error(`delivery smoke unexpectedly has blockers: ${JSON.stringify(manifest.runtimeBlockers)}`);
+          if (!manifest.productionReady) throw new Error(`delivery not production-ready: ${JSON.stringify(manifest.validation)}`);
+          if (manifest.bytes < 10000) throw new Error(`MP4 is unexpectedly small: ${manifest.bytes}`);
+          if (!/^[a-f0-9]{64}$/.test(manifest.sha256)) throw new Error('invalid SHA-256');
+          const failed = manifest.validation.filter((check) => check.status === 'fail');
+          if (failed.length) throw new Error(`delivery validation failed: ${JSON.stringify(failed)}`);
+          console.log('Full delivery render OK', {bytes: manifest.bytes, sha256: manifest.sha256, validation: manifest.validation});
+          NODE
