@@ -1,0 +1,333 @@
+name: Consolidate IMON MOTION System
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/system-consolidation.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: imon-motion-consolidation
+  cancel-in-progress: false
+
+jobs:
+  consolidate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Consolidate root package commands
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+          pkg.version = '0.2.0';
+          pkg.scripts = {
+            ...pkg.scripts,
+            'license:audit': 'node scripts/license-audit.mjs',
+            'route': 'tsx scripts/route.mts',
+            'research': 'tsx scripts/research.mts',
+            'plan': 'tsx scripts/plan.mts',
+            'context': 'tsx scripts/context.mts',
+            'health': 'node scripts/health.mjs',
+            'qa:render': 'tsx scripts/render-qa.mts',
+            'extensions:validate': 'node scripts/validate-extensions.mjs',
+            'studio': 'npm run studio -w @imon-motion/studio',
+            'studio:compositions': 'npm run compositions -w @imon-motion/studio',
+            'three:compositions': 'npm run compositions -w @imon-motion/three-studio',
+            'webgl:compositions': 'npm run compositions -w @imon-motion/webgl-studio',
+            'capture': 'npm run capture -w @imon-motion/capture-runner --',
+            'typecheck': 'tsc --noEmit',
+            'test': 'node --import tsx --test packages/motion-core/test/*.test.ts adapters/product-capture/test/*.test.ts adapters/remotion-three/test/*.test.ts adapters/audio-analysis/test/*.test.ts adapters/webgl/test/*.test.ts',
+            'ci': 'npm run license:audit && npm run system:validate && npm run extensions:validate && npm run typecheck && npm test && npm run studio:compositions'
+          };
+          fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2) + '\n');
+          NODE
+
+      - name: Consolidate adapter registry
+        run: |
+          cat > adapters/contracts.yaml <<'YAML'
+          version: 2
+          statuses: [planned, experimental, ready, deprecated]
+
+          adapters:
+            theatre-three:
+              status: planned
+              capabilities: [three-d, cinematography, choreography]
+              primitive_ids: [camera.product-orbit]
+              research_donors: [theatre, video-shotcraft]
+              requirements: [threejs-runtime, deterministic-timeline, remotion-frame-binding]
+              fallback: camera.parallax-2_5d
+
+            remotion-three:
+              status: experimental
+              capabilities: [three-d, cinematography, choreography, remotion-engineering]
+              primitive_ids: [camera.product-orbit]
+              research_donors: [remotion-skills, theatre, video-shotcraft]
+              source_path: adapters/remotion-three/src/orbit.ts
+              smoke_test: adapters/remotion-three/test/orbit.test.ts
+              proof_path: status/three-runtime.json
+              implemented_features: [deterministic-orbit-math, frame-binding, real-three-studio-composition]
+              readiness_gate: [composition-discovery, two-frame-render-smoke, distinct-render-hashes]
+              fallback: camera.parallax-2_5d
+
+            webgl:
+              status: experimental
+              capabilities: [webgl, three-d, rendering, choreography]
+              primitive_ids: [webgl.shader-field]
+              research_donors: [motion-skills, motion-canvas-examples, theatre, remotion-skills]
+              source_path: adapters/webgl/src/shader-field.ts
+              smoke_test: adapters/webgl/test/shader-field.test.ts
+              proof_path: status/webgl-runtime.json
+              implemented_features: [deterministic-glsl, frame-time-uniform, seed-control, real-webgl-studio-composition]
+              readiness_gate: [composition-discovery, two-frame-render-smoke, distinct-render-hashes]
+              fallback: static-or-css-material
+
+            motion-canvas:
+              status: planned
+              capabilities: [shot-design, cinematography, data-animation]
+              primitive_ids: []
+              research_donors: [motion-canvas-examples]
+              requirements: [technique-translation-only]
+              fallback: normalized-remotion-implementation
+
+            product-capture:
+              status: experimental
+              capabilities: [ui-motion, shot-design]
+              primitive_ids: [ui.cursor-focus, ui.viewport-push]
+              research_donors: [remotion-cinematic, video-shotcraft]
+              source_path: adapters/product-capture/src/index.ts
+              runner_path: apps/capture-runner/src/capture.ts
+              smoke_test: adapters/product-capture/test/product-capture.test.ts
+              proof_path: status/capture-runtime.json
+              implemented_features: [capture-manifest-validation, privacy-gate, exact-element-anchors, deterministic-cursor-curves, playwright-browser-runner, selector-redaction, screenshot-state-export, dom-geometry-export]
+              readiness_gate: [chromium-execution, interaction-state-change, privacy-manifest, screenshot-differentiation, geometry-export]
+              fallback: approved-static-product-states
+
+            audio-analysis:
+              status: experimental
+              capabilities: [sound-design, choreography]
+              primitive_ids: [audio.beat-map, audio.impact-stack]
+              research_donors: [video-shotcraft]
+              source_path: adapters/audio-analysis/src/index.ts
+              smoke_test: adapters/audio-analysis/test/audio-analysis.test.ts
+              proof_path: status/audio-runtime.json
+              implemented_features: [energy-envelope, adaptive-transient-detection, event-strength, event-to-frame-mapping]
+              limitations: [not-authoritative-musical-beat-tracking, decoded-mono-float32-input]
+              fallback: manual-reviewed-beat-map
+
+          adapter_template:
+            status: experimental
+            capabilities: []
+            primitive_ids: []
+            research_donors: []
+            requirements: []
+            fallback: null
+            source_path: "adapters/<adapter-id>"
+            smoke_test: null
+            proof_path: null
+          YAML
+
+      - name: Refresh public README
+        run: |
+          cat > README.md <<'MD'
+          # IMON MOTION
+
+          **AI-native motion production system built around Remotion, selective context routing, reusable motion grammar, runtime adapters and a preserved 15-repository research corpus.**
+
+          IMON MOTION is deliberately not a template pack. It stores a large motion-design knowledge base while forcing agents to use a small, query-specific production context.
+
+          ## Core idea
+
+          ```text
+          VIDEO BRIEF
+              ↓
+          ROUTE + DELIVERY PARSING
+              ↓
+          NORMALIZED MOTION PRIMITIVES
+              ↓
+          RUNTIME READINESS
+              ↓
+          2–6 RELEVANT DONORS
+              ↓
+          EXACT FILE RESEARCH
+              ↓
+          BYTE-BUDGETED CONTEXT PACK
+              ↓
+          CREATIVE DIRECTION + STORYBOARD
+              ↓
+          REMOTION / ADAPTER IMPLEMENTATION
+              ↓
+          REPRESENTATIVE-FRAME + MOTION QA
+              ↓
+          DELIVERY
+          ```
+
+          The rule is simple: **preserve the full corpus, never dump the full corpus into the model context.**
+
+          ## What is in the repository
+
+          ### Full donor corpus
+
+          `upstream/` preserves complete working-tree snapshots of 15 motion/design/runtime donors. Exact upstream repository, commit SHA, branch, snapshot date, file count, size and detected license files are stored in `provenance/SOURCES.lock.yaml`.
+
+          Donor source is immutable research material. Production code lives outside `upstream/**`.
+
+          ### Content-aware index
+
+          `index/` is a v2 routing index built from paths plus bounded file content. It records categories and technical signals such as camera/orbit/parallax, spring/interpolate/sequence, kinetic type, shader/Three.js, chart/data, audio/beat, tokens, masks and particles.
+
+          ### Normalized runtime
+
+          `@imon-motion/core` contains typed briefs, house motion tokens, semantic primitive catalog, deterministic routing, storyboard generation and capability-aware QA.
+
+          `@imon-motion/remotion-kit` contains reusable Remotion execution primitives and higher-order scenes including precision reveals, hero settles, kinetic words, 2.5D camera/depth layers, product frames, product hero scenes, UI feature scenes and editorial statement scenes.
+
+          ### Specialized adapters
+
+          `adapters/` keeps specialized runtimes isolated from core:
+
+          - product capture / DOM geometry / cursor paths;
+          - true 3D product-orbit camera path;
+          - deterministic WebGL shader field;
+          - audio transient → Remotion frame mapping;
+          - planned Theatre/Motion Canvas bridges.
+
+          Adapter source presence is not treated as readiness. Each runtime has an independent proof workflow and remains `experimental` until its execution/render gates pass.
+
+          ### Agent skills
+
+          `.agents/skills/` provides focused entry points for product films, UI demos, kinetic typography, data stories, cinematic 3D and motion QA. They route through one shared system rather than duplicating donor knowledge.
+
+          ## Primary commands
+
+          ```bash
+          npm install
+
+          # Classify a brief and get primitives/donors/storyboard/QA/runtime readiness
+          npm run route -- "35 second premium product launch with 3D orbit and UI"
+
+          # Exact-file bounded donor research
+          npm run research -- "35 second premium product launch with 3D orbit and UI"
+
+          # One JSON production plan
+          npm run plan -- "35 second premium product launch with 3D orbit and UI"
+
+          # Materialize a byte-budgeted model context pack
+          npm run context -- "35 second premium product launch with 3D orbit and UI"
+
+          # Read current proof-aware runtime state
+          npm run health
+
+          # Main Remotion normalized-runtime Studio
+          npm run studio
+          ```
+
+          ## Delivery parsing
+
+          The router understands duration, FPS, explicit resolution, aspect ratio and common platform intent from English/Russian briefs. A brief such as `24-секундный Reels, 9:16, 4K, 60 fps` is planned as a 24-second vertical 2160×3840 / 60fps delivery rather than falling back to generic 1080p/30fps.
+
+          ## Context isolation
+
+          The normal agent flow is:
+
+          `SKILL.md → plan → context → normalized runtime → exact donor excerpts`.
+
+          `npm run context` has a global byte budget and per-file limits. Large donor files become excerpts around content hits; ignored donors are not allowed into the context pack unless the brief is rerouted.
+
+          ## Runtime proof model
+
+          Separate workflows validate failure domains independently:
+
+          - core routing/context/Remotion Studio;
+          - Three.js product orbit;
+          - Playwright product capture;
+          - representative-frame QA rendering;
+          - audio analysis;
+          - WebGL shader rendering.
+
+          Successful gates write proof files under `status/`. `node scripts/health.mjs` distinguishes proven/current, stale and unproven runtime paths.
+
+          **Do not infer production readiness from a TypeScript file merely existing.**
+
+          ## QA
+
+          QA is generated from the brief. It samples entry/read/exit states per storyboard beat and checks baseline plus capability-specific rules: hierarchy, typography, safe areas, settled states, UI truth, camera continuity, type rhythm, data truth, 3D depth, WebGL cost/purpose, sound sync, transition purpose and an explicit anti-AI-slop gate.
+
+          `scripts/render-qa.mts` can materialize representative frames as PNGs with SHA-256 and a QA manifest.
+
+          ## Provenance / licensing
+
+          `npm run license:audit` regenerates `provenance/LICENSE-STATUS.json/.md` from the synchronized snapshots. Missing/unclassified license files are `review-required`; bundled media/fonts/3D/PDF assets receive a separate rights-review flag. The automated report is a provenance signal, not legal advice.
+
+          ## Repository map
+
+          ```text
+          .agents/                specialized agent skills
+          .motion/                routing, video types, techniques, runtime readiness, quality gates
+          adapters/               capture / Three / WebGL / audio and future specialized runtimes
+          apps/                   normalized, Three, WebGL and capture test/Studio workspaces
+          core/creative-director/ creative direction protocol
+          index/                  content-aware donor index
+          library/                reusable promoted production patterns
+          packages/motion-core/   semantic system, routing, storyboard, QA
+          packages/remotion-kit/  normalized Remotion execution layer
+          provenance/             exact donor snapshots + license/asset status
+          scripts/                sync, plan, research, context, QA and health tooling
+          status/                 successful runtime proof records
+          upstream/               full immutable donor snapshots
+          ```
+
+          ## Development rules
+
+          1. Route before donor browsing.
+          2. Normalized runtime before donor implementation.
+          3. Never edit `upstream/**` manually.
+          4. Promote recurring patterns into `library/`, `remotion-kit` or `adapters/`.
+          5. Named brand references are translated into principles, not copied branded graphics.
+          6. Preserve product truth/privacy in UI capture.
+          7. Keep runtime blockers explicit.
+          8. A hero film is not complete because TypeScript compiles.
+
+          See `docs/WORKFLOW.md`, `docs/CONTEXT-ENGINE.md`, `docs/READINESS.md` and `docs/PROVENANCE-LICENSES.md`.
+          MD
+
+      - name: Refresh package lock with all current workspaces
+        run: npm install --package-lock-only --ignore-scripts --no-audit --no-fund
+
+      - name: Validate consolidated JSON and adapter registry
+        run: |
+          node -e "const p=require('./package.json'); if(!p.scripts.plan||!p.scripts.context||!p.scripts.health||!p.scripts['qa:render']) process.exit(1)"
+          grep -q '^version: 2$' adapters/contracts.yaml
+          grep -q 'remotion-three:' adapters/contracts.yaml
+          grep -q 'product-capture:' adapters/contracts.yaml
+          grep -q 'audio-analysis:' adapters/contracts.yaml
+          grep -q 'webgl:' adapters/contracts.yaml
+
+      - name: Commit consolidated system surface
+        run: |
+          git config user.name "IMON MOTION Bot"
+          git config user.email "imon-motion-bot@users.noreply.github.com"
+          git add README.md package.json package-lock.json adapters/contracts.yaml
+          if git diff --cached --quiet; then
+            echo "System surface is already consolidated."
+            exit 0
+          fi
+          git commit -m "chore: consolidate IMON MOTION v0.2 system surface"
+          git pull --rebase origin main
+          git push origin HEAD:main
