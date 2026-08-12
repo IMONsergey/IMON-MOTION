@@ -45,11 +45,16 @@ jobs:
           const fs = require('node:fs');
           const data = JSON.parse(fs.readFileSync('/tmp/route.json', 'utf8'));
           if (data.route.brief.videoType !== 'product-launch') throw new Error('unexpected video type');
+          if (data.route.brief.delivery?.durationSeconds !== 35) throw new Error('brief duration was not parsed');
+          if (data.storyboard.durationInFrames !== 1050) throw new Error(`storyboard ignored 35s duration: ${data.storyboard.durationInFrames}`);
           if (!data.route.donors.includes('video-shotcraft')) throw new Error('video-shotcraft was not selected');
           if (!data.route.primitives.some((p) => p.id === 'camera.product-orbit')) throw new Error('product orbit primitive missing');
+          if ((data.route.runtimeSummary?.unknown ?? []).length) throw new Error(`unknown primitive runtime status: ${data.route.runtimeSummary.unknown.join(', ')}`);
+          if (!data.route.runtimeSummary?.adapterRequired?.some((p) => p.id === 'camera.product-orbit')) throw new Error('3D orbit adapter requirement was not surfaced');
           if (data.storyboard.beats.length < 5) throw new Error('storyboard skeleton too small');
           if (!data.qa || data.qa.sampleFrames.length === 0) throw new Error('QA plan missing from route output');
-          console.log('Route smoke test OK');
+          if (!data.qa.finalRenderRequired) throw new Error('hero-film should require final render validation');
+          console.log('Route + runtime + delivery + QA smoke test OK');
           NODE
 
       - name: Build bounded research context plan
