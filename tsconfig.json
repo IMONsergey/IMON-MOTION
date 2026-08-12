@@ -12,6 +12,13 @@
     "noEmit": true,
     "types": ["node"]
   },
-  "include": ["packages/**/*.ts", "packages/**/*.tsx", "scripts/**/*.ts", "scripts/**/*.mts"],
+  "include": [
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "apps/**/*.ts",
+    "apps/**/*.tsx",
+    "scripts/**/*.ts",
+    "scripts/**/*.mts"
+  ],
   "exclude": ["upstream", "node_modules"]
 }
