@@ -1,0 +1,69 @@
+name: IMON MOTION WebGL Runtime
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - apps/webgl-studio/**
+      - adapters/webgl/**
+      - .github/workflows/webgl-runtime.yml
+
+permissions:
+  contents: read
+
+jobs:
+  webgl-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout IMON MOTION
+        uses: actions/checkout@v7
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Install workspace dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Typecheck WebGL runtime
+        run: npm run typecheck
+
+      - name: Test deterministic shader adapter
+        run: node --import tsx --test adapters/webgl/test/*.test.ts
+
+      - name: Discover WebGL Studio composition
+        shell: bash
+        run: |
+          set +e
+          output="$(npm run --silent compositions -w @imon-motion/webgl-studio 2>&1)"
+          status=$?
+          printf '%s\n' "$output" | tee /tmp/webgl-compositions.txt
+          if [ "$status" -ne 0 ]; then
+            diagnostic="$(printf '%s' "$output" | tail -c 3500 | tr '\n' ' ' | sed 's/%/%25/g; s/\r/%0D/g; s/\n/%0A/g')"
+            echo "::error title=WebGL composition discovery failed::$diagnostic"
+            exit "$status"
+          fi
+          grep -q "IMONShaderField" /tmp/webgl-compositions.txt
+
+      - name: Render first shader proof frame
+        run: ./node_modules/.bin/remotion still apps/webgl-studio/src/index.ts IMONShaderField /tmp/shader-start.png --frame=0
+
+      - name: Render late shader proof frame
+        run: ./node_modules/.bin/remotion still apps/webgl-studio/src/index.ts IMONShaderField /tmp/shader-late.png --frame=150
+
+      - name: Verify deterministic visual change
+        run: |
+          test -s /tmp/shader-start.png
+          test -s /tmp/shader-late.png
+          start_bytes="$(wc -c < /tmp/shader-start.png | tr -d ' ')"
+          late_bytes="$(wc -c < /tmp/shader-late.png | tr -d ' ')"
+          test "$start_bytes" -gt 10000
+          test "$late_bytes" -gt 10000
+          start_sha="$(sha256sum /tmp/shader-start.png | awk '{print $1}')"
+          late_sha="$(sha256sum /tmp/shader-late.png | awk '{print $1}')"
+          test "$start_sha" != "$late_sha"
+          echo "WebGL render smoke OK: start=${start_bytes}B ${start_sha}; late=${late_bytes}B ${late_sha}"
