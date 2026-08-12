@@ -1,0 +1,31 @@
+version: 1
+styles:
+  premium-minimal:
+    principles: [restraint, hierarchy, precision, generous-space, controlled-depth, purposeful-motion]
+    preferred_donors: [onda, emilkowalski-skills, motion-design-skill, skill-remotion-geist, video-shotcraft]
+    avoid: [gratuitous-glow, constant-floating, excessive-bounce, random-gradient, noisy-transitions]
+
+  cinematic-product:
+    principles: [hero-focal-point, camera-intent, depth, controlled-reveals, premium-lighting, audio-synchrony]
+    preferred_donors: [video-shotcraft, remotion-cinematic, theatre, motion-design-skill, product-launch-video-skill]
+    avoid: [flat-slideshow, identical-shot-lengths, arbitrary-zoom, overcutting]
+
+  editorial:
+    principles: [typographic-authority, rhythm, contrast, compositional-tension, selective-experimentation]
+    preferred_donors: [motion-skills, motion-design-skill, onda, motion-canvas-examples]
+    avoid: [template-like-lower-thirds, weak-type-scale, decorative-motion-without-rhythm]
+
+  tech-minimal:
+    principles: [clarity, system-consistency, crisp-typography, modular-layout, restrained-motion]
+    preferred_donors: [skill-remotion-geist, onda, chuk-motion, remotion-cinematic]
+    avoid: [fake-futurism, excessive-neon, sci-fi-cliches, overdone-grid-effects]
+
+  expressive:
+    principles: [rhythm, contrast, kinetic-type, energetic-transitions, intentional-exaggeration]
+    preferred_donors: [motion-skills, motion-design-skill, remotion-scenes, motion-canvas-examples]
+    avoid: [uniform-energy, uncontrolled-chaos, unreadable-type]
+
+  experimental:
+    principles: [novel-motion-grammar, generative-behavior, spatial-exploration, deliberate-rule-breaking]
+    preferred_donors: [motion-skills, theatre, motion-canvas-examples, video-shotcraft]
+    avoid: [novelty-without-message, performance-neglect, illegible-composition]
