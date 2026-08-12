@@ -1,7 +1,7 @@
 import type { CSSProperties, ReactNode } from 'react';
 import { AbsoluteFill, interpolate, useCurrentFrame, useVideoConfig } from 'remotion';
-import { MOTION_TOKENS, framesAtFps } from '@imon-motion/core';
-import { cameraProgress, heroSettle, precisionReveal, wordDelay } from './choreography.js';
+import { MOTION_TOKENS, framesAtFps } from '@imon-motion/core/tokens';
+import { cameraProgress, heroSettle, precisionReveal, wordDelay } from './choreography';
 
 export type MotionSceneProps = {
   children: ReactNode;
