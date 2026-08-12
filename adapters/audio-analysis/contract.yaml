@@ -1,0 +1,24 @@
+version: 1
+id: audio-analysis
+status: experimental
+capabilities: [sound-design, choreography]
+primitive_ids: [audio.beat-map, audio.impact-stack]
+source_path: adapters/audio-analysis/src/index.ts
+smoke_test: adapters/audio-analysis/test/audio-analysis.test.ts
+research_donors: [video-shotcraft]
+implemented_features:
+  - mono Float32 energy envelope analysis
+  - adaptive novelty/transient thresholding
+  - minimum-event-spacing suppression
+  - normalized event strengths
+  - deterministic event-to-Remotion-frame mapping
+  - strongest-event selection
+limitations:
+  - not a full musical beat-tracking model
+  - expects decoded mono Float32 PCM input
+  - no MP3/AAC decode layer in this adapter
+  - harmonic/tempo inference is not implemented
+fallback:
+  primitive_id: audio.beat-map
+  mode: manual-reviewed-beat-map
+readiness_rule: "Use detected events as edit candidates, not unquestioned musical truth. Review timing against the actual track before production delivery."
