@@ -1,0 +1,53 @@
+name: IMON MOTION CI
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**/*.md'
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout IMON MOTION
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install workspace dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Validate corpus and architecture
+        run: npm run system:validate
+
+      - name: Typecheck normalized runtime
+        run: npm run typecheck
+
+      - name: Run routing tests
+        run: npm test
+
+      - name: Smoke-test routed product brief
+        run: npm run route -- "35 second premium product launch with controlled 3D orbit, UI detail and cinematic sound" > /tmp/route.json
+
+      - name: Verify route output
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const data = JSON.parse(fs.readFileSync('/tmp/route.json', 'utf8'));
+          if (data.route.brief.videoType !== 'product-launch') throw new Error('unexpected video type');
+          if (!data.route.donors.includes('video-shotcraft')) throw new Error('video-shotcraft was not selected');
+          if (!data.route.primitives.some((p) => p.id === 'camera.product-orbit')) throw new Error('product orbit primitive missing');
+          if (data.storyboard.beats.length < 5) throw new Error('storyboard skeleton too small');
+          console.log('Route smoke test OK');
+          NODE
