@@ -13,6 +13,7 @@
     "bootstrap": "npm run upstream:sync && npm run index:build",
     "route": "tsx scripts/route.mts",
     "research": "tsx scripts/research.mts",
+    "plan": "tsx scripts/plan.mts",
     "studio": "npm run studio -w @imon-motion/studio",
     "studio:compositions": "npm run compositions -w @imon-motion/studio",
     "system:validate": "node scripts/validate-system.mjs",
