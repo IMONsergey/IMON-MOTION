@@ -1,0 +1,128 @@
+version: 1
+policy:
+  upstream_root: upstream
+  immutable: true
+  default_context_donors_min: 2
+  default_context_donors_max: 6
+  provenance_file: provenance/SOURCES.lock.yaml
+
+donors:
+  video-shotcraft:
+    repo: Vincentwei1021/video-shotcraft
+    url: https://github.com/Vincentwei1021/video-shotcraft.git
+    role: shot-direction-and-cinematography
+    priority: critical
+    strengths: [shot-design, cinematography, product-capture, sequencing, camera, sound-design, qa]
+    use_when: [product-launch, ui-demo, brand-film, cinematic-product]
+
+  onda:
+    repo: degueba/onda
+    url: https://github.com/degueba/onda.git
+    role: motion-design-system
+    priority: critical
+    strengths: [motion-language, transitions, choreography, springs, easing, reusable-components]
+    use_when: [premium-minimal, product-launch, ui-motion, technology-brand]
+
+  motion-skills:
+    repo: iart-ai/motion-skills
+    url: https://github.com/iart-ai/motion-skills.git
+    role: broad-motion-knowledge-base
+    priority: critical
+    strengths: [motion-design, kinetic-typography, webgl, explainers, ads, data-animation, generative-graphics, qa]
+    use_when: [kinetic-type, explainer, social, data-story, webgl, experimental]
+
+  motion-design-skill:
+    repo: LottieFiles/motion-design-skill
+    url: https://github.com/LottieFiles/motion-design-skill.git
+    role: motion-director-methodology
+    priority: critical
+    strengths: [creative-direction, timing, easing, choreography, motion-personality, narrative, qa]
+    use_when: [brand-film, product-launch, hero-film, motion-direction]
+
+  emilkowalski-skills:
+    repo: emilkowalski/skills
+    url: https://github.com/emilkowalski/skills.git
+    role: premium-interface-motion-principles
+    priority: high
+    strengths: [restraint, physical-motion, interaction, animation-vocabulary, premium-ui]
+    use_when: [premium-minimal, ui-demo, technology-brand]
+
+  claude-remotion-skill:
+    repo: haidrrrry/claude-remotion-skill
+    url: https://github.com/haidrrrry/claude-remotion-skill.git
+    role: remotion-production-rules
+    priority: high
+    strengths: [remotion, entrances, exits, stagger, themes, micro-motion, render-review]
+    use_when: [remotion-production, ui-demo, social, product-launch]
+
+  remotion-skills:
+    repo: remotion-dev/skills
+    url: https://github.com/remotion-dev/skills.git
+    role: official-remotion-agent-guidance
+    priority: critical
+    strengths: [remotion, markup, rendering, captions, maps, multimedia, interactivity, saas]
+    use_when: [any-remotion-implementation, rendering, captions, maps, tooling]
+
+  product-launch-video-skill:
+    repo: memex-lab/product-launch-video-skill
+    url: https://github.com/memex-lab/product-launch-video-skill.git
+    role: product-launch-workflow
+    priority: high
+    strengths: [brief, audience, message, storyboard, asset-plan, product-launch, review]
+    use_when: [product-launch, brand-reveal, hero-film]
+
+  remotion-cinematic:
+    repo: codeverbojan/remotion-cinematic
+    url: https://github.com/codeverbojan/remotion-cinematic.git
+    role: cinematic-ui-and-product-motion
+    priority: high
+    strengths: [camera, cursor, choreography, smart-layout, ui-demo, product-film]
+    use_when: [ui-demo, saas-demo, product-film, website-demo]
+
+  chuk-motion:
+    repo: IBM/chuk-motion
+    url: https://github.com/IBM/chuk-motion.git
+    role: design-system-first-motion-engine
+    priority: high
+    strengths: [design-tokens, typography, spacing, motion-tokens, components, timeline, themes]
+    use_when: [systematic-motion, data-story, enterprise, design-system]
+
+  skill-remotion-geist:
+    repo: vercel-labs/skill-remotion-geist
+    url: https://github.com/vercel-labs/skill-remotion-geist.git
+    role: minimal-tech-visual-language
+    priority: medium
+    strengths: [minimal-tech, typography, scene-patterns, animation-utilities]
+    use_when: [technology-brand, premium-minimal, developer-product]
+
+  remotion-scenes:
+    repo: lifeprompt-team/remotion-scenes
+    url: https://github.com/lifeprompt-team/remotion-scenes.git
+    role: scene-and-component-library
+    priority: medium
+    strengths: [scenes, text, shapes, transitions, effects, ui]
+    use_when: [rapid-composition, component-reference, scene-reference]
+
+  remotion-templates:
+    repo: reactvideoeditor/remotion-templates
+    url: https://github.com/reactvideoeditor/remotion-templates.git
+    role: remotion-pattern-cookbook
+    priority: medium
+    strengths: [components, spring, interpolate, timing, reusable-patterns]
+    use_when: [implementation-reference, rapid-prototyping]
+
+  motion-canvas-examples:
+    repo: motion-canvas/examples
+    url: https://github.com/motion-canvas/examples.git
+    role: advanced-motion-math-and-sequencing-reference
+    priority: medium
+    strengths: [parallax, logo-motion, technical-visualization, lighting, choreography]
+    use_when: [technical-animation, experimental, math-motion, spatial-motion]
+
+  theatre:
+    repo: theatre-js/theatre
+    url: https://github.com/theatre-js/theatre.git
+    role: high-fidelity-timeline-and-3d-animation
+    priority: high
+    strengths: [timeline, curves, threejs, 3d, spatial-animation, keyframes]
+    use_when: [3d, webgl, cinematic-product, advanced-camera, nuanced-curves]
