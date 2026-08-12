@@ -47,6 +47,7 @@ const requiredFiles = [
   'scripts/route.mts',
   'scripts/research.mts',
   'scripts/plan.mts',
+  'scripts/context.mts',
   'scripts/lib/runtime-registry.mts',
   'library/README.md',
   'library/registry.yaml',
@@ -106,7 +107,7 @@ const packageJson = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 
 if (packageJson.version !== '0.2.0') failures.push(`expected root version 0.2.0, got ${packageJson.version}`);
 if (!Array.isArray(packageJson.workspaces) || !packageJson.workspaces.includes('packages/*')) failures.push('root package.json must include packages/* workspace');
 if (!Array.isArray(packageJson.workspaces) || !packageJson.workspaces.includes('apps/*')) failures.push('root package.json must include apps/* workspace');
-for (const script of ['route', 'research', 'plan', 'studio', 'studio:compositions', 'system:validate', 'typecheck', 'test']) {
+for (const script of ['route', 'research', 'plan', 'context', 'studio', 'studio:compositions', 'system:validate', 'typecheck', 'test']) {
   if (!packageJson.scripts?.[script]) failures.push(`missing root npm script: ${script}`);
 }
 if (!String(packageJson.scripts?.test ?? '').includes('adapters/product-capture/test')) {
@@ -124,4 +125,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`IMON MOTION validation OK: ${expectedDonors.length} donors, content-aware index v${donorCatalog.version}, ${primitiveIds.length} normalized primitives, runtime readiness, one-command planner, product-capture adapter, library/adapters contracts and Studio architecture present.`);
+console.log(`IMON MOTION validation OK: ${expectedDonors.length} donors, content-aware index v${donorCatalog.version}, ${primitiveIds.length} normalized primitives, runtime readiness, one-command planner, budgeted context builder, product-capture adapter, library/adapters contracts and Studio architecture present.`);
