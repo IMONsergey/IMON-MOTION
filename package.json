@@ -10,7 +10,8 @@
   "scripts": {
     "upstream:sync": "bash scripts/sync-upstreams.sh",
     "index:build": "node scripts/build-index.mjs",
-    "bootstrap": "npm run upstream:sync && npm run index:build",
+    "license:audit": "node scripts/license-audit.mjs",
+    "bootstrap": "npm run upstream:sync && npm run index:build && npm run license:audit",
     "route": "tsx scripts/route.mts",
     "research": "tsx scripts/research.mts",
     "plan": "tsx scripts/plan.mts",
@@ -20,7 +21,7 @@
     "system:validate": "node scripts/validate-system.mjs",
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test packages/motion-core/test/*.test.ts adapters/product-capture/test/*.test.ts",
-    "ci": "npm run system:validate && npm run typecheck && npm test && npm run studio:compositions"
+    "ci": "npm run license:audit && npm run system:validate && npm run typecheck && npm test && npm run studio:compositions"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
