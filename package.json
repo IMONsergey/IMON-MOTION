@@ -1,0 +1,14 @@
+{
+  "name": "imon-motion",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AI-native motion production monorepo and routed upstream knowledge system",
+  "scripts": {
+    "upstream:sync": "bash scripts/sync-upstreams.sh",
+    "index:build": "node scripts/build-index.mjs",
+    "bootstrap": "npm run upstream:sync && npm run index:build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
