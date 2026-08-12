@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IMON Capture Fixture</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 100%; height: 100%; background: #0a0b0d; color: #f3f3f3; font-family: Inter, system-ui, sans-serif; }
+    body { display: flex; align-items: center; justify-content: center; }
+    .app { width: 1180px; height: 690px; border: 1px solid #24262c; background: #101216; border-radius: 24px; overflow: hidden; box-shadow: 0 36px 100px rgba(0,0,0,.45); }
+    .bar { height: 72px; border-bottom: 1px solid #24262c; display: flex; align-items: center; padding: 0 26px; justify-content: space-between; }
+    .brand { font-weight: 650; letter-spacing: -.03em; }
+    .secret { font: 13px ui-monospace, monospace; color: #f5b4b4; border: 1px solid #4d2f35; padding: 8px 12px; border-radius: 10px; }
+    main { display: grid; grid-template-columns: 240px 1fr; height: calc(100% - 72px); }
+    nav { border-right: 1px solid #24262c; padding: 28px 20px; }
+    nav div { padding: 12px 14px; color: #777d8c; border-radius: 10px; margin-bottom: 6px; }
+    nav div.active { color: #fff; background: #1b1e25; }
+    section { padding: 46px; }
+    .eyebrow { font-size: 13px; color: #747a88; letter-spacing: .12em; }
+    h1 { font-size: 48px; margin: 12px 0 8px; letter-spacing: -.055em; }
+    p { color: #8f95a3; margin: 0 0 32px; }
+    .row { display: flex; gap: 14px; align-items: center; }
+    input { width: 330px; height: 48px; border-radius: 12px; border: 1px solid #30333b; background: #15171c; color: #fff; padding: 0 16px; font-size: 15px; }
+    button { height: 48px; border: 0; border-radius: 12px; padding: 0 22px; font-weight: 650; background: #eef1ff; color: #11131a; cursor: pointer; }
+    .card { margin-top: 38px; width: 100%; height: 220px; border: 1px solid #292c34; border-radius: 18px; background: #15171c; display: flex; align-items: center; justify-content: center; }
+    .status { color: #737a88; transition: none; }
+    .status.done { color: #dfe5ff; font-size: 28px; font-weight: 650; letter-spacing: -.04em; }
+  </style>
+</head>
+<body>
+  <div class="app" data-testid="app-shell">
+    <div class="bar">
+      <div class="brand">IMON / Fixture Product</div>
+      <div class="secret" data-testid="secret">token_live_should_never_ship</div>
+    </div>
+    <main>
+      <nav>
+        <div class="active">Overview</div>
+        <div>Projects</div>
+        <div>Insights</div>
+      </nav>
+      <section>
+        <div class="eyebrow">PRODUCT STATE</div>
+        <h1>Geometry-aware motion.</h1>
+        <p>A deterministic fixture for product capture and cursor choreography.</p>
+        <div class="row">
+          <input data-testid="name-input" value="Launch concept" aria-label="Name" />
+          <button data-testid="create-button">Create project</button>
+        </div>
+        <div class="card" data-testid="result-card">
+          <div class="status" data-testid="status">No project created</div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script>
+    document.querySelector('[data-testid="create-button"]').addEventListener('click', () => {
+      const status = document.querySelector('[data-testid="status"]');
+      status.textContent = 'Project ready';
+      status.classList.add('done');
+    });
+  </script>
+</body>
+</html>
