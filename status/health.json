@@ -1,0 +1,80 @@
+{
+  "currentHead": "f6217499f779cb1130b978e8c12837886bc92b43",
+  "corpus": {
+    "indexedDonors": 15,
+    "indexVersion": 2,
+    "fullDonorSnapshotsPresent": 15
+  },
+  "proofs": {
+    "core": {
+      "status": "unproven",
+      "proof": null,
+      "relevantChangesSinceProof": []
+    },
+    "three": {
+      "status": "unproven",
+      "proof": null,
+      "relevantChangesSinceProof": []
+    },
+    "capture": {
+      "status": "unproven",
+      "proof": null,
+      "relevantChangesSinceProof": []
+    },
+    "qa": {
+      "status": "unproven",
+      "proof": null,
+      "relevantChangesSinceProof": []
+    },
+    "audio": {
+      "status": "unproven",
+      "proof": null,
+      "relevantChangesSinceProof": []
+    }
+  },
+  "license": {
+    "donors": 15,
+    "withDetectedLicenseFile": 12,
+    "missingLicenseFile": [
+      "remotion-skills",
+      "remotion-templates",
+      "skill-remotion-geist"
+    ],
+    "unclassifiedLicense": [],
+    "donorsWithBundledAssets": 9
+  },
+  "adapters": [
+    {
+      "id": "product-capture",
+      "directory": "adapters/product-capture",
+      "implementedDirectory": true,
+      "declaredStatus": "experimental"
+    },
+    {
+      "id": "remotion-three",
+      "directory": "adapters/remotion-three",
+      "implementedDirectory": true,
+      "declaredStatus": "experimental"
+    },
+    {
+      "id": "audio-analysis",
+      "directory": "adapters/audio-analysis",
+      "implementedDirectory": true,
+      "declaredStatus": "experimental"
+    },
+    {
+      "id": "webgl",
+      "directory": "adapters/webgl",
+      "implementedDirectory": true,
+      "declaredStatus": "planned"
+    }
+  ],
+  "policy": {
+    "proofStatusMeaning": {
+      "proven-current": "The runtime proof exists and no tracked relevant file changed since the tested SHA.",
+      "proven-stale": "The runtime passed previously, but relevant files changed afterwards; rerun its gate before claiming current readiness.",
+      "unproven": "No successful proof has been committed yet."
+    },
+    "neverPromoteFromSourcePresenceAlone": true
+  }
+}
