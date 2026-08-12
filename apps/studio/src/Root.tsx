@@ -1,5 +1,5 @@
 import { Composition } from 'remotion';
-import { SystemPreview } from './SystemPreview.js';
+import { SystemPreview } from './SystemPreview';
 
 export const RemotionRoot = () => (
   <>
