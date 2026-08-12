@@ -1,0 +1,58 @@
+name: Record Capture Runtime Proof
+
+on:
+  workflow_run:
+    workflows: ["IMON MOTION Capture Runtime"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+jobs:
+  record-proof:
+    if: github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Record successful capture runtime gate
+        run: |
+          mkdir -p status
+          cat > status/capture-runtime.json <<JSON
+          {
+            "version": 1,
+            "workflow": "IMON MOTION Capture Runtime",
+            "conclusion": "success",
+            "run_id": ${{ github.event.workflow_run.id }},
+            "tested_head_sha": "${{ github.event.workflow_run.head_sha }}",
+            "tested_branch": "${{ github.event.workflow_run.head_branch }}",
+            "tested_at": "${{ github.event.workflow_run.updated_at }}",
+            "assertions": [
+              "Playwright Chromium installed",
+              "product-capture geometry tests passed",
+              "local product fixture opened",
+              "interaction executed",
+              "two screenshots rendered and differed",
+              "privacy-reviewed manifest exported",
+              "unsafe element remained flagged",
+              "element geometry exported"
+            ]
+          }
+          JSON
+
+      - name: Commit proof when changed
+        run: |
+          git config user.name "IMON MOTION Bot"
+          git config user.email "imon-motion-bot@users.noreply.github.com"
+          git add status/capture-runtime.json
+          if git diff --cached --quiet; then
+            echo "Capture runtime proof is already current."
+            exit 0
+          fi
+          git commit -m "chore: record successful capture runtime proof"
+          git pull --rebase origin main
+          git push origin HEAD:main
