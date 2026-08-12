@@ -1,0 +1,61 @@
+version: 1
+statuses: [planned, experimental, ready, deprecated]
+
+adapters:
+  theatre-three:
+    status: planned
+    capabilities: [three-d, cinematography, choreography]
+    primitive_ids: [camera.product-orbit]
+    research_donors: [theatre, video-shotcraft]
+    requirements: [threejs-runtime, deterministic-timeline, remotion-frame-binding]
+    fallback: camera.parallax-2_5d
+
+  remotion-three:
+    status: planned
+    capabilities: [three-d, remotion-engineering, rendering]
+    primitive_ids: [camera.product-orbit]
+    research_donors: [remotion-skills, theatre]
+    requirements: [remotion-compatible-three-runtime, deterministic-frame-state]
+    fallback: camera.parallax-2_5d
+
+  webgl:
+    status: planned
+    capabilities: [webgl, three-d, rendering]
+    primitive_ids: [webgl.shader-field, effect.particle-accent]
+    research_donors: [motion-skills, motion-canvas-examples, theatre]
+    requirements: [deterministic-seed, browser-gpu-support, render-cost-budget]
+    fallback: static-or-css-material
+
+  motion-canvas:
+    status: planned
+    capabilities: [shot-design, cinematography, data-animation]
+    primitive_ids: []
+    research_donors: [motion-canvas-examples]
+    requirements: [technique-translation-only]
+    fallback: normalized-remotion-implementation
+
+  product-capture:
+    status: planned
+    capabilities: [ui-motion, shot-design]
+    primitive_ids: [ui.cursor-focus, ui.viewport-push]
+    research_donors: [remotion-cinematic, video-shotcraft]
+    requirements: [stable-viewport, privacy-scrub, geometry-metadata]
+    fallback: approved-static-product-states
+
+  audio-analysis:
+    status: planned
+    capabilities: [sound-design, choreography]
+    primitive_ids: [audio.beat-map, audio.impact-stack]
+    research_donors: [video-shotcraft]
+    requirements: [deterministic-analysis-output, licensed-audio-input]
+    fallback: manual-beat-map
+
+adapter_template:
+  status: experimental
+  capabilities: []
+  primitive_ids: []
+  research_donors: []
+  requirements: []
+  fallback: null
+  source_path: "adapters/<adapter-id>"
+  smoke_test: null
