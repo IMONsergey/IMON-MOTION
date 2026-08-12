@@ -1,0 +1,73 @@
+version: 1
+technique_families:
+  reveal:
+    principle: "Reveal hierarchy, not decoration. Motion should clarify what becomes important."
+    normalized: [reveal.precision-rise, reveal.hero-settle]
+    donor_research: [onda, motion-design-skill, video-shotcraft]
+
+  exits:
+    principle: "Clear outgoing information faster than it arrived unless narrative tension requires otherwise."
+    normalized: [exit.clean-fall]
+    donor_research: [onda, motion-design-skill]
+
+  kinetic-typography:
+    principle: "The type system remains readable before it becomes expressive. One dominant type behavior per beat."
+    normalized: [typography.word-stagger, typography.line-reveal, typography.metric-counter]
+    donor_research: [motion-skills, motion-design-skill, onda, remotion-scenes]
+
+  ui-product-motion:
+    principle: "Real product state, geometry-aware focus, and readable holds outrank decorative UI animation."
+    normalized: [ui.cursor-focus, ui.viewport-push, ui.layered-product-frame, scene.ui-feature]
+    donor_research: [remotion-cinematic, video-shotcraft, onda, remotion-skills]
+
+  camera:
+    principle: "Camera movement follows a subject, reveals information, or bridges space. It never exists only to make a static design feel expensive."
+    normalized: [camera.parallax-2_5d, camera.product-orbit, camera.macro-push]
+    donor_research: [video-shotcraft, remotion-cinematic, theatre, motion-canvas-examples]
+
+  transitions:
+    principle: "A transition should preserve object identity, direction, depth, rhythm, or semantic continuity."
+    normalized: [transition.depth-cut, transition.mask-bridge, transition.match-move]
+    donor_research: [onda, video-shotcraft, remotion-scenes, motion-design-skill]
+
+  data:
+    principle: "Animate analytical causality and comparison; do not animate every mark because it exists."
+    normalized: [data.chart-build, data.metric-proof, typography.metric-counter]
+    donor_research: [chuk-motion, motion-canvas-examples, remotion-skills, motion-skills]
+
+  effects:
+    principle: "Effects are scarce emphasis devices. A single high-quality accent is stronger than ambient visual noise."
+    normalized: [effect.light-sweep, effect.particle-accent]
+    donor_research: [video-shotcraft, motion-skills, motion-canvas-examples]
+
+  webgl:
+    principle: "Generative graphics must support material, atmosphere, identity, or information—not generic futuristic styling."
+    normalized: [webgl.shader-field]
+    donor_research: [motion-skills, motion-canvas-examples, theatre]
+
+  sound:
+    principle: "Sound structures attention. Major impacts are reserved for major visual or narrative changes."
+    normalized: [audio.impact-stack, audio.beat-map]
+    donor_research: [video-shotcraft, motion-skills, product-launch-video-skill]
+
+  scene-grammar:
+    principle: "A scene has one focal subject, one dominant motion idea, and a deliberate settled state."
+    normalized: [scene.hero-product, scene.ui-feature, scene.editorial-statement]
+    donor_research: [video-shotcraft, product-launch-video-skill, remotion-cinematic, motion-design-skill]
+
+selection_order:
+  - user_constraints
+  - narrative_role
+  - content_truth
+  - normalized_primitive
+  - style_compatibility
+  - dimensionality
+  - donor_research
+  - implementation_simplicity
+
+new_technique_gate:
+  requirements:
+    - "Existing normalized primitives cannot express the behavior cleanly."
+    - "The new technique has a narrative or production purpose."
+    - "Provenance is recorded when donor research informed it."
+    - "The technique has explicit misuse/anti-pattern guidance when relevant."
