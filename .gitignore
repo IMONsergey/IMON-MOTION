@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+.tmp/
+tmp/
+out/
+dist/
+coverage/
+*.log
+
+# Generated media outputs should not be committed by default.
+renders/
+exports/
+
+# IMPORTANT: upstream/ and index/ are intentionally committed.
