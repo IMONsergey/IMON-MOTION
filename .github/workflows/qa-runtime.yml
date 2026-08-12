@@ -1,0 +1,66 @@
+name: IMON MOTION QA Runtime
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/render-qa.mts
+      - packages/motion-core/src/qa.ts
+      - packages/motion-core/src/storyboard.ts
+      - apps/studio/**
+      - .github/workflows/qa-runtime.yml
+
+permissions:
+  contents: read
+
+jobs:
+  qa-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout IMON MOTION
+        uses: actions/checkout@v7
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Install workspace dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Typecheck QA renderer and normalized runtime
+        run: npm run typecheck
+
+      - name: Render representative read-state QA frames
+        run: |
+          ./node_modules/.bin/tsx scripts/render-qa.mts \
+            --entry apps/studio/src/index.ts \
+            --composition IMONSystemPreview \
+            --brief "12 second production motion-system preview with UI and kinetic typography" \
+            --out /tmp/imon-qa \
+            --samples read \
+            --quiet
+
+      - name: Verify QA manifest and visual frame diversity
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const path = require('node:path');
+          const data = JSON.parse(fs.readFileSync('/tmp/imon-qa/qa.manifest.json', 'utf8'));
+          if (data.version !== 1) throw new Error('unexpected QA manifest version');
+          if (data.storyboard.durationInFrames !== 360) throw new Error(`expected 360 storyboard frames, got ${data.storyboard.durationInFrames}`);
+          if (data.renders.length !== 6) throw new Error(`expected one read frame per beat, got ${data.renders.length}`);
+          const hashes = new Set();
+          for (const render of data.renders) {
+            const file = path.join('/tmp/imon-qa', render.file);
+            if (!fs.existsSync(file)) throw new Error(`missing rendered QA frame ${render.file}`);
+            if (render.bytes < 10000) throw new Error(`QA frame too small: ${render.file}`);
+            hashes.add(render.sha256);
+          }
+          if (hashes.size < 4) throw new Error(`QA sample lacks visual diversity: ${hashes.size} distinct hashes`);
+          if (!data.qa.checks.some((check) => check.id === 'anti-ai-slop')) throw new Error('anti-AI-slop gate missing from QA manifest');
+          console.log(`QA runtime smoke OK: ${data.renders.length} frames, ${hashes.size} distinct hashes`);
+          NODE
