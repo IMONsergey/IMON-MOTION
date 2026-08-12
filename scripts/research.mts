@@ -11,12 +11,12 @@ if (!brief) {
 const route = routeBrief(brief);
 const root = process.cwd();
 const stopWords = new Set([
-  'with', 'from', 'into', 'that', 'this', 'make', 'create', 'video', 'second', 'seconds',
-  'для', 'сделай', 'ролик', 'видео', 'который', 'чтобы', 'очень', 'через', 'нужно', 'хочу',
+  'with', 'from', 'into', 'that', 'this', 'make', 'create', 'video', 'second', 'seconds', 'using', 'have', 'will',
+  'для', 'сделай', 'ролик', 'видео', 'который', 'чтобы', 'очень', 'через', 'нужно', 'хочу', 'будет', 'сделать',
 ]);
 
 const tokenize = (value: string): string[] => {
-  const words = value.toLowerCase().match(/[\p{L}\p{N}._+-]{3,}/gu) ?? [];
+  const words = value.toLowerCase().match(/[\p{L}\p{N}]{3,}/gu) ?? [];
   return [...new Set(words.filter((word) => !stopWords.has(word)))];
 };
 
@@ -43,7 +43,7 @@ const desiredCategories = new Set(
 const queryTokens = new Set([
   ...tokenize(brief),
   ...route.capabilities.flatMap(tokenize),
-  ...route.primitives.flatMap((primitive) => [...primitive.tags, primitive.kind]).flatMap(tokenize),
+  ...route.primitives.flatMap((primitive) => [primitive.id, ...primitive.tags, primitive.kind]).flatMap(tokenize),
 ]);
 
 const normalizedContext = [
@@ -59,7 +59,65 @@ if (route.capabilities.includes('remotion-engineering') || route.brief.videoType
   normalizedContext.push('packages/remotion-kit/src/choreography.ts', 'packages/remotion-kit/src/primitives.tsx');
 }
 
-const scoreFile = (file: { path: string; binary: boolean; categories?: string[]; ext?: string }): number => {
+const textSearchExtensions = new Set([
+  '.md', '.mdx', '.txt', '.ts', '.tsx', '.js', '.jsx', '.mjs', '.cjs', '.json', '.yaml', '.yml', '.toml', '.py', '.html', '.css', '.scss', '.glsl', '.vert', '.frag', '[none]',
+]);
+const maxContentBytes = 384 * 1024;
+
+const countOccurrences = (haystack: string, needle: string, cap = 3): number => {
+  let count = 0;
+  let cursor = 0;
+  while (count < cap) {
+    const found = haystack.indexOf(needle, cursor);
+    if (found === -1) break;
+    count += 1;
+    cursor = found + Math.max(needle.length, 1);
+  }
+  return count;
+};
+
+const contentSignals = (
+  donor: string,
+  file: { path: string; bytes: number; ext: string; binary: boolean },
+): { score: number; hits: string[] } => {
+  if (file.binary || !textSearchExtensions.has(file.ext) || file.bytes <= 0) return { score: 0, hits: [] };
+  const sourcePath = path.join(root, 'upstream', donor, file.path);
+  if (!fs.existsSync(sourcePath)) return { score: 0, hits: [] };
+
+  let buffer: Buffer;
+  try {
+    const fd = fs.openSync(sourcePath, 'r');
+    const length = Math.min(file.bytes, maxContentBytes);
+    buffer = Buffer.alloc(length);
+    fs.readSync(fd, buffer, 0, length, 0);
+    fs.closeSync(fd);
+  } catch {
+    return { score: 0, hits: [] };
+  }
+
+  // Some donor archives use an unknown extension. NUL bytes are a cheap binary guard.
+  if (buffer.includes(0)) return { score: 0, hits: [] };
+  const text = buffer.toString('utf8').toLowerCase();
+  const scoredHits: Array<{ token: string; score: number }> = [];
+  let score = 0;
+  for (const token of queryTokens) {
+    if (token.length < 3) continue;
+    const occurrences = countOccurrences(text, token, 3);
+    if (!occurrences) continue;
+    const weight = token.length >= 9 ? 2.4 : token.length >= 6 ? 1.8 : 1.2;
+    const hitScore = occurrences * weight;
+    score += hitScore;
+    scoredHits.push({ token, score: hitScore });
+  }
+
+  // Content helps surface neutrally named files, but cannot overpower structure/provenance.
+  return {
+    score: Math.min(score, 18),
+    hits: scoredHits.sort((a, b) => b.score - a.score || a.token.localeCompare(b.token)).slice(0, 8).map(({ token }) => token),
+  };
+};
+
+const scoreFilePath = (file: { path: string; binary: boolean; categories?: string[]; ext?: string }): number => {
   const lower = file.path.toLowerCase();
   let score = 0;
   for (const category of file.categories ?? []) if (desiredCategories.has(category)) score += 6;
@@ -78,7 +136,7 @@ const scoreFile = (file: { path: string; binary: boolean; categories?: string[];
   if (lower.includes('render')) score += route.capabilities.includes('rendering') ? 5 : 1;
   if (lower.includes('test') || lower.includes('__snapshots__')) score -= 3;
   if (file.binary) score -= 12;
-  if (['.md', '.ts', '.tsx', '.js', '.mjs', '.json', '.yaml', '.yml', '.glsl'].includes(file.ext ?? '')) score += 1;
+  if (textSearchExtensions.has(file.ext ?? '')) score += 1;
   return score;
 };
 
@@ -102,13 +160,20 @@ const research = route.donors.map((donor) => {
 
   const files = data.files
     .filter((file) => !file.binary)
-    .map((file) => ({ ...file, score: scoreFile(file) }))
+    .map((file) => {
+      const content = contentSignals(donor, file);
+      const pathScore = scoreFilePath(file);
+      return { ...file, score: pathScore + content.score, pathScore, contentScore: content.score, contentHits: content.hits };
+    })
     .filter((file) => file.score > 0)
-    .sort((a, b) => b.score - a.score || a.path.localeCompare(b.path))
+    .sort((a, b) => b.score - a.score || b.contentScore - a.contentScore || a.path.localeCompare(b.path))
     .slice(0, 7)
-    .map(({ path: filePath, score, categories, ext }) => ({
+    .map(({ path: filePath, score, pathScore, contentScore, contentHits, categories, ext }) => ({
       path: `upstream/${donor}/${filePath}`,
-      score,
+      score: Number(score.toFixed(2)),
+      pathScore,
+      contentScore: Number(contentScore.toFixed(2)),
+      contentHits,
       categories: categories ?? [],
       ext,
     }));
@@ -136,7 +201,7 @@ const allDonors = fs.readdirSync(path.join(root, 'index', 'donors'))
 const ignoredDonors = allDonors.filter((donor) => !route.donors.includes(donor));
 
 console.log(JSON.stringify({
-  version: 1,
+  version: 2,
   brief,
   route: {
     videoType: route.brief.videoType,
@@ -153,6 +218,8 @@ console.log(JSON.stringify({
     maxResearchDonors: 6,
     maxTextFilesPerDonor: 7,
     upstreamReadOnly: true,
+    contentAwareWithinRoutedDonors: true,
+    maxContentBytesPerFile: maxContentBytes,
   },
   normalizedContext: [...new Set(normalizedContext)],
   research,
