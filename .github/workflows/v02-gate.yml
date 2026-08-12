@@ -1,0 +1,107 @@
+name: IMON MOTION v0.2 End-to-End Gate
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/shot-plan.mts
+      - scripts/production-plan.mts
+      - scripts/scaffold.mts
+      - scripts/render-delivery.mts
+      - scripts/render-qa.mts
+      - scripts/health-v2.mjs
+      - scripts/validate-v02.mjs
+      - library/shot-patterns.yaml
+      - .agents/**
+      - adapters/**
+      - apps/**
+      - .github/workflows/v02-gate.yml
+
+permissions:
+  contents: read
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout IMON MOTION
+        uses: actions/checkout@v7
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Install all current workspaces
+        run: npm install --no-audit --no-fund
+
+      - name: Validate v0.2 structural integrity
+        run: node scripts/validate-v02.mjs
+
+      - name: Typecheck full normalized and adapter surface
+        run: npm run typecheck
+
+      - name: Test all normalized and specialized adapters
+        run: |
+          node --import tsx --test \
+            packages/motion-core/test/*.test.ts \
+            adapters/product-capture/test/*.test.ts \
+            adapters/remotion-three/test/*.test.ts \
+            adapters/audio-analysis/test/*.test.ts \
+            adapters/webgl/test/*.test.ts
+
+      - name: Build director-aware production plan
+        run: ./node_modules/.bin/tsx scripts/production-plan.mts "24 second dynamic Reels UI launch, vertical 9:16, 4K, 60 fps, real interface, kinetic typography" > /tmp/director-plan.json
+
+      - name: Verify shot grammar and delivery planning
+        run: |
+          node - <<'NODE'
+          const data = JSON.parse(require('fs').readFileSync('/tmp/director-plan.json', 'utf8'));
+          if (data.version !== 2) throw new Error(`expected plan v2, got ${data.version}`);
+          if (data.classification.delivery?.durationSeconds !== 24) throw new Error('duration lost');
+          if (data.classification.delivery?.aspectRatio !== '9:16') throw new Error('aspect lost');
+          if (data.classification.delivery?.width !== 2160 || data.classification.delivery?.height !== 3840) throw new Error('4K vertical resolution lost');
+          if (data.classification.delivery?.fps !== 60) throw new Error('60 fps lost');
+          if (data.storyboard.durationInFrames !== 1440) throw new Error(`expected 1440 frames, got ${data.storyboard.durationInFrames}`);
+          const shot = data.director?.shotGrammar;
+          if (!shot || shot.grammarSize < 20) throw new Error('shot grammar missing/small');
+          if (shot.beats.length !== data.storyboard.beats.length) throw new Error('shot grammar does not cover storyboard beats');
+          if (!shot.beats.every((beat) => beat.primary?.id && beat.primary?.rule)) throw new Error('one or more beats has no primary narrative shot rule');
+          console.log('Director plan OK', {patterns: shot.grammarSize, used: shot.usedPatterns});
+          NODE
+
+      - name: Scaffold a real routed Remotion project
+        run: |
+          rm -rf .ci-generated-projects
+          ./node_modules/.bin/tsx scripts/scaffold.mts \
+            --name ui-demo-proof \
+            --brief "8 second production UI demo, real interface, 1920x1080, 30 fps, clean restrained motion" \
+            --out-root .ci-generated-projects
+
+      - name: Verify generated project manifest
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const p = JSON.parse(fs.readFileSync('.ci-generated-projects/ui-demo-proof/project.json','utf8'));
+          if (p.videoType !== 'ui-demo') throw new Error(`expected ui-demo, got ${p.videoType}`);
+          if (p.delivery.width !== 1920 || p.delivery.height !== 1080 || p.delivery.fps !== 30) throw new Error('generated delivery mismatch');
+          if (p.delivery.durationInFrames !== 240) throw new Error(`expected 240 frames, got ${p.delivery.durationInFrames}`);
+          if (!p.shotPatterns.length) throw new Error('generated project has no shot plan');
+          NODE
+
+      - name: Discover generated Remotion composition
+        shell: bash
+        run: |
+          set +e
+          output="$(./node_modules/.bin/remotion compositions .ci-generated-projects/ui-demo-proof/src/index.ts 2>&1)"
+          status=$?
+          printf '%s\n' "$output" | tee /tmp/generated-compositions.txt
+          if [ "$status" -ne 0 ]; then
+            diagnostic="$(printf '%s' "$output" | tail -c 3500 | tr '\n' ' ' | sed 's/%/%25/g; s/\r/%0D/g; s/\n/%0A/g')"
+            echo "::error title=Generated project composition discovery failed::$diagnostic"
+            exit "$status"
+          fi
+          grep -q "IMON_ui_demo_proof" /tmp/generated-compositions.txt
