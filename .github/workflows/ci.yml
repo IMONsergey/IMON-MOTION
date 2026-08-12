@@ -48,6 +48,7 @@ jobs:
           if (!data.route.donors.includes('video-shotcraft')) throw new Error('video-shotcraft was not selected');
           if (!data.route.primitives.some((p) => p.id === 'camera.product-orbit')) throw new Error('product orbit primitive missing');
           if (data.storyboard.beats.length < 5) throw new Error('storyboard skeleton too small');
+          if (!data.qa || data.qa.sampleFrames.length === 0) throw new Error('QA plan missing from route output');
           console.log('Route smoke test OK');
           NODE
 
@@ -60,6 +61,7 @@ jobs:
           const fs = require('node:fs');
           const data = JSON.parse(fs.readFileSync('/tmp/research.json', 'utf8'));
           if (!data.contextPolicy.normalizedFirst) throw new Error('normalized-first policy missing');
+          if (!data.contextPolicy.contentAwareWithinRoutedDonors) throw new Error('content-aware routed research is disabled');
           if (data.route.donors.length < 2 || data.route.donors.length > 6) throw new Error('donor context is not bounded');
           if (!data.route.donors.includes('video-shotcraft')) throw new Error('expected cinematic research donor missing');
           if (!data.normalizedContext.includes('packages/motion-core/src/catalog.ts')) throw new Error('normalized catalog missing from context plan');
@@ -76,7 +78,17 @@ jobs:
           NODE
 
       - name: Discover normalized Remotion compositions
-        run: npm run --silent studio:compositions > /tmp/compositions.txt
+        shell: bash
+        run: |
+          set +e
+          output="$(npm run --silent studio:compositions 2>&1)"
+          status=$?
+          printf '%s\n' "$output" | tee /tmp/compositions.txt
+          if [ "$status" -ne 0 ]; then
+            diagnostic="$(printf '%s' "$output" | tail -c 3500 | tr '\n' ' ' | sed 's/%/%25/g; s/\r/%0D/g; s/\n/%0A/g')"
+            echo "::error title=Remotion composition discovery failed::$diagnostic"
+            exit "$status"
+          fi
 
       - name: Verify Studio composition
         run: |
