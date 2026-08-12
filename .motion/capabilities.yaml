@@ -1,0 +1,57 @@
+version: 1
+capabilities:
+  creative-direction:
+    donors: [motion-design-skill, motion-skills, product-launch-video-skill]
+    outputs: [intent, audience, message, visual-language, pacing-curve]
+
+  shot-design:
+    donors: [video-shotcraft, remotion-cinematic, motion-canvas-examples]
+    outputs: [shot-list, framing, reveals, sequencing]
+
+  cinematography:
+    donors: [video-shotcraft, remotion-cinematic, theatre, motion-canvas-examples]
+    outputs: [camera-language, depth, parallax, spatial-continuity]
+
+  choreography:
+    donors: [onda, motion-design-skill, motion-skills, claude-remotion-skill]
+    outputs: [timing, stagger, easing, entrances, exits, emphasis]
+
+  kinetic-typography:
+    donors: [motion-skills, motion-design-skill, onda, emilkowalski-skills]
+    outputs: [type-sequences, word-reveals, editorial-motion, text-hierarchy]
+
+  ui-motion:
+    donors: [remotion-cinematic, onda, emilkowalski-skills, remotion-skills, chuk-motion]
+    outputs: [cursor, viewport, zoom, focus, interaction-choreography]
+
+  transitions:
+    donors: [onda, remotion-scenes, remotion-templates, motion-skills]
+    outputs: [cuts, masks, spatial-transitions, continuity-transitions]
+
+  data-animation:
+    donors: [motion-skills, chuk-motion, remotion-skills, motion-canvas-examples]
+    outputs: [charts, counters, diagrams, data-storytelling]
+
+  three-d:
+    donors: [theatre, motion-skills, video-shotcraft, motion-canvas-examples]
+    outputs: [3d-scenes, product-orbits, camera-rigs, keyframed-spatial-motion]
+
+  webgl:
+    donors: [motion-skills, theatre, motion-canvas-examples]
+    outputs: [shaders, particles, generative-graphics, gpu-effects]
+
+  sound-design:
+    donors: [video-shotcraft, motion-skills, product-launch-video-skill]
+    outputs: [sfx-plan, music-sync, beat-map, audio-emphasis]
+
+  remotion-engineering:
+    donors: [remotion-skills, claude-remotion-skill, remotion-templates, remotion-scenes]
+    outputs: [composition-architecture, frame-math, deterministic-animation, reusable-components]
+
+  rendering:
+    donors: [remotion-skills, claude-remotion-skill, motion-skills]
+    outputs: [render-strategy, codec, output, representative-stills]
+
+  visual-qa:
+    donors: [motion-skills, claude-remotion-skill, motion-design-skill, video-shotcraft]
+    outputs: [frame-review, motion-review, typography-review, continuity-review]
