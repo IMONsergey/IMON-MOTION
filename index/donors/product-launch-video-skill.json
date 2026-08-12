@@ -1,9 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "donor": "product-launch-video-skill",
   "summary": {
     "fileCount": 7,
     "totalBytes": 84314,
+    "indexedContentBytes": 84314,
     "textFiles": 7,
     "binaryFiles": 0,
     "topExtensions": {
@@ -12,9 +13,47 @@
       ".mjs": 1
     },
     "categoryCounts": {
-      "skills": 4,
+      "skills": 5,
+      "audio-sound": 5,
+      "rendering": 4,
+      "shots-scenes-storyboard": 2,
+      "typography": 2,
+      "ui-motion": 2,
+      "tests": 2,
+      "remotion": 1,
+      "camera-cinematography": 1,
+      "transitions": 1,
+      "data-animation": 1,
+      "effects": 1,
+      "design-system": 1
+    },
+    "contentCategoryCounts": {
+      "skills": 5,
+      "audio-sound": 5,
+      "rendering": 4,
+      "shots-scenes-storyboard": 2,
+      "typography": 2,
+      "tests": 2,
+      "remotion": 1,
+      "camera-cinematography": 1,
+      "transitions": 1,
       "ui-motion": 1,
-      "rendering": 1
+      "data-animation": 1,
+      "effects": 1,
+      "design-system": 1
+    },
+    "signalCounts": {
+      "render": 4,
+      "storyboard": 2,
+      "sound-design": 1,
+      "spring": 1,
+      "interpolate": 1,
+      "sequence": 1,
+      "camera": 1,
+      "orbit": 1,
+      "parallax": 1,
+      "mask": 1,
+      "particles": 1
     }
   },
   "files": [
@@ -23,21 +62,46 @@
       "bytes": 36,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 36
     },
     {
       "path": "LICENSE",
       "bytes": 1066,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1066
     },
     {
       "path": "README.md",
       "bytes": 4683,
       "ext": ".md",
       "binary": false,
-      "categories": []
+      "categories": [
+        "skills",
+        "shots-scenes-storyboard",
+        "typography",
+        "audio-sound",
+        "rendering"
+      ],
+      "contentCategories": [
+        "skills",
+        "shots-scenes-storyboard",
+        "typography",
+        "audio-sound",
+        "rendering"
+      ],
+      "signals": [
+        "storyboard",
+        "sound-design",
+        "render"
+      ],
+      "indexedContentBytes": 4683
     },
     {
       "path": "skills/gemini-tts/SKILL.md",
@@ -45,8 +109,19 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "audio-sound",
+        "rendering"
+      ],
+      "contentCategories": [
+        "skills",
+        "audio-sound",
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 7364
     },
     {
       "path": "skills/gemini-tts/references/prompting-guide.md",
@@ -55,8 +130,15 @@
       "binary": false,
       "categories": [
         "skills",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "audio-sound"
+      ],
+      "contentCategories": [
+        "skills",
+        "audio-sound"
+      ],
+      "signals": [],
+      "indexedContentBytes": 4984
     },
     {
       "path": "skills/gemini-tts/scripts/generate-tts.mjs",
@@ -64,8 +146,21 @@
       "ext": ".mjs",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "audio-sound",
+        "rendering",
+        "tests"
+      ],
+      "contentCategories": [
+        "skills",
+        "audio-sound",
+        "rendering",
+        "tests"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 17563
     },
     {
       "path": "skills/product-launch-video/SKILL.md",
@@ -74,8 +169,47 @@
       "binary": false,
       "categories": [
         "skills",
-        "rendering"
-      ]
+        "rendering",
+        "remotion",
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "ui-motion",
+        "data-animation",
+        "audio-sound",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "skills",
+        "remotion",
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "ui-motion",
+        "data-animation",
+        "audio-sound",
+        "rendering",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "spring",
+        "interpolate",
+        "sequence",
+        "camera",
+        "orbit",
+        "parallax",
+        "storyboard",
+        "render",
+        "mask",
+        "particles"
+      ],
+      "indexedContentBytes": 48618
     }
   ]
 }

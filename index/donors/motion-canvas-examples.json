@@ -1,9 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "donor": "motion-canvas-examples",
   "summary": {
     "fileCount": 280,
     "totalBytes": 45134352,
+    "indexedContentBytes": 1189023,
     "textFiles": 228,
     "binaryFiles": 52,
     "topExtensions": {
@@ -24,16 +25,39 @@
     "categoryCounts": {
       "examples-templates": 263,
       "shots-scenes-storyboard": 88,
-      "camera-cinematography": 56,
-      "3d-webgl-shaders": 24,
-      "rendering": 8,
+      "camera-cinematography": 84,
+      "3d-webgl-shaders": 31,
+      "rendering": 30,
+      "ui-motion": 23,
+      "design-system": 20,
+      "tests": 14,
+      "effects": 12,
+      "data-animation": 10,
+      "transitions": 8,
       "audio-sound": 5,
-      "data-animation": 4,
-      "design-system": 2,
-      "ui-motion": 2,
-      "transitions": 1,
-      "typography": 1,
-      "tests": 1
+      "typography": 1
+    },
+    "contentCategoryCounts": {
+      "camera-cinematography": 41,
+      "ui-motion": 22,
+      "rendering": 22,
+      "design-system": 18,
+      "3d-webgl-shaders": 16,
+      "tests": 13,
+      "effects": 12,
+      "data-animation": 7,
+      "transitions": 7
+    },
+    "signalCounts": {
+      "camera": 26,
+      "parallax": 19,
+      "orbit": 17,
+      "shader": 16,
+      "sequence": 14,
+      "mask": 11,
+      "render": 10,
+      "chart": 5,
+      "cursor": 1
     }
   },
   "files": [
@@ -42,49 +66,76 @@
       "bytes": 504,
       "ext": ".json",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 504
     },
     {
       "path": ".gitattributes",
       "bytes": 62,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 62
     },
     {
       "path": ".github/workflows/verify.yml",
       "bytes": 473,
       "ext": ".yml",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 473
     },
     {
       "path": ".gitignore",
       "bytes": 30,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 30
     },
     {
       "path": ".prettierrc",
       "bytes": 201,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 201
     },
     {
       "path": "LICENSE",
       "bytes": 1069,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1069
     },
     {
       "path": "README.md",
       "bytes": 1831,
       "ext": ".md",
       "binary": false,
-      "categories": []
+      "categories": [
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "parallax"
+      ],
+      "indexedContentBytes": 1831
     },
     {
       "path": "examples/anniversary/package.json",
@@ -93,7 +144,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 189
     },
     {
       "path": "examples/anniversary/src/commits.json",
@@ -101,8 +155,16 @@
       "ext": ".json",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "data-animation"
+      ],
+      "contentCategories": [
+        "data-animation"
+      ],
+      "signals": [
+        "chart"
+      ],
+      "indexedContentBytes": 131072
     },
     {
       "path": "examples/anniversary/src/commits.ts",
@@ -110,8 +172,14 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1163
     },
     {
       "path": "examples/anniversary/src/images/current.png",
@@ -120,7 +188,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/anniversary/src/images/fullscreen.png",
@@ -129,7 +200,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/anniversary/src/images/logosvg.svg",
@@ -138,7 +212,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 2580
     },
     {
       "path": "examples/anniversary/src/images/old.png",
@@ -147,7 +224,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/anniversary/src/motion-canvas.d.ts",
@@ -156,7 +236,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 54
     },
     {
       "path": "examples/anniversary/src/projects/intro.meta",
@@ -164,8 +247,16 @@
       "ext": ".meta",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 528
     },
     {
       "path": "examples/anniversary/src/projects/intro.ts",
@@ -174,7 +265,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 146
     },
     {
       "path": "examples/anniversary/src/projects/thumbnail.meta",
@@ -182,8 +276,16 @@
       "ext": ".meta",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 517
     },
     {
       "path": "examples/anniversary/src/projects/thumbnail.ts",
@@ -192,7 +294,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 158
     },
     {
       "path": "examples/anniversary/src/scenes/intro.meta",
@@ -201,8 +306,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "transitions"
+      ],
+      "contentCategories": [
+        "transitions"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2138
     },
     {
       "path": "examples/anniversary/src/scenes/intro.tsx",
@@ -211,8 +322,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "transitions",
+        "effects"
+      ],
+      "contentCategories": [
+        "transitions",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 8807
     },
     {
       "path": "examples/anniversary/src/scenes/thumbnail.meta",
@@ -222,7 +341,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 59
     },
     {
       "path": "examples/anniversary/src/scenes/thumbnail.tsx",
@@ -231,8 +353,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "effects"
+      ],
+      "contentCategories": [
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1895
     },
     {
       "path": "examples/anniversary/src/videos.ts",
@@ -241,8 +369,16 @@
       "binary": false,
       "categories": [
         "rendering",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion",
+        "design-system"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 6234
     },
     {
       "path": "examples/anniversary/tsconfig.json",
@@ -251,7 +387,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 132
     },
     {
       "path": "examples/anniversary/vite.config.ts",
@@ -260,7 +399,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 227
     },
     {
       "path": "examples/asset-code/package.json",
@@ -269,7 +411,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 187
     },
     {
       "path": "examples/asset-code/src/audio/voice.mp3",
@@ -279,7 +424,10 @@
       "categories": [
         "audio-sound",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/asset-code/src/image/jeff.png",
@@ -288,7 +436,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/asset-code/src/image/logo.svg",
@@ -297,7 +448,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 12063
     },
     {
       "path": "examples/asset-code/src/motion-canvas.d.ts",
@@ -306,7 +460,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 54
     },
     {
       "path": "examples/asset-code/src/nodes/ATxt.ts",
@@ -315,7 +472,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 233
     },
     {
       "path": "examples/asset-code/src/nodes/Atlas.ts",
@@ -323,8 +483,16 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion",
+        "rendering"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "rendering"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2026
     },
     {
       "path": "examples/asset-code/src/nodes/Binary.ts",
@@ -332,8 +500,16 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion",
+        "rendering"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "rendering"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2043
     },
     {
       "path": "examples/asset-code/src/nodes/Code.ts",
@@ -342,7 +518,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 5052
     },
     {
       "path": "examples/asset-code/src/nodes/Mouse.tsx",
@@ -351,7 +530,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 768
     },
     {
       "path": "examples/asset-code/src/nodes/Page.tsx",
@@ -359,8 +541,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "design-system"
+      ],
+      "contentCategories": [
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1880
     },
     {
       "path": "examples/asset-code/src/nodes/Paper.tsx",
@@ -369,7 +557,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 957
     },
     {
       "path": "examples/asset-code/src/nodes/Tetrahedron.ts",
@@ -377,8 +568,24 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "ui-motion",
+        "rendering",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "ui-motion",
+        "rendering",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "orbit"
+      ],
+      "indexedContentBytes": 6860
     },
     {
       "path": "examples/asset-code/src/nodes/Three.ts",
@@ -387,8 +594,20 @@
       "binary": false,
       "categories": [
         "3d-webgl-shaders",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "ui-motion",
+        "rendering"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "ui-motion",
+        "rendering"
+      ],
+      "signals": [
+        "camera"
+      ],
+      "indexedContentBytes": 3751
     },
     {
       "path": "examples/asset-code/src/nodes/Window.tsx",
@@ -396,8 +615,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion",
+        "design-system"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2115
     },
     {
       "path": "examples/asset-code/src/nodes/index.ts",
@@ -406,7 +633,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 255
     },
     {
       "path": "examples/asset-code/src/overlay.meta",
@@ -414,8 +644,16 @@
       "ext": ".meta",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 517
     },
     {
       "path": "examples/asset-code/src/overlay.ts",
@@ -424,7 +662,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 181
     },
     {
       "path": "examples/asset-code/src/project.meta",
@@ -432,8 +673,16 @@
       "ext": ".meta",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 517
     },
     {
       "path": "examples/asset-code/src/project.ts",
@@ -441,8 +690,19 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "3d-webgl-shaders",
+        "data-animation"
+      ],
+      "contentCategories": [
+        "3d-webgl-shaders",
+        "data-animation"
+      ],
+      "signals": [
+        "shader",
+        "chart"
+      ],
+      "indexedContentBytes": 914
     },
     {
       "path": "examples/asset-code/src/scenes/animator.meta",
@@ -452,7 +712,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 670
     },
     {
       "path": "examples/asset-code/src/scenes/animator.tsx",
@@ -461,8 +724,21 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "ui-motion",
+        "design-system"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "ui-motion",
+        "design-system"
+      ],
+      "signals": [
+        "camera",
+        "cursor"
+      ],
+      "indexedContentBytes": 15563
     },
     {
       "path": "examples/asset-code/src/scenes/blender.meta",
@@ -472,7 +748,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 899
     },
     {
       "path": "examples/asset-code/src/scenes/blender.tsx",
@@ -481,8 +760,26 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "transitions",
+        "data-animation",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "transitions",
+        "data-animation",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "sequence",
+        "camera",
+        "orbit"
+      ],
+      "indexedContentBytes": 14042
     },
     {
       "path": "examples/asset-code/src/scenes/division.meta",
@@ -491,8 +788,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "effects"
+      ],
+      "contentCategories": [
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 436
     },
     {
       "path": "examples/asset-code/src/scenes/division.tsx",
@@ -501,8 +804,23 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "transitions",
+        "3d-webgl-shaders",
+        "effects"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "transitions",
+        "3d-webgl-shaders",
+        "effects"
+      ],
+      "signals": [
+        "orbit",
+        "shader"
+      ],
+      "indexedContentBytes": 4808
     },
     {
       "path": "examples/asset-code/src/scenes/division2.meta",
@@ -512,7 +830,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 282
     },
     {
       "path": "examples/asset-code/src/scenes/division2.tsx",
@@ -521,8 +842,24 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "transitions",
+        "3d-webgl-shaders",
+        "effects"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "transitions",
+        "3d-webgl-shaders",
+        "effects"
+      ],
+      "signals": [
+        "sequence",
+        "orbit",
+        "shader"
+      ],
+      "indexedContentBytes": 5917
     },
     {
       "path": "examples/asset-code/src/scenes/editor.meta",
@@ -532,7 +869,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1112
     },
     {
       "path": "examples/asset-code/src/scenes/editor.tsx",
@@ -541,8 +881,20 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "design-system"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "design-system"
+      ],
+      "signals": [
+        "sequence",
+        "camera",
+        "orbit"
+      ],
+      "indexedContentBytes": 22966
     },
     {
       "path": "examples/asset-code/src/scenes/ending.meta",
@@ -552,7 +904,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 136
     },
     {
       "path": "examples/asset-code/src/scenes/ending.tsx",
@@ -561,8 +916,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "design-system"
+      ],
+      "contentCategories": [
+        "design-system"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 1728
     },
     {
       "path": "examples/asset-code/src/scenes/intro.meta",
@@ -572,7 +935,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 895
     },
     {
       "path": "examples/asset-code/src/scenes/intro.tsx",
@@ -581,8 +947,20 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "3d-webgl-shaders",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "3d-webgl-shaders",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "shader"
+      ],
+      "indexedContentBytes": 7136
     },
     {
       "path": "examples/asset-code/src/scenes/memory.meta",
@@ -592,7 +970,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 677
     },
     {
       "path": "examples/asset-code/src/scenes/memory.tsx",
@@ -601,8 +982,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "design-system"
+      ],
+      "contentCategories": [
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 4378
     },
     {
       "path": "examples/asset-code/src/scenes/mesh.meta",
@@ -612,7 +999,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 920
     },
     {
       "path": "examples/asset-code/src/scenes/mesh.tsx",
@@ -621,8 +1011,21 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "sequence",
+        "orbit"
+      ],
+      "indexedContentBytes": 9564
     },
     {
       "path": "examples/asset-code/src/scenes/overlay.meta",
@@ -632,7 +1035,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 60
     },
     {
       "path": "examples/asset-code/src/scenes/overlay.tsx",
@@ -642,7 +1048,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 2189
     },
     {
       "path": "examples/asset-code/src/scenes/reanimator.meta",
@@ -652,7 +1061,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 3075
     },
     {
       "path": "examples/asset-code/src/scenes/reanimator.tsx",
@@ -661,8 +1073,20 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 18198
     },
     {
       "path": "examples/asset-code/src/scenes/shader-graph.meta",
@@ -674,7 +1098,10 @@
         "3d-webgl-shaders",
         "data-animation",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 470
     },
     {
       "path": "examples/asset-code/src/scenes/shader-graph.tsx",
@@ -685,8 +1112,21 @@
         "shots-scenes-storyboard",
         "3d-webgl-shaders",
         "data-animation",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "3d-webgl-shaders",
+        "data-animation",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "shader",
+        "chart"
+      ],
+      "indexedContentBytes": 11771
     },
     {
       "path": "examples/asset-code/src/scenes/state-machine.meta",
@@ -695,8 +1135,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "transitions"
+      ],
+      "contentCategories": [
+        "transitions"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2998
     },
     {
       "path": "examples/asset-code/src/scenes/state-machine.tsx",
@@ -705,8 +1151,20 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "transitions",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "transitions",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 23420
     },
     {
       "path": "examples/asset-code/src/shaders/background.glsl",
@@ -715,8 +1173,17 @@
       "binary": false,
       "categories": [
         "3d-webgl-shaders",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "effects"
+      ],
+      "contentCategories": [
+        "3d-webgl-shaders",
+        "effects"
+      ],
+      "signals": [
+        "shader"
+      ],
+      "indexedContentBytes": 3411
     },
     {
       "path": "examples/asset-code/src/shaders/shader-graph.glsl",
@@ -727,7 +1194,14 @@
         "3d-webgl-shaders",
         "data-animation",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [
+        "3d-webgl-shaders"
+      ],
+      "signals": [
+        "shader"
+      ],
+      "indexedContentBytes": 3392
     },
     {
       "path": "examples/asset-code/src/styles.ts",
@@ -735,8 +1209,14 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "design-system"
+      ],
+      "contentCategories": [
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 409
     },
     {
       "path": "examples/asset-code/src/svg/asset-tiles.svg",
@@ -745,7 +1225,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 8343
     },
     {
       "path": "examples/asset-code/src/svg/data-assets.svg",
@@ -755,7 +1238,10 @@
       "categories": [
         "data-animation",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 124980
     },
     {
       "path": "examples/asset-code/src/svg/executable.svg",
@@ -765,7 +1251,10 @@
       "categories": [
         "transitions",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 4658
     },
     {
       "path": "examples/asset-code/src/svg/icons/animator.svg",
@@ -774,7 +1263,12 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 1984
     },
     {
       "path": "examples/asset-code/src/svg/icons/behavior.svg",
@@ -783,7 +1277,12 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 3476
     },
     {
       "path": "examples/asset-code/src/svg/icons/blueprint.svg",
@@ -792,7 +1291,12 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 3029
     },
     {
       "path": "examples/asset-code/src/svg/icons/gdscript.svg",
@@ -801,7 +1305,12 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 3578
     },
     {
       "path": "examples/asset-code/src/svg/icons/music.svg",
@@ -811,7 +1320,12 @@
       "categories": [
         "audio-sound",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 1250
     },
     {
       "path": "examples/asset-code/src/svg/icons/playmaker.svg",
@@ -820,7 +1334,12 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 2060
     },
     {
       "path": "examples/asset-code/src/svg/icons/texture.svg",
@@ -830,7 +1349,12 @@
       "categories": [
         "typography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 1829
     },
     {
       "path": "examples/asset-code/src/svg/icons/yarn.svg",
@@ -839,7 +1363,12 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 2850
     },
     {
       "path": "examples/asset-code/src/svg/spectrum.svg",
@@ -849,7 +1378,10 @@
       "categories": [
         "examples-templates",
         "tests"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 131072
     },
     {
       "path": "examples/asset-code/src/three/game.ts",
@@ -858,8 +1390,17 @@
       "binary": false,
       "categories": [
         "3d-webgl-shaders",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "camera",
+        "orbit"
+      ],
+      "indexedContentBytes": 1533
     },
     {
       "path": "examples/asset-code/tsconfig.json",
@@ -868,7 +1409,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 168
     },
     {
       "path": "examples/asset-code/vite.config.ts",
@@ -877,7 +1421,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 154
     },
     {
       "path": "examples/deferred-lighting/package.json",
@@ -886,7 +1433,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 268
     },
     {
       "path": "examples/deferred-lighting/src/Sample.ts",
@@ -894,8 +1444,14 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1466
     },
     {
       "path": "examples/deferred-lighting/src/audio/voice.mp3",
@@ -905,7 +1461,10 @@
       "categories": [
         "audio-sound",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/components/ArcVector.ts",
@@ -913,8 +1472,16 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion",
+        "rendering"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "rendering"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3530
     },
     {
       "path": "examples/deferred-lighting/src/components/GBuffer.tsx",
@@ -923,7 +1490,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 2626
     },
     {
       "path": "examples/deferred-lighting/src/components/Mesh.ts",
@@ -931,8 +1501,14 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2343
     },
     {
       "path": "examples/deferred-lighting/src/components/Slider.tsx",
@@ -940,8 +1516,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion",
+        "rendering"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "rendering"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2272
     },
     {
       "path": "examples/deferred-lighting/src/components/Three.ts",
@@ -950,8 +1534,20 @@
       "binary": false,
       "categories": [
         "3d-webgl-shaders",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "ui-motion",
+        "rendering"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "ui-motion",
+        "rendering"
+      ],
+      "signals": [
+        "camera"
+      ],
+      "indexedContentBytes": 4182
     },
     {
       "path": "examples/deferred-lighting/src/components/Vector.ts",
@@ -959,8 +1555,16 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion",
+        "rendering"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "rendering"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2927
     },
     {
       "path": "examples/deferred-lighting/src/components/VectorBase.ts",
@@ -968,8 +1572,16 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion",
+        "rendering"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "rendering"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3268
     },
     {
       "path": "examples/deferred-lighting/src/components/index.ts",
@@ -978,7 +1590,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 157
     },
     {
       "path": "examples/deferred-lighting/src/images/frames/ball.png",
@@ -987,7 +1602,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/frames/ball_lookup.png",
@@ -996,7 +1614,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/frames/ball_normal.png",
@@ -1005,7 +1626,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/frames/ball_palette.png",
@@ -1015,7 +1639,10 @@
       "categories": [
         "design-system",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/frames/box_normal.png",
@@ -1024,7 +1651,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/frames/colors.png",
@@ -1033,7 +1663,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/frames/normals.png",
@@ -1042,7 +1675,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/frames/normals_g.png",
@@ -1051,7 +1687,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/frames/normals_r.png",
@@ -1060,7 +1699,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/frames/table.png",
@@ -1069,7 +1711,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/frames/table_normal.png",
@@ -1078,7 +1723,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/frames/wireframe.png",
@@ -1087,7 +1735,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/icons/desktop.svg",
@@ -1096,7 +1747,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 269
     },
     {
       "path": "examples/deferred-lighting/src/images/icons/flare.svg",
@@ -1105,7 +1759,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 485
     },
     {
       "path": "examples/deferred-lighting/src/images/icons/functions.svg",
@@ -1114,7 +1771,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 203
     },
     {
       "path": "examples/deferred-lighting/src/images/icons/layers.svg",
@@ -1123,7 +1783,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 297
     },
     {
       "path": "examples/deferred-lighting/src/images/icons/point_light.svg",
@@ -1132,7 +1795,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 314
     },
     {
       "path": "examples/deferred-lighting/src/images/layer.png",
@@ -1141,7 +1807,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/lights/both.png",
@@ -1150,7 +1819,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/lights/both2.png",
@@ -1159,7 +1831,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/lights/left.png",
@@ -1168,7 +1843,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/lights/left2.png",
@@ -1177,7 +1855,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/lights/leftColor.png",
@@ -1186,7 +1867,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/lights/leftColor2.png",
@@ -1195,7 +1879,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/lights/right.png",
@@ -1204,7 +1891,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/lights/right2.png",
@@ -1213,7 +1903,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/lights/rightColor.png",
@@ -1222,7 +1915,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/lights/shaded.png",
@@ -1231,7 +1927,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/lights/shaded2.png",
@@ -1240,7 +1939,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/preview/intensity.png",
@@ -1249,7 +1951,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/preview/lights.png",
@@ -1258,7 +1963,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/preview/normals.png",
@@ -1267,7 +1975,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/preview/shadows.png",
@@ -1276,7 +1987,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/preview2/lights.png",
@@ -1285,7 +1999,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/preview2/normals.png",
@@ -1294,7 +2011,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/preview2/shadows.png",
@@ -1303,7 +2023,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/images/shadows/base.png",
@@ -1312,7 +2035,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/deferred-lighting/src/motion-canvas.d.ts",
@@ -1321,7 +2047,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 54
     },
     {
       "path": "examples/deferred-lighting/src/project.meta",
@@ -1329,8 +2058,16 @@
       "ext": ".meta",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 578
     },
     {
       "path": "examples/deferred-lighting/src/project.ts",
@@ -1339,7 +2076,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1064
     },
     {
       "path": "examples/deferred-lighting/src/scenes/color.meta",
@@ -1348,8 +2088,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "design-system"
+      ],
+      "contentCategories": [
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1092
     },
     {
       "path": "examples/deferred-lighting/src/scenes/color.tsx",
@@ -1358,8 +2104,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "design-system"
+      ],
+      "contentCategories": [
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 5613
     },
     {
       "path": "examples/deferred-lighting/src/scenes/ending.meta",
@@ -1369,7 +2121,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 59
     },
     {
       "path": "examples/deferred-lighting/src/scenes/ending.tsx",
@@ -1379,7 +2134,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 466
     },
     {
       "path": "examples/deferred-lighting/src/scenes/layers.meta",
@@ -1389,7 +2147,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 445
     },
     {
       "path": "examples/deferred-lighting/src/scenes/layers.tsx",
@@ -1398,8 +2159,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "sequence",
+        "camera",
+        "orbit",
+        "parallax"
+      ],
+      "indexedContentBytes": 4318
     },
     {
       "path": "examples/deferred-lighting/src/scenes/light.meta",
@@ -1409,7 +2181,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 2667
     },
     {
       "path": "examples/deferred-lighting/src/scenes/light.tsx",
@@ -1418,8 +2193,24 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "sequence",
+        "camera",
+        "orbit"
+      ],
+      "indexedContentBytes": 21458
     },
     {
       "path": "examples/deferred-lighting/src/scenes/lightBasics.meta",
@@ -1429,7 +2220,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 760
     },
     {
       "path": "examples/deferred-lighting/src/scenes/lightBasics.tsx",
@@ -1439,7 +2233,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 6463
     },
     {
       "path": "examples/deferred-lighting/src/scenes/lightComposite.meta",
@@ -1449,7 +2246,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1346
     },
     {
       "path": "examples/deferred-lighting/src/scenes/lightComposite.tsx",
@@ -1458,8 +2258,22 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "sequence",
+        "camera",
+        "orbit"
+      ],
+      "indexedContentBytes": 8219
     },
     {
       "path": "examples/deferred-lighting/src/scenes/normal.meta",
@@ -1469,7 +2283,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 217
     },
     {
       "path": "examples/deferred-lighting/src/scenes/normal.tsx",
@@ -1479,7 +2296,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 2207
     },
     {
       "path": "examples/deferred-lighting/src/scenes/normals.meta",
@@ -1489,7 +2309,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1303
     },
     {
       "path": "examples/deferred-lighting/src/scenes/normals.tsx",
@@ -1498,8 +2321,20 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "data-animation"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "data-animation"
+      ],
+      "signals": [
+        "sequence",
+        "camera",
+        "orbit"
+      ],
+      "indexedContentBytes": 10557
     },
     {
       "path": "examples/deferred-lighting/src/scenes/projection.meta",
@@ -1509,7 +2344,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1109
     },
     {
       "path": "examples/deferred-lighting/src/scenes/projection.tsx",
@@ -1519,7 +2357,12 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 6055
     },
     {
       "path": "examples/deferred-lighting/src/scenes/renderer.meta",
@@ -1529,8 +2372,16 @@
       "categories": [
         "shots-scenes-storyboard",
         "rendering",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "parallax"
+      ],
+      "indexedContentBytes": 361
     },
     {
       "path": "examples/deferred-lighting/src/scenes/renderer.tsx",
@@ -1540,8 +2391,18 @@
       "categories": [
         "shots-scenes-storyboard",
         "rendering",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "design-system"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "design-system"
+      ],
+      "signals": [
+        "parallax"
+      ],
+      "indexedContentBytes": 4139
     },
     {
       "path": "examples/deferred-lighting/src/scenes/shadows.meta",
@@ -1551,7 +2412,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 689
     },
     {
       "path": "examples/deferred-lighting/src/scenes/shadows.tsx",
@@ -1560,8 +2424,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "camera"
+      ],
+      "indexedContentBytes": 4672
     },
     {
       "path": "examples/deferred-lighting/src/scenes/shadowsComposite.meta",
@@ -1571,7 +2443,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1848
     },
     {
       "path": "examples/deferred-lighting/src/scenes/shadowsComposite.tsx",
@@ -1580,8 +2455,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "3d-webgl-shaders"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "3d-webgl-shaders"
+      ],
+      "signals": [
+        "camera",
+        "shader"
+      ],
+      "indexedContentBytes": 14149
     },
     {
       "path": "examples/deferred-lighting/src/scenes/shadowsFinal.meta",
@@ -1591,7 +2477,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1195
     },
     {
       "path": "examples/deferred-lighting/src/scenes/shadowsFinal.tsx",
@@ -1600,8 +2489,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "3d-webgl-shaders"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "3d-webgl-shaders"
+      ],
+      "signals": [
+        "camera",
+        "shader"
+      ],
+      "indexedContentBytes": 12724
     },
     {
       "path": "examples/deferred-lighting/src/scenes/transparency.meta",
@@ -1611,7 +2511,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 773
     },
     {
       "path": "examples/deferred-lighting/src/scenes/transparency.tsx",
@@ -1620,8 +2523,20 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "3d-webgl-shaders"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "3d-webgl-shaders"
+      ],
+      "signals": [
+        "camera",
+        "orbit",
+        "shader"
+      ],
+      "indexedContentBytes": 7574
     },
     {
       "path": "examples/deferred-lighting/src/shaders/layer.fragment.glsl",
@@ -1631,7 +2546,10 @@
       "categories": [
         "3d-webgl-shaders",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 591
     },
     {
       "path": "examples/deferred-lighting/src/shaders/layer.vertex.glsl",
@@ -1641,7 +2559,10 @@
       "categories": [
         "3d-webgl-shaders",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 134
     },
     {
       "path": "examples/deferred-lighting/src/shaders/light.fragment.glsl",
@@ -1651,7 +2572,10 @@
       "categories": [
         "3d-webgl-shaders",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1606
     },
     {
       "path": "examples/deferred-lighting/src/shaders/light.vertex.glsl",
@@ -1661,7 +2585,10 @@
       "categories": [
         "3d-webgl-shaders",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 361
     },
     {
       "path": "examples/deferred-lighting/src/shaders/normal.fragment.glsl",
@@ -1671,7 +2598,10 @@
       "categories": [
         "3d-webgl-shaders",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 216
     },
     {
       "path": "examples/deferred-lighting/src/shaders/normal.vertex.glsl",
@@ -1681,7 +2611,10 @@
       "categories": [
         "3d-webgl-shaders",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 387
     },
     {
       "path": "examples/deferred-lighting/src/shaders/normalSmooth.fragment.glsl",
@@ -1691,7 +2624,10 @@
       "categories": [
         "3d-webgl-shaders",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 494
     },
     {
       "path": "examples/deferred-lighting/src/shaders/normalSmooth.vertex.glsl",
@@ -1701,7 +2637,10 @@
       "categories": [
         "3d-webgl-shaders",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 754
     },
     {
       "path": "examples/deferred-lighting/src/shaders/shadow.fragment.glsl",
@@ -1711,7 +2650,10 @@
       "categories": [
         "3d-webgl-shaders",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 117
     },
     {
       "path": "examples/deferred-lighting/src/shaders/shadow.vertex.glsl",
@@ -1721,7 +2663,10 @@
       "categories": [
         "3d-webgl-shaders",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 833
     },
     {
       "path": "examples/deferred-lighting/src/styles.ts",
@@ -1730,7 +2675,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 773
     },
     {
       "path": "examples/deferred-lighting/src/three/createLight.ts",
@@ -1740,7 +2688,14 @@
       "categories": [
         "3d-webgl-shaders",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [
+        "3d-webgl-shaders"
+      ],
+      "signals": [
+        "shader"
+      ],
+      "indexedContentBytes": 2551
     },
     {
       "path": "examples/deferred-lighting/src/three/createShadow.ts",
@@ -1749,8 +2704,17 @@
       "binary": false,
       "categories": [
         "3d-webgl-shaders",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "3d-webgl-shaders"
+      ],
+      "signals": [
+        "shader"
+      ],
+      "indexedContentBytes": 1833
     },
     {
       "path": "examples/deferred-lighting/src/three/layers.ts",
@@ -1759,8 +2723,20 @@
       "binary": false,
       "categories": [
         "3d-webgl-shaders",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "3d-webgl-shaders"
+      ],
+      "signals": [
+        "camera",
+        "orbit",
+        "parallax",
+        "shader"
+      ],
+      "indexedContentBytes": 2024
     },
     {
       "path": "examples/deferred-lighting/src/three/level.ts",
@@ -1769,8 +2745,19 @@
       "binary": false,
       "categories": [
         "3d-webgl-shaders",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "3d-webgl-shaders"
+      ],
+      "signals": [
+        "camera",
+        "orbit",
+        "shader"
+      ],
+      "indexedContentBytes": 1829
     },
     {
       "path": "examples/deferred-lighting/src/three/light.ts",
@@ -1779,8 +2766,21 @@
       "binary": false,
       "categories": [
         "3d-webgl-shaders",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography",
+        "tests"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "3d-webgl-shaders",
+        "tests"
+      ],
+      "signals": [
+        "camera",
+        "orbit",
+        "shader"
+      ],
+      "indexedContentBytes": 2982
     },
     {
       "path": "examples/deferred-lighting/src/three/normals.ts",
@@ -1789,8 +2789,17 @@
       "binary": false,
       "categories": [
         "3d-webgl-shaders",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "camera",
+        "orbit"
+      ],
+      "indexedContentBytes": 2319
     },
     {
       "path": "examples/deferred-lighting/src/three/shadows.ts",
@@ -1799,8 +2808,18 @@
       "binary": false,
       "categories": [
         "3d-webgl-shaders",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "3d-webgl-shaders"
+      ],
+      "signals": [
+        "camera",
+        "shader"
+      ],
+      "indexedContentBytes": 8119
     },
     {
       "path": "examples/deferred-lighting/tsconfig.json",
@@ -1809,7 +2828,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 108
     },
     {
       "path": "examples/deferred-lighting/vite.config.ts",
@@ -1818,7 +2840,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 154
     },
     {
       "path": "examples/logo/package.json",
@@ -1827,7 +2852,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 178
     },
     {
       "path": "examples/logo/src/motion-canvas.d.ts",
@@ -1836,7 +2864,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 54
     },
     {
       "path": "examples/logo/src/project.meta",
@@ -1844,8 +2875,16 @@
       "ext": ".meta",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 573
     },
     {
       "path": "examples/logo/src/project.ts",
@@ -1854,7 +2893,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 142
     },
     {
       "path": "examples/logo/src/scenes/logo.meta",
@@ -1864,7 +2906,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 60
     },
     {
       "path": "examples/logo/src/scenes/logo.tsx",
@@ -1874,7 +2919,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 3423
     },
     {
       "path": "examples/logo/tsconfig.json",
@@ -1883,7 +2931,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 108
     },
     {
       "path": "examples/logo/vite.config.ts",
@@ -1892,7 +2943,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 154
     },
     {
       "path": "examples/motion-canvas/package.json",
@@ -1901,7 +2955,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 199
     },
     {
       "path": "examples/motion-canvas/src/audio/voice.mp3",
@@ -1911,7 +2968,10 @@
       "categories": [
         "audio-sound",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/motion-canvas/src/motion-canvas.d.ts",
@@ -1920,7 +2980,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 54
     },
     {
       "path": "examples/motion-canvas/src/project.meta",
@@ -1928,8 +2991,16 @@
       "ext": ".meta",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 580
     },
     {
       "path": "examples/motion-canvas/src/project.ts",
@@ -1937,8 +3008,14 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 460
     },
     {
       "path": "examples/motion-canvas/src/scenes/interface.meta",
@@ -1949,7 +3026,10 @@
         "shots-scenes-storyboard",
         "ui-motion",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 134
     },
     {
       "path": "examples/motion-canvas/src/scenes/interface.tsx",
@@ -1960,7 +3040,12 @@
         "shots-scenes-storyboard",
         "ui-motion",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 816
     },
     {
       "path": "examples/motion-canvas/src/scenes/layouts.meta",
@@ -1970,7 +3055,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 135
     },
     {
       "path": "examples/motion-canvas/src/scenes/layouts.tsx",
@@ -1980,7 +3068,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 2108
     },
     {
       "path": "examples/motion-canvas/src/scenes/layoutsCode.meta",
@@ -1990,7 +3081,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1194
     },
     {
       "path": "examples/motion-canvas/src/scenes/layoutsCode.tsx",
@@ -1999,8 +3093,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "tests"
+      ],
+      "contentCategories": [
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 6574
     },
     {
       "path": "examples/motion-canvas/src/scenes/signals.meta",
@@ -2010,7 +3110,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 359
     },
     {
       "path": "examples/motion-canvas/src/scenes/signals.tsx",
@@ -2020,7 +3123,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 4862
     },
     {
       "path": "examples/motion-canvas/src/scenes/signalsCode.meta",
@@ -2030,7 +3136,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1672
     },
     {
       "path": "examples/motion-canvas/src/scenes/signalsCode.tsx",
@@ -2039,8 +3148,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "tests"
+      ],
+      "contentCategories": [
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 10180
     },
     {
       "path": "examples/motion-canvas/tsconfig.json",
@@ -2049,7 +3164,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 108
     },
     {
       "path": "examples/motion-canvas/vite.config.ts",
@@ -2058,7 +3176,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 154
     },
     {
       "path": "examples/smooth-parallax/package.json",
@@ -2068,7 +3189,14 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "parallax"
+      ],
+      "indexedContentBytes": 264
     },
     {
       "path": "examples/smooth-parallax/src/components/Container.tsx",
@@ -2077,8 +3205,14 @@
       "binary": false,
       "categories": [
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 913
     },
     {
       "path": "examples/smooth-parallax/src/components/Parallax.tsx",
@@ -2087,8 +3221,18 @@
       "binary": false,
       "categories": [
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "ui-motion"
+      ],
+      "signals": [
+        "camera",
+        "parallax"
+      ],
+      "indexedContentBytes": 2397
     },
     {
       "path": "examples/smooth-parallax/src/components/Repeater.ts",
@@ -2097,8 +3241,16 @@
       "binary": false,
       "categories": [
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion",
+        "rendering"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "rendering"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2279
     },
     {
       "path": "examples/smooth-parallax/src/components/Upscale.tsx",
@@ -2107,8 +3259,16 @@
       "binary": false,
       "categories": [
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion",
+        "rendering"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "rendering"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2043
     },
     {
       "path": "examples/smooth-parallax/src/components/index.ts",
@@ -2118,7 +3278,14 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "parallax"
+      ],
+      "indexedContentBytes": 139
     },
     {
       "path": "examples/smooth-parallax/src/components/previews.tsx",
@@ -2128,7 +3295,15 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "camera",
+        "parallax"
+      ],
+      "indexedContentBytes": 2150
     },
     {
       "path": "examples/smooth-parallax/src/credits.meta",
@@ -2137,8 +3312,16 @@
       "binary": false,
       "categories": [
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 497
     },
     {
       "path": "examples/smooth-parallax/src/credits.ts",
@@ -2148,7 +3331,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 178
     },
     {
       "path": "examples/smooth-parallax/src/images/grid.svg",
@@ -2158,7 +3344,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 178
     },
     {
       "path": "examples/smooth-parallax/src/images/icons/camera.svg",
@@ -2168,7 +3357,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 348
     },
     {
       "path": "examples/smooth-parallax/src/images/icons/camera2.svg",
@@ -2178,7 +3370,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 283
     },
     {
       "path": "examples/smooth-parallax/src/images/icons/desktop.svg",
@@ -2188,7 +3383,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 269
     },
     {
       "path": "examples/smooth-parallax/src/images/icons/flare.svg",
@@ -2198,7 +3396,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 485
     },
     {
       "path": "examples/smooth-parallax/src/images/icons/functions.svg",
@@ -2208,7 +3409,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 203
     },
     {
       "path": "examples/smooth-parallax/src/images/icons/instagram.svg",
@@ -2218,7 +3422,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1194
     },
     {
       "path": "examples/smooth-parallax/src/images/icons/layers.svg",
@@ -2228,7 +3435,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 297
     },
     {
       "path": "examples/smooth-parallax/src/images/icons/point_light.svg",
@@ -2238,7 +3448,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 314
     },
     {
       "path": "examples/smooth-parallax/src/images/icons/twitter.svg",
@@ -2248,7 +3461,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 630
     },
     {
       "path": "examples/smooth-parallax/src/images/layers/a-foreground.png",
@@ -2258,7 +3474,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/src/images/layers/b-central.png",
@@ -2268,7 +3487,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/src/images/layers/b-light.png",
@@ -2278,7 +3500,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/src/images/layers/c-background.png",
@@ -2288,7 +3513,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/src/images/layers/d-background.png",
@@ -2298,7 +3526,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/src/images/layers/d-light.png",
@@ -2308,7 +3539,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/src/images/upscaling/background.png",
@@ -2318,7 +3552,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/src/images/upscaling/frame.png",
@@ -2328,7 +3565,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/src/images/upscaling/sprite.png",
@@ -2338,7 +3578,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/src/motion-canvas.d.ts",
@@ -2348,7 +3591,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 54
     },
     {
       "path": "examples/smooth-parallax/src/project.meta",
@@ -2357,8 +3603,16 @@
       "binary": false,
       "categories": [
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 564
     },
     {
       "path": "examples/smooth-parallax/src/project.ts",
@@ -2367,8 +3621,18 @@
       "binary": false,
       "categories": [
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "rendering"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "rendering"
+      ],
+      "signals": [
+        "parallax",
+        "render"
+      ],
+      "indexedContentBytes": 677
     },
     {
       "path": "examples/smooth-parallax/src/scenes/intro.meta",
@@ -2379,7 +3643,14 @@
         "shots-scenes-storyboard",
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "parallax"
+      ],
+      "indexedContentBytes": 622
     },
     {
       "path": "examples/smooth-parallax/src/scenes/intro.tsx",
@@ -2389,8 +3660,17 @@
       "categories": [
         "shots-scenes-storyboard",
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "effects"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "parallax"
+      ],
+      "indexedContentBytes": 7511
     },
     {
       "path": "examples/smooth-parallax/src/scenes/layers.meta",
@@ -2400,8 +3680,16 @@
       "categories": [
         "shots-scenes-storyboard",
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "data-animation"
+      ],
+      "contentCategories": [
+        "data-animation"
+      ],
+      "signals": [
+        "chart"
+      ],
+      "indexedContentBytes": 3186
     },
     {
       "path": "examples/smooth-parallax/src/scenes/layers.tsx",
@@ -2411,8 +3699,19 @@
       "categories": [
         "shots-scenes-storyboard",
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "data-animation"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "data-animation"
+      ],
+      "signals": [
+        "camera",
+        "parallax",
+        "chart"
+      ],
+      "indexedContentBytes": 15862
     },
     {
       "path": "examples/smooth-parallax/src/scenes/lights.meta",
@@ -2423,7 +3722,10 @@
         "shots-scenes-storyboard",
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 2258
     },
     {
       "path": "examples/smooth-parallax/src/scenes/lights.tsx",
@@ -2434,7 +3736,18 @@
         "shots-scenes-storyboard",
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "sequence",
+        "camera",
+        "orbit",
+        "parallax",
+        "mask"
+      ],
+      "indexedContentBytes": 14267
     },
     {
       "path": "examples/smooth-parallax/src/scenes/merge.meta",
@@ -2445,7 +3758,10 @@
         "shots-scenes-storyboard",
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 884
     },
     {
       "path": "examples/smooth-parallax/src/scenes/merge.tsx",
@@ -2456,7 +3772,16 @@
         "shots-scenes-storyboard",
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "camera",
+        "parallax",
+        "mask"
+      ],
+      "indexedContentBytes": 6912
     },
     {
       "path": "examples/smooth-parallax/src/scenes/outro.meta",
@@ -2467,7 +3792,10 @@
         "shots-scenes-storyboard",
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 208
     },
     {
       "path": "examples/smooth-parallax/src/scenes/outro.tsx",
@@ -2478,7 +3806,14 @@
         "shots-scenes-storyboard",
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "parallax"
+      ],
+      "indexedContentBytes": 2350
     },
     {
       "path": "examples/smooth-parallax/src/scenes/parallax.meta",
@@ -2489,7 +3824,10 @@
         "shots-scenes-storyboard",
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1989
     },
     {
       "path": "examples/smooth-parallax/src/scenes/parallax.tsx",
@@ -2500,7 +3838,14 @@
         "shots-scenes-storyboard",
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "camera"
+      ],
+      "indexedContentBytes": 13695
     },
     {
       "path": "examples/smooth-parallax/src/scenes/rasterization.meta",
@@ -2511,7 +3856,10 @@
         "shots-scenes-storyboard",
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 619
     },
     {
       "path": "examples/smooth-parallax/src/scenes/rasterization.tsx",
@@ -2521,8 +3869,14 @@
       "categories": [
         "shots-scenes-storyboard",
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "effects"
+      ],
+      "contentCategories": [
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 5342
     },
     {
       "path": "examples/smooth-parallax/src/scenes/rendering.meta",
@@ -2534,7 +3888,10 @@
         "camera-cinematography",
         "rendering",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 2001
     },
     {
       "path": "examples/smooth-parallax/src/scenes/rendering.tsx",
@@ -2546,7 +3903,17 @@
         "camera-cinematography",
         "rendering",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "sequence",
+        "camera",
+        "parallax",
+        "mask"
+      ],
+      "indexedContentBytes": 17116
     },
     {
       "path": "examples/smooth-parallax/src/scenes/upscale.meta",
@@ -2557,7 +3924,10 @@
         "shots-scenes-storyboard",
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1639
     },
     {
       "path": "examples/smooth-parallax/src/scenes/upscale.tsx",
@@ -2568,7 +3938,10 @@
         "shots-scenes-storyboard",
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 8727
     },
     {
       "path": "examples/smooth-parallax/src/styles.ts",
@@ -2578,7 +3951,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 773
     },
     {
       "path": "examples/smooth-parallax/src/videos/outro.png",
@@ -2589,7 +3965,10 @@
         "camera-cinematography",
         "rendering",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/src/videos/previous.png",
@@ -2600,7 +3979,10 @@
         "camera-cinematography",
         "rendering",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/src/videos/train.png",
@@ -2611,7 +3993,10 @@
         "camera-cinematography",
         "rendering",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/src/voice.mp3",
@@ -2622,7 +4007,10 @@
         "camera-cinematography",
         "audio-sound",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "examples/smooth-parallax/tsconfig.json",
@@ -2632,7 +4020,10 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 132
     },
     {
       "path": "examples/smooth-parallax/vite.config.ts",
@@ -2642,70 +4033,116 @@
       "categories": [
         "camera-cinematography",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 154
     },
     {
       "path": "package-lock.json",
       "bytes": 177911,
       "ext": ".json",
       "binary": false,
-      "categories": []
+      "categories": [
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "parallax"
+      ],
+      "indexedContentBytes": 131072
     },
     {
       "path": "package.json",
       "bytes": 1434,
       "ext": ".json",
       "binary": false,
-      "categories": []
+      "categories": [
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "camera-cinematography"
+      ],
+      "signals": [
+        "parallax"
+      ],
+      "indexedContentBytes": 1434
     },
     {
       "path": "utils/lezer-gdscript/package-lock.json",
       "bytes": 2207,
       "ext": ".json",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 2207
     },
     {
       "path": "utils/lezer-gdscript/package.json",
       "bytes": 504,
       "ext": ".json",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 504
     },
     {
       "path": "utils/lezer-gdscript/rollup.config.js",
       "bytes": 256,
       "ext": ".js",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 256
     },
     {
       "path": "utils/lezer-gdscript/src/gdscript.grammar",
       "bytes": 11069,
       "ext": ".grammar",
       "binary": false,
-      "categories": []
+      "categories": [
+        "tests"
+      ],
+      "contentCategories": [
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 11069
     },
     {
       "path": "utils/lezer-gdscript/src/highlight.js",
       "bytes": 1273,
       "ext": ".js",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1273
     },
     {
       "path": "utils/lezer-gdscript/src/parser.js",
       "bytes": 47165,
       "ext": ".js",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 47165
     },
     {
       "path": "utils/lezer-gdscript/src/parser.terms.js",
       "bytes": 1636,
       "ext": ".js",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1636
     },
     {
       "path": "utils/lezer-gdscript/src/tokens.js",
@@ -2713,8 +4150,14 @@
       "ext": ".js",
       "binary": false,
       "categories": [
-        "design-system"
-      ]
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 5629
     }
   ]
 }

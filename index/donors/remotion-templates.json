@@ -1,9 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "donor": "remotion-templates",
   "summary": {
     "fileCount": 82,
     "totalBytes": 226568,
+    "indexedContentBytes": 226568,
     "textFiles": 82,
     "binaryFiles": 0,
     "topExtensions": {
@@ -12,13 +13,45 @@
     },
     "categoryCounts": {
       "examples-templates": 81,
-      "transitions": 15,
-      "typography": 13,
-      "data-animation": 6,
-      "effects": 4,
-      "camera-cinematography": 3,
-      "ui-motion": 1,
-      "audio-sound": 1
+      "remotion": 79,
+      "effects": 63,
+      "transitions": 20,
+      "typography": 14,
+      "camera-cinematography": 8,
+      "ui-motion": 7,
+      "data-animation": 7,
+      "tests": 6,
+      "design-system": 2,
+      "audio-sound": 2,
+      "rendering": 1,
+      "skills": 1
+    },
+    "contentCategoryCounts": {
+      "remotion": 79,
+      "effects": 63,
+      "transitions": 8,
+      "camera-cinematography": 7,
+      "ui-motion": 6,
+      "tests": 6,
+      "data-animation": 4,
+      "design-system": 2,
+      "typography": 1,
+      "audio-sound": 1,
+      "rendering": 1,
+      "skills": 1
+    },
+    "signalCounts": {
+      "interpolate": 45,
+      "spring": 36,
+      "mask": 5,
+      "chart": 4,
+      "cursor": 3,
+      "camera": 2,
+      "parallax": 2,
+      "motion-blur": 2,
+      "particles": 2,
+      "sound-design": 1,
+      "render": 1
     }
   },
   "files": [
@@ -27,7 +60,33 @@
       "bytes": 8276,
       "ext": ".md",
       "binary": false,
-      "categories": []
+      "categories": [
+        "remotion",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "ui-motion",
+        "data-animation",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "ui-motion",
+        "data-animation",
+        "effects"
+      ],
+      "signals": [
+        "camera",
+        "parallax",
+        "cursor",
+        "chart",
+        "motion-blur",
+        "particles"
+      ],
+      "indexedContentBytes": 8276
     },
     {
       "path": "templates/animated-list.tsx",
@@ -35,8 +94,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2655
     },
     {
       "path": "templates/animated-text.tsx",
@@ -45,8 +112,18 @@
       "binary": false,
       "categories": [
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "tests"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 1758
     },
     {
       "path": "templates/area-chart.tsx",
@@ -55,8 +132,21 @@
       "binary": false,
       "categories": [
         "data-animation",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "data-animation",
+        "effects"
+      ],
+      "signals": [
+        "interpolate",
+        "chart",
+        "mask"
+      ],
+      "indexedContentBytes": 6235
     },
     {
       "path": "templates/blinds-transition.tsx",
@@ -65,8 +155,20 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 3539
     },
     {
       "path": "templates/bokeh-circles.tsx",
@@ -74,8 +176,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1989
     },
     {
       "path": "templates/bounce-text.tsx",
@@ -84,8 +194,18 @@
       "binary": false,
       "categories": [
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2335
     },
     {
       "path": "templates/bubble-pop-text.tsx",
@@ -94,8 +214,20 @@
       "binary": false,
       "categories": [
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 1784
     },
     {
       "path": "templates/camera-shake.tsx",
@@ -104,8 +236,20 @@
       "binary": false,
       "categories": [
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "interpolate",
+        "camera"
+      ],
+      "indexedContentBytes": 2050
     },
     {
       "path": "templates/card-flip.tsx",
@@ -113,8 +257,20 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2113
     },
     {
       "path": "templates/chapter-title.tsx",
@@ -123,8 +279,17 @@
       "binary": false,
       "categories": [
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2900
     },
     {
       "path": "templates/chart-animation.tsx",
@@ -133,8 +298,22 @@
       "binary": false,
       "categories": [
         "data-animation",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "remotion",
+        "data-animation",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "interpolate",
+        "chart"
+      ],
+      "indexedContentBytes": 5487
     },
     {
       "path": "templates/cinematic-title-intro.tsx",
@@ -144,8 +323,19 @@
       "categories": [
         "camera-cinematography",
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2263
     },
     {
       "path": "templates/circular-progress.tsx",
@@ -153,8 +343,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 3532
     },
     {
       "path": "templates/clock-wipe.tsx",
@@ -163,8 +361,20 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "effects"
+      ],
+      "signals": [
+        "interpolate",
+        "mask"
+      ],
+      "indexedContentBytes": 2992
     },
     {
       "path": "templates/comparison-chart.tsx",
@@ -173,8 +383,18 @@
       "binary": false,
       "categories": [
         "data-animation",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 5429
     },
     {
       "path": "templates/countdown-intro.tsx",
@@ -182,8 +402,17 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2966
     },
     {
       "path": "templates/countdown-timer.tsx",
@@ -191,8 +420,19 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2051
     },
     {
       "path": "templates/credits-roll.tsx",
@@ -200,8 +440,20 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "audio-sound",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "audio-sound",
+        "effects"
+      ],
+      "signals": [
+        "sound-design"
+      ],
+      "indexedContentBytes": 2558
     },
     {
       "path": "templates/cross-dissolve.tsx",
@@ -209,8 +461,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2445
     },
     {
       "path": "templates/donut-chart.tsx",
@@ -219,8 +479,18 @@
       "binary": false,
       "categories": [
         "data-animation",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 5705
     },
     {
       "path": "templates/end-card.tsx",
@@ -228,8 +498,22 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "ui-motion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate",
+        "cursor"
+      ],
+      "indexedContentBytes": 3530
     },
     {
       "path": "templates/fade-through-black.tsx",
@@ -237,8 +521,20 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "transitions",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 3193
     },
     {
       "path": "templates/film-burn.tsx",
@@ -246,8 +542,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 2570
     },
     {
       "path": "templates/floating-bubble-text.tsx",
@@ -256,8 +562,18 @@
       "binary": false,
       "categories": [
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 1673
     },
     {
       "path": "templates/gallery-grid.tsx",
@@ -265,8 +581,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 1731
     },
     {
       "path": "templates/geometric-patterns.tsx",
@@ -274,8 +600,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 1551
     },
     {
       "path": "templates/glitch-text.tsx",
@@ -284,8 +620,14 @@
       "binary": false,
       "categories": [
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1389
     },
     {
       "path": "templates/gradient-shift.tsx",
@@ -294,8 +636,15 @@
       "binary": false,
       "categories": [
         "effects",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1801
     },
     {
       "path": "templates/grid-pulse.tsx",
@@ -303,8 +652,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1789
     },
     {
       "path": "templates/image-carousel.tsx",
@@ -312,8 +667,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 2421
     },
     {
       "path": "templates/image-comparison-slider.tsx",
@@ -321,8 +686,19 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate",
+        "mask"
+      ],
+      "indexedContentBytes": 2788
     },
     {
       "path": "templates/image-zoom-reveal.tsx",
@@ -331,8 +707,18 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 1967
     },
     {
       "path": "templates/iris-transition.tsx",
@@ -341,8 +727,19 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate",
+        "mask"
+      ],
+      "indexedContentBytes": 3141
     },
     {
       "path": "templates/ken-burns.tsx",
@@ -350,8 +747,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1145
     },
     {
       "path": "templates/letterbox-reveal.tsx",
@@ -360,8 +763,16 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 2051
     },
     {
       "path": "templates/line-chart.tsx",
@@ -370,8 +781,20 @@
       "binary": false,
       "categories": [
         "data-animation",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "data-animation",
+        "effects"
+      ],
+      "signals": [
+        "interpolate",
+        "chart"
+      ],
+      "indexedContentBytes": 5552
     },
     {
       "path": "templates/liquid-wave.tsx",
@@ -380,8 +803,16 @@
       "binary": false,
       "categories": [
         "ui-motion",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1274
     },
     {
       "path": "templates/logo-blur-reveal.tsx",
@@ -391,8 +822,18 @@
       "categories": [
         "transitions",
         "effects",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2216
     },
     {
       "path": "templates/logo-bounce-drop.tsx",
@@ -400,8 +841,19 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2436
     },
     {
       "path": "templates/logo-fade-reveal.tsx",
@@ -410,8 +862,18 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2745
     },
     {
       "path": "templates/logo-glitch-reveal.tsx",
@@ -420,8 +882,22 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "rendering",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "rendering",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate",
+        "render"
+      ],
+      "indexedContentBytes": 5424
     },
     {
       "path": "templates/logo-scale-rotate.tsx",
@@ -429,8 +905,19 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2304
     },
     {
       "path": "templates/logo-spin-reveal.tsx",
@@ -439,8 +926,20 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2973
     },
     {
       "path": "templates/logo-split-reveal.tsx",
@@ -449,8 +948,18 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 3278
     },
     {
       "path": "templates/logo-stroke-draw.tsx",
@@ -458,8 +967,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 3039
     },
     {
       "path": "templates/logo-typewriter.tsx",
@@ -467,8 +984,21 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "ui-motion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 2268
     },
     {
       "path": "templates/lower-third.tsx",
@@ -476,8 +1006,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2849
     },
     {
       "path": "templates/masonry-gallery.tsx",
@@ -485,8 +1025,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2306
     },
     {
       "path": "templates/matrix-rain.tsx",
@@ -494,8 +1044,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1630
     },
     {
       "path": "templates/morph-transition.tsx",
@@ -504,8 +1062,18 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 2898
     },
     {
       "path": "templates/noise-grain.tsx",
@@ -514,8 +1082,15 @@
       "binary": false,
       "categories": [
         "effects",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2559
     },
     {
       "path": "templates/notification-pop.tsx",
@@ -523,8 +1098,19 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 4391
     },
     {
       "path": "templates/parallax-pan.tsx",
@@ -533,8 +1119,17 @@
       "binary": false,
       "categories": [
         "camera-cinematography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "ui-motion"
+      ],
+      "signals": [
+        "parallax"
+      ],
+      "indexedContentBytes": 1964
     },
     {
       "path": "templates/particle-explosion.tsx",
@@ -543,8 +1138,18 @@
       "binary": false,
       "categories": [
         "effects",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "particles"
+      ],
+      "indexedContentBytes": 2384
     },
     {
       "path": "templates/photo-stack.tsx",
@@ -552,8 +1157,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2378
     },
     {
       "path": "templates/picture-in-picture.tsx",
@@ -561,8 +1176,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 1806
     },
     {
       "path": "templates/pie-chart.tsx",
@@ -571,8 +1196,18 @@
       "binary": false,
       "categories": [
         "data-animation",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 4808
     },
     {
       "path": "templates/pixel-transition.tsx",
@@ -581,8 +1216,15 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2040
     },
     {
       "path": "templates/polaroid-frame.tsx",
@@ -590,8 +1232,19 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 1665
     },
     {
       "path": "templates/popping-text.tsx",
@@ -600,8 +1253,18 @@
       "binary": false,
       "categories": [
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "tests"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2303
     },
     {
       "path": "templates/progress-bars.tsx",
@@ -609,8 +1272,20 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "skills",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "skills",
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 4059
     },
     {
       "path": "templates/progress-steps.tsx",
@@ -618,8 +1293,21 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "transitions",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 5153
     },
     {
       "path": "templates/pulsing-text.tsx",
@@ -628,8 +1316,20 @@
       "binary": false,
       "categories": [
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 2177
     },
     {
       "path": "templates/push-transition.tsx",
@@ -638,8 +1338,18 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2666
     },
     {
       "path": "templates/quote-card.tsx",
@@ -647,8 +1357,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 2071
     },
     {
       "path": "templates/rotating-carousel.tsx",
@@ -656,8 +1374,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 3312
     },
     {
       "path": "templates/slide-text.tsx",
@@ -666,8 +1394,16 @@
       "binary": false,
       "categories": [
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 1189
     },
     {
       "path": "templates/slide-wipe.tsx",
@@ -676,8 +1412,20 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2605
     },
     {
       "path": "templates/sound-wave.tsx",
@@ -686,8 +1434,18 @@
       "binary": false,
       "categories": [
         "audio-sound",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "transitions",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1439
     },
     {
       "path": "templates/split-screen.tsx",
@@ -695,8 +1453,19 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 3184
     },
     {
       "path": "templates/spotlight-reveal.tsx",
@@ -705,8 +1474,20 @@
       "binary": false,
       "categories": [
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "effects"
+      ],
+      "signals": [
+        "interpolate",
+        "mask"
+      ],
+      "indexedContentBytes": 2631
     },
     {
       "path": "templates/starfield.tsx",
@@ -714,8 +1495,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2078
     },
     {
       "path": "templates/stat-counter.tsx",
@@ -723,8 +1512,19 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 3393
     },
     {
       "path": "templates/subscribe-reminder.tsx",
@@ -732,8 +1532,19 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2591
     },
     {
       "path": "templates/text-highlight.tsx",
@@ -742,8 +1553,18 @@
       "binary": false,
       "categories": [
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 2475
     },
     {
       "path": "templates/title-split.tsx",
@@ -752,8 +1573,19 @@
       "binary": false,
       "categories": [
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "tests"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 1935
     },
     {
       "path": "templates/typewriter-subtitle.tsx",
@@ -762,8 +1594,20 @@
       "binary": false,
       "categories": [
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "transitions",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "tests"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 1804
     },
     {
       "path": "templates/vignette-pulse.tsx",
@@ -771,8 +1615,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1482
     },
     {
       "path": "templates/whip-pan.tsx",
@@ -780,8 +1632,19 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate",
+        "motion-blur"
+      ],
+      "indexedContentBytes": 3030
     },
     {
       "path": "templates/zoom-pulse.tsx",
@@ -789,8 +1652,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1241
     },
     {
       "path": "templates/zoom-through.tsx",
@@ -798,8 +1667,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 2761
     }
   ]
 }

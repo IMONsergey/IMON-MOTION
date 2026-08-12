@@ -1,11 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "donor": "claude-remotion-skill",
   "summary": {
     "fileCount": 11,
     "totalBytes": 7482219,
-    "textFiles": 9,
-    "binaryFiles": 2,
+    "indexedContentBytes": 31533,
+    "textFiles": 8,
+    "binaryFiles": 3,
     "topExtensions": {
       ".md": 5,
       "[none]": 2,
@@ -15,11 +16,41 @@
       ".skill": 1
     },
     "categoryCounts": {
+      "design-system": 6,
+      "effects": 5,
       "remotion": 5,
       "data-animation": 5,
+      "skills": 4,
+      "typography": 4,
+      "audio-sound": 4,
+      "rendering": 3,
+      "tests": 3,
       "examples-templates": 2,
-      "skills": 2,
-      "design-system": 1
+      "camera-cinematography": 2,
+      "transitions": 1
+    },
+    "contentCategoryCounts": {
+      "design-system": 6,
+      "effects": 5,
+      "typography": 4,
+      "audio-sound": 4,
+      "skills": 3,
+      "rendering": 3,
+      "remotion": 3,
+      "tests": 3,
+      "camera-cinematography": 2,
+      "transitions": 1
+    },
+    "signalCounts": {
+      "sound-design": 4,
+      "render": 3,
+      "spring": 2,
+      "interpolate": 2,
+      "parallax": 2,
+      "motion-blur": 2,
+      "kinetic-type": 1,
+      "sequence": 1,
+      "mask": 1
     }
   },
   "files": [
@@ -28,28 +59,64 @@
       "bytes": 10,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 10
     },
     {
       "path": "CONTRIBUTING.md",
       "bytes": 1109,
       "ext": ".md",
       "binary": false,
-      "categories": []
+      "categories": [
+        "skills",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1109
     },
     {
       "path": "LICENSE",
       "bytes": 1066,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1066
     },
     {
       "path": "README.md",
       "bytes": 7229,
       "ext": ".md",
       "binary": false,
-      "categories": []
+      "categories": [
+        "skills",
+        "typography",
+        "audio-sound",
+        "rendering",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "typography",
+        "audio-sound",
+        "rendering",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "kinetic-type",
+        "sound-design",
+        "render"
+      ],
+      "indexedContentBytes": 7229
     },
     {
       "path": "demo.gif",
@@ -58,7 +125,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "demo.mp4",
@@ -67,7 +137,10 @@
       "binary": true,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "remotion-motion-graphics/SKILL.md",
@@ -77,8 +150,34 @@
       "categories": [
         "skills",
         "remotion",
-        "data-animation"
-      ]
+        "data-animation",
+        "camera-cinematography",
+        "typography",
+        "audio-sound",
+        "rendering",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "skills",
+        "remotion",
+        "camera-cinematography",
+        "typography",
+        "audio-sound",
+        "rendering",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "spring",
+        "interpolate",
+        "parallax",
+        "sound-design",
+        "render"
+      ],
+      "indexedContentBytes": 6874
     },
     {
       "path": "remotion-motion-graphics/assets/theme.ts",
@@ -88,8 +187,16 @@
       "categories": [
         "remotion",
         "data-animation",
+        "design-system",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects",
         "design-system"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 1150
     },
     {
       "path": "remotion-motion-graphics/references/design-rules.md",
@@ -98,8 +205,28 @@
       "binary": false,
       "categories": [
         "remotion",
-        "data-animation"
-      ]
+        "data-animation",
+        "typography",
+        "audio-sound",
+        "rendering",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "typography",
+        "audio-sound",
+        "rendering",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "sound-design",
+        "render",
+        "motion-blur"
+      ],
+      "indexedContentBytes": 4332
     },
     {
       "path": "remotion-motion-graphics/references/motion-patterns.md",
@@ -108,19 +235,49 @@
       "binary": false,
       "categories": [
         "remotion",
-        "data-animation"
-      ]
+        "data-animation",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "audio-sound",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "audio-sound",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "spring",
+        "interpolate",
+        "sequence",
+        "parallax",
+        "sound-design",
+        "mask",
+        "motion-blur"
+      ],
+      "indexedContentBytes": 9763
     },
     {
       "path": "remotion-motion-graphics.skill",
       "bytes": 10925,
       "ext": ".skill",
-      "binary": false,
+      "binary": true,
       "categories": [
         "skills",
         "remotion",
         "data-animation"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     }
   ]
 }

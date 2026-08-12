@@ -1,9 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "donor": "motion-design-skill",
   "summary": {
     "fileCount": 20,
     "totalBytes": 61257,
+    "indexedContentBytes": 61257,
     "textFiles": 20,
     "binaryFiles": 0,
     "topExtensions": {
@@ -11,9 +12,33 @@
       "[none]": 2
     },
     "categoryCounts": {
-      "skills": 17,
-      "data-animation": 1,
-      "typography": 1
+      "skills": 18,
+      "transitions": 8,
+      "ui-motion": 7,
+      "effects": 6,
+      "camera-cinematography": 5,
+      "design-system": 5,
+      "data-animation": 3,
+      "typography": 1,
+      "tests": 1
+    },
+    "contentCategoryCounts": {
+      "transitions": 8,
+      "ui-motion": 7,
+      "effects": 6,
+      "camera-cinematography": 5,
+      "design-system": 5,
+      "data-animation": 3,
+      "skills": 2,
+      "tests": 1
+    },
+    "signalCounts": {
+      "particles": 9,
+      "parallax": 5,
+      "chart": 3,
+      "cursor": 2,
+      "tokens": 2,
+      "mask": 1
     }
   },
   "files": [
@@ -22,21 +47,46 @@
       "bytes": 30,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 30
     },
     {
       "path": "LICENSE",
       "bytes": 1068,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1068
     },
     {
       "path": "README.md",
       "bytes": 3589,
       "ext": ".md",
       "binary": false,
-      "categories": []
+      "categories": [
+        "skills",
+        "camera-cinematography",
+        "transitions",
+        "ui-motion",
+        "data-animation"
+      ],
+      "contentCategories": [
+        "skills",
+        "camera-cinematography",
+        "transitions",
+        "ui-motion",
+        "data-animation"
+      ],
+      "signals": [
+        "parallax",
+        "cursor",
+        "chart"
+      ],
+      "indexedContentBytes": 3589
     },
     {
       "path": "skills/motion-design/SKILL.md",
@@ -44,8 +94,27 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "camera-cinematography",
+        "transitions",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "camera-cinematography",
+        "transitions",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "parallax",
+        "tokens",
+        "particles"
+      ],
+      "indexedContentBytes": 12580
     },
     {
       "path": "skills/motion-design/director/choreography.md",
@@ -54,8 +123,20 @@
       "binary": false,
       "categories": [
         "skills",
-        "data-animation"
-      ]
+        "data-animation",
+        "ui-motion",
+        "effects"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "data-animation",
+        "effects"
+      ],
+      "signals": [
+        "chart",
+        "particles"
+      ],
+      "indexedContentBytes": 3035
     },
     {
       "path": "skills/motion-design/director/context-adaptation.md",
@@ -64,8 +145,19 @@
       "binary": false,
       "categories": [
         "skills",
-        "typography"
-      ]
+        "typography",
+        "camera-cinematography",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "ui-motion"
+      ],
+      "signals": [
+        "parallax",
+        "cursor"
+      ],
+      "indexedContentBytes": 3066
     },
     {
       "path": "skills/motion-design/director/core-philosophy.md",
@@ -74,7 +166,10 @@
       "binary": false,
       "categories": [
         "skills"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1864
     },
     {
       "path": "skills/motion-design/director/decision-framework.md",
@@ -83,7 +178,12 @@
       "binary": false,
       "categories": [
         "skills"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [
+        "particles"
+      ],
+      "indexedContentBytes": 2866
     },
     {
       "path": "skills/motion-design/director/disney-principles.md",
@@ -91,8 +191,16 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "effects"
+      ],
+      "contentCategories": [
+        "effects"
+      ],
+      "signals": [
+        "particles"
+      ],
+      "indexedContentBytes": 3197
     },
     {
       "path": "skills/motion-design/director/emotion-mapping.md",
@@ -100,8 +208,16 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "transitions",
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2877
     },
     {
       "path": "skills/motion-design/director/motion-personality.md",
@@ -109,8 +225,23 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "camera-cinematography",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "parallax",
+        "particles"
+      ],
+      "indexedContentBytes": 2998
     },
     {
       "path": "skills/motion-design/director/narrative-structure.md",
@@ -119,7 +250,12 @@
       "binary": false,
       "categories": [
         "skills"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [
+        "particles"
+      ],
+      "indexedContentBytes": 2407
     },
     {
       "path": "skills/motion-design/patterns/ambient-continuous.md",
@@ -127,8 +263,21 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "camera-cinematography",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "parallax",
+        "particles"
+      ],
+      "indexedContentBytes": 2823
     },
     {
       "path": "skills/motion-design/patterns/entrance-exit.md",
@@ -136,8 +285,18 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions",
+        "tests"
+      ],
+      "contentCategories": [
+        "transitions",
+        "tests"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 2822
     },
     {
       "path": "skills/motion-design/patterns/multi-element.md",
@@ -145,8 +304,20 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions",
+        "ui-motion",
+        "data-animation"
+      ],
+      "contentCategories": [
+        "transitions",
+        "ui-motion",
+        "data-animation"
+      ],
+      "signals": [
+        "chart"
+      ],
+      "indexedContentBytes": 2362
     },
     {
       "path": "skills/motion-design/patterns/state-feedback.md",
@@ -154,8 +325,18 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions",
+        "effects"
+      ],
+      "contentCategories": [
+        "transitions",
+        "effects"
+      ],
+      "signals": [
+        "particles"
+      ],
+      "indexedContentBytes": 3062
     },
     {
       "path": "skills/motion-design/reference/property-selection.md",
@@ -163,8 +344,14 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions"
+      ],
+      "contentCategories": [
+        "transitions"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2922
     },
     {
       "path": "skills/motion-design/reference/quality-checklist.md",
@@ -173,7 +360,10 @@
       "binary": false,
       "categories": [
         "skills"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 2080
     },
     {
       "path": "skills/motion-design/reference/timing-easing-tables.md",
@@ -181,8 +371,18 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions",
+        "design-system"
+      ],
+      "contentCategories": [
+        "transitions",
+        "design-system"
+      ],
+      "signals": [
+        "tokens"
+      ],
+      "indexedContentBytes": 2900
     },
     {
       "path": "skills/motion-design/reference/troubleshooting.md",
@@ -190,8 +390,16 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "design-system"
+      ],
+      "contentCategories": [
+        "design-system"
+      ],
+      "signals": [
+        "particles"
+      ],
+      "indexedContentBytes": 2709
     }
   ]
 }

@@ -1,11 +1,13 @@
 {
-  "version": 1,
-  "generatedAt": "2026-08-12T05:00:03.880Z",
-  "purpose": "Path-level routing index. Agents should use this to narrow context before opening donor files.",
+  "version": 2,
+  "generatedAt": "2026-08-12T05:25:20.698Z",
+  "purpose": "Path + bounded-content routing index. Agents should choose donors first, then exact files; raw corpus-wide loading is prohibited.",
+  "indexedContentBytesPerFile": 131072,
   "donors": {
     "chuk-motion": {
       "fileCount": 559,
       "totalBytes": 3678174,
+      "indexedContentBytes": 3363027,
       "textFiles": 559,
       "binaryFiles": 0,
       "topExtensions": {
@@ -25,24 +27,57 @@
         ".lock": 1
       },
       "categoryCounts": {
+        "design-system": 212,
+        "typography": 181,
+        "ui-motion": 165,
+        "tests": 134,
         "examples-templates": 123,
-        "tests": 101,
-        "ui-motion": 68,
-        "typography": 68,
-        "data-animation": 64,
-        "design-system": 36,
-        "rendering": 26,
+        "data-animation": 83,
+        "effects": 83,
+        "remotion": 81,
+        "rendering": 69,
+        "transitions": 39,
+        "camera-cinematography": 22,
         "3d-webgl-shaders": 21,
-        "transitions": 19,
-        "remotion": 10,
-        "shots-scenes-storyboard": 9
+        "shots-scenes-storyboard": 10,
+        "skills": 7,
+        "audio-sound": 1
+      },
+      "contentCategoryCounts": {
+        "design-system": 206,
+        "typography": 152,
+        "ui-motion": 103,
+        "effects": 83,
+        "remotion": 75,
+        "data-animation": 66,
+        "rendering": 56,
+        "tests": 40,
+        "transitions": 36,
+        "camera-cinematography": 22,
+        "skills": 7,
+        "shots-scenes-storyboard": 1,
+        "audio-sound": 1
+      },
+      "signalCounts": {
+        "tokens": 129,
+        "chart": 63,
+        "render": 52,
+        "spring": 37,
+        "interpolate": 36,
+        "cursor": 29,
+        "camera": 13,
+        "parallax": 6,
+        "sequence": 2,
+        "mask": 2,
+        "storyboard": 1
       }
     },
     "claude-remotion-skill": {
       "fileCount": 11,
       "totalBytes": 7482219,
-      "textFiles": 9,
-      "binaryFiles": 2,
+      "indexedContentBytes": 31533,
+      "textFiles": 8,
+      "binaryFiles": 3,
       "topExtensions": {
         ".md": 5,
         "[none]": 2,
@@ -52,16 +87,47 @@
         ".skill": 1
       },
       "categoryCounts": {
+        "design-system": 6,
+        "effects": 5,
         "remotion": 5,
         "data-animation": 5,
+        "skills": 4,
+        "typography": 4,
+        "audio-sound": 4,
+        "rendering": 3,
+        "tests": 3,
         "examples-templates": 2,
-        "skills": 2,
-        "design-system": 1
+        "camera-cinematography": 2,
+        "transitions": 1
+      },
+      "contentCategoryCounts": {
+        "design-system": 6,
+        "effects": 5,
+        "typography": 4,
+        "audio-sound": 4,
+        "skills": 3,
+        "rendering": 3,
+        "remotion": 3,
+        "tests": 3,
+        "camera-cinematography": 2,
+        "transitions": 1
+      },
+      "signalCounts": {
+        "sound-design": 4,
+        "render": 3,
+        "spring": 2,
+        "interpolate": 2,
+        "parallax": 2,
+        "motion-blur": 2,
+        "kinetic-type": 1,
+        "sequence": 1,
+        "mask": 1
       }
     },
     "emilkowalski-skills": {
       "fileCount": 20,
       "totalBytes": 164168,
+      "indexedContentBytes": 164168,
       "textFiles": 20,
       "binaryFiles": 0,
       "topExtensions": {
@@ -69,14 +135,47 @@
         "[none]": 3
       },
       "categoryCounts": {
-        "skills": 16,
-        "examples-templates": 1,
-        "ui-motion": 1
+        "skills": 17,
+        "ui-motion": 14,
+        "transitions": 12,
+        "design-system": 12,
+        "effects": 9,
+        "data-animation": 6,
+        "rendering": 6,
+        "camera-cinematography": 4,
+        "tests": 3,
+        "typography": 2,
+        "remotion": 1,
+        "examples-templates": 1
+      },
+      "contentCategoryCounts": {
+        "ui-motion": 13,
+        "transitions": 12,
+        "design-system": 12,
+        "skills": 11,
+        "effects": 9,
+        "data-animation": 6,
+        "rendering": 6,
+        "camera-cinematography": 4,
+        "tests": 3,
+        "typography": 2,
+        "remotion": 1
+      },
+      "signalCounts": {
+        "mask": 6,
+        "render": 6,
+        "chart": 4,
+        "orbit": 3,
+        "tokens": 2,
+        "parallax": 2,
+        "cursor": 2,
+        "motion-blur": 1
       }
     },
     "motion-canvas-examples": {
       "fileCount": 280,
       "totalBytes": 45134352,
+      "indexedContentBytes": 1189023,
       "textFiles": 228,
       "binaryFiles": 52,
       "topExtensions": {
@@ -97,21 +196,45 @@
       "categoryCounts": {
         "examples-templates": 263,
         "shots-scenes-storyboard": 88,
-        "camera-cinematography": 56,
-        "3d-webgl-shaders": 24,
-        "rendering": 8,
+        "camera-cinematography": 84,
+        "3d-webgl-shaders": 31,
+        "rendering": 30,
+        "ui-motion": 23,
+        "design-system": 20,
+        "tests": 14,
+        "effects": 12,
+        "data-animation": 10,
+        "transitions": 8,
         "audio-sound": 5,
-        "data-animation": 4,
-        "design-system": 2,
-        "ui-motion": 2,
-        "transitions": 1,
-        "typography": 1,
-        "tests": 1
+        "typography": 1
+      },
+      "contentCategoryCounts": {
+        "camera-cinematography": 41,
+        "ui-motion": 22,
+        "rendering": 22,
+        "design-system": 18,
+        "3d-webgl-shaders": 16,
+        "tests": 13,
+        "effects": 12,
+        "data-animation": 7,
+        "transitions": 7
+      },
+      "signalCounts": {
+        "camera": 26,
+        "parallax": 19,
+        "orbit": 17,
+        "shader": 16,
+        "sequence": 14,
+        "mask": 11,
+        "render": 10,
+        "chart": 5,
+        "cursor": 1
       }
     },
     "motion-design-skill": {
       "fileCount": 20,
       "totalBytes": 61257,
+      "indexedContentBytes": 61257,
       "textFiles": 20,
       "binaryFiles": 0,
       "topExtensions": {
@@ -119,14 +242,39 @@
         "[none]": 2
       },
       "categoryCounts": {
-        "skills": 17,
-        "data-animation": 1,
-        "typography": 1
+        "skills": 18,
+        "transitions": 8,
+        "ui-motion": 7,
+        "effects": 6,
+        "camera-cinematography": 5,
+        "design-system": 5,
+        "data-animation": 3,
+        "typography": 1,
+        "tests": 1
+      },
+      "contentCategoryCounts": {
+        "transitions": 8,
+        "ui-motion": 7,
+        "effects": 6,
+        "camera-cinematography": 5,
+        "design-system": 5,
+        "data-animation": 3,
+        "skills": 2,
+        "tests": 1
+      },
+      "signalCounts": {
+        "particles": 9,
+        "parallax": 5,
+        "chart": 3,
+        "cursor": 2,
+        "tokens": 2,
+        "mask": 1
       }
     },
     "motion-skills": {
       "fileCount": 9,
       "totalBytes": 3684766,
+      "indexedContentBytes": 33118,
       "textFiles": 8,
       "binaryFiles": 1,
       "topExtensions": {
@@ -138,12 +286,39 @@
         ".mjs": 1
       },
       "categoryCounts": {
+        "rendering": 5,
+        "skills": 3,
+        "tests": 3,
+        "ui-motion": 2,
+        "typography": 1,
+        "3d-webgl-shaders": 1,
+        "camera-cinematography": 1,
+        "transitions": 1,
+        "effects": 1,
         "shots-scenes-storyboard": 1
+      },
+      "contentCategoryCounts": {
+        "rendering": 5,
+        "skills": 3,
+        "tests": 3,
+        "ui-motion": 2,
+        "typography": 1,
+        "3d-webgl-shaders": 1,
+        "camera-cinematography": 1,
+        "transitions": 1,
+        "effects": 1
+      },
+      "signalCounts": {
+        "render": 5,
+        "cursor": 2,
+        "kinetic-type": 1,
+        "threejs": 1
       }
     },
     "onda": {
       "fileCount": 735,
       "totalBytes": 6781421,
+      "indexedContentBytes": 3223764,
       "textFiles": 730,
       "binaryFiles": 5,
       "topExtensions": {
@@ -162,25 +337,62 @@
         ".css": 1
       },
       "categoryCounts": {
-        "transitions": 99,
-        "remotion": 40,
-        "tests": 36,
-        "ui-motion": 32,
-        "data-animation": 24,
-        "effects": 23,
-        "typography": 21,
-        "camera-cinematography": 18,
-        "audio-sound": 17,
-        "rendering": 8,
-        "skills": 6,
-        "design-system": 6,
-        "shots-scenes-storyboard": 4,
-        "examples-templates": 3
+        "remotion": 333,
+        "effects": 230,
+        "transitions": 206,
+        "typography": 190,
+        "ui-motion": 117,
+        "camera-cinematography": 94,
+        "tests": 85,
+        "skills": 71,
+        "data-animation": 67,
+        "design-system": 64,
+        "rendering": 37,
+        "audio-sound": 32,
+        "shots-scenes-storyboard": 7,
+        "examples-templates": 3,
+        "3d-webgl-shaders": 1
+      },
+      "contentCategoryCounts": {
+        "remotion": 328,
+        "effects": 230,
+        "typography": 185,
+        "transitions": 164,
+        "ui-motion": 103,
+        "camera-cinematography": 93,
+        "skills": 69,
+        "design-system": 64,
+        "data-animation": 58,
+        "tests": 56,
+        "rendering": 32,
+        "audio-sound": 25,
+        "shots-scenes-storyboard": 3,
+        "3d-webgl-shaders": 1
+      },
+      "signalCounts": {
+        "interpolate": 88,
+        "camera": 68,
+        "spring": 66,
+        "sequence": 56,
+        "cursor": 42,
+        "parallax": 37,
+        "chart": 35,
+        "mask": 33,
+        "render": 29,
+        "tokens": 25,
+        "particles": 18,
+        "sound-design": 10,
+        "orbit": 9,
+        "kinetic-type": 4,
+        "motion-blur": 4,
+        "storyboard": 3,
+        "shader": 1
       }
     },
     "product-launch-video-skill": {
       "fileCount": 7,
       "totalBytes": 84314,
+      "indexedContentBytes": 84314,
       "textFiles": 7,
       "binaryFiles": 0,
       "topExtensions": {
@@ -189,14 +401,53 @@
         ".mjs": 1
       },
       "categoryCounts": {
-        "skills": 4,
+        "skills": 5,
+        "audio-sound": 5,
+        "rendering": 4,
+        "shots-scenes-storyboard": 2,
+        "typography": 2,
+        "ui-motion": 2,
+        "tests": 2,
+        "remotion": 1,
+        "camera-cinematography": 1,
+        "transitions": 1,
+        "data-animation": 1,
+        "effects": 1,
+        "design-system": 1
+      },
+      "contentCategoryCounts": {
+        "skills": 5,
+        "audio-sound": 5,
+        "rendering": 4,
+        "shots-scenes-storyboard": 2,
+        "typography": 2,
+        "tests": 2,
+        "remotion": 1,
+        "camera-cinematography": 1,
+        "transitions": 1,
         "ui-motion": 1,
-        "rendering": 1
+        "data-animation": 1,
+        "effects": 1,
+        "design-system": 1
+      },
+      "signalCounts": {
+        "render": 4,
+        "storyboard": 2,
+        "sound-design": 1,
+        "spring": 1,
+        "interpolate": 1,
+        "sequence": 1,
+        "camera": 1,
+        "orbit": 1,
+        "parallax": 1,
+        "mask": 1,
+        "particles": 1
       }
     },
     "remotion-cinematic": {
       "fileCount": 169,
       "totalBytes": 12612170,
+      "indexedContentBytes": 746456,
       "textFiles": 160,
       "binaryFiles": 9,
       "topExtensions": {
@@ -210,23 +461,51 @@
         ".gif": 1
       },
       "categoryCounts": {
-        "ui-motion": 49,
-        "tests": 35,
-        "audio-sound": 15,
+        "ui-motion": 106,
+        "tests": 43,
+        "remotion": 42,
+        "audio-sound": 28,
+        "typography": 27,
+        "camera-cinematography": 20,
+        "data-animation": 14,
         "shots-scenes-storyboard": 14,
-        "camera-cinematography": 9,
-        "typography": 8,
-        "data-animation": 8,
+        "transitions": 12,
+        "effects": 10,
+        "rendering": 6,
+        "design-system": 6,
         "examples-templates": 5,
-        "transitions": 4,
-        "remotion": 3,
-        "design-system": 3,
-        "rendering": 1
+        "skills": 3
+      },
+      "contentCategoryCounts": {
+        "ui-motion": 87,
+        "tests": 42,
+        "remotion": 40,
+        "typography": 23,
+        "audio-sound": 19,
+        "camera-cinematography": 11,
+        "effects": 10,
+        "transitions": 8,
+        "data-animation": 6,
+        "rendering": 5,
+        "skills": 3,
+        "design-system": 3
+      },
+      "signalCounts": {
+        "cursor": 46,
+        "sound-design": 16,
+        "interpolate": 15,
+        "camera": 14,
+        "sequence": 9,
+        "chart": 6,
+        "render": 4,
+        "particles": 1,
+        "tokens": 1
       }
     },
     "remotion-scenes": {
       "fileCount": 253,
       "totalBytes": 1505772,
+      "indexedContentBytes": 911670,
       "textFiles": 252,
       "binaryFiles": 1,
       "topExtensions": {
@@ -243,24 +522,53 @@
         ".png": 1
       },
       "categoryCounts": {
+        "remotion": 226,
         "shots-scenes-storyboard": 221,
-        "design-system": 34,
-        "effects": 32,
-        "ui-motion": 27,
+        "effects": 110,
+        "ui-motion": 42,
+        "design-system": 39,
+        "transitions": 35,
+        "camera-cinematography": 26,
+        "typography": 20,
         "examples-templates": 19,
-        "typography": 17,
-        "transitions": 17,
-        "camera-cinematography": 12,
-        "data-animation": 11,
-        "3d-webgl-shaders": 6,
-        "tests": 2,
-        "remotion": 1,
-        "rendering": 1
+        "data-animation": 13,
+        "tests": 13,
+        "3d-webgl-shaders": 10,
+        "rendering": 4,
+        "audio-sound": 1
+      },
+      "contentCategoryCounts": {
+        "remotion": 225,
+        "effects": 106,
+        "ui-motion": 24,
+        "transitions": 20,
+        "camera-cinematography": 15,
+        "tests": 11,
+        "design-system": 6,
+        "3d-webgl-shaders": 5,
+        "data-animation": 4,
+        "typography": 3,
+        "rendering": 3,
+        "audio-sound": 1
+      },
+      "signalCounts": {
+        "spring": 93,
+        "cursor": 21,
+        "sequence": 17,
+        "interpolate": 14,
+        "mask": 14,
+        "particles": 11,
+        "threejs": 5,
+        "camera": 2,
+        "kinetic-type": 1,
+        "shader": 1,
+        "render": 1
       }
     },
     "remotion-skills": {
       "fileCount": 279,
       "totalBytes": 2277809,
+      "indexedContentBytes": 1437411,
       "textFiles": 254,
       "binaryFiles": 25,
       "topExtensions": {
@@ -274,23 +582,55 @@
         ".geojson": 4
       },
       "categoryCounts": {
-        "skills": 274,
+        "skills": 277,
         "remotion": 271,
-        "rendering": 36,
+        "rendering": 99,
+        "camera-cinematography": 63,
+        "3d-webgl-shaders": 50,
+        "tests": 32,
+        "ui-motion": 28,
+        "data-animation": 28,
+        "effects": 28,
+        "transitions": 24,
+        "audio-sound": 24,
         "examples-templates": 20,
-        "data-animation": 20,
-        "3d-webgl-shaders": 14,
-        "audio-sound": 10,
-        "typography": 8,
-        "transitions": 6,
-        "design-system": 4,
-        "effects": 2,
+        "typography": 19,
+        "design-system": 16,
         "shots-scenes-storyboard": 2
+      },
+      "contentCategoryCounts": {
+        "remotion": 108,
+        "rendering": 75,
+        "camera-cinematography": 63,
+        "3d-webgl-shaders": 46,
+        "skills": 37,
+        "tests": 32,
+        "ui-motion": 28,
+        "effects": 28,
+        "audio-sound": 22,
+        "transitions": 20,
+        "typography": 15,
+        "design-system": 12,
+        "data-animation": 8
+      },
+      "signalCounts": {
+        "render": 71,
+        "camera": 57,
+        "interpolate": 40,
+        "sequence": 24,
+        "spring": 6,
+        "sound-design": 6,
+        "chart": 4,
+        "threejs": 4,
+        "shader": 4,
+        "mask": 2,
+        "cursor": 1
       }
     },
     "remotion-templates": {
       "fileCount": 82,
       "totalBytes": 226568,
+      "indexedContentBytes": 226568,
       "textFiles": 82,
       "binaryFiles": 0,
       "topExtensions": {
@@ -299,37 +639,98 @@
       },
       "categoryCounts": {
         "examples-templates": 81,
-        "transitions": 15,
-        "typography": 13,
-        "data-animation": 6,
-        "effects": 4,
-        "camera-cinematography": 3,
-        "ui-motion": 1,
-        "audio-sound": 1
+        "remotion": 79,
+        "effects": 63,
+        "transitions": 20,
+        "typography": 14,
+        "camera-cinematography": 8,
+        "ui-motion": 7,
+        "data-animation": 7,
+        "tests": 6,
+        "design-system": 2,
+        "audio-sound": 2,
+        "rendering": 1,
+        "skills": 1
+      },
+      "contentCategoryCounts": {
+        "remotion": 79,
+        "effects": 63,
+        "transitions": 8,
+        "camera-cinematography": 7,
+        "ui-motion": 6,
+        "tests": 6,
+        "data-animation": 4,
+        "design-system": 2,
+        "typography": 1,
+        "audio-sound": 1,
+        "rendering": 1,
+        "skills": 1
+      },
+      "signalCounts": {
+        "interpolate": 45,
+        "spring": 36,
+        "mask": 5,
+        "chart": 4,
+        "cursor": 3,
+        "camera": 2,
+        "parallax": 2,
+        "motion-blur": 2,
+        "particles": 2,
+        "sound-design": 1,
+        "render": 1
       }
     },
     "skill-remotion-geist": {
       "fileCount": 10,
       "totalBytes": 48686,
+      "indexedContentBytes": 48686,
       "textFiles": 10,
       "binaryFiles": 0,
       "topExtensions": {
         ".md": 10
       },
       "categoryCounts": {
-        "skills": 9,
+        "skills": 10,
         "remotion": 9,
-        "shots-scenes-storyboard": 2,
-        "typography": 1,
+        "design-system": 6,
+        "typography": 5,
+        "shots-scenes-storyboard": 4,
+        "ui-motion": 2,
+        "data-animation": 2,
+        "tests": 1,
+        "camera-cinematography": 1,
+        "examples-templates": 1,
+        "transitions": 1
+      },
+      "contentCategoryCounts": {
+        "design-system": 6,
+        "typography": 5,
+        "shots-scenes-storyboard": 4,
+        "remotion": 4,
+        "ui-motion": 2,
+        "skills": 1,
+        "tests": 1,
+        "camera-cinematography": 1,
         "data-animation": 1,
-        "examples-templates": 1
+        "transitions": 1
+      },
+      "signalCounts": {
+        "interpolate": 4,
+        "tokens": 2,
+        "spring": 2,
+        "storyboard": 2,
+        "camera": 1,
+        "chart": 1,
+        "mask": 1,
+        "sequence": 1
       }
     },
     "theatre": {
       "fileCount": 1029,
       "totalBytes": 10313056,
-      "textFiles": 1016,
-      "binaryFiles": 13,
+      "indexedContentBytes": 3352693,
+      "textFiles": 1009,
+      "binaryFiles": 20,
       "topExtensions": {
         ".ts": 363,
         ".tsx": 333,
@@ -349,25 +750,52 @@
         ".txt": 3
       },
       "categoryCounts": {
-        "tests": 154,
-        "ui-motion": 151,
+        "ui-motion": 247,
+        "tests": 243,
         "shots-scenes-storyboard": 109,
-        "data-animation": 97,
+        "data-animation": 105,
+        "3d-webgl-shaders": 56,
         "examples-templates": 54,
+        "camera-cinematography": 34,
+        "effects": 31,
+        "rendering": 20,
+        "transitions": 19,
+        "design-system": 13,
         "typography": 13,
-        "camera-cinematography": 10,
-        "rendering": 5,
-        "3d-webgl-shaders": 5,
-        "skills": 4,
-        "effects": 3,
-        "design-system": 2,
-        "audio-sound": 1,
-        "transitions": 1
+        "skills": 6,
+        "remotion": 2,
+        "audio-sound": 1
+      },
+      "contentCategoryCounts": {
+        "tests": 143,
+        "ui-motion": 129,
+        "3d-webgl-shaders": 51,
+        "camera-cinematography": 31,
+        "effects": 28,
+        "transitions": 18,
+        "rendering": 15,
+        "data-animation": 12,
+        "design-system": 11,
+        "skills": 2,
+        "remotion": 2
+      },
+      "signalCounts": {
+        "cursor": 61,
+        "threejs": 51,
+        "camera": 28,
+        "render": 13,
+        "chart": 6,
+        "sequence": 4,
+        "mask": 2,
+        "orbit": 2,
+        "interpolate": 1,
+        "shader": 1
       }
     },
     "video-shotcraft": {
       "fileCount": 855,
       "totalBytes": 50605326,
+      "indexedContentBytes": 3222754,
       "textFiles": 582,
       "binaryFiles": 273,
       "topExtensions": {
@@ -389,20 +817,57 @@
         ".mjs": 1
       },
       "categoryCounts": {
+        "effects": 290,
         "examples-templates": 282,
-        "audio-sound": 181,
-        "shots-scenes-storyboard": 172,
-        "ui-motion": 129,
-        "transitions": 126,
-        "typography": 123,
-        "data-animation": 99,
-        "effects": 75,
-        "camera-cinematography": 54,
-        "3d-webgl-shaders": 12,
-        "design-system": 12,
-        "tests": 5,
-        "skills": 3,
-        "remotion": 2
+        "audio-sound": 213,
+        "remotion": 203,
+        "transitions": 189,
+        "ui-motion": 189,
+        "typography": 179,
+        "shots-scenes-storyboard": 174,
+        "camera-cinematography": 166,
+        "data-animation": 112,
+        "tests": 37,
+        "skills": 32,
+        "design-system": 31,
+        "3d-webgl-shaders": 15,
+        "rendering": 10
+      },
+      "contentCategoryCounts": {
+        "effects": 268,
+        "remotion": 201,
+        "camera-cinematography": 143,
+        "transitions": 111,
+        "typography": 87,
+        "ui-motion": 82,
+        "audio-sound": 36,
+        "tests": 32,
+        "skills": 31,
+        "design-system": 29,
+        "data-animation": 17,
+        "rendering": 10,
+        "shots-scenes-storyboard": 3,
+        "3d-webgl-shaders": 3
+      },
+      "signalCounts": {
+        "interpolate": 162,
+        "camera": 74,
+        "mask": 52,
+        "spring": 39,
+        "sound-design": 31,
+        "orbit": 27,
+        "cursor": 23,
+        "chart": 14,
+        "particles": 14,
+        "motion-blur": 11,
+        "shot-card": 9,
+        "render": 9,
+        "sequence": 6,
+        "parallax": 5,
+        "beat-sync": 4,
+        "threejs": 3,
+        "kinetic-type": 3,
+        "storyboard": 2
       }
     }
   }

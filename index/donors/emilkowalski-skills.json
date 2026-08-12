@@ -1,9 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "donor": "emilkowalski-skills",
   "summary": {
     "fileCount": 20,
     "totalBytes": 164168,
+    "indexedContentBytes": 164168,
     "textFiles": 20,
     "binaryFiles": 0,
     "topExtensions": {
@@ -11,9 +12,41 @@
       "[none]": 3
     },
     "categoryCounts": {
-      "skills": 16,
-      "examples-templates": 1,
-      "ui-motion": 1
+      "skills": 17,
+      "ui-motion": 14,
+      "transitions": 12,
+      "design-system": 12,
+      "effects": 9,
+      "data-animation": 6,
+      "rendering": 6,
+      "camera-cinematography": 4,
+      "tests": 3,
+      "typography": 2,
+      "remotion": 1,
+      "examples-templates": 1
+    },
+    "contentCategoryCounts": {
+      "ui-motion": 13,
+      "transitions": 12,
+      "design-system": 12,
+      "skills": 11,
+      "effects": 9,
+      "data-animation": 6,
+      "rendering": 6,
+      "camera-cinematography": 4,
+      "tests": 3,
+      "typography": 2,
+      "remotion": 1
+    },
+    "signalCounts": {
+      "mask": 6,
+      "render": 6,
+      "chart": 4,
+      "orbit": 3,
+      "tokens": 2,
+      "parallax": 2,
+      "cursor": 2,
+      "motion-blur": 1
     }
   },
   "files": [
@@ -22,28 +55,46 @@
       "bytes": 68,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 68
     },
     {
       "path": ".gitignore",
       "bytes": 10,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 10
     },
     {
       "path": "LICENSE",
       "bytes": 1070,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1070
     },
     {
       "path": "README.md",
       "bytes": 3626,
       "ext": ".md",
       "binary": false,
-      "categories": []
+      "categories": [
+        "skills",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "skills",
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3626
     },
     {
       "path": "skills/animate/RECIPES.md",
@@ -51,8 +102,21 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions",
+        "ui-motion",
+        "effects"
+      ],
+      "contentCategories": [
+        "skills",
+        "transitions",
+        "ui-motion",
+        "effects"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 7957
     },
     {
       "path": "skills/animate/SKILL.md",
@@ -60,8 +124,24 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions",
+        "ui-motion",
+        "data-animation",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "transitions",
+        "ui-motion",
+        "data-animation",
+        "design-system"
+      ],
+      "signals": [
+        "chart",
+        "tokens"
+      ],
+      "indexedContentBytes": 11527
     },
     {
       "path": "skills/animation-vocabulary/SKILL.md",
@@ -69,8 +149,28 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "camera-cinematography",
+        "transitions",
+        "ui-motion",
+        "data-animation",
+        "effects"
+      ],
+      "contentCategories": [
+        "skills",
+        "camera-cinematography",
+        "transitions",
+        "ui-motion",
+        "data-animation",
+        "effects"
+      ],
+      "signals": [
+        "orbit",
+        "parallax",
+        "cursor",
+        "mask"
+      ],
+      "indexedContentBytes": 13128
     },
     {
       "path": "skills/apple-design/SKILL.md",
@@ -78,8 +178,28 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "parallax",
+        "mask",
+        "motion-blur"
+      ],
+      "indexedContentBytes": 22715
     },
     {
       "path": "skills/ask-sonner/API.md",
@@ -87,8 +207,14 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "design-system"
+      ],
+      "contentCategories": [
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 4545
     },
     {
       "path": "skills/ask-sonner/SKILL.md",
@@ -96,8 +222,19 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "rendering",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "rendering",
+        "design-system"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 6944
     },
     {
       "path": "skills/emil-design-eng/SKILL.md",
@@ -105,8 +242,36 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "remotion",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "ui-motion",
+        "data-animation",
+        "rendering",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "remotion",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "ui-motion",
+        "data-animation",
+        "rendering",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "orbit",
+        "chart",
+        "render",
+        "mask"
+      ],
+      "indexedContentBytes": 27226
     },
     {
       "path": "skills/find-animation-opportunities/SKILL.md",
@@ -114,8 +279,23 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions",
+        "ui-motion",
+        "data-animation",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "transitions",
+        "ui-motion",
+        "data-animation",
+        "design-system"
+      ],
+      "signals": [
+        "chart"
+      ],
+      "indexedContentBytes": 9491
     },
     {
       "path": "skills/improve-animations/AUDIT.md",
@@ -123,8 +303,20 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "transitions",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 7387
     },
     {
       "path": "skills/improve-animations/PLAN-TEMPLATE.md",
@@ -133,8 +325,18 @@
       "binary": false,
       "categories": [
         "skills",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "transitions",
+        "rendering"
+      ],
+      "contentCategories": [
+        "transitions",
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 3100
     },
     {
       "path": "skills/improve-animations/SKILL.md",
@@ -142,8 +344,25 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions",
+        "ui-motion",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "skills",
+        "transitions",
+        "ui-motion",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "tokens"
+      ],
+      "indexedContentBytes": 7915
     },
     {
       "path": "skills/pick-ui-library/SKILL.md",
@@ -152,8 +371,22 @@
       "binary": false,
       "categories": [
         "skills",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "data-animation",
+        "rendering",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "data-animation",
+        "rendering",
+        "design-system"
+      ],
+      "signals": [
+        "chart",
+        "render"
+      ],
+      "indexedContentBytes": 4514
     },
     {
       "path": "skills/prototype/PICKER.md",
@@ -161,8 +394,27 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions",
+        "ui-motion",
+        "rendering",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "transitions",
+        "ui-motion",
+        "rendering",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "cursor",
+        "render"
+      ],
+      "indexedContentBytes": 7548
     },
     {
       "path": "skills/prototype/SKILL.md",
@@ -170,8 +422,19 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "ui-motion",
+        "data-animation",
+        "tests"
+      ],
+      "contentCategories": [
+        "skills",
+        "ui-motion",
+        "data-animation",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 7488
     },
     {
       "path": "skills/review-animations/SKILL.md",
@@ -179,8 +442,23 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "transitions",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "transitions",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 8108
     },
     {
       "path": "skills/review-animations/STANDARDS.md",
@@ -188,8 +466,28 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "skills"
-      ]
+        "skills",
+        "camera-cinematography",
+        "transitions",
+        "ui-motion",
+        "rendering",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "transitions",
+        "ui-motion",
+        "rendering",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "orbit",
+        "render",
+        "mask"
+      ],
+      "indexedContentBytes": 9801
     }
   ]
 }

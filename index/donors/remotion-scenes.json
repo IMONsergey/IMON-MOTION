@@ -1,9 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "donor": "remotion-scenes",
   "summary": {
     "fileCount": 253,
     "totalBytes": 1505772,
+    "indexedContentBytes": 911670,
     "textFiles": 252,
     "binaryFiles": 1,
     "topExtensions": {
@@ -20,19 +21,47 @@
       ".png": 1
     },
     "categoryCounts": {
+      "remotion": 226,
       "shots-scenes-storyboard": 221,
-      "design-system": 34,
-      "effects": 32,
-      "ui-motion": 27,
+      "effects": 110,
+      "ui-motion": 42,
+      "design-system": 39,
+      "transitions": 35,
+      "camera-cinematography": 26,
+      "typography": 20,
       "examples-templates": 19,
-      "typography": 17,
-      "transitions": 17,
-      "camera-cinematography": 12,
-      "data-animation": 11,
-      "3d-webgl-shaders": 6,
-      "tests": 2,
-      "remotion": 1,
-      "rendering": 1
+      "data-animation": 13,
+      "tests": 13,
+      "3d-webgl-shaders": 10,
+      "rendering": 4,
+      "audio-sound": 1
+    },
+    "contentCategoryCounts": {
+      "remotion": 225,
+      "effects": 106,
+      "ui-motion": 24,
+      "transitions": 20,
+      "camera-cinematography": 15,
+      "tests": 11,
+      "design-system": 6,
+      "3d-webgl-shaders": 5,
+      "data-animation": 4,
+      "typography": 3,
+      "rendering": 3,
+      "audio-sound": 1
+    },
+    "signalCounts": {
+      "spring": 93,
+      "cursor": 21,
+      "sequence": 17,
+      "interpolate": 14,
+      "mask": 14,
+      "particles": 11,
+      "threejs": 5,
+      "camera": 2,
+      "kinetic-type": 1,
+      "shader": 1,
+      "render": 1
     }
   },
   "files": [
@@ -43,7 +72,10 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 443
     },
     {
       "path": ".github/ISSUE_TEMPLATE/feature_request.md",
@@ -51,8 +83,22 @@
       "ext": ".md",
       "binary": false,
       "categories": [
-        "examples-templates"
-      ]
+        "examples-templates",
+        "transitions",
+        "data-animation",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "transitions",
+        "data-animation",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "particles"
+      ],
+      "indexedContentBytes": 678
     },
     {
       "path": ".github/PULL_REQUEST_TEMPLATE.md",
@@ -61,140 +107,268 @@
       "binary": false,
       "categories": [
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 668
     },
     {
       "path": ".github/workflows/deploy-preview.yml",
       "bytes": 1140,
       "ext": ".yml",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1140
     },
     {
       "path": ".gitignore",
       "bytes": 387,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 387
     },
     {
       "path": "CODE_OF_CONDUCT.md",
       "bytes": 1415,
       "ext": ".md",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1415
     },
     {
       "path": "CONTRIBUTING.md",
       "bytes": 2128,
       "ext": ".md",
       "binary": false,
-      "categories": []
+      "categories": [
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2128
     },
     {
       "path": "LICENSE",
       "bytes": 1072,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1072
     },
     {
       "path": "README.md",
       "bytes": 5855,
       "ext": ".md",
       "binary": false,
-      "categories": []
+      "categories": [
+        "remotion",
+        "transitions",
+        "typography",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "typography",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "sequence",
+        "cursor",
+        "kinetic-type",
+        "particles"
+      ],
+      "indexedContentBytes": 5855
     },
     {
       "path": "eslint.config.mjs",
       "bytes": 441,
       "ext": ".mjs",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 441
     },
     {
       "path": "package.json",
       "bytes": 1358,
       "ext": ".json",
       "binary": false,
-      "categories": []
+      "categories": [
+        "transitions",
+        "3d-webgl-shaders",
+        "effects"
+      ],
+      "contentCategories": [
+        "transitions",
+        "3d-webgl-shaders",
+        "effects"
+      ],
+      "signals": [
+        "threejs",
+        "particles"
+      ],
+      "indexedContentBytes": 1358
     },
     {
       "path": "pnpm-lock.yaml",
       "bytes": 122680,
       "ext": ".yaml",
       "binary": false,
-      "categories": []
+      "categories": [
+        "camera-cinematography",
+        "3d-webgl-shaders",
+        "audio-sound",
+        "rendering"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "3d-webgl-shaders",
+        "audio-sound",
+        "rendering"
+      ],
+      "signals": [
+        "camera",
+        "shader",
+        "threejs"
+      ],
+      "indexedContentBytes": 122680
     },
     {
       "path": "preview/index.html",
       "bytes": 2054,
       "ext": ".html",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 2054
     },
     {
       "path": "preview/package.json",
       "bytes": 551,
       "ext": ".json",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 551
     },
     {
       "path": "preview/pnpm-lock.yaml",
       "bytes": 36683,
       "ext": ".yaml",
       "binary": false,
-      "categories": []
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [],
+      "indexedContentBytes": 36683
     },
     {
       "path": "preview/public/favicon.svg",
       "bytes": 579,
       "ext": ".svg",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 579
     },
     {
       "path": "preview/public/ogp.png",
       "bytes": 594102,
       "ext": ".png",
       "binary": true,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "preview/src/App.tsx",
       "bytes": 9526,
       "ext": ".tsx",
       "binary": false,
-      "categories": []
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "transitions",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "cursor",
+        "particles"
+      ],
+      "indexedContentBytes": 9526
     },
     {
       "path": "preview/src/main.tsx",
       "bytes": 214,
       "ext": ".tsx",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 214
     },
     {
       "path": "preview/tsconfig.json",
       "bytes": 663,
       "ext": ".json",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 663
     },
     {
       "path": "preview/tsconfig.node.json",
       "bytes": 213,
       "ext": ".json",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 213
     },
     {
       "path": "preview/vite.config.ts",
       "bytes": 618,
       "ext": ".ts",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 618
     },
     {
       "path": "remotion.config.ts",
@@ -202,8 +376,19 @@
       "ext": ".ts",
       "binary": false,
       "categories": [
-        "remotion"
-      ]
+        "remotion",
+        "3d-webgl-shaders",
+        "rendering"
+      ],
+      "contentCategories": [
+        "3d-webgl-shaders",
+        "rendering"
+      ],
+      "signals": [
+        "threejs",
+        "render"
+      ],
+      "indexedContentBytes": 424
     },
     {
       "path": "src/OgpVideo.tsx",
@@ -211,29 +396,66 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "rendering"
-      ]
+        "rendering",
+        "remotion",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 6928
     },
     {
       "path": "src/Root.tsx",
       "bytes": 5549,
       "ext": ".tsx",
       "binary": false,
-      "categories": []
+      "categories": [
+        "remotion",
+        "transitions",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "particles"
+      ],
+      "indexedContentBytes": 5549
     },
     {
       "path": "src/common/colors.ts",
       "bytes": 599,
       "ext": ".ts",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 599
     },
     {
       "path": "src/common/easing.ts",
       "bytes": 467,
       "ext": ".ts",
       "binary": false,
-      "categories": []
+      "categories": [
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 467
     },
     {
       "path": "src/common/fonts.ts",
@@ -242,28 +464,50 @@
       "binary": false,
       "categories": [
         "typography"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 185
     },
     {
       "path": "src/common/index.ts",
       "bytes": 176,
       "ext": ".ts",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 176
     },
     {
       "path": "src/common/utils.ts",
       "bytes": 421,
       "ext": ".ts",
       "binary": false,
-      "categories": []
+      "categories": [
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 421
     },
     {
       "path": "src/index.ts",
       "bytes": 109,
       "ext": ".ts",
       "binary": false,
-      "categories": []
+      "categories": [
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 109
     },
     {
       "path": "src/scenes/BackgroundAnimations/BackgroundAurora.tsx",
@@ -271,8 +515,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2923
     },
     {
       "path": "src/scenes/BackgroundAnimations/BackgroundBokeh.tsx",
@@ -280,8 +532,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2084
     },
     {
       "path": "src/scenes/BackgroundAnimations/BackgroundFlowingGradient.tsx",
@@ -290,8 +550,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 1188
     },
     {
       "path": "src/scenes/BackgroundAnimations/BackgroundGeometric.tsx",
@@ -299,8 +566,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2105
     },
     {
       "path": "src/scenes/BackgroundAnimations/BackgroundGrid.tsx",
@@ -308,8 +581,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1676
     },
     {
       "path": "src/scenes/BackgroundAnimations/BackgroundMeshGradient.tsx",
@@ -318,8 +597,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 2340
     },
     {
       "path": "src/scenes/BackgroundAnimations/BackgroundNoiseTexture.tsx",
@@ -329,8 +615,15 @@
       "categories": [
         "shots-scenes-storyboard",
         "typography",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 1794
     },
     {
       "path": "src/scenes/BackgroundAnimations/BackgroundPerspectiveGrid.tsx",
@@ -339,8 +632,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "tests"
-      ]
+        "tests",
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2157
     },
     {
       "path": "src/scenes/BackgroundAnimations/BackgroundRadial.tsx",
@@ -348,8 +651,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2024
     },
     {
       "path": "src/scenes/BackgroundAnimations/BackgroundWaves.tsx",
@@ -357,8 +668,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1774
     },
     {
       "path": "src/scenes/BackgroundAnimations/index.tsx",
@@ -366,8 +683,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 2049
     },
     {
       "path": "src/scenes/CinematicAnimations/CinematicAction.tsx",
@@ -376,8 +701,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "camera-cinematography"
-      ]
+        "camera-cinematography",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3058
     },
     {
       "path": "src/scenes/CinematicAnimations/CinematicAnime.tsx",
@@ -386,8 +719,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "camera-cinematography"
-      ]
+        "camera-cinematography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2813
     },
     {
       "path": "src/scenes/CinematicAnimations/CinematicDocumentary.tsx",
@@ -396,8 +739,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "camera-cinematography"
-      ]
+        "camera-cinematography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2298
     },
     {
       "path": "src/scenes/CinematicAnimations/CinematicEpic.tsx",
@@ -406,8 +757,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "camera-cinematography"
-      ]
+        "camera-cinematography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2871
     },
     {
       "path": "src/scenes/CinematicAnimations/CinematicHorror.tsx",
@@ -416,8 +775,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "camera-cinematography"
-      ]
+        "camera-cinematography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2543
     },
     {
       "path": "src/scenes/CinematicAnimations/CinematicMinimalEnd.tsx",
@@ -426,8 +793,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "camera-cinematography"
-      ]
+        "camera-cinematography",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2685
     },
     {
       "path": "src/scenes/CinematicAnimations/CinematicNoir.tsx",
@@ -436,8 +809,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "camera-cinematography"
-      ]
+        "camera-cinematography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 2719
     },
     {
       "path": "src/scenes/CinematicAnimations/CinematicRomance.tsx",
@@ -446,8 +829,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "camera-cinematography"
-      ]
+        "camera-cinematography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2613
     },
     {
       "path": "src/scenes/CinematicAnimations/CinematicSciFi.tsx",
@@ -456,8 +847,17 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "camera-cinematography"
-      ]
+        "camera-cinematography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3153
     },
     {
       "path": "src/scenes/CinematicAnimations/CinematicVintage.tsx",
@@ -466,8 +866,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "camera-cinematography"
-      ]
+        "camera-cinematography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3204
     },
     {
       "path": "src/scenes/CinematicAnimations/index.tsx",
@@ -476,8 +884,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "camera-cinematography"
-      ]
+        "camera-cinematography",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 1885
     },
     {
       "path": "src/scenes/DataAnimations/DataBarChart.tsx",
@@ -486,8 +902,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "data-animation"
-      ]
+        "data-animation",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 4158
     },
     {
       "path": "src/scenes/DataAnimations/DataGauge.tsx",
@@ -496,8 +922,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "data-animation"
-      ]
+        "data-animation",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 4106
     },
     {
       "path": "src/scenes/DataAnimations/DataLineChart.tsx",
@@ -506,8 +938,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "data-animation"
-      ]
+        "data-animation",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 4648
     },
     {
       "path": "src/scenes/DataAnimations/DataPieChart.tsx",
@@ -516,8 +954,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "data-animation"
-      ]
+        "data-animation",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 4611
     },
     {
       "path": "src/scenes/DataAnimations/DataProgressBars.tsx",
@@ -526,8 +972,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "data-animation"
-      ]
+        "data-animation",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2769
     },
     {
       "path": "src/scenes/DataAnimations/DataRanking.tsx",
@@ -536,8 +990,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "data-animation"
-      ]
+        "data-animation",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3582
     },
     {
       "path": "src/scenes/DataAnimations/DataStatsCards.tsx",
@@ -546,8 +1008,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "data-animation"
-      ]
+        "data-animation",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 5115
     },
     {
       "path": "src/scenes/DataAnimations/DataTimeline.tsx",
@@ -556,8 +1026,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "data-animation"
-      ]
+        "data-animation",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "data-animation",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3624
     },
     {
       "path": "src/scenes/DataAnimations/index.tsx",
@@ -566,8 +1047,17 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "data-animation",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "data-animation"
-      ]
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 1549
     },
     {
       "path": "src/scenes/DemoAnimations/DemoAddressBar.tsx",
@@ -576,8 +1066,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "ui-motion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 5946
     },
     {
       "path": "src/scenes/DemoAnimations/DemoCursorClick.tsx",
@@ -587,8 +1087,17 @@
       "categories": [
         "shots-scenes-storyboard",
         "ui-motion",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion"
+      ],
+      "signals": [
+        "cursor"
+      ],
+      "indexedContentBytes": 3453
     },
     {
       "path": "src/scenes/DemoAnimations/DemoDragDrop.tsx",
@@ -597,8 +1106,20 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "transitions",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "ui-motion"
+      ],
+      "signals": [
+        "cursor"
+      ],
+      "indexedContentBytes": 5582
     },
     {
       "path": "src/scenes/DemoAnimations/DemoMenuExpand.tsx",
@@ -607,8 +1128,23 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "transitions",
+        "ui-motion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "ui-motion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 5954
     },
     {
       "path": "src/scenes/DemoAnimations/DemoModal.tsx",
@@ -617,8 +1153,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion"
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 5911
     },
     {
       "path": "src/scenes/DemoAnimations/DemoPageTransition.tsx",
@@ -628,8 +1175,20 @@
       "categories": [
         "shots-scenes-storyboard",
         "transitions",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "ui-motion"
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 4613
     },
     {
       "path": "src/scenes/DemoAnimations/DemoScroll.tsx",
@@ -638,8 +1197,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 5055
     },
     {
       "path": "src/scenes/DemoAnimations/DemoSearchFilter.tsx",
@@ -648,8 +1213,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion"
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 5669
     },
     {
       "path": "src/scenes/DemoAnimations/DemoTextInput.tsx",
@@ -659,8 +1235,14 @@
       "categories": [
         "shots-scenes-storyboard",
         "typography",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 4919
     },
     {
       "path": "src/scenes/DemoAnimations/DemoTooltip.tsx",
@@ -669,8 +1251,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion"
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 4923
     },
     {
       "path": "src/scenes/DemoAnimations/DemoWizard.tsx",
@@ -679,8 +1272,21 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "transitions",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "ui-motion"
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 6936
     },
     {
       "path": "src/scenes/DemoAnimations/DemoZoomFocus.tsx",
@@ -689,8 +1295,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 5428
     },
     {
       "path": "src/scenes/DemoAnimations/index.tsx",
@@ -699,8 +1315,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 2030
     },
     {
       "path": "src/scenes/DemoAnimations/shared/ClickRipple.tsx",
@@ -710,7 +1334,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 496
     },
     {
       "path": "src/scenes/DemoAnimations/shared/Cursor.tsx",
@@ -720,8 +1347,17 @@
       "categories": [
         "shots-scenes-storyboard",
         "ui-motion",
-        "examples-templates"
-      ]
+        "examples-templates",
+        "transitions"
+      ],
+      "contentCategories": [
+        "transitions",
+        "ui-motion"
+      ],
+      "signals": [
+        "cursor"
+      ],
+      "indexedContentBytes": 1288
     },
     {
       "path": "src/scenes/DemoAnimations/shared/Highlight.tsx",
@@ -731,7 +1367,10 @@
       "categories": [
         "shots-scenes-storyboard",
         "examples-templates"
-      ]
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 892
     },
     {
       "path": "src/scenes/EffectAnimations/EffectChromaticAberration.tsx",
@@ -740,8 +1379,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "effects"
-      ]
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2598
     },
     {
       "path": "src/scenes/EffectAnimations/EffectDepthOfField.tsx",
@@ -751,8 +1396,15 @@
       "categories": [
         "shots-scenes-storyboard",
         "camera-cinematography",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 3220
     },
     {
       "path": "src/scenes/EffectAnimations/EffectDuotone.tsx",
@@ -761,8 +1413,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 2699
     },
     {
       "path": "src/scenes/EffectAnimations/EffectFilmGrain.tsx",
@@ -771,8 +1430,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 2709
     },
     {
       "path": "src/scenes/EffectAnimations/EffectGlow.tsx",
@@ -781,8 +1447,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [
+        "spring",
+        "particles"
+      ],
+      "indexedContentBytes": 2556
     },
     {
       "path": "src/scenes/EffectAnimations/EffectKaleidoscope.tsx",
@@ -791,8 +1467,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [
+        "spring",
+        "mask"
+      ],
+      "indexedContentBytes": 3027
     },
     {
       "path": "src/scenes/EffectAnimations/EffectLightLeak.tsx",
@@ -801,8 +1487,17 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 2623
     },
     {
       "path": "src/scenes/EffectAnimations/EffectMatrix.tsx",
@@ -811,8 +1506,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "effects"
-      ]
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2789
     },
     {
       "path": "src/scenes/EffectAnimations/EffectNoise.tsx",
@@ -821,8 +1522,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 2310
     },
     {
       "path": "src/scenes/EffectAnimations/EffectVHS.tsx",
@@ -831,8 +1539,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 3384
     },
     {
       "path": "src/scenes/EffectAnimations/index.tsx",
@@ -841,8 +1556,17 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 1858
     },
     {
       "path": "src/scenes/LayoutAnimations/LayoutAsymmetric.tsx",
@@ -850,8 +1574,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3223
     },
     {
       "path": "src/scenes/LayoutAnimations/LayoutDiagonal.tsx",
@@ -859,8 +1591,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2254
     },
     {
       "path": "src/scenes/LayoutAnimations/LayoutFrameInFrame.tsx",
@@ -868,8 +1606,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3210
     },
     {
       "path": "src/scenes/LayoutAnimations/LayoutFullscreenType.tsx",
@@ -877,8 +1623,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2528
     },
     {
       "path": "src/scenes/LayoutAnimations/LayoutGiantNumber.tsx",
@@ -886,8 +1638,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2529
     },
     {
       "path": "src/scenes/LayoutAnimations/LayoutGridBreak.tsx",
@@ -895,8 +1653,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2297
     },
     {
       "path": "src/scenes/LayoutAnimations/LayoutLayered.tsx",
@@ -904,8 +1672,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2496
     },
     {
       "path": "src/scenes/LayoutAnimations/LayoutMultiColumn.tsx",
@@ -913,8 +1687,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3172
     },
     {
       "path": "src/scenes/LayoutAnimations/LayoutOffGrid.tsx",
@@ -922,8 +1704,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2250
     },
     {
       "path": "src/scenes/LayoutAnimations/LayoutSplitContrast.tsx",
@@ -931,8 +1721,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 3043
     },
     {
       "path": "src/scenes/LayoutAnimations/LayoutVerticalMix.tsx",
@@ -940,8 +1738,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2413
     },
     {
       "path": "src/scenes/LayoutAnimations/LayoutWhitespace.tsx",
@@ -949,8 +1753,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2004
     },
     {
       "path": "src/scenes/LayoutAnimations/index.tsx",
@@ -958,8 +1768,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 2199
     },
     {
       "path": "src/scenes/LiquidAnimations/LiquidBlob.tsx",
@@ -968,8 +1786,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 5040
     },
     {
       "path": "src/scenes/LiquidAnimations/LiquidCalligraphyInk.tsx",
@@ -979,8 +1807,18 @@
       "categories": [
         "shots-scenes-storyboard",
         "ui-motion",
-        "data-animation"
-      ]
+        "data-animation",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 5634
     },
     {
       "path": "src/scenes/LiquidAnimations/LiquidFluidWave.tsx",
@@ -989,8 +1827,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 4948
     },
     {
       "path": "src/scenes/LiquidAnimations/LiquidInkSplash.tsx",
@@ -999,8 +1847,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3232
     },
     {
       "path": "src/scenes/LiquidAnimations/LiquidMorphBlob.tsx",
@@ -1009,8 +1865,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 5788
     },
     {
       "path": "src/scenes/LiquidAnimations/LiquidOilSpill.tsx",
@@ -1019,8 +1885,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 5670
     },
     {
       "path": "src/scenes/LiquidAnimations/LiquidPaintDrip.tsx",
@@ -1029,8 +1905,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 5860
     },
     {
       "path": "src/scenes/LiquidAnimations/LiquidSplatter.tsx",
@@ -1039,8 +1925,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 6348
     },
     {
       "path": "src/scenes/LiquidAnimations/LiquidSwirl.tsx",
@@ -1049,8 +1945,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 5363
     },
     {
       "path": "src/scenes/LiquidAnimations/LiquidWaterDrop.tsx",
@@ -1059,8 +1965,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 5858
     },
     {
       "path": "src/scenes/LiquidAnimations/index.tsx",
@@ -1069,8 +1985,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 1848
     },
     {
       "path": "src/scenes/LiquidAnimations/shared/blobUtils.ts",
@@ -1079,8 +2003,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1309
     },
     {
       "path": "src/scenes/ListAnimations/ListAsymmetric3.tsx",
@@ -1088,8 +2018,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 4472
     },
     {
       "path": "src/scenes/ListAnimations/ListFullscreenSequence.tsx",
@@ -1097,8 +2035,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "transitions"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2889
     },
     {
       "path": "src/scenes/ListAnimations/ListHeroWithList.tsx",
@@ -1106,8 +2052,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2950
     },
     {
       "path": "src/scenes/ListAnimations/ListHorizontalPeek.tsx",
@@ -1115,8 +2069,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 4149
     },
     {
       "path": "src/scenes/ListAnimations/ListMinimalLeft.tsx",
@@ -1124,8 +2086,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2914
     },
     {
       "path": "src/scenes/ListAnimations/ListNumberedVertical.tsx",
@@ -1133,8 +2103,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3222
     },
     {
       "path": "src/scenes/ListAnimations/ListSimpleText.tsx",
@@ -1143,8 +2121,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "typography"
-      ]
+        "typography",
+        "remotion",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2771
     },
     {
       "path": "src/scenes/ListAnimations/ListStaggered.tsx",
@@ -1152,8 +2140,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3059
     },
     {
       "path": "src/scenes/ListAnimations/ListStatsFocused.tsx",
@@ -1161,8 +2157,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 4077
     },
     {
       "path": "src/scenes/ListAnimations/ListTimeline.tsx",
@@ -1170,8 +2174,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "data-animation"
+      ],
+      "contentCategories": [
+        "remotion",
+        "data-animation"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 4375
     },
     {
       "path": "src/scenes/ListAnimations/ListTwoColumnCompare.tsx",
@@ -1179,8 +2193,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3285
     },
     {
       "path": "src/scenes/ListAnimations/ListUnevenGrid.tsx",
@@ -1188,8 +2210,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 4611
     },
     {
       "path": "src/scenes/ListAnimations/index.tsx",
@@ -1197,8 +2227,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 2215
     },
     {
       "path": "src/scenes/LogoAnimations/Logo3DRotate.tsx",
@@ -1207,8 +2245,21 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "3d-webgl-shaders"
-      ]
+        "3d-webgl-shaders",
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 1772
     },
     {
       "path": "src/scenes/LogoAnimations/LogoGlitch.tsx",
@@ -1216,8 +2267,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2445
     },
     {
       "path": "src/scenes/LogoAnimations/LogoLightTrail.tsx",
@@ -1225,8 +2286,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2062
     },
     {
       "path": "src/scenes/LogoAnimations/LogoMaskReveal.tsx",
@@ -1235,8 +2304,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "transitions"
-      ]
+        "transitions",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 1869
     },
     {
       "path": "src/scenes/LogoAnimations/LogoMorph.tsx",
@@ -1244,8 +2323,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2038
     },
     {
       "path": "src/scenes/LogoAnimations/LogoNeonSign.tsx",
@@ -1253,8 +2340,20 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "transitions",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "effects",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2743
     },
     {
       "path": "src/scenes/LogoAnimations/LogoParticles.tsx",
@@ -1263,8 +2362,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [
+        "spring",
+        "interpolate",
+        "particles"
+      ],
+      "indexedContentBytes": 2362
     },
     {
       "path": "src/scenes/LogoAnimations/LogoSplitScreen.tsx",
@@ -1272,8 +2382,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1837
     },
     {
       "path": "src/scenes/LogoAnimations/LogoStamp.tsx",
@@ -1281,8 +2397,17 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2901
     },
     {
       "path": "src/scenes/LogoAnimations/LogoStroke.tsx",
@@ -1290,8 +2415,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1929
     },
     {
       "path": "src/scenes/LogoAnimations/index.tsx",
@@ -1299,8 +2430,17 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "sequence",
+        "particles"
+      ],
+      "indexedContentBytes": 1730
     },
     {
       "path": "src/scenes/ParticleAnimations/ParticleBubbles.tsx",
@@ -1309,8 +2449,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 2055
     },
     {
       "path": "src/scenes/ParticleAnimations/ParticleConfetti.tsx",
@@ -1319,8 +2466,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "effects"
-      ]
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2311
     },
     {
       "path": "src/scenes/ParticleAnimations/ParticleFireworks.tsx",
@@ -1329,8 +2482,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 3379
     },
     {
       "path": "src/scenes/ParticleAnimations/ParticleLightning.tsx",
@@ -1339,8 +2499,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 2504
     },
     {
       "path": "src/scenes/ParticleAnimations/ParticleMagneticField.tsx",
@@ -1349,8 +2516,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "effects"
-      ]
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2988
     },
     {
       "path": "src/scenes/ParticleAnimations/ParticleSakura.tsx",
@@ -1359,8 +2532,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 2256
     },
     {
       "path": "src/scenes/ParticleAnimations/ParticleShootingStars.tsx",
@@ -1369,8 +2549,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 2883
     },
     {
       "path": "src/scenes/ParticleAnimations/ParticleSmoke.tsx",
@@ -1379,8 +2566,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 2051
     },
     {
       "path": "src/scenes/ParticleAnimations/ParticleSnow.tsx",
@@ -1389,8 +2583,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 2476
     },
     {
       "path": "src/scenes/ParticleAnimations/ParticleSparks.tsx",
@@ -1399,8 +2600,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 2910
     },
     {
       "path": "src/scenes/ParticleAnimations/index.tsx",
@@ -1409,8 +2617,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [
+        "sequence",
+        "particles"
+      ],
+      "indexedContentBytes": 1916
     },
     {
       "path": "src/scenes/RollerAnimations/Roller3DCarousel.tsx",
@@ -1419,8 +2637,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "3d-webgl-shaders"
-      ]
+        "3d-webgl-shaders",
+        "remotion",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3620
     },
     {
       "path": "src/scenes/RollerAnimations/RollerBlur.tsx",
@@ -1429,8 +2657,15 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 1978
     },
     {
       "path": "src/scenes/RollerAnimations/RollerCountdown.tsx",
@@ -1438,8 +2673,19 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "particles"
+      ],
+      "indexedContentBytes": 8665
     },
     {
       "path": "src/scenes/RollerAnimations/RollerDramaticStop.tsx",
@@ -1447,8 +2693,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 7027
     },
     {
       "path": "src/scenes/RollerAnimations/RollerDrum.tsx",
@@ -1456,8 +2712,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2763
     },
     {
       "path": "src/scenes/RollerAnimations/RollerFadeSlide.tsx",
@@ -1465,8 +2731,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2697
     },
     {
       "path": "src/scenes/RollerAnimations/RollerFlip.tsx",
@@ -1474,8 +2748,20 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "camera-cinematography",
+        "transitions"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "transitions"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2407
     },
     {
       "path": "src/scenes/RollerAnimations/RollerGlitch.tsx",
@@ -1483,8 +2769,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 3108
     },
     {
       "path": "src/scenes/RollerAnimations/RollerGradientWave.tsx",
@@ -1493,8 +2789,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "effects"
-      ]
+        "effects",
+        "remotion",
+        "transitions",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "effects",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3628
     },
     {
       "path": "src/scenes/RollerAnimations/RollerLiquid.tsx",
@@ -1503,8 +2810,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3095
     },
     {
       "path": "src/scenes/RollerAnimations/RollerMaskSlide.tsx",
@@ -1513,8 +2826,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "transitions"
-      ]
+        "transitions",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 2962
     },
     {
       "path": "src/scenes/RollerAnimations/RollerMultiSlot.tsx",
@@ -1522,8 +2843,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 8081
     },
     {
       "path": "src/scenes/RollerAnimations/RollerOutlineHighlight.tsx",
@@ -1531,8 +2862,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "transitions"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2812
     },
     {
       "path": "src/scenes/RollerAnimations/RollerPerspectiveStripes.tsx",
@@ -1541,8 +2882,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "tests"
-      ]
+        "tests",
+        "remotion",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3933
     },
     {
       "path": "src/scenes/RollerAnimations/RollerScaleBounce.tsx",
@@ -1550,8 +2899,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 1874
     },
     {
       "path": "src/scenes/RollerAnimations/RollerShuffle.tsx",
@@ -1559,8 +2916,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "tests"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3758
     },
     {
       "path": "src/scenes/RollerAnimations/RollerSlotMachine.tsx",
@@ -1568,8 +2935,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3146
     },
     {
       "path": "src/scenes/RollerAnimations/RollerSlotReveal.tsx",
@@ -1578,8 +2953,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "transitions"
-      ]
+        "transitions",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 5472
     },
     {
       "path": "src/scenes/RollerAnimations/RollerSplitFlap.tsx",
@@ -1587,8 +2972,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "tests"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 4417
     },
     {
       "path": "src/scenes/RollerAnimations/RollerTypewriter.tsx",
@@ -1596,8 +2991,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2332
     },
     {
       "path": "src/scenes/RollerAnimations/RollerVerticalList.tsx",
@@ -1605,8 +3006,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3146
     },
     {
       "path": "src/scenes/RollerAnimations/RollerWave.tsx",
@@ -1614,8 +3025,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2406
     },
     {
       "path": "src/scenes/RollerAnimations/index.tsx",
@@ -1623,8 +3042,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 3412
     },
     {
       "path": "src/scenes/ShapeAnimations/Shape3DCube.tsx",
@@ -1633,8 +3062,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "3d-webgl-shaders"
-      ]
+        "3d-webgl-shaders",
+        "remotion",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2609
     },
     {
       "path": "src/scenes/ShapeAnimations/ShapeCircularProgress.tsx",
@@ -1642,8 +3081,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2576
     },
     {
       "path": "src/scenes/ShapeAnimations/ShapeExplosion.tsx",
@@ -1651,8 +3096,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2740
     },
     {
       "path": "src/scenes/ShapeAnimations/ShapeHelix.tsx",
@@ -1660,8 +3113,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3440
     },
     {
       "path": "src/scenes/ShapeAnimations/ShapeHexGrid.tsx",
@@ -1669,8 +3132,19 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "mask"
+      ],
+      "indexedContentBytes": 2446
     },
     {
       "path": "src/scenes/ShapeAnimations/ShapeMandala.tsx",
@@ -1678,8 +3152,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3246
     },
     {
       "path": "src/scenes/ShapeAnimations/ShapeMorphing.tsx",
@@ -1687,8 +3169,18 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 2225
     },
     {
       "path": "src/scenes/ShapeAnimations/ShapeParticleField.tsx",
@@ -1697,8 +3189,17 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [
+        "particles"
+      ],
+      "indexedContentBytes": 2054
     },
     {
       "path": "src/scenes/ShapeAnimations/ShapeRipples.tsx",
@@ -1706,8 +3207,14 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1845
     },
     {
       "path": "src/scenes/ShapeAnimations/ShapeSpinningRings.tsx",
@@ -1715,8 +3222,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2824
     },
     {
       "path": "src/scenes/ShapeAnimations/index.tsx",
@@ -1724,8 +3239,16 @@
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 2272
     },
     {
       "path": "src/scenes/TextAnimations/Text3DFlip.tsx",
@@ -1735,8 +3258,23 @@
       "categories": [
         "shots-scenes-storyboard",
         "typography",
-        "3d-webgl-shaders"
-      ]
+        "3d-webgl-shaders",
+        "remotion",
+        "camera-cinematography",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2137
     },
     {
       "path": "src/scenes/TextAnimations/TextCounter.tsx",
@@ -1745,8 +3283,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "typography"
-      ]
+        "typography",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2034
     },
     {
       "path": "src/scenes/TextAnimations/TextExplode.tsx",
@@ -1755,8 +3299,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "typography"
-      ]
+        "typography",
+        "remotion",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "tests"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 3662
     },
     {
       "path": "src/scenes/TextAnimations/TextGlitch.tsx",
@@ -1765,8 +3320,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "typography"
-      ]
+        "typography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3168
     },
     {
       "path": "src/scenes/TextAnimations/TextGradient.tsx",
@@ -1776,8 +3339,15 @@
       "categories": [
         "shots-scenes-storyboard",
         "typography",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [],
+      "indexedContentBytes": 1915
     },
     {
       "path": "src/scenes/TextAnimations/TextKinetic.tsx",
@@ -1786,8 +3356,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "typography"
-      ]
+        "typography",
+        "remotion",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "tests"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2151
     },
     {
       "path": "src/scenes/TextAnimations/TextMaskReveal.tsx",
@@ -1797,8 +3378,20 @@
       "categories": [
         "shots-scenes-storyboard",
         "transitions",
-        "typography"
-      ]
+        "typography",
+        "remotion",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 1888
     },
     {
       "path": "src/scenes/TextAnimations/TextNeon.tsx",
@@ -1807,8 +3400,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "typography"
-      ]
+        "typography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2153
     },
     {
       "path": "src/scenes/TextAnimations/TextScramble.tsx",
@@ -1817,8 +3418,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "typography"
-      ]
+        "typography",
+        "remotion",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2268
     },
     {
       "path": "src/scenes/TextAnimations/TextSplit.tsx",
@@ -1827,8 +3436,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "typography"
-      ]
+        "typography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2297
     },
     {
       "path": "src/scenes/TextAnimations/TextTypewriter.tsx",
@@ -1837,8 +3454,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "typography"
-      ]
+        "typography",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2384
     },
     {
       "path": "src/scenes/TextAnimations/TextWave.tsx",
@@ -1847,8 +3470,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "typography"
-      ]
+        "typography",
+        "remotion",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "tests"
+      ],
+      "signals": [
+        "spring",
+        "interpolate"
+      ],
+      "indexedContentBytes": 2578
     },
     {
       "path": "src/scenes/TextAnimations/index.tsx",
@@ -1857,8 +3491,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "typography"
-      ]
+        "typography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 2371
     },
     {
       "path": "src/scenes/ThemeAnimations/Theme3DGlass.tsx",
@@ -1868,8 +3512,20 @@
       "categories": [
         "shots-scenes-storyboard",
         "3d-webgl-shaders",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 17662
     },
     {
       "path": "src/scenes/ThemeAnimations/Theme3DGlassThreeJS.tsx",
@@ -1879,8 +3535,23 @@
       "categories": [
         "shots-scenes-storyboard",
         "3d-webgl-shaders",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "3d-webgl-shaders",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "camera",
+        "threejs"
+      ],
+      "indexedContentBytes": 7805
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeArtDeco.tsx",
@@ -1889,8 +3560,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3891
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeBauhaus.tsx",
@@ -1899,8 +3578,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2996
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeBoho.tsx",
@@ -1909,8 +3596,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3056
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeBrutalistWeb.tsx",
@@ -1919,8 +3614,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion"
+      ],
+      "signals": [
+        "cursor"
+      ],
+      "indexedContentBytes": 3793
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeCosmic.tsx",
@@ -1929,8 +3634,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3565
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeCyberpunk.tsx",
@@ -1939,8 +3652,20 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 3042
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeDarkMode.tsx",
@@ -1949,8 +3674,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3278
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeDuotone.tsx",
@@ -1959,8 +3692,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 2719
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeGeometricAbstract.tsx",
@@ -1969,8 +3712,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2934
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeGlassmorphism.tsx",
@@ -1979,8 +3730,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2239
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeGradient.tsx",
@@ -1990,8 +3751,15 @@
       "categories": [
         "shots-scenes-storyboard",
         "effects",
-        "design-system"
-      ]
+        "design-system",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1728
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeHolographic.tsx",
@@ -2001,8 +3769,16 @@
       "categories": [
         "shots-scenes-storyboard",
         "data-animation",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2865
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeIndustrial.tsx",
@@ -2011,8 +3787,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 4293
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeIsometric.tsx",
@@ -2021,8 +3805,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2634
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeJapanese.tsx",
@@ -2031,8 +3825,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2250
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeLuxury.tsx",
@@ -2041,8 +3841,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2742
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeMemphis.tsx",
@@ -2051,8 +3859,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 4383
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeMinimalist.tsx",
@@ -2061,8 +3879,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1455
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeMonochrome.tsx",
@@ -2071,8 +3895,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2112
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeNatural.tsx",
@@ -2081,8 +3911,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2789
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeNeobrutalism.tsx",
@@ -2091,8 +3927,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2221
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeNeon.tsx",
@@ -2101,8 +3945,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2843
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeNeumorphism.tsx",
@@ -2111,8 +3963,19 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion"
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 2591
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeOrganic.tsx",
@@ -2121,8 +3984,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2891
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemePaperCut.tsx",
@@ -2132,8 +4003,16 @@
       "categories": [
         "shots-scenes-storyboard",
         "transitions",
-        "design-system"
-      ]
+        "design-system",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2894
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemePop.tsx",
@@ -2142,8 +4021,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 1544
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeRetro.tsx",
@@ -2152,8 +4039,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3001
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeSwiss.tsx",
@@ -2162,8 +4057,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "typography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "typography",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3105
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeTech.tsx",
@@ -2172,8 +4077,21 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "ui-motion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 4900
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeWatercolor.tsx",
@@ -2182,8 +4100,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3114
     },
     {
       "path": "src/scenes/ThemeAnimations/ThemeY2K.tsx",
@@ -2192,8 +4118,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "design-system"
-      ]
+        "design-system",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 6909
     },
     {
       "path": "src/scenes/ThemeAnimations/index.tsx",
@@ -2202,8 +4138,22 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "design-system",
+        "remotion",
+        "3d-webgl-shaders",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "3d-webgl-shaders",
+        "effects",
         "design-system"
-      ]
+      ],
+      "signals": [
+        "sequence",
+        "threejs"
+      ],
+      "indexedContentBytes": 4438
     },
     {
       "path": "src/scenes/TransitionAnimations/TransitionBlinds.tsx",
@@ -2212,8 +4162,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "transitions"
-      ]
+        "transitions",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 3127
     },
     {
       "path": "src/scenes/TransitionAnimations/TransitionBoxReveal.tsx",
@@ -2222,8 +4180,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "transitions"
-      ]
+        "transitions",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 2029
     },
     {
       "path": "src/scenes/TransitionAnimations/TransitionCircleWipe.tsx",
@@ -2232,8 +4198,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "transitions"
-      ]
+        "transitions",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 1789
     },
     {
       "path": "src/scenes/TransitionAnimations/TransitionDiagonalSlice.tsx",
@@ -2242,8 +4216,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "transitions"
-      ]
+        "transitions",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 1829
     },
     {
       "path": "src/scenes/TransitionAnimations/TransitionFlash.tsx",
@@ -2252,8 +4234,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "transitions"
-      ]
+        "transitions",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 1789
     },
     {
       "path": "src/scenes/TransitionAnimations/TransitionGlitch.tsx",
@@ -2262,8 +4252,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "transitions"
-      ]
+        "transitions",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2857
     },
     {
       "path": "src/scenes/TransitionAnimations/TransitionLineSweep.tsx",
@@ -2272,8 +4268,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "transitions"
-      ]
+        "transitions",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2020
     },
     {
       "path": "src/scenes/TransitionAnimations/TransitionLiquidMorph.tsx",
@@ -2283,8 +4285,16 @@
       "categories": [
         "shots-scenes-storyboard",
         "transitions",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 3328
     },
     {
       "path": "src/scenes/TransitionAnimations/TransitionShutter.tsx",
@@ -2293,8 +4303,14 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "transitions"
-      ]
+        "transitions",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2826
     },
     {
       "path": "src/scenes/TransitionAnimations/TransitionZoomBlur.tsx",
@@ -2304,8 +4320,17 @@
       "categories": [
         "shots-scenes-storyboard",
         "transitions",
+        "effects",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "effects"
-      ]
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 1782
     },
     {
       "path": "src/scenes/TransitionAnimations/index.tsx",
@@ -2314,8 +4339,17 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "transitions",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "transitions"
-      ]
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 2489
     },
     {
       "path": "src/scenes/UIAnimations/UIButton.tsx",
@@ -2324,8 +4358,22 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion",
+        "transitions",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "ui-motion",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 3377
     },
     {
       "path": "src/scenes/UIAnimations/UICard.tsx",
@@ -2334,8 +4382,20 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion",
+        "transitions",
+        "typography"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "typography"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 5656
     },
     {
       "path": "src/scenes/UIAnimations/UIDropdown.tsx",
@@ -2344,8 +4404,20 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "ui-motion",
+        "remotion",
+        "transitions"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
         "ui-motion"
-      ]
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 3126
     },
     {
       "path": "src/scenes/UIAnimations/UIForm.tsx",
@@ -2354,8 +4426,17 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "ui-motion",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "ui-motion"
-      ]
+      ],
+      "signals": [
+        "cursor"
+      ],
+      "indexedContentBytes": 4151
     },
     {
       "path": "src/scenes/UIAnimations/UILoading.tsx",
@@ -2364,8 +4445,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3618
     },
     {
       "path": "src/scenes/UIAnimations/UIModal.tsx",
@@ -2374,8 +4463,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "ui-motion",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "ui-motion"
-      ]
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 4628
     },
     {
       "path": "src/scenes/UIAnimations/UINavigation.tsx",
@@ -2384,8 +4483,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "ui-motion",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "ui-motion"
-      ]
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 3241
     },
     {
       "path": "src/scenes/UIAnimations/UITabs.tsx",
@@ -2394,8 +4503,18 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "ui-motion",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
         "ui-motion"
-      ]
+      ],
+      "signals": [
+        "spring",
+        "cursor"
+      ],
+      "indexedContentBytes": 2829
     },
     {
       "path": "src/scenes/UIAnimations/UIToast.tsx",
@@ -2404,8 +4523,16 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 3179
     },
     {
       "path": "src/scenes/UIAnimations/UIToggle.tsx",
@@ -2414,8 +4541,21 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
+        "ui-motion",
+        "remotion",
+        "transitions"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
         "ui-motion"
-      ]
+      ],
+      "signals": [
+        "spring",
+        "interpolate",
+        "cursor"
+      ],
+      "indexedContentBytes": 3092
     },
     {
       "path": "src/scenes/UIAnimations/index.tsx",
@@ -2424,15 +4564,26 @@
       "binary": false,
       "categories": [
         "shots-scenes-storyboard",
-        "ui-motion"
-      ]
+        "ui-motion",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 1547
     },
     {
       "path": "tsconfig.json",
       "bytes": 525,
       "ext": ".json",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 525
     }
   ]
 }

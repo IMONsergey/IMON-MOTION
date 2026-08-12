@@ -1,25 +1,25 @@
 # IMON MOTION Upstream Catalog
 
-Generated automatically. Use this summary to choose donors; open `index/donors/<name>.json` only after selecting a donor.
+Generated automatically from file paths plus a bounded content scan. Use this summary to choose donors; inspect only routed donor indexes/files.
 
-| Donor | Files | Size | Dominant indexed capabilities |
-|---|---:|---:|---|
-| `chuk-motion` | 559 | 3.5 MB | examples-templates (123), tests (101), ui-motion (68), typography (68), data-animation (64), design-system (36) |
-| `claude-remotion-skill` | 11 | 7.1 MB | remotion (5), data-animation (5), examples-templates (2), skills (2), design-system (1) |
-| `emilkowalski-skills` | 20 | 0.2 MB | skills (16), examples-templates (1), ui-motion (1) |
-| `motion-canvas-examples` | 280 | 43.0 MB | examples-templates (263), shots-scenes-storyboard (88), camera-cinematography (56), 3d-webgl-shaders (24), rendering (8), audio-sound (5) |
-| `motion-design-skill` | 20 | 0.1 MB | skills (17), data-animation (1), typography (1) |
-| `motion-skills` | 9 | 3.5 MB | shots-scenes-storyboard (1) |
-| `onda` | 735 | 6.5 MB | transitions (99), remotion (40), tests (36), ui-motion (32), data-animation (24), effects (23) |
-| `product-launch-video-skill` | 7 | 0.1 MB | skills (4), ui-motion (1), rendering (1) |
-| `remotion-cinematic` | 169 | 12.0 MB | ui-motion (49), tests (35), audio-sound (15), shots-scenes-storyboard (14), camera-cinematography (9), typography (8) |
-| `remotion-scenes` | 253 | 1.4 MB | shots-scenes-storyboard (221), design-system (34), effects (32), ui-motion (27), examples-templates (19), typography (17) |
-| `remotion-skills` | 279 | 2.2 MB | skills (274), remotion (271), rendering (36), examples-templates (20), data-animation (20), 3d-webgl-shaders (14) |
-| `remotion-templates` | 82 | 0.2 MB | examples-templates (81), transitions (15), typography (13), data-animation (6), effects (4), camera-cinematography (3) |
-| `skill-remotion-geist` | 10 | 0.0 MB | skills (9), remotion (9), shots-scenes-storyboard (2), typography (1), data-animation (1), examples-templates (1) |
-| `theatre` | 1029 | 9.8 MB | tests (154), ui-motion (151), shots-scenes-storyboard (109), data-animation (97), examples-templates (54), typography (13) |
-| `video-shotcraft` | 855 | 48.3 MB | examples-templates (282), audio-sound (181), shots-scenes-storyboard (172), ui-motion (129), transitions (126), typography (123) |
+| Donor | Files | Size | Dominant capabilities | Content signals |
+|---|---:|---:|---|---|
+| `chuk-motion` | 559 | 3.5 MB | design-system (212), typography (181), ui-motion (165), tests (134), examples-templates (123) | tokens (129), chart (63), render (52), spring (37), interpolate (36) |
+| `claude-remotion-skill` | 11 | 7.1 MB | design-system (6), effects (5), remotion (5), data-animation (5), skills (4) | sound-design (4), render (3), spring (2), interpolate (2), parallax (2) |
+| `emilkowalski-skills` | 20 | 0.2 MB | skills (17), ui-motion (14), transitions (12), design-system (12), effects (9) | mask (6), render (6), chart (4), orbit (3), tokens (2) |
+| `motion-canvas-examples` | 280 | 43.0 MB | examples-templates (263), shots-scenes-storyboard (88), camera-cinematography (84), 3d-webgl-shaders (31), rendering (30) | camera (26), parallax (19), orbit (17), shader (16), sequence (14) |
+| `motion-design-skill` | 20 | 0.1 MB | skills (18), transitions (8), ui-motion (7), effects (6), camera-cinematography (5) | particles (9), parallax (5), chart (3), cursor (2), tokens (2) |
+| `motion-skills` | 9 | 3.5 MB | rendering (5), skills (3), tests (3), ui-motion (2), typography (1) | render (5), cursor (2), kinetic-type (1), threejs (1) |
+| `onda` | 735 | 6.5 MB | remotion (333), effects (230), transitions (206), typography (190), ui-motion (117) | interpolate (88), camera (68), spring (66), sequence (56), cursor (42) |
+| `product-launch-video-skill` | 7 | 0.1 MB | skills (5), audio-sound (5), rendering (4), shots-scenes-storyboard (2), typography (2) | render (4), storyboard (2), sound-design (1), spring (1), interpolate (1) |
+| `remotion-cinematic` | 169 | 12.0 MB | ui-motion (106), tests (43), remotion (42), audio-sound (28), typography (27) | cursor (46), sound-design (16), interpolate (15), camera (14), sequence (9) |
+| `remotion-scenes` | 253 | 1.4 MB | remotion (226), shots-scenes-storyboard (221), effects (110), ui-motion (42), design-system (39) | spring (93), cursor (21), sequence (17), interpolate (14), mask (14) |
+| `remotion-skills` | 279 | 2.2 MB | skills (277), remotion (271), rendering (99), camera-cinematography (63), 3d-webgl-shaders (50) | render (71), camera (57), interpolate (40), sequence (24), spring (6) |
+| `remotion-templates` | 82 | 0.2 MB | examples-templates (81), remotion (79), effects (63), transitions (20), typography (14) | interpolate (45), spring (36), mask (5), chart (4), cursor (3) |
+| `skill-remotion-geist` | 10 | 0.0 MB | skills (10), remotion (9), design-system (6), typography (5), shots-scenes-storyboard (4) | interpolate (4), tokens (2), spring (2), storyboard (2), camera (1) |
+| `theatre` | 1029 | 9.8 MB | ui-motion (247), tests (243), shots-scenes-storyboard (109), data-animation (105), 3d-webgl-shaders (56) | cursor (61), threejs (51), camera (28), render (13), chart (6) |
+| `video-shotcraft` | 855 | 48.3 MB | effects (290), examples-templates (282), audio-sound (213), remotion (203), transitions (189) | interpolate (162), camera (74), mask (52), spring (39), sound-design (31) |
 
 ## Routing rule
 
-Do not load every donor index. Select a donor set from `SKILL.md`, `.motion/ROUTER.md`, and `.motion/capabilities.yaml`, then inspect only the corresponding per-donor indexes and source files.
+Do not load every donor index. Route the brief first. Use `npm run research -- "<brief>"` to combine normalized primitives, bounded donor selection, this content-aware index, and a deeper content scan inside only the selected donors.

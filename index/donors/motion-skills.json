@@ -1,9 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "donor": "motion-skills",
   "summary": {
     "fileCount": 9,
     "totalBytes": 3684766,
+    "indexedContentBytes": 33118,
     "textFiles": 8,
     "binaryFiles": 1,
     "topExtensions": {
@@ -15,7 +16,33 @@
       ".mjs": 1
     },
     "categoryCounts": {
+      "rendering": 5,
+      "skills": 3,
+      "tests": 3,
+      "ui-motion": 2,
+      "typography": 1,
+      "3d-webgl-shaders": 1,
+      "camera-cinematography": 1,
+      "transitions": 1,
+      "effects": 1,
       "shots-scenes-storyboard": 1
+    },
+    "contentCategoryCounts": {
+      "rendering": 5,
+      "skills": 3,
+      "tests": 3,
+      "ui-motion": 2,
+      "typography": 1,
+      "3d-webgl-shaders": 1,
+      "camera-cinematography": 1,
+      "transitions": 1,
+      "effects": 1
+    },
+    "signalCounts": {
+      "render": 5,
+      "cursor": 2,
+      "kinetic-type": 1,
+      "threejs": 1
     }
   },
   "files": [
@@ -24,56 +51,141 @@
       "bytes": 1064,
       "ext": "[none]",
       "binary": false,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1064
     },
     {
       "path": "README.md",
       "bytes": 4784,
       "ext": ".md",
       "binary": false,
-      "categories": []
+      "categories": [
+        "skills",
+        "typography",
+        "ui-motion",
+        "3d-webgl-shaders",
+        "rendering",
+        "tests"
+      ],
+      "contentCategories": [
+        "skills",
+        "typography",
+        "ui-motion",
+        "3d-webgl-shaders",
+        "rendering",
+        "tests"
+      ],
+      "signals": [
+        "cursor",
+        "kinetic-type",
+        "threejs",
+        "render"
+      ],
+      "indexedContentBytes": 4784
     },
     {
       "path": "showcase.gif",
       "bytes": 3651648,
       "ext": ".gif",
       "binary": true,
-      "categories": []
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "showcase.html",
       "bytes": 18777,
       "ext": ".html",
       "binary": false,
-      "categories": []
+      "categories": [
+        "camera-cinematography",
+        "transitions",
+        "ui-motion",
+        "effects"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "transitions",
+        "ui-motion",
+        "effects"
+      ],
+      "signals": [
+        "cursor"
+      ],
+      "indexedContentBytes": 18777
     },
     {
       "path": "tools/showcase-to-gif.mjs",
       "bytes": 3005,
       "ext": ".mjs",
       "binary": false,
-      "categories": []
+      "categories": [
+        "rendering",
+        "tests"
+      ],
+      "contentCategories": [
+        "rendering",
+        "tests"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 3005
     },
     {
       "path": "tools/verify/README.md",
       "bytes": 2028,
       "ext": ".md",
       "binary": false,
-      "categories": []
+      "categories": [
+        "skills",
+        "rendering"
+      ],
+      "contentCategories": [
+        "skills",
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 2028
     },
     {
       "path": "tools/verify/contact-sheet.sh",
       "bytes": 851,
       "ext": ".sh",
       "binary": false,
-      "categories": []
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 851
     },
     {
       "path": "tools/verify/probe-mp4.sh",
       "bytes": 1514,
       "ext": ".sh",
       "binary": false,
-      "categories": []
+      "categories": [
+        "rendering",
+        "tests"
+      ],
+      "contentCategories": [
+        "rendering",
+        "tests"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 1514
     },
     {
       "path": "tools/verify/seek-shot.sh",
@@ -81,8 +193,14 @@
       "ext": ".sh",
       "binary": false,
       "categories": [
-        "shots-scenes-storyboard"
-      ]
+        "shots-scenes-storyboard",
+        "skills"
+      ],
+      "contentCategories": [
+        "skills"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1095
     }
   ]
 }
