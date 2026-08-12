@@ -1,5 +1,5 @@
 import { Easing, interpolate, spring } from 'remotion';
-import { MOTION_TOKENS, framesAtFps, staggerFrames } from '@imon-motion/core';
+import { MOTION_TOKENS, framesAtFps, staggerFrames } from '@imon-motion/core/tokens';
 
 export type MotionStyle = {
   opacity?: number;
