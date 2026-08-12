@@ -1,3 +1,3 @@
-export * from './choreography.js';
-export * from './primitives.js';
-export * from './scenes.js';
+export * from './choreography';
+export * from './primitives';
+export * from './scenes';
