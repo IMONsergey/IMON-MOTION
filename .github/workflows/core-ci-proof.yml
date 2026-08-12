@@ -1,0 +1,56 @@
+name: Record Core CI Proof
+
+on:
+  workflow_run:
+    workflows: ["IMON MOTION CI"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+jobs:
+  record-proof:
+    if: github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Record successful core gate
+        run: |
+          mkdir -p status
+          cat > status/core-ci.json <<JSON
+          {
+            "version": 1,
+            "workflow": "IMON MOTION CI",
+            "conclusion": "success",
+            "run_id": ${{ github.event.workflow_run.id }},
+            "tested_head_sha": "${{ github.event.workflow_run.head_sha }}",
+            "tested_branch": "${{ github.event.workflow_run.head_branch }}",
+            "tested_at": "${{ github.event.workflow_run.updated_at }}",
+            "assertions": [
+              "license and bundled-asset audit passed",
+              "system validator passed",
+              "TypeScript passed",
+              "normalized routing and adapter tests passed",
+              "delivery/runtime/QA route smoke passed",
+              "bounded research plan passed",
+              "one-command production plan passed",
+              "byte-budgeted context isolation passed",
+              "Remotion discovered IMONSystemPreview"
+            ]
+          }
+          JSON
+
+      - name: Commit proof when changed
+        run: |
+          git config user.name "IMON MOTION Bot"
+          git config user.email "imon-motion-bot@users.noreply.github.com"
+          git add status/core-ci.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: record successful core CI proof"
+          git pull --rebase origin main
+          git push origin HEAD:main
