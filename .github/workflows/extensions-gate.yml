@@ -1,0 +1,85 @@
+name: IMON MOTION Extensions Gate
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - adapters/remotion-three/**
+      - adapters/product-capture/**
+      - scripts/license-audit.mjs
+      - scripts/validate-extensions.mjs
+      - provenance/SOURCES.lock.yaml
+      - index/**
+      - .github/workflows/extensions-gate.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: imon-motion-extensions
+  cancel-in-progress: false
+
+jobs:
+  verify-extensions:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout IMON MOTION
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Install workspace dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Regenerate license and bundled-asset audit
+        shell: bash
+        run: |
+          set +e
+          output="$(node scripts/license-audit.mjs 2>&1)"
+          status=$?
+          printf '%s\n' "$output"
+          if [ "$status" -ne 0 ]; then
+            diagnostic="$(printf '%s' "$output" | tail -c 3500 | tr '\n' ' ' | sed 's/%/%25/g; s/\r/%0D/g; s/\n/%0A/g')"
+            echo "::error title=License audit failed::$diagnostic"
+            exit "$status"
+          fi
+
+      - name: Validate extension contracts and generated provenance
+        run: node scripts/validate-extensions.mjs
+
+      - name: Typecheck adapters and normalized runtime
+        run: npm run typecheck
+
+      - name: Test product capture adapter
+        run: node --import tsx --test adapters/product-capture/test/*.test.ts
+
+      - name: Test deterministic 3D orbit adapter
+        run: node --import tsx --test adapters/remotion-three/test/*.test.ts
+
+      - name: Verify normalized Remotion bundle still discovers Studio
+        run: npm run --silent studio:compositions | tee /tmp/compositions.txt
+
+      - name: Verify Studio composition
+        run: grep -q "IMONSystemPreview" /tmp/compositions.txt
+
+      - name: Commit generated license status when changed
+        run: |
+          git config user.name "IMON MOTION Bot"
+          git config user.email "imon-motion-bot@users.noreply.github.com"
+          git add provenance/LICENSE-STATUS.json provenance/LICENSE-STATUS.md
+          if git diff --cached --quiet; then
+            echo "License status is already current."
+            exit 0
+          fi
+          git commit -m "chore: refresh donor license and asset status"
+          git pull --rebase origin main
+          git push origin HEAD:main
