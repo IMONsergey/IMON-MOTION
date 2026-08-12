@@ -1,0 +1,51 @@
+version: 1
+quality_gates:
+  compile:
+    required_for: [draft, production, hero-film]
+    checks: [typescript, imports, deterministic-frame-logic]
+
+  representative_frames:
+    required_for: [production, hero-film]
+    minimum_frames: 8
+    preferred_frames: 12
+    checks:
+      - clipping
+      - hierarchy
+      - typography
+      - collisions
+      - alignment
+      - empty-space
+      - visual-balance
+      - continuity
+      - brand-coherence
+
+  motion_review:
+    required_for: [production, hero-film]
+    checks:
+      - pacing
+      - easing
+      - stagger
+      - entrance-exit-balance
+      - focal-hierarchy
+      - camera-continuity
+      - transition-purpose
+      - excessive-motion
+      - dead-time
+
+  anti_ai_slop:
+    required_for: [production, hero-film]
+    reject_patterns:
+      - arbitrary-floating
+      - constant-scale-pulses
+      - gratuitous-glow
+      - excessive-blur
+      - random-gradients
+      - identical-transition-everywhere
+      - unnecessary-bounce
+      - weak-type-hierarchy
+      - meaningless-particles
+      - motion-without-narrative-purpose
+
+  render:
+    required_for: [hero-film]
+    checks: [successful-render, expected-duration, expected-resolution, expected-fps, audio-present-when-required]
