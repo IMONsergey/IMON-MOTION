@@ -1,0 +1,69 @@
+name: IMON MOTION Three Runtime
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - apps/three-studio/**
+      - adapters/remotion-three/**
+      - .github/workflows/three-runtime.yml
+
+permissions:
+  contents: read
+
+jobs:
+  three-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout IMON MOTION
+        uses: actions/checkout@v7
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Install workspace dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Typecheck normalized and spatial runtimes
+        run: npm run typecheck
+
+      - name: Test deterministic orbit math
+        run: node --import tsx --test adapters/remotion-three/test/*.test.ts
+
+      - name: Discover Three Studio composition
+        shell: bash
+        run: |
+          set +e
+          output="$(npm run --silent compositions -w @imon-motion/three-studio 2>&1)"
+          status=$?
+          printf '%s\n' "$output" | tee /tmp/three-compositions.txt
+          if [ "$status" -ne 0 ]; then
+            diagnostic="$(printf '%s' "$output" | tail -c 3500 | tr '\n' ' ' | sed 's/%/%25/g; s/\r/%0D/g; s/\n/%0A/g')"
+            echo "::error title=Three composition discovery failed::$diagnostic"
+            exit "$status"
+          fi
+          grep -q "IMONProductOrbit3D" /tmp/three-compositions.txt
+
+      - name: Render first orbit proof frame
+        run: ./node_modules/.bin/remotion still apps/three-studio/src/index.ts IMONProductOrbit3D /tmp/orbit-start.png --frame=0
+
+      - name: Render late orbit proof frame
+        run: ./node_modules/.bin/remotion still apps/three-studio/src/index.ts IMONProductOrbit3D /tmp/orbit-late.png --frame=150
+
+      - name: Verify rendered spatial change
+        run: |
+          test -s /tmp/orbit-start.png
+          test -s /tmp/orbit-late.png
+          start_bytes="$(wc -c < /tmp/orbit-start.png | tr -d ' ')"
+          late_bytes="$(wc -c < /tmp/orbit-late.png | tr -d ' ')"
+          test "$start_bytes" -gt 10000
+          test "$late_bytes" -gt 10000
+          start_sha="$(sha256sum /tmp/orbit-start.png | awk '{print $1}')"
+          late_sha="$(sha256sum /tmp/orbit-late.png | awk '{print $1}')"
+          test "$start_sha" != "$late_sha"
+          echo "3D render smoke OK: start=${start_bytes}B ${start_sha}; late=${late_bytes}B ${late_sha}"
