@@ -1,0 +1,12 @@
+{
+  "name": "@imon-motion/capture-runner",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "capture": "tsx src/capture.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.50.0"
+  }
+}
