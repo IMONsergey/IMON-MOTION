@@ -1,4 +1,4 @@
-import { buildStoryboardSkeleton, routeBrief } from '../packages/motion-core/src/index.js';
+import { buildQaPlan, buildStoryboardSkeleton, routeBrief } from '../packages/motion-core/src/index.js';
 
 const brief = process.argv.slice(2).join(' ').trim();
 if (!brief) {
@@ -8,11 +8,16 @@ if (!brief) {
 
 const route = routeBrief(brief);
 const storyboard = buildStoryboardSkeleton(route);
+const qa = buildQaPlan(route, storyboard);
 
-console.log(JSON.stringify({ route: {
-  brief: route.brief,
-  capabilities: route.capabilities,
-  donors: route.donors,
-  primitives: route.primitives.map(({ id, kind, summary, sources }) => ({ id, kind, summary, sources })),
-  rationale: route.rationale,
-}, storyboard }, null, 2));
+console.log(JSON.stringify({
+  route: {
+    brief: route.brief,
+    capabilities: route.capabilities,
+    donors: route.donors,
+    primitives: route.primitives.map(({ id, kind, summary, sources }) => ({ id, kind, summary, sources })),
+    rationale: route.rationale,
+  },
+  storyboard,
+  qa,
+}, null, 2));
