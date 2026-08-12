@@ -1,0 +1,310 @@
+version: 1
+selection_rule: "Choose by narrative purpose first, visual technique second. Prefer one dominant shot idea per beat."
+
+patterns:
+  hero-product-settle:
+    status: candidate
+    purpose: "Establish one flagship product/object as the unquestioned focal subject."
+    video_types: [product-launch, brand-film]
+    styles: [premium-minimal, cinematic-product]
+    capabilities: [shot-design, cinematography, choreography]
+    primitives: [scene.hero-product, reveal.hero-settle, camera.parallax-2_5d]
+    research: [video-shotcraft, onda, motion-design-skill]
+    duration_seconds: [2.0, 5.0]
+    rule: "Large motion enters once, then deliberately settles for recognition."
+    avoid: [continuous-drift, competing-copy-blocks, multiple-products-equal-weight]
+
+  macro-detail-push:
+    status: recipe
+    purpose: "Turn one material/interface detail into a proof point or moment of desire."
+    video_types: [product-launch, brand-film, ui-demo]
+    styles: [cinematic-product, premium-minimal]
+    capabilities: [cinematography, shot-design]
+    primitives: [camera.macro-push, reveal.precision-rise]
+    research: [video-shotcraft, remotion-cinematic]
+    duration_seconds: [1.2, 3.2]
+    rule: "Push only toward a detail that carries narrative meaning."
+    avoid: [zoom-for-energy-only, unreadable-detail, repeated-macro-shots]
+
+  spatial-orbit-reveal:
+    status: adapter-required
+    purpose: "Reveal form, depth or multiple physical sides of a product through a controlled orbit."
+    video_types: [product-launch, cinematic-3d]
+    styles: [cinematic-product, premium-minimal]
+    capabilities: [three-d, cinematography]
+    primitives: [camera.product-orbit]
+    adapters: [remotion-three]
+    research: [video-shotcraft, theatre, remotion-skills]
+    duration_seconds: [2.5, 6.0]
+    rule: "Orbit has a start/end viewpoint and a reveal objective; it is not ambient rotation."
+    avoid: [full-360-without-purpose, constant-speed-orbit, camera-and-object-both-spinning]
+
+  layered-parallax-reveal:
+    status: candidate
+    purpose: "Create spatial richness from 2D/2.5D product layers without true 3D overhead."
+    video_types: [product-launch, ui-demo, brand-film]
+    styles: [premium-minimal, cinematic-product, tech-minimal]
+    capabilities: [cinematography, ui-motion]
+    primitives: [camera.parallax-2_5d, ui.layered-product-frame]
+    research: [video-shotcraft, remotion-cinematic, motion-canvas-examples]
+    duration_seconds: [1.8, 4.0]
+    rule: "Foreground/background displacement should reinforce depth hierarchy."
+    avoid: [equal-speed-layers, excessive-z-separation, constant-parallax]
+
+  ui-action-focus:
+    status: candidate
+    purpose: "Show exactly one product action and its result."
+    video_types: [ui-demo, product-launch, explainer]
+    styles: [tech-minimal, premium-minimal]
+    capabilities: [ui-motion, shot-design]
+    primitives: [scene.ui-feature, ui.cursor-focus, ui.viewport-push]
+    adapters: [product-capture]
+    research: [remotion-cinematic, video-shotcraft]
+    duration_seconds: [2.0, 5.0]
+    rule: "Cursor travels to real geometry, performs one action, then the resulting state holds."
+    avoid: [cursor-teleportation, chained-unrelated-clicks, fake-product-state]
+
+  ui-before-after-state:
+    status: recipe
+    purpose: "Prove a transformation by comparing two exact UI states."
+    video_types: [ui-demo, explainer, product-launch]
+    styles: [tech-minimal, premium-minimal]
+    capabilities: [ui-motion, transitions]
+    primitives: [ui.layered-product-frame, transition.match-move, reveal.precision-rise]
+    adapters: [product-capture]
+    research: [remotion-cinematic, video-shotcraft, onda]
+    duration_seconds: [2.5, 5.5]
+    rule: "Preserve stable anchors so the viewer reads what changed, not that a transition happened."
+    avoid: [different-camera-framing, unrelated-layout-changes, over-stylized-wipe]
+
+  interface-depth-stack:
+    status: recipe
+    purpose: "Explain hierarchy or workflow by separating UI surfaces into depth layers."
+    video_types: [ui-demo, explainer, product-launch]
+    styles: [tech-minimal, cinematic-product]
+    capabilities: [ui-motion, cinematography]
+    primitives: [ui.layered-product-frame, camera.parallax-2_5d]
+    research: [remotion-cinematic, video-shotcraft]
+    duration_seconds: [2.0, 4.5]
+    rule: "Depth represents product hierarchy, not arbitrary decoration."
+    avoid: [too-many-layers, unreadable-perspective, labels-floating-without-anchor]
+
+  cursor-path-demo:
+    status: recipe
+    purpose: "Guide attention through a real interaction path while preserving interface legibility."
+    video_types: [ui-demo, explainer]
+    styles: [tech-minimal, premium-minimal]
+    capabilities: [ui-motion, choreography]
+    primitives: [ui.cursor-focus]
+    adapters: [product-capture]
+    research: [remotion-cinematic]
+    duration_seconds: [1.5, 4.0]
+    rule: "Use exact geometry and one smooth path; pause before/after the click."
+    avoid: [random-curves, overshoot-past-target, constant-cursor-motion]
+
+  editorial-statement-hit:
+    status: candidate
+    purpose: "Land one declarative message as the visual event."
+    video_types: [kinetic-type, brand-film, social, presentation]
+    styles: [editorial, expressive, premium-minimal]
+    capabilities: [kinetic-typography, choreography]
+    primitives: [scene.editorial-statement, typography.word-stagger]
+    research: [motion-design-skill, motion-skills, onda]
+    duration_seconds: [1.5, 4.5]
+    rule: "Hierarchy is grammatical: emphasis follows meaning, then the full statement settles."
+    avoid: [effect-per-word, random-directions, no-readable-final-state]
+
+  line-by-line-manifesto:
+    status: recipe
+    purpose: "Build a longer manifesto without overwhelming reading bandwidth."
+    video_types: [brand-film, kinetic-type, presentation]
+    styles: [editorial, premium-minimal]
+    capabilities: [kinetic-typography, choreography]
+    primitives: [typography.line-reveal, reveal.precision-rise]
+    research: [motion-design-skill, motion-skills]
+    duration_seconds: [3.0, 8.0]
+    rule: "Previous line either remains as context or exits cleanly; never accumulate unreadable text."
+    avoid: [every-line-different-animation, stacking-too-many-lines, premature-exit]
+
+  metric-proof:
+    status: recipe
+    purpose: "Turn a number into evidence rather than decoration."
+    video_types: [data-story, product-launch, explainer, presentation]
+    styles: [tech-minimal, editorial, premium-minimal]
+    capabilities: [data-animation, kinetic-typography]
+    primitives: [data.metric-proof, typography.metric-counter]
+    research: [chuk-motion, remotion-scenes, motion-design-skill]
+    duration_seconds: [1.5, 4.0]
+    rule: "Context/unit appears with the number; count only when temporal buildup adds meaning."
+    avoid: [count-from-zero-for-large-values, missing-unit, simultaneous-unrelated-metrics]
+
+  chart-causal-build:
+    status: recipe
+    purpose: "Reveal a data relationship in the same order the viewer should reason about it."
+    video_types: [data-story, explainer, presentation]
+    styles: [tech-minimal, editorial]
+    capabilities: [data-animation, choreography]
+    primitives: [data.chart-build, data.metric-proof]
+    research: [chuk-motion, motion-canvas-examples, remotion-skills]
+    duration_seconds: [3.0, 8.0]
+    rule: "Axes/context first, evidence second, annotation third; preserve analytical truth at intermediate frames."
+    avoid: [all-series-at-once, scale-changing-mid-animation, camera-distracting-from-data]
+
+  comparison-lockup:
+    status: recipe
+    purpose: "Compare two products/states/metrics while keeping visual anchors stable."
+    video_types: [data-story, explainer, product-launch, presentation]
+    styles: [tech-minimal, editorial, premium-minimal]
+    capabilities: [data-animation, shot-design, transitions]
+    primitives: [transition.match-move, data.metric-proof]
+    research: [chuk-motion, remotion-scenes]
+    duration_seconds: [2.0, 5.0]
+    rule: "Comparison geometry stays fixed so differences are cognitively cheap to parse."
+    avoid: [moving-both-sides, changing-scales, decorative-split-screen]
+
+  depth-cut-transition:
+    status: recipe
+    purpose: "Bridge two related spatial shots by carrying depth/scale momentum across the cut."
+    video_types: [product-launch, ui-demo, cinematic-3d]
+    styles: [cinematic-product, premium-minimal]
+    capabilities: [transitions, cinematography]
+    primitives: [transition.depth-cut]
+    research: [video-shotcraft, onda]
+    duration_seconds: [0.25, 0.9]
+    rule: "Outgoing/incoming subject scale or travel direction must share a visual relationship."
+    avoid: [transition-between-unrelated-shots, long-blur, transition-as-main-event]
+
+  mask-object-bridge:
+    status: recipe
+    purpose: "Use an existing object/surface as a motivated mask between scenes."
+    video_types: [product-launch, brand-film, social]
+    styles: [cinematic-product, expressive]
+    capabilities: [transitions, shot-design]
+    primitives: [transition.mask-bridge]
+    research: [video-shotcraft, remotion-scenes]
+    duration_seconds: [0.3, 1.0]
+    rule: "The mask comes from scene geometry or brand material, not an arbitrary wipe shape."
+    avoid: [generic-circle-wipe, too-many-mask-directions, slow-coverage]
+
+  match-motion-bridge:
+    status: recipe
+    purpose: "Join shots through matching object/text/UI movement instead of an effect overlay."
+    video_types: [product-launch, ui-demo, brand-film, social]
+    styles: [premium-minimal, editorial, tech-minimal]
+    capabilities: [transitions, choreography]
+    primitives: [transition.match-move]
+    research: [video-shotcraft, onda, motion-design-skill]
+    duration_seconds: [0.25, 0.8]
+    rule: "Match direction/velocity/anchor at the edit point."
+    avoid: [match-without-shared-anchor, extra-flash, timing-mismatch]
+
+  light-surface-pass:
+    status: recipe
+    purpose: "Reveal material/form with one controlled light movement."
+    video_types: [product-launch, brand-film, logo-identity]
+    styles: [premium-minimal, cinematic-product]
+    capabilities: [choreography, shot-design]
+    primitives: [effect.light-sweep]
+    research: [video-shotcraft, motion-canvas-examples]
+    duration_seconds: [0.8, 2.5]
+    rule: "Light explains shape/material and then leaves; no permanent glossy loop."
+    avoid: [constant-sweep, white-flash-look, multiple-competing-highlights]
+
+  particle-accent-hit:
+    status: adapter-required
+    purpose: "Add one physically coherent accent at an impact/reveal moment."
+    video_types: [brand-film, product-launch, social, experimental]
+    styles: [expressive, experimental, cinematic-product]
+    capabilities: [webgl, choreography]
+    primitives: [effect.particle-accent]
+    adapters: [webgl]
+    research: [motion-skills, motion-canvas-examples]
+    duration_seconds: [0.5, 2.0]
+    rule: "Particles have a source, direction, decay and narrative trigger."
+    avoid: [ambient-particles-everywhere, random-seed-per-render, obscuring-content]
+
+  shader-atmosphere:
+    status: experimental
+    purpose: "Create a deterministic generative atmosphere that supports a message or material transition."
+    video_types: [experimental, brand-film, product-launch]
+    styles: [experimental, cinematic-product]
+    capabilities: [webgl, choreography]
+    primitives: [webgl.shader-field]
+    adapters: [webgl]
+    research: [motion-skills, motion-canvas-examples, theatre]
+    duration_seconds: [2.0, 8.0]
+    rule: "Shader parameters are frame-driven and seeded; composition stays readable over it."
+    avoid: [random-per-render, shader-as-unrelated-wallpaper, excessive-frequency-detail]
+
+  beat-impact-edit:
+    status: recipe
+    purpose: "Align a real narrative pivot with a strong audio transient."
+    video_types: [product-launch, brand-film, social, kinetic-type]
+    styles: [cinematic-product, expressive]
+    capabilities: [sound-design, choreography, transitions]
+    primitives: [audio.beat-map, audio.impact-stack]
+    adapters: [audio-analysis]
+    research: [video-shotcraft]
+    duration_seconds: [0.2, 1.5]
+    rule: "Audio event suggests edit candidates; final timing is reviewed against musical phrase and visual anticipation."
+    avoid: [cut-every-beat, trusting-heuristic-as-musical-truth, impact-without-narrative-pivot]
+
+  sound-led-reveal:
+    status: recipe
+    purpose: "Let sound anticipation/impact carry a reveal with restrained visual movement."
+    video_types: [product-launch, brand-film, logo-identity]
+    styles: [premium-minimal, cinematic-product]
+    capabilities: [sound-design, choreography]
+    primitives: [audio.impact-stack, reveal.hero-settle]
+    research: [video-shotcraft, motion-design-skill]
+    duration_seconds: [1.0, 3.0]
+    rule: "Pre-impact visual restraint creates space for the sonic event."
+    avoid: [visual-and-audio-overload, impact-on-every-reveal, no-tail-space]
+
+  logo-end-settle:
+    status: recipe
+    purpose: "Close with identity/product name in a stable, memorable final state."
+    video_types: [product-launch, brand-film, logo-identity, social]
+    styles: [premium-minimal, editorial, tech-minimal]
+    capabilities: [choreography, kinetic-typography]
+    primitives: [reveal.hero-settle, exit.clean-fall]
+    research: [motion-design-skill, onda]
+    duration_seconds: [1.5, 4.0]
+    rule: "Final identity arrives once and holds long enough to register."
+    avoid: [logo-loop, late-extra-copy, exiting-before-video-end]
+
+  silent-rest-beat:
+    status: recipe
+    purpose: "Create contrast and cognitive breathing room between two information-dense beats."
+    video_types: [product-launch, brand-film, explainer, kinetic-type, data-story]
+    styles: [premium-minimal, editorial, cinematic-product]
+    capabilities: [creative-direction, choreography]
+    primitives: []
+    research: [motion-design-skill, onda]
+    duration_seconds: [0.4, 1.8]
+    rule: "A hold/rest is authored intentionally; nothing new enters during the rest."
+    avoid: [micro-motion-added-out-of-anxiety, unnecessary-background-drift]
+
+  social-hook-snap:
+    status: recipe
+    purpose: "Deliver the premise immediately in a short-form vertical context without sacrificing hierarchy."
+    video_types: [social]
+    styles: [expressive, tech-minimal, editorial]
+    capabilities: [kinetic-typography, shot-design, choreography]
+    primitives: [reveal.precision-rise, typography.word-stagger]
+    research: [motion-skills, remotion-scenes, motion-design-skill]
+    duration_seconds: [0.6, 2.0]
+    rule: "The first readable premise arrives quickly; visual novelty supports it rather than delaying it."
+    avoid: [long-logo-intro, tiny-copy, desktop-layout-in-9x16]
+
+  proof-to-payoff:
+    status: recipe
+    purpose: "Move from a concrete feature/metric proof into a larger brand/product payoff."
+    video_types: [product-launch, brand-film, explainer]
+    styles: [premium-minimal, cinematic-product, tech-minimal]
+    capabilities: [creative-direction, transitions, shot-design]
+    primitives: [data.metric-proof, transition.depth-cut, scene.hero-product]
+    research: [video-shotcraft, motion-design-skill, product-launch-video-skill]
+    duration_seconds: [3.0, 7.0]
+    rule: "The payoff visually depends on the proof shown immediately before it."
+    avoid: [generic-hero-after-unrelated-feature, duplicate-message, effect-heavy-transition]
