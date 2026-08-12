@@ -37,6 +37,12 @@ const requiredFiles = [
   'packages/motion-core/src/storyboard.ts',
   'packages/remotion-kit/src/choreography.ts',
   'packages/remotion-kit/src/primitives.tsx',
+  'apps/studio/package.json',
+  'apps/studio/src/index.ts',
+  'apps/studio/src/Root.tsx',
+  'apps/studio/src/SystemPreview.tsx',
+  'scripts/route.mts',
+  'scripts/research.mts',
   'provenance/SOURCES.lock.yaml',
   'index/catalog.json',
 ];
@@ -66,6 +72,15 @@ if (duplicateIds.length) failures.push(`duplicate primitive ids: ${[...new Set(d
 const packageJson = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
 if (packageJson.version !== '0.2.0') failures.push(`expected root version 0.2.0, got ${packageJson.version}`);
 if (!Array.isArray(packageJson.workspaces) || !packageJson.workspaces.includes('packages/*')) failures.push('root package.json must include packages/* workspace');
+if (!Array.isArray(packageJson.workspaces) || !packageJson.workspaces.includes('apps/*')) failures.push('root package.json must include apps/* workspace');
+for (const script of ['route', 'research', 'studio', 'studio:compositions', 'system:validate', 'typecheck', 'test']) {
+  if (!packageJson.scripts?.[script]) failures.push(`missing root npm script: ${script}`);
+}
+
+const studioPackage = JSON.parse(fs.readFileSync(path.join(root, 'apps/studio/package.json'), 'utf8'));
+if (studioPackage.name !== '@imon-motion/studio') failures.push(`unexpected Studio package name: ${studioPackage.name}`);
+if (!studioPackage.dependencies?.['@imon-motion/core']) failures.push('Studio must depend on @imon-motion/core');
+if (!studioPackage.dependencies?.['@imon-motion/remotion-kit']) failures.push('Studio must depend on @imon-motion/remotion-kit');
 
 if (failures.length) {
   console.error('IMON MOTION system validation failed:');
@@ -73,4 +88,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`IMON MOTION validation OK: ${expectedDonors.length} donors, ${primitiveIds.length} normalized primitives, required architecture present.`);
+console.log(`IMON MOTION validation OK: ${expectedDonors.length} donors, ${primitiveIds.length} normalized primitives, routed research planner and Studio architecture present.`);
