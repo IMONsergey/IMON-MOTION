@@ -1,0 +1,85 @@
+name: IMON MOTION Capture Runtime
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - apps/capture-runner/**
+      - adapters/product-capture/**
+      - .github/workflows/capture-runtime.yml
+
+permissions:
+  contents: read
+
+jobs:
+  capture-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout IMON MOTION
+        uses: actions/checkout@v7
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Install workspace dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Chromium for capture smoke
+        run: npx playwright install --with-deps chromium
+
+      - name: Typecheck capture runner and geometry adapter
+        run: npm run typecheck
+
+      - name: Test product-capture geometry layer
+        run: node --import tsx --test adapters/product-capture/test/*.test.ts
+
+      - name: Serve deterministic product fixture
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory apps/capture-runner/fixtures >/tmp/imon-capture-server.log 2>&1 &
+          echo $! > /tmp/imon-capture-server.pid
+          for i in {1..20}; do
+            if curl -fsS http://127.0.0.1:4173/product.html >/dev/null; then exit 0; fi
+            sleep 0.5
+          done
+          cat /tmp/imon-capture-server.log
+          exit 1
+
+      - name: Capture UI states and geometry
+        run: ./node_modules/.bin/tsx apps/capture-runner/src/capture.ts apps/capture-runner/fixtures/fixture.config.json > /tmp/capture-result.json
+
+      - name: Verify capture manifest, images, privacy and geometry
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const path = require('node:path');
+          const root = path.resolve('apps/capture-runner/fixtures/output');
+          const manifest = JSON.parse(fs.readFileSync(path.join(root, 'capture.manifest.json'), 'utf8'));
+          if (!manifest.privacyReviewed) throw new Error('privacyReviewed lost from manifest');
+          if (manifest.states.length !== 2) throw new Error(`expected 2 states, got ${manifest.states.length}`);
+          const initial = manifest.states.find((s) => s.id === 'initial');
+          const created = manifest.states.find((s) => s.id === 'created');
+          if (!initial || !created) throw new Error('capture states missing');
+          const button = initial.elements.find((e) => e.id === 'create-button');
+          const secret = initial.elements.find((e) => e.id === 'secret');
+          const status = created.elements.find((e) => e.id === 'status');
+          if (!button || button.rect.width <= 0 || button.rect.height <= 0) throw new Error('button geometry missing');
+          if (!status || status.rect.width <= 0) throw new Error('result-state geometry missing');
+          if (!secret || secret.safeToShow !== false) throw new Error('unsafe element flag missing');
+          for (const state of manifest.states) {
+            const image = path.join(root, state.image);
+            if (!fs.existsSync(image)) throw new Error(`missing screenshot ${state.image}`);
+            if (fs.statSync(image).size < 10000) throw new Error(`screenshot too small: ${state.image}`);
+          }
+          const a = fs.readFileSync(path.join(root, initial.image));
+          const b = fs.readFileSync(path.join(root, created.image));
+          const crypto = require('node:crypto');
+          const sha = (buf) => crypto.createHash('sha256').update(buf).digest('hex');
+          if (sha(a) === sha(b)) throw new Error('state screenshots are identical after interaction');
+          if (manifest.source.includes('?') || manifest.source.includes('#') || manifest.source.includes('@')) throw new Error('manifest source was not sanitized');
+          console.log('Capture runtime smoke OK', {button: button.rect, status: status.rect, initialBytes: a.length, createdBytes: b.length});
+          NODE
