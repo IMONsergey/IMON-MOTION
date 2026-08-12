@@ -1,0 +1,20 @@
+{
+  "name": "@imon-motion/studio",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts --no-open",
+    "compositions": "remotion compositions src/index.ts"
+  },
+  "dependencies": {
+    "@imon-motion/core": "0.2.0",
+    "@imon-motion/remotion-kit": "0.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "4.0.451"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.451"
+  }
+}
