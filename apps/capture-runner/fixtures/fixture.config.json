@@ -1,0 +1,71 @@
+{
+  "source": "http://127.0.0.1:4173/product.html",
+  "outputDir": "output",
+  "privacyReviewed": true,
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "deviceScaleFactor": 1
+  },
+  "redactSelectors": ["[data-testid='secret']"],
+  "states": [
+    {
+      "id": "initial",
+      "elements": [
+        {
+          "id": "create-button",
+          "selector": "[data-testid='create-button']",
+          "label": "Create project",
+          "role": "button",
+          "safeToShow": true
+        },
+        {
+          "id": "secret",
+          "selector": "[data-testid='secret']",
+          "label": "Secret fixture token",
+          "safeToShow": false
+        },
+        {
+          "id": "result-card",
+          "selector": "[data-testid='result-card']",
+          "label": "Result card",
+          "safeToShow": true
+        }
+      ]
+    },
+    {
+      "id": "created",
+      "actions": [
+        {
+          "type": "click",
+          "selector": "[data-testid='create-button']"
+        },
+        {
+          "type": "waitFor",
+          "selector": "[data-testid='status'].done",
+          "state": "visible"
+        }
+      ],
+      "elements": [
+        {
+          "id": "create-button",
+          "selector": "[data-testid='create-button']",
+          "label": "Create project",
+          "role": "button",
+          "safeToShow": true
+        },
+        {
+          "id": "status",
+          "selector": "[data-testid='status']",
+          "label": "Project status",
+          "role": "status",
+          "safeToShow": true
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Local fixture only.",
+    "The secret element must be redacted in screenshots and marked unsafe in the manifest."
+  ]
+}
