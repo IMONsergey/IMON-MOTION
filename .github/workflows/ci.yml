@@ -27,8 +27,27 @@ jobs:
       - name: Install workspace dependencies
         run: npm install --no-audit --no-fund
 
+      - name: Audit donor licenses and bundled assets
+        run: node scripts/license-audit.mjs
+
       - name: Validate corpus and architecture
         run: npm run system:validate
+
+      - name: Verify license and asset audit
+        run: |
+          node - <<'NODE'
+          const report = require('./provenance/LICENSE-STATUS.json');
+          if (report.version !== 1) throw new Error('unexpected license audit version');
+          if (report.summary.donors !== 15) throw new Error(`license audit donor count mismatch: ${report.summary.donors}`);
+          const allowed = new Set(['license-file-detected', 'review-required-no-license-file-detected', 'review-required-unclassified-license-file']);
+          for (const [donor, source] of Object.entries(report.sources)) {
+            if (!allowed.has(source.status)) throw new Error(`unexpected license status for ${donor}: ${source.status}`);
+            if (source.assets.files > 0 && !source.productionPolicy.bundledAssetsRequireSeparateRightsReview) {
+              throw new Error(`asset review policy missing for ${donor}`);
+            }
+          }
+          console.log(`License audit OK: ${report.summary.withDetectedLicenseFile}/15 have detected license files; review-required=${report.summary.missingLicenseFile.length + report.summary.unclassifiedLicense.length}`);
+          NODE
 
       - name: Typecheck normalized runtime
         run: npm run typecheck
