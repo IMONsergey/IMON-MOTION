@@ -33,7 +33,7 @@ jobs:
       - name: Typecheck normalized runtime
         run: npm run typecheck
 
-      - name: Run routing tests
+      - name: Run routing and adapter tests
         run: npm test
 
       - name: Smoke-test routed product brief
@@ -80,6 +80,23 @@ jobs:
           }
           if (data.ignoredDonors.length === 0) throw new Error('research planner failed to exclude irrelevant donors');
           console.log('Research context smoke test OK');
+          NODE
+
+      - name: Build one-command production plan
+        run: npm run --silent plan -- "35 second premium product launch with controlled 3D orbit, UI detail and cinematic sound" > /tmp/plan.json
+
+      - name: Verify production plan
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const data = JSON.parse(fs.readFileSync('/tmp/plan.json', 'utf8'));
+          if (data.version !== 1) throw new Error('unexpected planner version');
+          if (data.classification.delivery?.durationSeconds !== 35) throw new Error('planner lost delivery duration');
+          if (!data.blockers.some((b) => b.primitiveId === 'camera.product-orbit' && b.status === 'adapter-required')) throw new Error('planner hid 3D adapter blocker');
+          if (!data.research?.research?.length) throw new Error('planner has no exact donor research');
+          if (!data.qa?.finalRenderRequired) throw new Error('planner lost hero-film QA gate');
+          if (!data.implementationOrder.includes('.motion/runtime-registry.yaml')) throw new Error('runtime registry missing from implementation order');
+          console.log('One-command production plan OK');
           NODE
 
       - name: Discover normalized Remotion compositions
