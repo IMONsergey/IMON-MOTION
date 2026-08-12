@@ -1,0 +1,60 @@
+name: Record Three Runtime Proof
+
+on:
+  workflow_run:
+    workflows: ["IMON MOTION Three Runtime"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+env:
+  PROOF_PATH: status/three-runtime.json
+
+jobs:
+  record-proof:
+    if: github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout current main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Record successful spatial runtime gate
+        run: |
+          mkdir -p status
+          cat > "$PROOF_PATH" <<JSON
+          {
+            "version": 1,
+            "workflow": "IMON MOTION Three Runtime",
+            "conclusion": "success",
+            "run_id": ${GITHUB_EVENT_WORKFLOW_RUN_ID:-${{ github.event.workflow_run.id }}},
+            "tested_head_sha": "${{ github.event.workflow_run.head_sha }}",
+            "tested_branch": "${{ github.event.workflow_run.head_branch }}",
+            "tested_at": "${{ github.event.workflow_run.updated_at }}",
+            "assertions": [
+              "TypeScript passed",
+              "deterministic orbit unit tests passed",
+              "Remotion discovered IMONProductOrbit3D",
+              "frame 0 rendered to PNG",
+              "frame 150 rendered to PNG",
+              "rendered frame hashes differed"
+            ],
+            "readiness_note": "This proves the Remotion Three orbit runtime path on the tested SHA. Higher-level asset/material/GPU fallbacks remain separate quality concerns."
+          }
+          JSON
+
+      - name: Commit proof when changed
+        run: |
+          git config user.name "IMON MOTION Bot"
+          git config user.email "imon-motion-bot@users.noreply.github.com"
+          git add "$PROOF_PATH"
+          if git diff --cached --quiet; then
+            echo "Three runtime proof is already current."
+            exit 0
+          fi
+          git commit -m "chore: record successful Three runtime proof"
+          git pull --rebase origin main
+          git push origin HEAD:main
