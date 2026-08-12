@@ -1,0 +1,131 @@
+version: 1
+policy:
+  normalized_runtime_first: true
+  statuses: [implemented, recipe, adapter-required, research-only]
+  rule: "A primitive ID is semantic. This registry tells the agent whether IMON MOTION already has an executable implementation or whether donor/adaptor research is required."
+
+primitives:
+  reveal.precision-rise:
+    status: implemented
+    runtime: "@imon-motion/remotion-kit#PrecisionReveal"
+    source: packages/remotion-kit/src/primitives.tsx
+
+  reveal.hero-settle:
+    status: implemented
+    runtime: "@imon-motion/remotion-kit#HeroSettle"
+    source: packages/remotion-kit/src/primitives.tsx
+
+  exit.clean-fall:
+    status: implemented
+    runtime: "@imon-motion/remotion-kit#cleanExit"
+    source: packages/remotion-kit/src/choreography.ts
+
+  typography.word-stagger:
+    status: implemented
+    runtime: "@imon-motion/remotion-kit#KineticWords"
+    source: packages/remotion-kit/src/primitives.tsx
+
+  typography.line-reveal:
+    status: recipe
+    compose_from: [PrecisionReveal, CSS-clip-or-mask]
+    research: [motion-design-skill, remotion-scenes]
+
+  typography.metric-counter:
+    status: recipe
+    compose_from: [useCurrentFrame, interpolate, PrecisionReveal]
+    research: [chuk-motion, remotion-templates]
+
+  ui.cursor-focus:
+    status: recipe
+    compose_from: [geometry-capture, interpolate, DepthPlane]
+    research: [remotion-cinematic]
+
+  ui.viewport-push:
+    status: implemented
+    runtime: "@imon-motion/remotion-kit#Camera2D"
+    source: packages/remotion-kit/src/primitives.tsx
+
+  ui.layered-product-frame:
+    status: implemented
+    runtime: "@imon-motion/remotion-kit#ProductFrame + DepthPlane"
+    source: packages/remotion-kit/src/primitives.tsx
+
+  camera.parallax-2_5d:
+    status: implemented
+    runtime: "@imon-motion/remotion-kit#Camera2D + DepthPlane"
+    source: packages/remotion-kit/src/primitives.tsx
+
+  camera.product-orbit:
+    status: adapter-required
+    adapters: [theatre-three, remotion-three]
+    research: [video-shotcraft, theatre, remotion-skills]
+
+  camera.macro-push:
+    status: implemented
+    runtime: "@imon-motion/remotion-kit#Camera2D"
+    source: packages/remotion-kit/src/primitives.tsx
+
+  transition.depth-cut:
+    status: recipe
+    compose_from: [Camera2D, DepthPlane, Sequence]
+    research: [video-shotcraft, onda]
+
+  transition.mask-bridge:
+    status: recipe
+    compose_from: [Sequence, clip-path-or-mask]
+    research: [onda, remotion-scenes]
+
+  transition.match-move:
+    status: recipe
+    compose_from: [Sequence, shared-motion-vector]
+    research: [motion-design-skill, video-shotcraft]
+
+  data.chart-build:
+    status: recipe
+    compose_from: [useCurrentFrame, interpolate, SVG-or-Canvas]
+    research: [chuk-motion, motion-canvas-examples, remotion-skills]
+
+  data.metric-proof:
+    status: recipe
+    compose_from: [typography.metric-counter, annotation]
+    research: [chuk-motion]
+
+  effect.light-sweep:
+    status: recipe
+    compose_from: [gradient-mask, interpolate]
+    research: [video-shotcraft]
+
+  effect.particle-accent:
+    status: adapter-required
+    adapters: [webgl, canvas-particles]
+    research: [motion-skills, motion-canvas-examples]
+
+  webgl.shader-field:
+    status: adapter-required
+    adapters: [webgl, theatre-three]
+    research: [motion-skills, motion-canvas-examples, theatre]
+
+  audio.impact-stack:
+    status: recipe
+    compose_from: [riser, impact, detail-accent]
+    research: [video-shotcraft]
+
+  audio.beat-map:
+    status: recipe
+    compose_from: [beat-analysis, Sequence-timing]
+    research: [video-shotcraft]
+
+  scene.hero-product:
+    status: implemented
+    runtime: "@imon-motion/remotion-kit#ProductHeroScene"
+    source: packages/remotion-kit/src/scenes.tsx
+
+  scene.ui-feature:
+    status: implemented
+    runtime: "@imon-motion/remotion-kit#UiFeatureScene"
+    source: packages/remotion-kit/src/scenes.tsx
+
+  scene.editorial-statement:
+    status: implemented
+    runtime: "@imon-motion/remotion-kit#EditorialStatementScene"
+    source: packages/remotion-kit/src/scenes.tsx
