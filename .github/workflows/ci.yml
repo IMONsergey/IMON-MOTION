@@ -99,6 +99,28 @@ jobs:
           console.log('One-command production plan OK');
           NODE
 
+      - name: Build bounded context pack
+        env:
+          IMON_CONTEXT_BUDGET_BYTES: 524288
+        run: npm run --silent context -- "35 second premium product launch with controlled 3D orbit, UI detail and cinematic sound" > /tmp/context.json
+
+      - name: Verify context budget and donor isolation
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const data = JSON.parse(fs.readFileSync('/tmp/context.json', 'utf8'));
+          if (data.contextBudget.usedBytes > data.contextBudget.maxBytes) throw new Error('context pack exceeded byte budget');
+          if (!data.normalized.some((entry) => entry.path === '.motion/runtime-registry.yaml')) throw new Error('runtime registry missing from context pack');
+          if (!data.donorExcerpts.length) throw new Error('context pack contains no donor excerpts');
+          const ignored = new Set(data.ignoredDonors);
+          for (const entry of data.donorExcerpts) {
+            if (ignored.has(entry.donor)) throw new Error(`ignored donor leaked into context: ${entry.donor}`);
+            if (!entry.path.startsWith(`upstream/${entry.donor}/`)) throw new Error(`invalid context donor path: ${entry.path}`);
+          }
+          if (!data.readPolicy.neverLoadIgnoredDonorWithoutRerouting) throw new Error('context isolation policy missing');
+          console.log(`Context pack OK: ${data.contextBudget.usedBytes}/${data.contextBudget.maxBytes} bytes`);
+          NODE
+
       - name: Discover normalized Remotion compositions
         shell: bash
         run: |
