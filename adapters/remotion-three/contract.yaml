@@ -1,0 +1,23 @@
+version: 1
+id: remotion-three
+status: experimental
+capabilities: [three-d, cinematography, choreography, remotion-engineering]
+primitive_ids: [camera.product-orbit]
+source_path: adapters/remotion-three/src/orbit.ts
+smoke_test: adapters/remotion-three/test/orbit.test.ts
+research_donors: [remotion-skills, theatre, video-shotcraft]
+implemented_features:
+  - deterministic spherical product-orbit camera pose
+  - frame-to-progress binding
+  - configurable center/radius/azimuth/elevation/FOV
+  - cinematic monotonic easing
+  - deterministic distance/pose tests
+missing_for_ready:
+  - real @remotion/three or React Three Fiber canvas binding
+  - production 3D object/material contract
+  - render-level 3D smoke test
+  - WebGL/GPU fallback validation
+fallback:
+  primitive_id: camera.parallax-2_5d
+  runtime: "@imon-motion/remotion-kit#Camera2D + DepthPlane"
+readiness_rule: "Do not mark camera.product-orbit implemented until a real Remotion 3D composition bundles and a render smoke passes."
