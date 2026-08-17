@@ -2,24 +2,24 @@
   "version": 2,
   "donor": "video-shotcraft",
   "summary": {
-    "fileCount": 855,
-    "totalBytes": 50605326,
-    "indexedContentBytes": 3222754,
-    "textFiles": 582,
+    "fileCount": 860,
+    "totalBytes": 50646962,
+    "indexedContentBytes": 3264390,
+    "textFiles": 587,
     "binaryFiles": 273,
     "topExtensions": {
-      ".md": 321,
+      ".md": 322,
       ".tsx": 222,
       ".mp3": 165,
       ".jpg": 66,
       ".png": 42,
       ".svg": 8,
       ".json": 7,
+      "[none]": 5,
       ".ts": 5,
-      "[none]": 4,
+      ".py": 5,
       ".yml": 2,
       ".js": 2,
-      ".py": 2,
       ".html": 2,
       ".txt": 2,
       ".yaml": 1,
@@ -28,33 +28,33 @@
     "categoryCounts": {
       "effects": 290,
       "examples-templates": 282,
-      "audio-sound": 213,
-      "remotion": 203,
-      "transitions": 189,
+      "audio-sound": 215,
+      "remotion": 204,
+      "transitions": 190,
       "ui-motion": 189,
       "typography": 179,
       "shots-scenes-storyboard": 174,
       "camera-cinematography": 166,
       "data-animation": 112,
-      "tests": 37,
+      "tests": 38,
       "skills": 32,
-      "design-system": 31,
-      "3d-webgl-shaders": 15,
-      "rendering": 10
+      "design-system": 32,
+      "rendering": 15,
+      "3d-webgl-shaders": 15
     },
     "contentCategoryCounts": {
       "effects": 268,
-      "remotion": 201,
+      "remotion": 202,
       "camera-cinematography": 143,
-      "transitions": 111,
+      "transitions": 112,
       "typography": 87,
       "ui-motion": 82,
-      "audio-sound": 36,
-      "tests": 32,
+      "audio-sound": 38,
+      "tests": 33,
       "skills": 31,
-      "design-system": 29,
+      "design-system": 30,
       "data-animation": 17,
-      "rendering": 10,
+      "rendering": 13,
       "shots-scenes-storyboard": 3,
       "3d-webgl-shaders": 3
     },
@@ -63,14 +63,14 @@
       "camera": 74,
       "mask": 52,
       "spring": 39,
-      "sound-design": 31,
+      "sound-design": 33,
       "orbit": 27,
       "cursor": 23,
       "chart": 14,
       "particles": 14,
+      "render": 12,
       "motion-blur": 11,
       "shot-card": 9,
-      "render": 9,
       "sequence": 6,
       "parallax": 5,
       "beat-sync": 4,
@@ -156,7 +156,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 11973,
+      "bytes": 12729,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -188,11 +188,11 @@
         "beat-sync",
         "render"
       ],
-      "indexedContentBytes": 11973
+      "indexedContentBytes": 12729
     },
     {
       "path": "README_CN.md",
-      "bytes": 11675,
+      "bytes": 12303,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -216,11 +216,11 @@
         "chart",
         "sound-design"
       ],
-      "indexedContentBytes": 11675
+      "indexedContentBytes": 12303
     },
     {
       "path": "README_JA.md",
-      "bytes": 14925,
+      "bytes": 15824,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -245,11 +245,11 @@
         "chart",
         "sound-design"
       ],
-      "indexedContentBytes": 14925
+      "indexedContentBytes": 15824
     },
     {
       "path": "SKILL.md",
-      "bytes": 15682,
+      "bytes": 16433,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -280,7 +280,7 @@
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 15682
+      "indexedContentBytes": 16433
     },
     {
       "path": "agents/openai.yaml",
@@ -10177,6 +10177,69 @@
       "indexedContentBytes": 61970
     },
     {
+      "path": "jianying-export/.gitignore",
+      "bytes": 16,
+      "ext": "[none]",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 16
+    },
+    {
+      "path": "jianying-export/mac_draft.py",
+      "bytes": 17946,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 17946
+    },
+    {
+      "path": "jianying-export/smoke_test.py",
+      "bytes": 3223,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "tests",
+        "transitions",
+        "audio-sound"
+      ],
+      "contentCategories": [
+        "transitions",
+        "audio-sound",
+        "rendering",
+        "tests"
+      ],
+      "signals": [
+        "sound-design",
+        "render"
+      ],
+      "indexedContentBytes": 3223
+    },
+    {
+      "path": "jianying-export/windows_draft.py",
+      "bytes": 7980,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 7980
+    },
+    {
       "path": "references/aesthetic-rules.md",
       "bytes": 24507,
       "ext": ".md",
@@ -10238,6 +10301,29 @@
       "indexedContentBytes": 10874
     },
     {
+      "path": "references/jianying-export.md",
+      "bytes": 9239,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "remotion",
+        "audio-sound",
+        "design-system"
+      ],
+      "contentCategories": [
+        "remotion",
+        "audio-sound",
+        "rendering",
+        "design-system"
+      ],
+      "signals": [
+        "sound-design",
+        "render"
+      ],
+      "indexedContentBytes": 9239
+    },
+    {
       "path": "references/music-beat-sync.md",
       "bytes": 10144,
       "ext": ".md",
@@ -10258,7 +10344,7 @@
     },
     {
       "path": "references/pipeline.md",
-      "bytes": 23986,
+      "bytes": 24184,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -10278,7 +10364,7 @@
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 23986
+      "indexedContentBytes": 24184
     },
     {
       "path": "references/sequences/.gitkeep",

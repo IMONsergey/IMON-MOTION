@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceGeneratedAt": "2026-08-12T05:55:58Z",
+  "sourceGeneratedAt": "2026-08-17T05:02:48Z",
   "disclaimer": "Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.",
   "policy": {
     "missingLicenseFile": "review-required",
@@ -62,15 +62,17 @@
         "MIT"
       ],
       "assets": {
-        "files": 2,
-        "bytes": 7439761,
+        "files": 4,
+        "bytes": 15333488,
         "extensions": {
-          ".gif": 1,
-          ".mp4": 1
+          ".gif": 2,
+          ".mp4": 2
         },
         "samples": [
           "demo.gif",
-          "demo.mp4"
+          "demo.mp4",
+          "examples/videos/focus-cat-promo.mp4",
+          "examples/videos/focus-cat.gif"
         ],
         "separateRightsReviewRecommended": true
       },

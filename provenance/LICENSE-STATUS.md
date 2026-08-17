@@ -2,7 +2,7 @@
 
 > Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.
 
-Snapshot source timestamp: 2026-08-12T05:55:58Z
+Snapshot source timestamp: 2026-08-17T05:02:48Z
 
 ## Summary
 
@@ -24,7 +24,7 @@ Snapshot source timestamp: 2026-08-12T05:55:58Z
 | Donor | License status | Detected classification | Bundled assets | Asset bytes |
 |---|---|---|---:|---:|
 | `chuk-motion` | license-file-detected | Apache-2.0 | 0 | 0 |
-| `claude-remotion-skill` | license-file-detected | MIT | 2 | 7439761 |
+| `claude-remotion-skill` | license-file-detected | MIT | 4 | 15333488 |
 | `emilkowalski-skills` | license-file-detected | MIT | 0 | 0 |
 | `motion-canvas-examples` | license-file-detected | MIT | 52 | 41427204 |
 | `motion-design-skill` | license-file-detected | MIT | 0 | 0 |
