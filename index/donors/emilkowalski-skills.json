@@ -2,50 +2,51 @@
   "version": 2,
   "donor": "emilkowalski-skills",
   "summary": {
-    "fileCount": 20,
-    "totalBytes": 164168,
-    "indexedContentBytes": 164168,
-    "textFiles": 20,
+    "fileCount": 23,
+    "totalBytes": 241117,
+    "indexedContentBytes": 241117,
+    "textFiles": 23,
     "binaryFiles": 0,
     "topExtensions": {
-      ".md": 17,
+      ".md": 20,
       "[none]": 3
     },
     "categoryCounts": {
-      "skills": 17,
+      "skills": 20,
       "ui-motion": 14,
-      "transitions": 12,
+      "transitions": 14,
       "design-system": 12,
-      "effects": 9,
-      "data-animation": 6,
-      "rendering": 6,
-      "camera-cinematography": 4,
-      "tests": 3,
+      "effects": 11,
+      "data-animation": 8,
+      "rendering": 7,
+      "camera-cinematography": 5,
+      "tests": 4,
+      "remotion": 3,
       "typography": 2,
-      "remotion": 1,
       "examples-templates": 1
     },
     "contentCategoryCounts": {
+      "transitions": 14,
+      "skills": 13,
       "ui-motion": 13,
-      "transitions": 12,
       "design-system": 12,
-      "skills": 11,
-      "effects": 9,
-      "data-animation": 6,
-      "rendering": 6,
-      "camera-cinematography": 4,
-      "tests": 3,
-      "typography": 2,
-      "remotion": 1
+      "effects": 11,
+      "data-animation": 8,
+      "rendering": 7,
+      "camera-cinematography": 5,
+      "tests": 4,
+      "remotion": 3,
+      "typography": 2
     },
     "signalCounts": {
-      "mask": 6,
-      "render": 6,
-      "chart": 4,
+      "mask": 7,
+      "render": 7,
+      "chart": 5,
+      "parallax": 3,
       "orbit": 3,
       "tokens": 2,
-      "parallax": 2,
       "cursor": 2,
+      "interpolate": 1,
       "motion-blur": 1
     }
   },
@@ -82,7 +83,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 3626,
+      "bytes": 3970,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -94,7 +95,7 @@
         "ui-motion"
       ],
       "signals": [],
-      "indexedContentBytes": 3626
+      "indexedContentBytes": 3970
     },
     {
       "path": "skills/animate/RECIPES.md",
@@ -120,7 +121,7 @@
     },
     {
       "path": "skills/animate/SKILL.md",
-      "bytes": 11527,
+      "bytes": 11575,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -141,7 +142,53 @@
         "chart",
         "tokens"
       ],
-      "indexedContentBytes": 11527
+      "indexedContentBytes": 11575
+    },
+    {
+      "path": "skills/animate-expo/RECIPES.md",
+      "bytes": 16808,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "transitions",
+        "data-animation"
+      ],
+      "contentCategories": [
+        "skills",
+        "remotion",
+        "transitions",
+        "data-animation"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 16808
+    },
+    {
+      "path": "skills/animate-expo/SKILL.md",
+      "bytes": 17564,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "camera-cinematography",
+        "transitions",
+        "effects"
+      ],
+      "contentCategories": [
+        "skills",
+        "remotion",
+        "camera-cinematography",
+        "transitions",
+        "effects"
+      ],
+      "signals": [
+        "parallax"
+      ],
+      "indexedContentBytes": 17564
     },
     {
       "path": "skills/animation-vocabulary/SKILL.md",
@@ -488,6 +535,31 @@
         "mask"
       ],
       "indexedContentBytes": 9801
+    },
+    {
+      "path": "skills/write-swift/SKILL.md",
+      "bytes": 42185,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "data-animation",
+        "rendering",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "data-animation",
+        "rendering",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "chart",
+        "render",
+        "mask"
+      ],
+      "indexedContentBytes": 42185
     }
   ]
 }

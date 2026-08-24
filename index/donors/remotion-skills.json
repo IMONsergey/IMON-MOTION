@@ -3,8 +3,8 @@
   "donor": "remotion-skills",
   "summary": {
     "fileCount": 279,
-    "totalBytes": 2277809,
-    "indexedContentBytes": 1437411,
+    "totalBytes": 2277701,
+    "indexedContentBytes": 1437303,
     "textFiles": 254,
     "binaryFiles": 25,
     "topExtensions": {
@@ -1414,7 +1414,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/html-in-canvas.md",
-      "bytes": 3680,
+      "bytes": 3626,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -1433,7 +1433,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 3680
+      "indexedContentBytes": 3626
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/images.md",
@@ -3883,7 +3883,7 @@
     },
     {
       "path": "skills/remotion-markup/html-in-canvas.md",
-      "bytes": 3680,
+      "bytes": 3626,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3902,7 +3902,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 3680
+      "indexedContentBytes": 3626
     },
     {
       "path": "skills/remotion-markup/images.md",
