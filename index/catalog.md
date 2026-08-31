@@ -18,7 +18,7 @@ Generated automatically from file paths plus a bounded content scan. Use this su
 | `remotion-templates` | 82 | 0.2 MB | examples-templates (81), remotion (79), effects (63), transitions (20), typography (14) | interpolate (45), spring (36), mask (5), chart (4), cursor (3) |
 | `skill-remotion-geist` | 10 | 0.0 MB | skills (10), remotion (9), design-system (6), typography (5), shots-scenes-storyboard (4) | interpolate (4), tokens (2), spring (2), storyboard (2), camera (1) |
 | `theatre` | 1029 | 9.8 MB | ui-motion (247), tests (243), shots-scenes-storyboard (109), data-animation (105), 3d-webgl-shaders (56) | cursor (61), threejs (51), camera (28), render (13), chart (6) |
-| `video-shotcraft` | 867 | 48.4 MB | effects (291), examples-templates (284), audio-sound (216), remotion (207), transitions (192) | interpolate (163), camera (76), mask (52), spring (39), sound-design (34) |
+| `video-shotcraft` | 894 | 50.4 MB | examples-templates (307), effects (301), remotion (220), audio-sound (216), transitions (197) | interpolate (176), camera (79), mask (52), spring (39), sound-design (34) |
 
 ## Routing rule
 

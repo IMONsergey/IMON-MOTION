@@ -2,77 +2,77 @@
   "version": 2,
   "donor": "video-shotcraft",
   "summary": {
-    "fileCount": 867,
-    "totalBytes": 50755551,
-    "indexedContentBytes": 3372979,
-    "textFiles": 594,
-    "binaryFiles": 273,
+    "fileCount": 894,
+    "totalBytes": 52850790,
+    "indexedContentBytes": 3526672,
+    "textFiles": 612,
+    "binaryFiles": 282,
     "topExtensions": {
       ".md": 322,
-      ".tsx": 224,
+      ".tsx": 237,
       ".mp3": 165,
       ".jpg": 66,
-      ".png": 42,
+      ".png": 51,
       ".json": 9,
+      ".py": 8,
       ".svg": 8,
-      ".py": 7,
       ".ts": 6,
       "[none]": 5,
-      ".yml": 2,
-      ".js": 2,
-      ".html": 2,
+      ".yml": 4,
+      ".js": 3,
+      ".html": 3,
       ".txt": 2,
       ".yaml": 1,
       ".mjs": 1
     },
     "categoryCounts": {
-      "effects": 291,
-      "examples-templates": 284,
+      "examples-templates": 307,
+      "effects": 301,
+      "remotion": 220,
       "audio-sound": 216,
-      "remotion": 207,
-      "transitions": 192,
-      "ui-motion": 190,
-      "typography": 179,
-      "shots-scenes-storyboard": 174,
-      "camera-cinematography": 169,
-      "data-animation": 113,
-      "tests": 40,
-      "skills": 32,
-      "design-system": 32,
-      "rendering": 19,
+      "transitions": 197,
+      "ui-motion": 196,
+      "typography": 190,
+      "shots-scenes-storyboard": 177,
+      "camera-cinematography": 175,
+      "data-animation": 115,
+      "tests": 46,
+      "design-system": 34,
+      "skills": 33,
+      "rendering": 21,
       "3d-webgl-shaders": 15
     },
     "contentCategoryCounts": {
-      "effects": 269,
-      "remotion": 205,
-      "camera-cinematography": 146,
-      "transitions": 114,
-      "typography": 87,
-      "ui-motion": 82,
+      "effects": 279,
+      "remotion": 218,
+      "camera-cinematography": 152,
+      "transitions": 116,
+      "typography": 89,
+      "ui-motion": 84,
+      "tests": 41,
       "audio-sound": 39,
-      "tests": 35,
-      "skills": 31,
-      "design-system": 30,
+      "skills": 32,
+      "design-system": 32,
+      "rendering": 18,
       "data-animation": 18,
-      "rendering": 16,
       "shots-scenes-storyboard": 3,
       "3d-webgl-shaders": 3
     },
     "signalCounts": {
-      "interpolate": 163,
-      "camera": 76,
+      "interpolate": 176,
+      "camera": 79,
       "mask": 52,
       "spring": 39,
       "sound-design": 34,
-      "orbit": 28,
-      "cursor": 23,
+      "orbit": 30,
+      "cursor": 24,
       "chart": 15,
+      "render": 14,
       "particles": 14,
-      "render": 12,
       "motion-blur": 11,
-      "shot-card": 9,
+      "shot-card": 10,
       "sequence": 8,
-      "parallax": 5,
+      "parallax": 6,
       "beat-sync": 4,
       "threejs": 3,
       "kinetic-type": 3,
@@ -99,8 +99,41 @@
       "indexedContentBytes": 549
     },
     {
+      "path": ".github/ISSUE_TEMPLATE/showcase.yml",
+      "bytes": 2818,
+      "ext": ".yml",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2818
+    },
+    {
+      "path": ".github/scripts/showcase-publish.py",
+      "bytes": 7725,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "tests"
+      ],
+      "contentCategories": [
+        "rendering",
+        "tests"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 7725
+    },
+    {
       "path": ".github/workflows/deploy-pages.yml",
-      "bytes": 2708,
+      "bytes": 4728,
       "ext": ".yml",
       "binary": false,
       "categories": [
@@ -110,7 +143,7 @@
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 2708
+      "indexedContentBytes": 4728
     },
     {
       "path": ".github/workflows/pr-checks.yml",
@@ -134,8 +167,24 @@
       "indexedContentBytes": 6312
     },
     {
+      "path": ".github/workflows/showcase-publish.yml",
+      "bytes": 2359,
+      "ext": ".yml",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 2359
+    },
+    {
       "path": ".gitignore",
-      "bytes": 519,
+      "bytes": 647,
       "ext": "[none]",
       "binary": false,
       "categories": [
@@ -145,7 +194,7 @@
         "skills"
       ],
       "signals": [],
-      "indexedContentBytes": 519
+      "indexedContentBytes": 647
     },
     {
       "path": "LICENSE",
@@ -159,7 +208,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 13371,
+      "bytes": 13895,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -184,6 +233,7 @@
       ],
       "signals": [
         "camera",
+        "parallax",
         "storyboard",
         "shot-card",
         "chart",
@@ -191,11 +241,11 @@
         "beat-sync",
         "render"
       ],
-      "indexedContentBytes": 13371
+      "indexedContentBytes": 13895
     },
     {
       "path": "README_CN.md",
-      "bytes": 12945,
+      "bytes": 13427,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -219,11 +269,11 @@
         "chart",
         "sound-design"
       ],
-      "indexedContentBytes": 12945
+      "indexedContentBytes": 13427
     },
     {
       "path": "README_JA.md",
-      "bytes": 16498,
+      "bytes": 17273,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -248,11 +298,11 @@
         "chart",
         "sound-design"
       ],
-      "indexedContentBytes": 16498
+      "indexedContentBytes": 17273
     },
     {
       "path": "SKILL.md",
-      "bytes": 16801,
+      "bytes": 18984,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -283,7 +333,7 @@
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 16801
+      "indexedContentBytes": 18984
     },
     {
       "path": "agents/openai.yaml",
@@ -2636,7 +2686,7 @@
     },
     {
       "path": "demos/README.md",
-      "bytes": 3362,
+      "bytes": 7276,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2655,9 +2705,10 @@
         "effects"
       ],
       "signals": [
-        "camera"
+        "camera",
+        "orbit"
       ],
-      "indexedContentBytes": 3362
+      "indexedContentBytes": 7276
     },
     {
       "path": "demos/_fixtures/Fixtures.tsx",
@@ -2688,6 +2739,27 @@
       ],
       "signals": [],
       "indexedContentBytes": 3582
+    },
+    {
+      "path": "demos/_fixtures/PageCam2D.tsx",
+      "bytes": 3953,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 3953
     },
     {
       "path": "demos/_textures/card1.png",
@@ -2833,8 +2905,34 @@
       "indexedContentBytes": 0
     },
     {
+      "path": "demos/_textures/detail-full.png",
+      "bytes": 380073,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
       "path": "demos/_textures/float-search.png",
       "bytes": 11667,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "demos/_textures/float-stats.png",
+      "bytes": 11497,
       "ext": ".png",
       "binary": true,
       "categories": [
@@ -2872,6 +2970,84 @@
       "indexedContentBytes": 0
     },
     {
+      "path": "demos/_textures/paper1.png",
+      "bytes": 98212,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "demos/_textures/paper2.png",
+      "bytes": 95517,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "demos/_textures/paper3.png",
+      "bytes": 95131,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "demos/_textures/paper4.png",
+      "bytes": 87621,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "demos/_textures/paper5.png",
+      "bytes": 90661,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "demos/_textures/papers-full.png",
+      "bytes": 594891,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
       "path": "demos/_textures/projects-empty.png",
       "bytes": 102067,
       "ext": ".png",
@@ -2887,6 +3063,19 @@
     {
       "path": "demos/_textures/projects-full.png",
       "bytes": 615341,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "typography",
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "demos/_textures/wbr-full.png",
+      "bytes": 487943,
       "ext": ".png",
       "binary": true,
       "categories": [
@@ -4469,6 +4658,26 @@
       "indexedContentBytes": 5553
     },
     {
+      "path": "demos/interaction/type-and-filter/TypeAndFilter.tsx",
+      "bytes": 7801,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "remotion",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography"
+      ],
+      "signals": [
+        "interpolate",
+        "camera"
+      ],
+      "indexedContentBytes": 7801
+    },
+    {
       "path": "demos/interaction/voice-waveform-live/VoiceWaveformLive.tsx",
       "bytes": 6604,
       "ext": ".tsx",
@@ -4603,6 +4812,28 @@
       "indexedContentBytes": 15356
     },
     {
+      "path": "demos/opening/spotlight-hero-card/SpotlightHeroCard.tsx",
+      "bytes": 14491,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "interpolate",
+        "camera"
+      ],
+      "indexedContentBytes": 14491
+    },
+    {
       "path": "demos/opening/stroke-segment-build/StrokeSegmentBuild.tsx",
       "bytes": 5061,
       "ext": ".tsx",
@@ -4707,6 +4938,30 @@
         "interpolate"
       ],
       "indexedContentBytes": 3627
+    },
+    {
+      "path": "demos/outro/outro-group-photo-launch/OutroGroupPhotoLaunch.tsx",
+      "bytes": 14905,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "remotion",
+        "camera-cinematography",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "interpolate",
+        "camera"
+      ],
+      "indexedContentBytes": 14905
     },
     {
       "path": "demos/outro/ui-strip-away-outro/UiStripAwayOutro.tsx",
@@ -5415,6 +5670,69 @@
       "indexedContentBytes": 3901
     },
     {
+      "path": "demos/transition/shot-transitions/BlackCardTransition.tsx",
+      "bytes": 5738,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 5738
+    },
+    {
+      "path": "demos/transition/shot-transitions/DarkTunnelTransition.tsx",
+      "bytes": 5041,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 5041
+    },
+    {
+      "path": "demos/transition/shot-transitions/FocusHandoffTransition.tsx",
+      "bytes": 3053,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 3053
+    },
+    {
       "path": "demos/transition/shot-transitions/MaskWipeReal.tsx",
       "bytes": 2830,
       "ext": ".tsx",
@@ -5710,6 +6028,34 @@
       "indexedContentBytes": 2721
     },
     {
+      "path": "demos/typography/brand-ink-open/BrandInkOpen.tsx",
+      "bytes": 6035,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates",
+        "remotion",
+        "transitions",
+        "ui-motion",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "ui-motion",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "interpolate",
+        "cursor"
+      ],
+      "indexedContentBytes": 6035
+    },
+    {
       "path": "demos/typography/cel-flash-stomp/CelFlashStomp.tsx",
       "bytes": 4314,
       "ext": ".tsx",
@@ -5837,6 +6183,29 @@
       "contentCategories": [],
       "signals": [],
       "indexedContentBytes": 4901
+    },
+    {
+      "path": "demos/typography/paper-title-card/PaperTitleCard.tsx",
+      "bytes": 5901,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates",
+        "remotion",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 5901
     },
     {
       "path": "demos/typography/pill-chip-slot-cycle-handled/PillChipSlotCycleHandled.tsx",
@@ -6346,6 +6715,29 @@
       "indexedContentBytes": 3447
     },
     {
+      "path": "demos/ui-entrance/deck-deal-flyin/DeckDealFlyin.tsx",
+      "bytes": 9182,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates",
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "interpolate",
+        "orbit"
+      ],
+      "indexedContentBytes": 9182
+    },
+    {
       "path": "demos/ui-entrance/doc-park-left-pill-deal/DocParkLeftPillDeal.tsx",
       "bytes": 9854,
       "ext": ".tsx",
@@ -6360,6 +6752,26 @@
       ],
       "signals": [],
       "indexedContentBytes": 9854
+    },
+    {
+      "path": "demos/ui-entrance/document-typewriter-reveal/DocumentTypewriterReveal.tsx",
+      "bytes": 9477,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 9477
     },
     {
       "path": "demos/ui-entrance/draw-svg-trace/DrawSvgTrace.tsx",
@@ -6474,6 +6886,28 @@
       ],
       "signals": [],
       "indexedContentBytes": 3087
+    },
+    {
+      "path": "demos/ui-entrance/list-stack-press/ListStackPress.tsx",
+      "bytes": 8794,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates",
+        "remotion",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 8794
     },
     {
       "path": "demos/ui-entrance/morph-from-primitive/MorphFromPrimitive.tsx",
@@ -6677,6 +7111,26 @@
       "indexedContentBytes": 6067
     },
     {
+      "path": "demos/ui-entrance/row-embed/RowEmbed.tsx",
+      "bytes": 5032,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates",
+        "remotion",
+        "camera-cinematography"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 5032
+    },
+    {
       "path": "demos/ui-entrance/runway-ground-skim/RunwayGroundSkim.tsx",
       "bytes": 13458,
       "ext": ".tsx",
@@ -6851,7 +7305,7 @@
     },
     {
       "path": "gallery/app.js",
-      "bytes": 24483,
+      "bytes": 23851,
       "ext": ".js",
       "binary": false,
       "categories": [
@@ -6865,11 +7319,11 @@
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 24483
+      "indexedContentBytes": 23851
     },
     {
       "path": "gallery/build-seo.py",
-      "bytes": 6237,
+      "bytes": 6318,
       "ext": ".py",
       "binary": false,
       "categories": [
@@ -6892,21 +7346,21 @@
         "shot-card",
         "sound-design"
       ],
-      "indexedContentBytes": 6237
+      "indexedContentBytes": 6318
     },
     {
       "path": "gallery/fetch-media.sh",
-      "bytes": 472,
+      "bytes": 1204,
       "ext": ".sh",
       "binary": false,
       "categories": [],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 472
+      "indexedContentBytes": 1204
     },
     {
       "path": "gallery/index.html",
-      "bytes": 22474,
+      "bytes": 23950,
       "ext": ".html",
       "binary": false,
       "categories": [
@@ -6935,11 +7389,11 @@
         "shot-card",
         "render"
       ],
-      "indexedContentBytes": 22474
+      "indexedContentBytes": 23950
     },
     {
       "path": "gallery/library.html",
-      "bytes": 65396,
+      "bytes": 66977,
       "ext": ".html",
       "binary": false,
       "categories": [
@@ -6976,7 +7430,7 @@
         "motion-blur",
         "particles"
       ],
-      "indexedContentBytes": 65396
+      "indexedContentBytes": 66977
     },
     {
       "path": "gallery/llms.txt",
@@ -7749,14 +8203,48 @@
       "indexedContentBytes": 94
     },
     {
+      "path": "gallery/showcase.html",
+      "bytes": 4756,
+      "ext": ".html",
+      "binary": false,
+      "categories": [
+        "skills",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 4756
+    },
+    {
+      "path": "gallery/showcase.js",
+      "bytes": 16299,
+      "ext": ".js",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "shot-card"
+      ],
+      "indexedContentBytes": 16299
+    },
+    {
       "path": "gallery/sitemap.xml",
-      "bytes": 328,
+      "bytes": 444,
       "ext": ".xml",
       "binary": false,
       "categories": [],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 328
+      "indexedContentBytes": 444
     },
     {
       "path": "gallery/source/ai-stream-response.md",
@@ -8004,7 +8492,7 @@
     },
     {
       "path": "gallery/source/brand-ink-open.md",
-      "bytes": 2409,
+      "bytes": 2462,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -8024,7 +8512,7 @@
       "signals": [
         "sound-design"
       ],
-      "indexedContentBytes": 2409
+      "indexedContentBytes": 2462
     },
     {
       "path": "gallery/source/bubble-swarm-takeover.md",
@@ -8410,7 +8898,7 @@
     },
     {
       "path": "gallery/source/deck-deal-flyin.md",
-      "bytes": 6806,
+      "bytes": 6879,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -8430,7 +8918,7 @@
         "orbit",
         "motion-blur"
       ],
-      "indexedContentBytes": 6806
+      "indexedContentBytes": 6879
     },
     {
       "path": "gallery/source/depth-layer-moves.md",
@@ -8462,7 +8950,7 @@
     },
     {
       "path": "gallery/source/document-typewriter-reveal.md",
-      "bytes": 3564,
+      "bytes": 3644,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -8476,7 +8964,7 @@
       "signals": [
         "sound-design"
       ],
-      "indexedContentBytes": 3564
+      "indexedContentBytes": 3644
     },
     {
       "path": "gallery/source/draw-svg-trace.md",
@@ -8890,7 +9378,7 @@
     },
     {
       "path": "gallery/source/list-stack-press.md",
-      "bytes": 4264,
+      "bytes": 4386,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -8906,7 +9394,7 @@
       "signals": [
         "camera"
       ],
-      "indexedContentBytes": 4264
+      "indexedContentBytes": 4386
     },
     {
       "path": "gallery/source/logo-shrink-wordmark-lockup.md",
@@ -9055,7 +9543,7 @@
     },
     {
       "path": "gallery/source/outro-group-photo-launch.md",
-      "bytes": 3471,
+      "bytes": 3540,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -9067,7 +9555,7 @@
         "effects"
       ],
       "signals": [],
-      "indexedContentBytes": 3471
+      "indexedContentBytes": 3540
     },
     {
       "path": "gallery/source/overhead-camera-moves.md",
@@ -9169,7 +9657,7 @@
     },
     {
       "path": "gallery/source/paper-title-card.md",
-      "bytes": 2705,
+      "bytes": 2814,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -9179,10 +9667,11 @@
       ],
       "contentCategories": [
         "transitions",
+        "typography",
         "effects"
       ],
       "signals": [],
-      "indexedContentBytes": 2705
+      "indexedContentBytes": 2814
     },
     {
       "path": "gallery/source/particle-celebrate-hits.md",
@@ -9366,7 +9855,7 @@
     },
     {
       "path": "gallery/source/row-embed.md",
-      "bytes": 2564,
+      "bytes": 2614,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -9380,7 +9869,7 @@
         "ui-motion"
       ],
       "signals": [],
-      "indexedContentBytes": 2564
+      "indexedContentBytes": 2614
     },
     {
       "path": "gallery/source/runway-ground-skim.md",
@@ -9498,7 +9987,7 @@
     },
     {
       "path": "gallery/source/shot-transitions.md",
-      "bytes": 6186,
+      "bytes": 6434,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -9515,7 +10004,7 @@
       "signals": [
         "mask"
       ],
-      "indexedContentBytes": 6186
+      "indexedContentBytes": 6434
     },
     {
       "path": "gallery/source/skeleton-reveal.md",
@@ -9646,7 +10135,7 @@
     },
     {
       "path": "gallery/source/spotlight-hero-card.md",
-      "bytes": 3707,
+      "bytes": 3785,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -9660,7 +10149,7 @@
       "signals": [
         "camera"
       ],
-      "indexedContentBytes": 3707
+      "indexedContentBytes": 3785
     },
     {
       "path": "gallery/source/spotlight-sweep-moves.md",
@@ -9908,7 +10397,7 @@
     },
     {
       "path": "gallery/source/type-and-filter.md",
-      "bytes": 2816,
+      "bytes": 2891,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -9920,7 +10409,7 @@
       "signals": [
         "camera"
       ],
-      "indexedContentBytes": 2816
+      "indexedContentBytes": 2891
     },
     {
       "path": "gallery/source/type-assembly-moves.md",
@@ -10166,7 +10655,7 @@
     },
     {
       "path": "gallery/styles.css",
-      "bytes": 27454,
+      "bytes": 31877,
       "ext": ".css",
       "binary": false,
       "categories": [
@@ -10188,7 +10677,7 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 27454
+      "indexedContentBytes": 31877
     },
     {
       "path": "gallery/sync-from-cards.py",
@@ -10214,7 +10703,7 @@
     },
     {
       "path": "gallery/translations.js",
-      "bytes": 63055,
+      "bytes": 63435,
       "ext": ".js",
       "binary": false,
       "categories": [
@@ -10251,7 +10740,7 @@
         "motion-blur",
         "particles"
       ],
-      "indexedContentBytes": 63055
+      "indexedContentBytes": 63435
     },
     {
       "path": "jianying-export/.gitignore",
@@ -10431,7 +10920,7 @@
     },
     {
       "path": "references/jianying-export.md",
-      "bytes": 9318,
+      "bytes": 9348,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -10450,7 +10939,7 @@
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 9318
+      "indexedContentBytes": 9348
     },
     {
       "path": "references/music-beat-sync.md",
@@ -10473,7 +10962,7 @@
     },
     {
       "path": "references/pipeline.md",
-      "bytes": 24184,
+      "bytes": 24390,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -10493,7 +10982,7 @@
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 24184
+      "indexedContentBytes": 24390
     },
     {
       "path": "references/sequences/.gitkeep",
@@ -11431,7 +11920,7 @@
     },
     {
       "path": "references/shots/interaction/type-and-filter.md",
-      "bytes": 2816,
+      "bytes": 2891,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -11444,7 +11933,7 @@
       "signals": [
         "camera"
       ],
-      "indexedContentBytes": 2816
+      "indexedContentBytes": 2891
     },
     {
       "path": "references/shots/interaction/voice-waveform-live.md",
@@ -11464,7 +11953,7 @@
     },
     {
       "path": "references/shots/opening/brand-ink-open.md",
-      "bytes": 2409,
+      "bytes": 2462,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -11485,7 +11974,7 @@
       "signals": [
         "sound-design"
       ],
-      "indexedContentBytes": 2409
+      "indexedContentBytes": 2462
     },
     {
       "path": "references/shots/opening/crane-rise-reveal.md",
@@ -11586,7 +12075,7 @@
     },
     {
       "path": "references/shots/opening/spotlight-hero-card.md",
-      "bytes": 3707,
+      "bytes": 3785,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -11601,7 +12090,7 @@
       "signals": [
         "camera"
       ],
-      "indexedContentBytes": 3707
+      "indexedContentBytes": 3785
     },
     {
       "path": "references/shots/opening/stroke-segment-build.md",
@@ -11694,7 +12183,7 @@
     },
     {
       "path": "references/shots/outro/outro-group-photo-launch.md",
-      "bytes": 3471,
+      "bytes": 3540,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -11707,7 +12196,7 @@
         "effects"
       ],
       "signals": [],
-      "indexedContentBytes": 3471
+      "indexedContentBytes": 3540
     },
     {
       "path": "references/shots/outro/ui-strip-away-outro.md",
@@ -12150,7 +12639,7 @@
     },
     {
       "path": "references/shots/transition/shot-transitions.md",
-      "bytes": 6186,
+      "bytes": 6434,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -12167,7 +12656,7 @@
       "signals": [
         "mask"
       ],
-      "indexedContentBytes": 6186
+      "indexedContentBytes": 6434
     },
     {
       "path": "references/shots/transition/tear-streak-transitions.md",
@@ -12335,7 +12824,7 @@
     },
     {
       "path": "references/shots/typography/document-typewriter-reveal.md",
-      "bytes": 3564,
+      "bytes": 3644,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -12352,7 +12841,7 @@
       "signals": [
         "sound-design"
       ],
-      "indexedContentBytes": 3564
+      "indexedContentBytes": 3644
     },
     {
       "path": "references/shots/typography/flying-words.md",
@@ -12444,7 +12933,7 @@
     },
     {
       "path": "references/shots/typography/paper-title-card.md",
-      "bytes": 2705,
+      "bytes": 2814,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -12456,10 +12945,11 @@
       ],
       "contentCategories": [
         "transitions",
+        "typography",
         "effects"
       ],
       "signals": [],
-      "indexedContentBytes": 2705
+      "indexedContentBytes": 2814
     },
     {
       "path": "references/shots/typography/pill-chip-slot-cycle-handled.md",
@@ -12802,7 +13292,7 @@
     },
     {
       "path": "references/shots/ui-entrance/deck-deal-flyin.md",
-      "bytes": 6806,
+      "bytes": 6879,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -12823,7 +13313,7 @@
         "orbit",
         "motion-blur"
       ],
-      "indexedContentBytes": 6806
+      "indexedContentBytes": 6879
     },
     {
       "path": "references/shots/ui-entrance/doc-park-left-pill-deal.md",
@@ -12921,7 +13411,7 @@
     },
     {
       "path": "references/shots/ui-entrance/list-stack-press.md",
-      "bytes": 4264,
+      "bytes": 4386,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -12939,7 +13429,7 @@
       "signals": [
         "camera"
       ],
-      "indexedContentBytes": 4264
+      "indexedContentBytes": 4386
     },
     {
       "path": "references/shots/ui-entrance/morph-from-primitive.md",
@@ -13077,7 +13567,7 @@
     },
     {
       "path": "references/shots/ui-entrance/row-embed.md",
-      "bytes": 2564,
+      "bytes": 2614,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -13092,7 +13582,7 @@
         "ui-motion"
       ],
       "signals": [],
-      "indexedContentBytes": 2564
+      "indexedContentBytes": 2614
     },
     {
       "path": "references/shots/ui-entrance/runway-ground-skim.md",

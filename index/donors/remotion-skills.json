@@ -3,8 +3,8 @@
   "donor": "remotion-skills",
   "summary": {
     "fileCount": 279,
-    "totalBytes": 2277701,
-    "indexedContentBytes": 1437303,
+    "totalBytes": 2277813,
+    "indexedContentBytes": 1437415,
     "textFiles": 254,
     "binaryFiles": 25,
     "topExtensions": {
@@ -225,7 +225,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-captions/REFERENCE.md",
-      "bytes": 954,
+      "bytes": 982,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -236,7 +236,7 @@
         "skills"
       ],
       "signals": [],
-      "indexedContentBytes": 954
+      "indexedContentBytes": 982
     },
     {
       "path": "skills/remotion-best-practices/remotion-captions/agents/openai.yaml",
@@ -269,7 +269,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-captions/display-captions.md",
-      "bytes": 5493,
+      "bytes": 5647,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -285,7 +285,7 @@
         "sequence",
         "render"
       ],
-      "indexedContentBytes": 5493
+      "indexedContentBytes": 5647
     },
     {
       "path": "skills/remotion-best-practices/remotion-captions/import-srt-captions.md",
@@ -2390,7 +2390,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-multimedia/get-audio-duration.md",
-      "bytes": 1357,
+      "bytes": 1315,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2402,11 +2402,11 @@
         "remotion"
       ],
       "signals": [],
-      "indexedContentBytes": 1357
+      "indexedContentBytes": 1315
     },
     {
       "path": "skills/remotion-best-practices/remotion-multimedia/get-video-dimensions.md",
-      "bytes": 1626,
+      "bytes": 1584,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2418,11 +2418,11 @@
         "remotion"
       ],
       "signals": [],
-      "indexedContentBytes": 1626
+      "indexedContentBytes": 1584
     },
     {
       "path": "skills/remotion-best-practices/remotion-multimedia/get-video-duration.md",
-      "bytes": 1377,
+      "bytes": 1335,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2434,7 +2434,7 @@
         "remotion"
       ],
       "signals": [],
-      "indexedContentBytes": 1377
+      "indexedContentBytes": 1335
     },
     {
       "path": "skills/remotion-best-practices/remotion-render/REFERENCE.md",
@@ -2692,7 +2692,7 @@
     },
     {
       "path": "skills/remotion-captions/SKILL.md",
-      "bytes": 954,
+      "bytes": 982,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2703,7 +2703,7 @@
         "skills"
       ],
       "signals": [],
-      "indexedContentBytes": 954
+      "indexedContentBytes": 982
     },
     {
       "path": "skills/remotion-captions/agents/openai.yaml",
@@ -2736,7 +2736,7 @@
     },
     {
       "path": "skills/remotion-captions/display-captions.md",
-      "bytes": 5493,
+      "bytes": 5647,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2752,7 +2752,7 @@
         "sequence",
         "render"
       ],
-      "indexedContentBytes": 5493
+      "indexedContentBytes": 5647
     },
     {
       "path": "skills/remotion-captions/import-srt-captions.md",
@@ -4861,7 +4861,7 @@
     },
     {
       "path": "skills/remotion-multimedia/get-audio-duration.md",
-      "bytes": 1357,
+      "bytes": 1315,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4873,11 +4873,11 @@
         "remotion"
       ],
       "signals": [],
-      "indexedContentBytes": 1357
+      "indexedContentBytes": 1315
     },
     {
       "path": "skills/remotion-multimedia/get-video-dimensions.md",
-      "bytes": 1626,
+      "bytes": 1584,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4889,11 +4889,11 @@
         "remotion"
       ],
       "signals": [],
-      "indexedContentBytes": 1626
+      "indexedContentBytes": 1584
     },
     {
       "path": "skills/remotion-multimedia/get-video-duration.md",
-      "bytes": 1377,
+      "bytes": 1335,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4905,7 +4905,7 @@
         "remotion"
       ],
       "signals": [],
-      "indexedContentBytes": 1377
+      "indexedContentBytes": 1335
     },
     {
       "path": "skills/remotion-render/SKILL.md",
