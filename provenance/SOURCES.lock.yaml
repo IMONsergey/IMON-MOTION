@@ -1,15 +1,15 @@
 version: 1
-generated_at: "2026-08-31T10:58:28Z"
+generated_at: "2026-09-07T09:28:30Z"
 sources:
   video-shotcraft:
     repository: "Vincentwei1021/video-shotcraft"
     url: "https://github.com/Vincentwei1021/video-shotcraft.git"
-    commit: "c30d78438ef2e8c9cb2b620f19fecff13d982bd3"
+    commit: "5f047c7cfe10d6616fe59160a750fcfaea510b2e"
     branch: "main"
-    upstream_commit_date: "2026-08-30T23:22:22+08:00"
+    upstream_commit_date: "2026-09-05T20:27:10+08:00"
     path: "upstream/video-shotcraft"
-    files: 894
-    size_kb: 54184
+    files: 969
+    size_kb: 56008
     license_files: "LICENSE"
   onda:
     repository: "degueba/onda"
@@ -64,12 +64,12 @@ sources:
   remotion-skills:
     repository: "remotion-dev/skills"
     url: "https://github.com/remotion-dev/skills.git"
-    commit: "357a270803b23e16b32bec65df07c41a62e94bd9"
+    commit: "f54682712abc4a68cdc7c41513bd3b3298829873"
     branch: "main"
-    upstream_commit_date: "2026-08-31T10:42:13+02:00"
+    upstream_commit_date: "2026-09-05T15:21:24+02:00"
     path: "upstream/remotion-skills"
     files: 279
-    size_kb: 3432
+    size_kb: 3436
     license_files: ""
   product-launch-video-skill:
     repository: "memex-lab/product-launch-video-skill"

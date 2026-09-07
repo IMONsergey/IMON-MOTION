@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceGeneratedAt": "2026-08-31T10:58:28Z",
+  "sourceGeneratedAt": "2026-09-07T09:28:30Z",
   "disclaimer": "Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.",
   "policy": {
     "missingLicenseFile": "review-required",
@@ -473,11 +473,11 @@
         "Apache-2.0"
       ],
       "assets": {
-        "files": 282,
-        "bytes": 49197601,
+        "files": 291,
+        "bytes": 50296624,
         "extensions": {
           ".mp3": 165,
-          ".png": 51,
+          ".png": 60,
           ".jpg": 66
         },
         "samples": [

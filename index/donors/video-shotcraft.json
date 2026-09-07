@@ -2,79 +2,79 @@
   "version": 2,
   "donor": "video-shotcraft",
   "summary": {
-    "fileCount": 894,
-    "totalBytes": 52850790,
-    "indexedContentBytes": 3526672,
-    "textFiles": 612,
-    "binaryFiles": 282,
+    "fileCount": 970,
+    "totalBytes": 54477916,
+    "indexedContentBytes": 3999144,
+    "textFiles": 679,
+    "binaryFiles": 291,
     "topExtensions": {
-      ".md": 322,
-      ".tsx": 237,
+      ".md": 335,
+      ".tsx": 260,
       ".mp3": 165,
       ".jpg": 66,
-      ".png": 51,
-      ".json": 9,
+      ".png": 60,
+      ".ts": 26,
+      ".json": 12,
       ".py": 8,
+      "[none]": 8,
       ".svg": 8,
-      ".ts": 6,
-      "[none]": 5,
       ".yml": 4,
+      ".mjs": 4,
+      ".html": 4,
       ".js": 3,
-      ".html": 3,
       ".txt": 2,
-      ".yaml": 1,
-      ".mjs": 1
+      ".css": 2
     },
     "categoryCounts": {
-      "examples-templates": 307,
-      "effects": 301,
-      "remotion": 220,
-      "audio-sound": 216,
-      "transitions": 197,
-      "ui-motion": 196,
-      "typography": 190,
-      "shots-scenes-storyboard": 177,
-      "camera-cinematography": 175,
-      "data-animation": 115,
-      "tests": 46,
-      "design-system": 34,
-      "skills": 33,
-      "rendering": 21,
-      "3d-webgl-shaders": 15
+      "effects": 322,
+      "examples-templates": 316,
+      "remotion": 244,
+      "audio-sound": 229,
+      "ui-motion": 207,
+      "transitions": 206,
+      "typography": 198,
+      "camera-cinematography": 185,
+      "shots-scenes-storyboard": 183,
+      "data-animation": 123,
+      "tests": 64,
+      "design-system": 40,
+      "skills": 38,
+      "rendering": 27,
+      "3d-webgl-shaders": 19
     },
     "contentCategoryCounts": {
-      "effects": 279,
-      "remotion": 218,
-      "camera-cinematography": 152,
-      "transitions": 116,
-      "typography": 89,
-      "ui-motion": 84,
-      "tests": 41,
-      "audio-sound": 39,
-      "skills": 32,
-      "design-system": 32,
-      "rendering": 18,
-      "data-animation": 18,
-      "shots-scenes-storyboard": 3,
-      "3d-webgl-shaders": 3
+      "effects": 300,
+      "remotion": 240,
+      "camera-cinematography": 162,
+      "transitions": 121,
+      "ui-motion": 92,
+      "typography": 92,
+      "tests": 58,
+      "audio-sound": 51,
+      "design-system": 38,
+      "skills": 37,
+      "rendering": 24,
+      "data-animation": 19,
+      "3d-webgl-shaders": 7,
+      "shots-scenes-storyboard": 4
     },
     "signalCounts": {
-      "interpolate": 176,
-      "camera": 79,
-      "mask": 52,
-      "spring": 39,
-      "sound-design": 34,
-      "orbit": 30,
-      "cursor": 24,
-      "chart": 15,
+      "interpolate": 187,
+      "camera": 86,
+      "mask": 57,
+      "spring": 44,
+      "sound-design": 42,
+      "orbit": 32,
+      "cursor": 25,
+      "chart": 16,
       "render": 14,
       "particles": 14,
+      "sequence": 14,
+      "shot-card": 11,
       "motion-blur": 11,
-      "shot-card": 10,
-      "sequence": 8,
       "parallax": 6,
+      "threejs": 6,
       "beat-sync": 4,
-      "threejs": 3,
       "kinetic-type": 3,
       "storyboard": 2
     }
@@ -147,7 +147,7 @@
     },
     {
       "path": ".github/workflows/pr-checks.yml",
-      "bytes": 6312,
+      "bytes": 7242,
       "ext": ".yml",
       "binary": false,
       "categories": [
@@ -164,7 +164,7 @@
         "camera",
         "shot-card"
       ],
-      "indexedContentBytes": 6312
+      "indexedContentBytes": 7242
     },
     {
       "path": ".github/workflows/showcase-publish.yml",
@@ -208,7 +208,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 13895,
+      "bytes": 15103,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -241,11 +241,11 @@
         "beat-sync",
         "render"
       ],
-      "indexedContentBytes": 13895
+      "indexedContentBytes": 15103
     },
     {
       "path": "README_CN.md",
-      "bytes": 13427,
+      "bytes": 14587,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -269,11 +269,11 @@
         "chart",
         "sound-design"
       ],
-      "indexedContentBytes": 13427
+      "indexedContentBytes": 14587
     },
     {
       "path": "README_JA.md",
-      "bytes": 17273,
+      "bytes": 18869,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -298,11 +298,11 @@
         "chart",
         "sound-design"
       ],
-      "indexedContentBytes": 17273
+      "indexedContentBytes": 18869
     },
     {
       "path": "SKILL.md",
-      "bytes": 18984,
+      "bytes": 19863,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -333,7 +333,7 @@
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 18984
+      "indexedContentBytes": 19863
     },
     {
       "path": "agents/openai.yaml",
@@ -3558,6 +3558,31 @@
       "indexedContentBytes": 5622
     },
     {
+      "path": "demos/data/cycle-glass-node-morph/CycleGlassNodeMorph.tsx",
+      "bytes": 11863,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "data-animation",
+        "examples-templates",
+        "remotion",
+        "camera-cinematography",
+        "transitions",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "transitions",
+        "effects"
+      ],
+      "signals": [
+        "interpolate",
+        "camera"
+      ],
+      "indexedContentBytes": 11863
+    },
+    {
       "path": "demos/data/gauge-readout-moves/NeedleSweepSelftest.tsx",
       "bytes": 5561,
       "ext": ".tsx",
@@ -3692,6 +3717,26 @@
         "particles"
       ],
       "indexedContentBytes": 5907
+    },
+    {
+      "path": "demos/data/ring-diagram-annotation-reveal/RingDiagramAnnotationReveal.tsx",
+      "bytes": 7538,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "data-animation",
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "interpolate",
+        "mask"
+      ],
+      "indexedContentBytes": 7538
     },
     {
       "path": "demos/data/scroll-brake-moves/BrakeReticleLock.tsx",
@@ -4810,6 +4855,31 @@
         "interpolate"
       ],
       "indexedContentBytes": 15356
+    },
+    {
+      "path": "demos/opening/orbit-ring-title-open/OrbitRingTitleOpen.tsx",
+      "bytes": 17342,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "typography",
+        "examples-templates",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "typography",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "interpolate",
+        "orbit"
+      ],
+      "indexedContentBytes": 17342
     },
     {
       "path": "demos/opening/spotlight-hero-card/SpotlightHeroCard.tsx",
@@ -6151,6 +6221,34 @@
       "indexedContentBytes": 10635
     },
     {
+      "path": "demos/typography/lead-word-zoom-assemble/LeadWordZoomAssemble.tsx",
+      "bytes": 9314,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "data-animation",
+        "examples-templates",
+        "remotion",
+        "shots-scenes-storyboard",
+        "rendering",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "shots-scenes-storyboard",
+        "rendering",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "interpolate",
+        "shot-card"
+      ],
+      "indexedContentBytes": 9314
+    },
+    {
       "path": "demos/typography/marker-underline-title/MarkerUnderlineTitle.tsx",
       "bytes": 3788,
       "ext": ".tsx",
@@ -7060,6 +7158,25 @@
       "indexedContentBytes": 5586
     },
     {
+      "path": "demos/ui-entrance/platform-hinge-rise/PlatformHingeRise.tsx",
+      "bytes": 5076,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "examples-templates",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [
+        "interpolate",
+        "mask"
+      ],
+      "indexedContentBytes": 5076
+    },
+    {
       "path": "demos/ui-entrance/product-card-progressive-assemble/ProductCardProgressiveAssemble.tsx",
       "bytes": 7055,
       "ext": ".tsx",
@@ -7270,7 +7387,7 @@
     },
     {
       "path": "gallery/api/library.json",
-      "bytes": 257589,
+      "bytes": 267673,
       "ext": ".json",
       "binary": false,
       "categories": [
@@ -7295,7 +7412,6 @@
       ],
       "signals": [
         "camera",
-        "orbit",
         "cursor",
         "chart",
         "mask",
@@ -7393,7 +7509,7 @@
     },
     {
       "path": "gallery/library.html",
-      "bytes": 66977,
+      "bytes": 68925,
       "ext": ".html",
       "binary": false,
       "categories": [
@@ -7430,11 +7546,11 @@
         "motion-blur",
         "particles"
       ],
-      "indexedContentBytes": 66977
+      "indexedContentBytes": 68925
     },
     {
       "path": "gallery/llms.txt",
-      "bytes": 39422,
+      "bytes": 41035,
       "ext": ".txt",
       "binary": false,
       "categories": [
@@ -7472,7 +7588,7 @@
         "motion-blur",
         "particles"
       ],
-      "indexedContentBytes": 39422
+      "indexedContentBytes": 41035
     },
     {
       "path": "gallery/logo-mark-reverse.svg",
@@ -8220,7 +8336,7 @@
     },
     {
       "path": "gallery/showcase.js",
-      "bytes": 16299,
+      "bytes": 16445,
       "ext": ".js",
       "binary": false,
       "categories": [
@@ -8234,7 +8350,7 @@
       "signals": [
         "shot-card"
       ],
-      "indexedContentBytes": 16299
+      "indexedContentBytes": 16445
     },
     {
       "path": "gallery/sitemap.xml",
@@ -8860,6 +8976,27 @@
       "indexedContentBytes": 2925
     },
     {
+      "path": "gallery/source/cycle-glass-node-morph.md",
+      "bytes": 4440,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "skills",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "camera",
+        "mask"
+      ],
+      "indexedContentBytes": 4440
+    },
+    {
       "path": "gallery/source/dashboard-glow-highlight-pill.md",
       "bytes": 4280,
       "ext": ".md",
@@ -9298,6 +9435,26 @@
       "indexedContentBytes": 3524
     },
     {
+      "path": "gallery/source/lead-word-zoom-assemble.md",
+      "bytes": 7433,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "typography",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "typography",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 7433
+    },
+    {
       "path": "gallery/source/letterspace-materialize.md",
       "bytes": 3206,
       "ext": ".md",
@@ -9528,6 +9685,28 @@
       "indexedContentBytes": 3317
     },
     {
+      "path": "gallery/source/orbit-ring-title-open.md",
+      "bytes": 7599,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "typography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "orbit"
+      ],
+      "indexedContentBytes": 7599
+    },
+    {
       "path": "gallery/source/outline-word-fill.md",
       "bytes": 5263,
       "ext": ".md",
@@ -9748,6 +9927,16 @@
       "indexedContentBytes": 3680
     },
     {
+      "path": "gallery/source/platform-hinge-rise.md",
+      "bytes": 3428,
+      "ext": ".md",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 3428
+    },
+    {
       "path": "gallery/source/print-texture-transitions.md",
       "bytes": 2505,
       "ext": ".md",
@@ -9838,6 +10027,26 @@
       "contentCategories": [],
       "signals": [],
       "indexedContentBytes": 2575
+    },
+    {
+      "path": "gallery/source/ring-diagram-annotation-reveal.md",
+      "bytes": 3951,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "data-animation",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "camera"
+      ],
+      "indexedContentBytes": 3951
     },
     {
       "path": "gallery/source/riso-print-hits.md",
@@ -10655,7 +10864,7 @@
     },
     {
       "path": "gallery/styles.css",
-      "bytes": 31877,
+      "bytes": 32497,
       "ext": ".css",
       "binary": false,
       "categories": [
@@ -10677,7 +10886,7 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 31877
+      "indexedContentBytes": 32497
     },
     {
       "path": "gallery/sync-from-cards.py",
@@ -10703,7 +10912,7 @@
     },
     {
       "path": "gallery/translations.js",
-      "bytes": 63435,
+      "bytes": 65192,
       "ext": ".js",
       "binary": false,
       "categories": [
@@ -10740,7 +10949,7 @@
         "motion-blur",
         "particles"
       ],
-      "indexedContentBytes": 63435
+      "indexedContentBytes": 65192
     },
     {
       "path": "jianying-export/.gitignore",
@@ -10962,7 +11171,7 @@
     },
     {
       "path": "references/pipeline.md",
-      "bytes": 24390,
+      "bytes": 25226,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -10982,7 +11191,7 @@
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 24390
+      "indexedContentBytes": 25226
     },
     {
       "path": "references/sequences/.gitkeep",
@@ -11292,6 +11501,29 @@
       "indexedContentBytes": 2888
     },
     {
+      "path": "references/shots/data/cycle-glass-node-morph.md",
+      "bytes": 4440,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "data-animation",
+        "skills",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "skills",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "camera",
+        "mask"
+      ],
+      "indexedContentBytes": 4440
+    },
+    {
       "path": "references/shots/data/gauge-readout-moves.md",
       "bytes": 2755,
       "ext": ".md",
@@ -11379,6 +11611,27 @@
         "particles"
       ],
       "indexedContentBytes": 2192
+    },
+    {
+      "path": "references/shots/data/ring-diagram-annotation-reveal.md",
+      "bytes": 3951,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "transitions",
+        "data-animation",
+        "camera-cinematography",
+        "effects"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "camera"
+      ],
+      "indexedContentBytes": 3951
     },
     {
       "path": "references/shots/data/scroll-brake-moves.md",
@@ -12072,6 +12325,29 @@
       "contentCategories": [],
       "signals": [],
       "indexedContentBytes": 4375
+    },
+    {
+      "path": "references/shots/opening/orbit-ring-title-open.md",
+      "bytes": 7599,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "camera-cinematography",
+        "typography",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "camera-cinematography",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "orbit"
+      ],
+      "indexedContentBytes": 7599
     },
     {
       "path": "references/shots/opening/spotlight-hero-card.md",
@@ -12900,6 +13176,28 @@
       "indexedContentBytes": 3124
     },
     {
+      "path": "references/shots/typography/lead-word-zoom-assemble.md",
+      "bytes": 7433,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "typography",
+        "data-animation",
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "typography",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 7433
+    },
+    {
       "path": "references/shots/typography/marker-underline-title.md",
       "bytes": 2700,
       "ext": ".md",
@@ -13519,6 +13817,19 @@
       "indexedContentBytes": 3158
     },
     {
+      "path": "references/shots/ui-entrance/platform-hinge-rise.md",
+      "bytes": 3428,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "ui-motion"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 3428
+    },
+    {
       "path": "references/shots/ui-entrance/product-card-progressive-assemble.md",
       "bytes": 5077,
       "ext": ".md",
@@ -13700,6 +14011,32 @@
       "indexedContentBytes": 27677
     },
     {
+      "path": "references/workbench.md",
+      "bytes": 13025,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "audio-sound",
+        "rendering",
+        "effects"
+      ],
+      "contentCategories": [
+        "skills",
+        "remotion",
+        "audio-sound",
+        "rendering",
+        "effects"
+      ],
+      "signals": [
+        "spring",
+        "sequence",
+        "sound-design"
+      ],
+      "indexedContentBytes": 13025
+    },
+    {
       "path": "template/.gitignore",
       "bytes": 22,
       "ext": "[none]",
@@ -13713,7 +14050,7 @@
     },
     {
       "path": "template/TEMPLATE.md",
-      "bytes": 7184,
+      "bytes": 8172,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -13733,7 +14070,7 @@
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 7184
+      "indexedContentBytes": 8172
     },
     {
       "path": "template/package-lock.json",
@@ -14292,7 +14629,7 @@
     },
     {
       "path": "template/src/aifl/Caption.tsx",
-      "bytes": 1422,
+      "bytes": 1776,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14305,7 +14642,7 @@
       "signals": [
         "interpolate"
       ],
-      "indexedContentBytes": 1422
+      "indexedContentBytes": 1776
     },
     {
       "path": "template/src/aifl/DigitRoll.tsx",
@@ -14348,7 +14685,7 @@
     },
     {
       "path": "template/src/aifl/Main.tsx",
-      "bytes": 8988,
+      "bytes": 9510,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14358,7 +14695,8 @@
         "transitions",
         "ui-motion",
         "data-animation",
-        "audio-sound"
+        "audio-sound",
+        "tests"
       ],
       "contentCategories": [
         "remotion",
@@ -14366,7 +14704,8 @@
         "transitions",
         "ui-motion",
         "data-animation",
-        "audio-sound"
+        "audio-sound",
+        "tests"
       ],
       "signals": [
         "sequence",
@@ -14375,27 +14714,31 @@
         "chart",
         "sound-design"
       ],
-      "indexedContentBytes": 8988
+      "indexedContentBytes": 9510
     },
     {
       "path": "template/src/aifl/PaperTitleCard.tsx",
-      "bytes": 3237,
+      "bytes": 3898,
       "ext": ".tsx",
       "binary": false,
       "categories": [
         "typography",
         "examples-templates",
         "remotion",
-        "effects"
+        "rendering",
+        "effects",
+        "design-system"
       ],
       "contentCategories": [
         "remotion",
-        "effects"
+        "rendering",
+        "effects",
+        "design-system"
       ],
       "signals": [
         "interpolate"
       ],
-      "indexedContentBytes": 3237
+      "indexedContentBytes": 3898
     },
     {
       "path": "template/src/aifl/live/PageCam.tsx",
@@ -14423,7 +14766,7 @@
     },
     {
       "path": "template/src/aifl/live/SceneDetail.tsx",
-      "bytes": 5332,
+      "bytes": 5640,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14441,11 +14784,11 @@
       "signals": [
         "interpolate"
       ],
-      "indexedContentBytes": 5332
+      "indexedContentBytes": 5640
     },
     {
       "path": "template/src/aifl/live/SceneFlyIn.tsx",
-      "bytes": 19178,
+      "bytes": 20324,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14454,12 +14797,14 @@
         "remotion",
         "camera-cinematography",
         "ui-motion",
+        "rendering",
         "effects"
       ],
       "contentCategories": [
         "remotion",
         "camera-cinematography",
         "ui-motion",
+        "rendering",
         "effects"
       ],
       "signals": [
@@ -14467,11 +14812,11 @@
         "camera",
         "orbit"
       ],
-      "indexedContentBytes": 19178
+      "indexedContentBytes": 20324
     },
     {
       "path": "template/src/aifl/live/SceneOpen.tsx",
-      "bytes": 24458,
+      "bytes": 25107,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14482,6 +14827,7 @@
         "transitions",
         "ui-motion",
         "effects",
+        "design-system",
         "tests"
       ],
       "contentCategories": [
@@ -14490,6 +14836,7 @@
         "transitions",
         "ui-motion",
         "effects",
+        "design-system",
         "tests"
       ],
       "signals": [
@@ -14497,11 +14844,11 @@
         "camera",
         "cursor"
       ],
-      "indexedContentBytes": 24458
+      "indexedContentBytes": 25107
     },
     {
       "path": "template/src/aifl/live/SceneOutroLive.tsx",
-      "bytes": 16688,
+      "bytes": 17177,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14510,23 +14857,25 @@
         "remotion",
         "camera-cinematography",
         "effects",
+        "design-system",
         "tests"
       ],
       "contentCategories": [
         "remotion",
         "camera-cinematography",
         "effects",
+        "design-system",
         "tests"
       ],
       "signals": [
         "interpolate",
         "camera"
       ],
-      "indexedContentBytes": 16688
+      "indexedContentBytes": 17177
     },
     {
       "path": "template/src/aifl/live/ScenePapers.tsx",
-      "bytes": 7352,
+      "bytes": 7783,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14535,23 +14884,25 @@
         "remotion",
         "camera-cinematography",
         "effects",
+        "design-system",
         "tests"
       ],
       "contentCategories": [
         "remotion",
         "camera-cinematography",
         "effects",
+        "design-system",
         "tests"
       ],
       "signals": [
         "interpolate",
         "camera"
       ],
-      "indexedContentBytes": 7352
+      "indexedContentBytes": 7783
     },
     {
       "path": "template/src/aifl/live/SceneWbr.tsx",
-      "bytes": 11677,
+      "bytes": 12310,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14559,19 +14910,23 @@
         "examples-templates",
         "remotion",
         "camera-cinematography",
-        "transitions"
+        "transitions",
+        "design-system",
+        "tests"
       ],
       "contentCategories": [
         "remotion",
         "camera-cinematography",
-        "transitions"
+        "transitions",
+        "design-system",
+        "tests"
       ],
       "signals": [
         "interpolate",
         "camera",
         "mask"
       ],
-      "indexedContentBytes": 11677
+      "indexedContentBytes": 12310
     },
     {
       "path": "template/src/aifl/live-layout.json",
@@ -14601,6 +14956,32 @@
       "indexedContentBytes": 93
     },
     {
+      "path": "template/src/workbench.ts",
+      "bytes": 9527,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates",
+        "camera-cinematography",
+        "data-animation",
+        "audio-sound",
+        "design-system"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "data-animation",
+        "audio-sound",
+        "design-system"
+      ],
+      "signals": [
+        "sequence",
+        "camera",
+        "chart",
+        "sound-design"
+      ],
+      "indexedContentBytes": 9527
+    },
+    {
       "path": "template/tsconfig.json",
       "bytes": 315,
       "ext": ".json",
@@ -14611,6 +14992,847 @@
       "contentCategories": [],
       "signals": [],
       "indexedContentBytes": 315
+    },
+    {
+      "path": "workbench/.gitignore",
+      "bytes": 634,
+      "ext": "[none]",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 634
+    },
+    {
+      "path": "workbench/GUIDE.md",
+      "bytes": 7537,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "skills",
+        "camera-cinematography",
+        "audio-sound"
+      ],
+      "contentCategories": [
+        "skills",
+        "camera-cinematography",
+        "audio-sound"
+      ],
+      "signals": [
+        "camera",
+        "sound-design"
+      ],
+      "indexedContentBytes": 7537
+    },
+    {
+      "path": "workbench/README.md",
+      "bytes": 7333,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "3d-webgl-shaders",
+        "audio-sound",
+        "effects"
+      ],
+      "contentCategories": [
+        "skills",
+        "3d-webgl-shaders",
+        "audio-sound",
+        "effects"
+      ],
+      "signals": [
+        "sequence",
+        "threejs",
+        "sound-design"
+      ],
+      "indexedContentBytes": 7333
+    },
+    {
+      "path": "workbench/demosrc",
+      "bytes": 8,
+      "ext": "[none]",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 8
+    },
+    {
+      "path": "workbench/docs/card-preview.png",
+      "bytes": 102601,
+      "ext": ".png",
+      "binary": true,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "workbench/docs/inspector.png",
+      "bytes": 40050,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "tests"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "workbench/docs/library-cards.png",
+      "bytes": 58602,
+      "ext": ".png",
+      "binary": true,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "workbench/docs/library-media.png",
+      "bytes": 72954,
+      "ext": ".png",
+      "binary": true,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "workbench/docs/library-sfx.png",
+      "bytes": 37779,
+      "ext": ".png",
+      "binary": true,
+      "categories": [
+        "audio-sound"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "workbench/docs/overview.png",
+      "bytes": 460573,
+      "ext": ".png",
+      "binary": true,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "workbench/docs/preview.png",
+      "bytes": 237239,
+      "ext": ".png",
+      "binary": true,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "workbench/docs/timeline.png",
+      "bytes": 76080,
+      "ext": ".png",
+      "binary": true,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "workbench/docs/topbar.png",
+      "bytes": 13145,
+      "ext": ".png",
+      "binary": true,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "workbench/index.html",
+      "bytes": 328,
+      "ext": ".html",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 328
+    },
+    {
+      "path": "workbench/package-lock.json",
+      "bytes": 176619,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "audio-sound",
+        "rendering",
+        "effects"
+      ],
+      "contentCategories": [
+        "3d-webgl-shaders",
+        "audio-sound",
+        "rendering",
+        "effects"
+      ],
+      "signals": [
+        "threejs"
+      ],
+      "indexedContentBytes": 131072
+    },
+    {
+      "path": "workbench/package.json",
+      "bytes": 1196,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "3d-webgl-shaders",
+        "effects"
+      ],
+      "contentCategories": [
+        "3d-webgl-shaders",
+        "effects"
+      ],
+      "signals": [
+        "threejs"
+      ],
+      "indexedContentBytes": 1196
+    },
+    {
+      "path": "workbench/proj-stub/workbench.ts",
+      "bytes": 207,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 207
+    },
+    {
+      "path": "workbench/public/.gitkeep",
+      "bytes": 0,
+      "ext": "[none]",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "workbench/remotion.config.ts",
+      "bytes": 1058,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "3d-webgl-shaders"
+      ],
+      "contentCategories": [
+        "3d-webgl-shaders"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1058
+    },
+    {
+      "path": "workbench/scripts/gen-index.mjs",
+      "bytes": 13016,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "tests"
+      ],
+      "contentCategories": [
+        "audio-sound",
+        "tests"
+      ],
+      "signals": [
+        "sound-design"
+      ],
+      "indexedContentBytes": 13016
+    },
+    {
+      "path": "workbench/scripts/open.mjs",
+      "bytes": 8254,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "tests"
+      ],
+      "contentCategories": [
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 8254
+    },
+    {
+      "path": "workbench/scripts/parity.mjs",
+      "bytes": 5209,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "tests"
+      ],
+      "contentCategories": [
+        "rendering",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 5209
+    },
+    {
+      "path": "workbench/src/App.tsx",
+      "bytes": 8600,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "tests"
+      ],
+      "contentCategories": [
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 8600
+    },
+    {
+      "path": "workbench/src/cards/background-cards.tsx",
+      "bytes": 1763,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1763
+    },
+    {
+      "path": "workbench/src/cards/demoCards.ts",
+      "bytes": 1316,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1316
+    },
+    {
+      "path": "workbench/src/cards/inkpress/caption-strip.tsx",
+      "bytes": 2711,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 2711
+    },
+    {
+      "path": "workbench/src/cards/inkpress/digit-roll.tsx",
+      "bytes": 1555,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "tests"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 1555
+    },
+    {
+      "path": "workbench/src/cards/inkpress/flash-cut.tsx",
+      "bytes": 1477,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "remotion",
+        "ui-motion",
+        "effects"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion",
+        "effects"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 1477
+    },
+    {
+      "path": "workbench/src/cards/inkpress/title-card.tsx",
+      "bytes": 5170,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "remotion",
+        "ui-motion",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "interpolate"
+      ],
+      "indexedContentBytes": 5170
+    },
+    {
+      "path": "workbench/src/cards/manifest.ts",
+      "bytes": 6519,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "audio-sound"
+      ],
+      "contentCategories": [
+        "transitions",
+        "audio-sound"
+      ],
+      "signals": [
+        "sequence",
+        "sound-design"
+      ],
+      "indexedContentBytes": 6519
+    },
+    {
+      "path": "workbench/src/cards/media-cards.tsx",
+      "bytes": 3637,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "audio-sound"
+      ],
+      "contentCategories": [
+        "remotion",
+        "audio-sound"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3637
+    },
+    {
+      "path": "workbench/src/cards/projectCards.ts",
+      "bytes": 2719,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions"
+      ],
+      "contentCategories": [
+        "transitions"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2719
+    },
+    {
+      "path": "workbench/src/cards/registry.ts",
+      "bytes": 1407,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1407
+    },
+    {
+      "path": "workbench/src/cards/shared.tsx",
+      "bytes": 2258,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "effects",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2258
+    },
+    {
+      "path": "workbench/src/cards/text-basic.tsx",
+      "bytes": 5252,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "typography",
+        "remotion",
+        "ui-motion",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion",
+        "tests"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 5252
+    },
+    {
+      "path": "workbench/src/cards/types.ts",
+      "bytes": 5093,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "ui-motion"
+      ],
+      "signals": [
+        "spring"
+      ],
+      "indexedContentBytes": 5093
+    },
+    {
+      "path": "workbench/src/demoProject.ts",
+      "bytes": 1445,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1445
+    },
+    {
+      "path": "workbench/src/dnd.ts",
+      "bytes": 684,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 684
+    },
+    {
+      "path": "workbench/src/main.tsx",
+      "bytes": 395,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 395
+    },
+    {
+      "path": "workbench/src/panels/Inspector.tsx",
+      "bytes": 11727,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "tests",
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 11727
+    },
+    {
+      "path": "workbench/src/panels/LibraryPanel.tsx",
+      "bytes": 14664,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ],
+      "contentCategories": [
+        "audio-sound"
+      ],
+      "signals": [
+        "sound-design"
+      ],
+      "indexedContentBytes": 14664
+    },
+    {
+      "path": "workbench/src/playerRef.ts",
+      "bytes": 470,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 470
+    },
+    {
+      "path": "workbench/src/preview/Composition.tsx",
+      "bytes": 3162,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "audio-sound"
+      ],
+      "contentCategories": [
+        "remotion",
+        "audio-sound"
+      ],
+      "signals": [
+        "sequence"
+      ],
+      "indexedContentBytes": 3162
+    },
+    {
+      "path": "workbench/src/preview/PreviewPanel.tsx",
+      "bytes": 5580,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "audio-sound"
+      ],
+      "contentCategories": [
+        "audio-sound"
+      ],
+      "signals": [],
+      "indexedContentBytes": 5580
+    },
+    {
+      "path": "workbench/src/proj.d.ts",
+      "bytes": 461,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 461
+    },
+    {
+      "path": "workbench/src/projectImport.ts",
+      "bytes": 3792,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "audio-sound",
+        "tests"
+      ],
+      "contentCategories": [
+        "transitions",
+        "audio-sound",
+        "tests"
+      ],
+      "signals": [
+        "sequence",
+        "sound-design"
+      ],
+      "indexedContentBytes": 3792
+    },
+    {
+      "path": "workbench/src/remotion/Root.tsx",
+      "bytes": 3379,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3379
+    },
+    {
+      "path": "workbench/src/remotion/index.ts",
+      "bytes": 109,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion"
+      ],
+      "contentCategories": [
+        "remotion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 109
+    },
+    {
+      "path": "workbench/src/remotion/zodFromCard.ts",
+      "bytes": 982,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "tests"
+      ],
+      "contentCategories": [
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 982
+    },
+    {
+      "path": "workbench/src/store.ts",
+      "bytes": 11276,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "tests"
+      ],
+      "contentCategories": [
+        "ui-motion",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 11276
+    },
+    {
+      "path": "workbench/src/styles.css",
+      "bytes": 15372,
+      "ext": ".css",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "effects"
+      ],
+      "contentCategories": [
+        "transitions",
+        "ui-motion",
+        "effects"
+      ],
+      "signals": [
+        "cursor"
+      ],
+      "indexedContentBytes": 15372
+    },
+    {
+      "path": "workbench/src/time.ts",
+      "bytes": 542,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 542
+    },
+    {
+      "path": "workbench/src/timeline/ClipView.tsx",
+      "bytes": 4615,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "tests"
+      ],
+      "contentCategories": [
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 4615
+    },
+    {
+      "path": "workbench/src/timeline/Ruler.tsx",
+      "bytes": 2008,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 2008
+    },
+    {
+      "path": "workbench/src/timeline/Timeline.tsx",
+      "bytes": 9819,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 9819
+    },
+    {
+      "path": "workbench/src/types.ts",
+      "bytes": 2133,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2133
+    },
+    {
+      "path": "workbench/src/vite-env.d.ts",
+      "bytes": 38,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 38
+    },
+    {
+      "path": "workbench/tsconfig.json",
+      "bytes": 509,
+      "ext": ".json",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 509
+    },
+    {
+      "path": "workbench/vite.config.ts",
+      "bytes": 7720,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "effects",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 7720
     }
   ]
 }
