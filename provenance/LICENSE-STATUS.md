@@ -2,7 +2,7 @@
 
 > Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.
 
-Snapshot source timestamp: 2026-09-07T09:28:30Z
+Snapshot source timestamp: 2026-09-14T09:58:56Z
 
 ## Summary
 
@@ -10,7 +10,7 @@ Snapshot source timestamp: 2026-09-07T09:28:30Z
 - Donors with a detected license file: **12**
 - No license file detected: **remotion-skills, remotion-templates, skill-remotion-geist**
 - Present but unclassified license file: **none**
-- Donors containing bundled media/font/3D/PDF assets: **9**
+- Donors containing bundled media/font/3D/PDF assets: **8**
 
 ## Policy
 
@@ -33,7 +33,7 @@ Snapshot source timestamp: 2026-09-07T09:28:30Z
 | `product-launch-video-skill` | license-file-detected | MIT | 0 | 0 |
 | `remotion-cinematic` | license-file-detected | MIT | 9 | 11825928 |
 | `remotion-scenes` | license-file-detected | MIT | 1 | 594102 |
-| `remotion-skills` | review-required-no-license-file-detected | — | 25 | 32150 |
+| `remotion-skills` | review-required-no-license-file-detected | — | 0 | 0 |
 | `remotion-templates` | review-required-no-license-file-detected | — | 0 | 0 |
 | `skill-remotion-geist` | review-required-no-license-file-detected | — | 0 | 0 |
 | `theatre` | license-file-detected | Apache-2.0 | 17 | 1612692 |

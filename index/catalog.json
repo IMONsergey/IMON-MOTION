@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-07T09:28:43.145Z",
+  "generatedAt": "2026-09-14T09:59:09.877Z",
   "purpose": "Path + bounded-content routing index. Agents should choose donors first, then exact files; raw corpus-wide loading is prohibited.",
   "indexedContentBytesPerFile": 131072,
   "donors": {
@@ -575,14 +575,14 @@
     },
     "remotion-skills": {
       "fileCount": 279,
-      "totalBytes": 2278900,
-      "indexedContentBytes": 1438502,
-      "textFiles": 254,
-      "binaryFiles": 25,
+      "totalBytes": 2282771,
+      "indexedContentBytes": 1474523,
+      "textFiles": 279,
+      "binaryFiles": 0,
       "topExtensions": {
         ".md": 162,
         ".yaml": 25,
-        ".png": 25,
+        ".svg": 25,
         ".tsx": 20,
         ".json": 18,
         ".ts": 17,
@@ -802,8 +802,8 @@
     },
     "video-shotcraft": {
       "fileCount": 970,
-      "totalBytes": 54477916,
-      "indexedContentBytes": 3999144,
+      "totalBytes": 54479346,
+      "indexedContentBytes": 4000574,
       "textFiles": 679,
       "binaryFiles": 291,
       "topExtensions": {

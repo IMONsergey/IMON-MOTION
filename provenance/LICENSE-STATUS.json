@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceGeneratedAt": "2026-09-07T09:28:30Z",
+  "sourceGeneratedAt": "2026-09-14T09:58:56Z",
   "disclaimer": "Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.",
   "policy": {
     "missingLicenseFile": "review-required",
@@ -17,7 +17,7 @@
       "skill-remotion-geist"
     ],
     "unclassifiedLicense": [],
-    "donorsWithBundledAssets": 9
+    "donorsWithBundledAssets": 8
   },
   "sources": {
     "chuk-motion": {
@@ -350,31 +350,16 @@
       "detectedLicenseFiles": [],
       "recognizedClassifications": [],
       "assets": {
-        "files": 25,
-        "bytes": 32150,
-        "extensions": {
-          ".png": 25
-        },
-        "samples": [
-          "skills/remotion-best-practices/assets/remotion-icon.png",
-          "skills/remotion-best-practices/remotion-captions/assets/remotion-icon.png",
-          "skills/remotion-best-practices/remotion-create/assets/remotion-icon.png",
-          "skills/remotion-best-practices/remotion-docs/assets/remotion-icon.png",
-          "skills/remotion-best-practices/remotion-interactivity/assets/remotion-icon.png",
-          "skills/remotion-best-practices/remotion-maps/assets/remotion-icon.png",
-          "skills/remotion-best-practices/remotion-markup/assets/remotion-icon.png",
-          "skills/remotion-best-practices/remotion-markup/remotion-maps/assets/remotion-icon.png",
-          "skills/remotion-best-practices/remotion-multimedia/assets/remotion-icon.png",
-          "skills/remotion-best-practices/remotion-render/assets/remotion-icon.png",
-          "skills/remotion-best-practices/remotion-saas/assets/remotion-icon.png",
-          "skills/remotion-best-practices/remotion-studio/assets/remotion-icon.png"
-        ],
-        "separateRightsReviewRecommended": true
+        "files": 0,
+        "bytes": 0,
+        "extensions": {},
+        "samples": [],
+        "separateRightsReviewRecommended": false
       },
       "productionPolicy": {
         "donorSourceMayInformResearch": true,
         "rawRedistributionOrDerivativeUseRequiresLicenseReview": true,
-        "bundledAssetsRequireSeparateRightsReview": true
+        "bundledAssetsRequireSeparateRightsReview": false
       }
     },
     "remotion-templates": {

@@ -1,12 +1,12 @@
 version: 1
-generated_at: "2026-09-07T09:28:30Z"
+generated_at: "2026-09-14T09:58:56Z"
 sources:
   video-shotcraft:
     repository: "Vincentwei1021/video-shotcraft"
     url: "https://github.com/Vincentwei1021/video-shotcraft.git"
-    commit: "5f047c7cfe10d6616fe59160a750fcfaea510b2e"
+    commit: "5e71af35a2daee492dd3ea93e5e8903f32dcd13c"
     branch: "main"
-    upstream_commit_date: "2026-09-05T20:27:10+08:00"
+    upstream_commit_date: "2026-09-09T13:46:39+08:00"
     path: "upstream/video-shotcraft"
     files: 969
     size_kb: 56008
@@ -64,9 +64,9 @@ sources:
   remotion-skills:
     repository: "remotion-dev/skills"
     url: "https://github.com/remotion-dev/skills.git"
-    commit: "f54682712abc4a68cdc7c41513bd3b3298829873"
+    commit: "bd566b65d521b40fe92e1f26766e82de9e291693"
     branch: "main"
-    upstream_commit_date: "2026-09-05T15:21:24+02:00"
+    upstream_commit_date: "2026-09-12T15:29:06+02:00"
     path: "upstream/remotion-skills"
     files: 279
     size_kb: 3436

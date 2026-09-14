@@ -3,14 +3,14 @@
   "donor": "remotion-skills",
   "summary": {
     "fileCount": 279,
-    "totalBytes": 2278900,
-    "indexedContentBytes": 1438502,
-    "textFiles": 254,
-    "binaryFiles": 25,
+    "totalBytes": 2282771,
+    "indexedContentBytes": 1474523,
+    "textFiles": 279,
+    "binaryFiles": 0,
     "topExtensions": {
       ".md": 162,
       ".yaml": 25,
-      ".png": 25,
+      ".svg": 25,
       ".tsx": 20,
       ".json": 18,
       ".ts": 17,
@@ -213,17 +213,17 @@
       "indexedContentBytes": 311
     },
     {
-      "path": "skills/remotion-best-practices/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-captions/REFERENCE.md",
@@ -257,17 +257,17 @@
       "indexedContentBytes": 305
     },
     {
-      "path": "skills/remotion-best-practices/remotion-captions/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/remotion-captions/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-captions/display-captions.md",
@@ -324,7 +324,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-create/REFERENCE.md",
-      "bytes": 2041,
+      "bytes": 2729,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -339,7 +339,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 2041
+      "indexedContentBytes": 2729
     },
     {
       "path": "skills/remotion-best-practices/remotion-create/agents/openai.yaml",
@@ -358,17 +358,17 @@
       "indexedContentBytes": 310
     },
     {
-      "path": "skills/remotion-best-practices/remotion-create/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/remotion-create/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-create/tailwind.md",
@@ -444,17 +444,17 @@
       "indexedContentBytes": 307
     },
     {
-      "path": "skills/remotion-best-practices/remotion-docs/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/remotion-docs/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-interactivity/REFERENCE.md",
@@ -492,17 +492,17 @@
       "indexedContentBytes": 320
     },
     {
-      "path": "skills/remotion-best-practices/remotion-interactivity/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/remotion-interactivity/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-maps/REFERENCE.md",
@@ -537,17 +537,17 @@
       "indexedContentBytes": 293
     },
     {
-      "path": "skills/remotion-best-practices/remotion-maps/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/remotion-maps/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-maps/techniques/cesium/TECHNIQUE.md",
@@ -798,7 +798,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-maps/techniques/maplibre/TECHNIQUE.md",
-      "bytes": 13403,
+      "bytes": 13881,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -821,7 +821,7 @@
         "camera",
         "render"
       ],
-      "indexedContentBytes": 13403
+      "indexedContentBytes": 13881
     },
     {
       "path": "skills/remotion-best-practices/remotion-maps/techniques/maplibre/references/render-stability.md",
@@ -1144,7 +1144,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/REFERENCE.md",
-      "bytes": 11039,
+      "bytes": 11068,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -1172,7 +1172,7 @@
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 11039
+      "indexedContentBytes": 11068
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/agents/openai.yaml",
@@ -1191,17 +1191,17 @@
       "indexedContentBytes": 310
     },
     {
-      "path": "skills/remotion-best-practices/remotion-markup/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/remotion-markup/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/audio-visualization.md",
@@ -1607,17 +1607,17 @@
       "indexedContentBytes": 293
     },
     {
-      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/cesium/TECHNIQUE.md",
@@ -1868,7 +1868,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maplibre/TECHNIQUE.md",
-      "bytes": 13403,
+      "bytes": 13881,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -1891,7 +1891,7 @@
         "camera",
         "render"
       ],
-      "indexedContentBytes": 13403
+      "indexedContentBytes": 13881
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maplibre/references/render-stability.md",
@@ -2378,17 +2378,17 @@
       "indexedContentBytes": 317
     },
     {
-      "path": "skills/remotion-best-practices/remotion-multimedia/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/remotion-multimedia/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-multimedia/get-audio-duration.md",
@@ -2475,10 +2475,10 @@
       "indexedContentBytes": 286
     },
     {
-      "path": "skills/remotion-best-practices/remotion-render/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/remotion-render/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion",
@@ -2486,7 +2486,7 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-render/transparent-videos.md",
@@ -2542,17 +2542,17 @@
       "indexedContentBytes": 283
     },
     {
-      "path": "skills/remotion-best-practices/remotion-saas/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/remotion-saas/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-saas/framework.md",
@@ -2638,21 +2638,21 @@
       "indexedContentBytes": 237
     },
     {
-      "path": "skills/remotion-best-practices/remotion-studio/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/remotion-studio/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-upgrade/REFERENCE.md",
-      "bytes": 1880,
+      "bytes": 1930,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2661,7 +2661,7 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 1880
+      "indexedContentBytes": 1930
     },
     {
       "path": "skills/remotion-best-practices/remotion-upgrade/agents/openai.yaml",
@@ -2680,17 +2680,17 @@
       "indexedContentBytes": 282
     },
     {
-      "path": "skills/remotion-best-practices/remotion-upgrade/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-best-practices/remotion-upgrade/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-captions/SKILL.md",
@@ -2724,17 +2724,17 @@
       "indexedContentBytes": 305
     },
     {
-      "path": "skills/remotion-captions/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-captions/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-captions/display-captions.md",
@@ -2791,7 +2791,7 @@
     },
     {
       "path": "skills/remotion-create/SKILL.md",
-      "bytes": 1856,
+      "bytes": 2544,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2806,7 +2806,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 1856
+      "indexedContentBytes": 2544
     },
     {
       "path": "skills/remotion-create/agents/openai.yaml",
@@ -2825,17 +2825,17 @@
       "indexedContentBytes": 310
     },
     {
-      "path": "skills/remotion-create/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-create/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-create/tailwind.md",
@@ -2911,17 +2911,17 @@
       "indexedContentBytes": 307
     },
     {
-      "path": "skills/remotion-docs/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-docs/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-interactivity/SKILL.md",
@@ -2959,17 +2959,17 @@
       "indexedContentBytes": 320
     },
     {
-      "path": "skills/remotion-interactivity/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-interactivity/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-maps/SKILL.md",
@@ -3004,17 +3004,17 @@
       "indexedContentBytes": 293
     },
     {
-      "path": "skills/remotion-maps/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-maps/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-maps/techniques/cesium/TECHNIQUE.md",
@@ -3265,7 +3265,7 @@
     },
     {
       "path": "skills/remotion-maps/techniques/maplibre/TECHNIQUE.md",
-      "bytes": 13403,
+      "bytes": 13881,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3288,7 +3288,7 @@
         "camera",
         "render"
       ],
-      "indexedContentBytes": 13403
+      "indexedContentBytes": 13881
     },
     {
       "path": "skills/remotion-maps/techniques/maplibre/references/render-stability.md",
@@ -3611,7 +3611,7 @@
     },
     {
       "path": "skills/remotion-markup/SKILL.md",
-      "bytes": 10945,
+      "bytes": 10974,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3639,7 +3639,7 @@
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 10945
+      "indexedContentBytes": 10974
     },
     {
       "path": "skills/remotion-markup/agents/openai.yaml",
@@ -3658,17 +3658,17 @@
       "indexedContentBytes": 310
     },
     {
-      "path": "skills/remotion-markup/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-markup/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-markup/audio-visualization.md",
@@ -4074,17 +4074,17 @@
       "indexedContentBytes": 293
     },
     {
-      "path": "skills/remotion-markup/remotion-maps/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-markup/remotion-maps/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-markup/remotion-maps/techniques/cesium/TECHNIQUE.md",
@@ -4335,7 +4335,7 @@
     },
     {
       "path": "skills/remotion-markup/remotion-maps/techniques/maplibre/TECHNIQUE.md",
-      "bytes": 13403,
+      "bytes": 13881,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4358,7 +4358,7 @@
         "camera",
         "render"
       ],
-      "indexedContentBytes": 13403
+      "indexedContentBytes": 13881
     },
     {
       "path": "skills/remotion-markup/remotion-maps/techniques/maplibre/references/render-stability.md",
@@ -4846,17 +4846,17 @@
       "indexedContentBytes": 317
     },
     {
-      "path": "skills/remotion-multimedia/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-multimedia/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-multimedia/get-audio-duration.md",
@@ -4943,10 +4943,10 @@
       "indexedContentBytes": 286
     },
     {
-      "path": "skills/remotion-render/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-render/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion",
@@ -4954,7 +4954,7 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-render/transparent-videos.md",
@@ -5010,17 +5010,17 @@
       "indexedContentBytes": 283
     },
     {
-      "path": "skills/remotion-saas/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-saas/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-saas/framework.md",
@@ -5106,21 +5106,21 @@
       "indexedContentBytes": 237
     },
     {
-      "path": "skills/remotion-studio/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-studio/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-upgrade/SKILL.md",
-      "bytes": 1880,
+      "bytes": 1930,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -5129,7 +5129,7 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 1880
+      "indexedContentBytes": 1930
     },
     {
       "path": "skills/remotion-upgrade/agents/openai.yaml",
@@ -5148,17 +5148,17 @@
       "indexedContentBytes": 282
     },
     {
-      "path": "skills/remotion-upgrade/assets/remotion-icon.png",
-      "bytes": 1286,
-      "ext": ".png",
-      "binary": true,
+      "path": "skills/remotion-upgrade/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
       "categories": [
         "skills",
         "remotion"
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 0
+      "indexedContentBytes": 1303
     },
     {
       "path": "tsconfig.json",

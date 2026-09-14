@@ -3,8 +3,8 @@
   "donor": "video-shotcraft",
   "summary": {
     "fileCount": 970,
-    "totalBytes": 54477916,
-    "indexedContentBytes": 3999144,
+    "totalBytes": 54479346,
+    "indexedContentBytes": 4000574,
     "textFiles": 679,
     "binaryFiles": 291,
     "topExtensions": {
@@ -100,7 +100,7 @@
     },
     {
       "path": ".github/ISSUE_TEMPLATE/showcase.yml",
-      "bytes": 2818,
+      "bytes": 3066,
       "ext": ".yml",
       "binary": false,
       "categories": [
@@ -111,11 +111,11 @@
         "ui-motion"
       ],
       "signals": [],
-      "indexedContentBytes": 2818
+      "indexedContentBytes": 3066
     },
     {
       "path": ".github/scripts/showcase-publish.py",
-      "bytes": 7725,
+      "bytes": 8145,
       "ext": ".py",
       "binary": false,
       "categories": [
@@ -129,7 +129,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 7725
+      "indexedContentBytes": 8145
     },
     {
       "path": ".github/workflows/deploy-pages.yml",
@@ -8336,7 +8336,7 @@
     },
     {
       "path": "gallery/showcase.js",
-      "bytes": 16445,
+      "bytes": 17174,
       "ext": ".js",
       "binary": false,
       "categories": [
@@ -8350,7 +8350,7 @@
       "signals": [
         "shot-card"
       ],
-      "indexedContentBytes": 16445
+      "indexedContentBytes": 17174
     },
     {
       "path": "gallery/sitemap.xml",
@@ -10864,7 +10864,7 @@
     },
     {
       "path": "gallery/styles.css",
-      "bytes": 32497,
+      "bytes": 32530,
       "ext": ".css",
       "binary": false,
       "categories": [
@@ -10886,7 +10886,7 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 32497
+      "indexedContentBytes": 32530
     },
     {
       "path": "gallery/sync-from-cards.py",
