@@ -3,8 +3,8 @@
   "donor": "remotion-skills",
   "summary": {
     "fileCount": 279,
-    "totalBytes": 2282771,
-    "indexedContentBytes": 1474523,
+    "totalBytes": 2283105,
+    "indexedContentBytes": 1474857,
     "textFiles": 279,
     "binaryFiles": 0,
     "topExtensions": {
@@ -458,7 +458,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-interactivity/REFERENCE.md",
-      "bytes": 7529,
+      "bytes": 7696,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -473,7 +473,7 @@
         "interpolate",
         "sequence"
       ],
-      "indexedContentBytes": 7529
+      "indexedContentBytes": 7696
     },
     {
       "path": "skills/remotion-best-practices/remotion-interactivity/agents/openai.yaml",
@@ -2925,7 +2925,7 @@
     },
     {
       "path": "skills/remotion-interactivity/SKILL.md",
-      "bytes": 7490,
+      "bytes": 7657,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2940,7 +2940,7 @@
         "interpolate",
         "sequence"
       ],
-      "indexedContentBytes": 7490
+      "indexedContentBytes": 7657
     },
     {
       "path": "skills/remotion-interactivity/agents/openai.yaml",

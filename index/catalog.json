@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-14T09:59:09.877Z",
+  "generatedAt": "2026-09-21T10:03:53.519Z",
   "purpose": "Path + bounded-content routing index. Agents should choose donors first, then exact files; raw corpus-wide loading is prohibited.",
   "indexedContentBytesPerFile": 131072,
   "donors": {
@@ -132,41 +132,41 @@
       }
     },
     "emilkowalski-skills": {
-      "fileCount": 23,
-      "totalBytes": 241117,
-      "indexedContentBytes": 241117,
-      "textFiles": 23,
+      "fileCount": 26,
+      "totalBytes": 262370,
+      "indexedContentBytes": 262370,
+      "textFiles": 26,
       "binaryFiles": 0,
       "topExtensions": {
-        ".md": 20,
-        "[none]": 3
+        ".md": 22,
+        "[none]": 4
       },
       "categoryCounts": {
-        "skills": 20,
+        "skills": 21,
+        "transitions": 16,
         "ui-motion": 14,
-        "transitions": 14,
-        "design-system": 12,
-        "effects": 11,
-        "data-animation": 8,
+        "effects": 13,
+        "design-system": 13,
+        "data-animation": 9,
         "rendering": 7,
         "camera-cinematography": 5,
         "tests": 4,
         "remotion": 3,
-        "typography": 2,
+        "typography": 3,
         "examples-templates": 1
       },
       "contentCategoryCounts": {
-        "transitions": 14,
-        "skills": 13,
+        "skills": 16,
+        "transitions": 16,
         "ui-motion": 13,
-        "design-system": 12,
-        "effects": 11,
-        "data-animation": 8,
+        "effects": 13,
+        "design-system": 13,
+        "data-animation": 9,
         "rendering": 7,
         "camera-cinematography": 5,
         "tests": 4,
         "remotion": 3,
-        "typography": 2
+        "typography": 3
       },
       "signalCounts": {
         "mask": 7,
@@ -575,8 +575,8 @@
     },
     "remotion-skills": {
       "fileCount": 279,
-      "totalBytes": 2282771,
-      "indexedContentBytes": 1474523,
+      "totalBytes": 2283105,
+      "indexedContentBytes": 1474857,
       "textFiles": 279,
       "binaryFiles": 0,
       "topExtensions": {

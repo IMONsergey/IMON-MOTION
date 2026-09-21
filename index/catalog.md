@@ -6,7 +6,7 @@ Generated automatically from file paths plus a bounded content scan. Use this su
 |---|---:|---:|---|---|
 | `chuk-motion` | 559 | 3.5 MB | design-system (212), typography (181), ui-motion (165), tests (134), examples-templates (123) | tokens (129), chart (63), render (52), spring (37), interpolate (36) |
 | `claude-remotion-skill` | 33 | 14.8 MB | examples-templates (23), remotion (20), design-system (16), effects (14), audio-sound (12) | sound-design (12), interpolate (9), spring (8), sequence (6), render (3) |
-| `emilkowalski-skills` | 23 | 0.2 MB | skills (20), ui-motion (14), transitions (14), design-system (12), effects (11) | mask (7), render (7), chart (5), parallax (3), orbit (3) |
+| `emilkowalski-skills` | 26 | 0.3 MB | skills (21), transitions (16), ui-motion (14), effects (13), design-system (13) | mask (7), render (7), chart (5), parallax (3), orbit (3) |
 | `motion-canvas-examples` | 280 | 43.0 MB | examples-templates (263), shots-scenes-storyboard (88), camera-cinematography (84), 3d-webgl-shaders (31), rendering (30) | camera (26), parallax (19), orbit (17), shader (16), sequence (14) |
 | `motion-design-skill` | 20 | 0.1 MB | skills (18), transitions (8), ui-motion (7), effects (6), camera-cinematography (5) | particles (9), parallax (5), chart (3), cursor (2), tokens (2) |
 | `motion-skills` | 9 | 3.5 MB | rendering (5), skills (3), tests (3), ui-motion (2), typography (1) | render (5), cursor (2), kinetic-type (1), threejs (1) |
