@@ -3,8 +3,8 @@
   "donor": "emilkowalski-skills",
   "summary": {
     "fileCount": 26,
-    "totalBytes": 262370,
-    "indexedContentBytes": 262370,
+    "totalBytes": 262359,
+    "indexedContentBytes": 262359,
     "textFiles": 26,
     "binaryFiles": 0,
     "topExtensions": {
@@ -93,7 +93,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 4250,
+      "bytes": 4239,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -105,7 +105,7 @@
         "ui-motion"
       ],
       "signals": [],
-      "indexedContentBytes": 4250
+      "indexedContentBytes": 4239
     },
     {
       "path": "performance-cheatsheet.md",

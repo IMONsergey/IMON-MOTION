@@ -3,7 +3,7 @@
   "donor": "chuk-motion",
   "summary": {
     "fileCount": 559,
-    "totalBytes": 3678174,
+    "totalBytes": 3698579,
     "indexedContentBytes": 3363027,
     "textFiles": 559,
     "binaryFiles": 0,
@@ -9161,7 +9161,7 @@
     },
     {
       "path": "uv.lock",
-      "bytes": 426707,
+      "bytes": 447112,
       "ext": ".lock",
       "binary": false,
       "categories": [],

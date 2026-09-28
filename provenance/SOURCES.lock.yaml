@@ -1,15 +1,15 @@
 version: 1
-generated_at: "2026-09-21T10:03:40Z"
+generated_at: "2026-09-28T11:03:22Z"
 sources:
   video-shotcraft:
     repository: "Vincentwei1021/video-shotcraft"
     url: "https://github.com/Vincentwei1021/video-shotcraft.git"
-    commit: "5e71af35a2daee492dd3ea93e5e8903f32dcd13c"
+    commit: "e2d8928c57ef84701f9b0119ca4a1c28a62050c1"
     branch: "main"
-    upstream_commit_date: "2026-09-09T13:46:39+08:00"
+    upstream_commit_date: "2026-09-27T14:44:12+08:00"
     path: "upstream/video-shotcraft"
-    files: 969
-    size_kb: 56008
+    files: 984
+    size_kb: 56260
     license_files: "LICENSE"
   onda:
     repository: "degueba/onda"
@@ -24,9 +24,9 @@ sources:
   motion-skills:
     repository: "iart-ai/motion-skills"
     url: "https://github.com/iart-ai/motion-skills.git"
-    commit: "945c4c70f7cf82a4502cfe3877ff8466972d2842"
+    commit: "91834c6b5d8c756373834e8d22eaec3b28344ec9"
     branch: "master"
-    upstream_commit_date: "2026-06-30T23:02:01+08:00"
+    upstream_commit_date: "2026-09-23T21:37:58+08:00"
     path: "upstream/motion-skills"
     files: 9
     size_kb: 3632
@@ -44,9 +44,9 @@ sources:
   emilkowalski-skills:
     repository: "emilkowalski/skills"
     url: "https://github.com/emilkowalski/skills.git"
-    commit: "85e8e2363b713506e1d5b6e07a0eb2da66be1bc3"
+    commit: "d16ebe60d09a5ba2afcb7054ede9d0a10c9f6128"
     branch: "main"
-    upstream_commit_date: "2026-09-15T17:52:10+02:00"
+    upstream_commit_date: "2026-09-24T01:18:27+02:00"
     path: "upstream/emilkowalski-skills"
     files: 26
     size_kb: 376
@@ -64,12 +64,12 @@ sources:
   remotion-skills:
     repository: "remotion-dev/skills"
     url: "https://github.com/remotion-dev/skills.git"
-    commit: "bbb139d5ba3709b1ffeb27184e9579c681230a08"
+    commit: "cf49eff5d4463b33966b6618c83f7295797dd028"
     branch: "main"
-    upstream_commit_date: "2026-09-17T16:46:07+02:00"
+    upstream_commit_date: "2026-09-25T09:59:27+02:00"
     path: "upstream/remotion-skills"
-    files: 279
-    size_kb: 3436
+    files: 283
+    size_kb: 3460
     license_files: ""
   product-launch-video-skill:
     repository: "memex-lab/product-launch-video-skill"
@@ -94,12 +94,12 @@ sources:
   chuk-motion:
     repository: "IBM/chuk-motion"
     url: "https://github.com/IBM/chuk-motion.git"
-    commit: "76ad7ea41b70787b902b3bf748d17634781efd07"
+    commit: "d94660ccc8a6b50eb752fe8e992bf3e065bf1efa"
     branch: "main"
-    upstream_commit_date: "2026-02-06T18:07:40Z"
+    upstream_commit_date: "2026-09-26T15:06:51+01:00"
     path: "upstream/chuk-motion"
     files: 559
-    size_kb: 5472
+    size_kb: 5492
     license_files: "LICENSE"
   skill-remotion-geist:
     repository: "vercel-labs/skill-remotion-geist"

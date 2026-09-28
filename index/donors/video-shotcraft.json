@@ -2,72 +2,72 @@
   "version": 2,
   "donor": "video-shotcraft",
   "summary": {
-    "fileCount": 970,
-    "totalBytes": 54479346,
-    "indexedContentBytes": 4000574,
-    "textFiles": 679,
+    "fileCount": 985,
+    "totalBytes": 54691899,
+    "indexedContentBytes": 4213127,
+    "textFiles": 694,
     "binaryFiles": 291,
     "topExtensions": {
-      ".md": 335,
-      ".tsx": 260,
+      ".md": 336,
+      ".tsx": 264,
       ".mp3": 165,
       ".jpg": 66,
       ".png": 60,
-      ".ts": 26,
-      ".json": 12,
+      ".ts": 30,
+      ".json": 14,
+      "[none]": 9,
       ".py": 8,
-      "[none]": 8,
       ".svg": 8,
+      ".mjs": 5,
       ".yml": 4,
-      ".mjs": 4,
       ".html": 4,
       ".js": 3,
       ".txt": 2,
       ".css": 2
     },
     "categoryCounts": {
-      "effects": 322,
-      "examples-templates": 316,
-      "remotion": 244,
-      "audio-sound": 229,
-      "ui-motion": 207,
-      "transitions": 206,
-      "typography": 198,
-      "camera-cinematography": 185,
+      "examples-templates": 326,
+      "effects": 325,
+      "remotion": 245,
+      "audio-sound": 230,
+      "ui-motion": 210,
+      "transitions": 207,
+      "typography": 199,
+      "camera-cinematography": 188,
       "shots-scenes-storyboard": 183,
-      "data-animation": 123,
-      "tests": 64,
-      "design-system": 40,
-      "skills": 38,
-      "rendering": 27,
+      "data-animation": 127,
+      "tests": 72,
+      "design-system": 72,
+      "skills": 40,
+      "rendering": 28,
       "3d-webgl-shaders": 19
     },
     "contentCategoryCounts": {
-      "effects": 300,
-      "remotion": 240,
-      "camera-cinematography": 162,
-      "transitions": 121,
-      "ui-motion": 92,
-      "typography": 92,
-      "tests": 58,
-      "audio-sound": 51,
-      "design-system": 38,
-      "skills": 37,
-      "rendering": 24,
-      "data-animation": 19,
+      "effects": 303,
+      "remotion": 241,
+      "camera-cinematography": 165,
+      "transitions": 122,
+      "ui-motion": 93,
+      "typography": 93,
+      "design-system": 68,
+      "tests": 66,
+      "audio-sound": 52,
+      "skills": 39,
+      "rendering": 25,
+      "data-animation": 23,
       "3d-webgl-shaders": 7,
       "shots-scenes-storyboard": 4
     },
     "signalCounts": {
       "interpolate": 187,
-      "camera": 86,
-      "mask": 57,
+      "camera": 89,
+      "mask": 58,
       "spring": 44,
-      "sound-design": 42,
+      "sound-design": 43,
       "orbit": 32,
-      "cursor": 25,
-      "chart": 16,
-      "render": 14,
+      "cursor": 26,
+      "chart": 18,
+      "render": 15,
       "particles": 14,
       "sequence": 14,
       "shot-card": 11,
@@ -147,24 +147,26 @@
     },
     {
       "path": ".github/workflows/pr-checks.yml",
-      "bytes": 7242,
+      "bytes": 7338,
       "ext": ".yml",
       "binary": false,
       "categories": [
         "camera-cinematography",
         "effects",
+        "design-system",
         "tests"
       ],
       "contentCategories": [
         "camera-cinematography",
         "effects",
+        "design-system",
         "tests"
       ],
       "signals": [
         "camera",
         "shot-card"
       ],
-      "indexedContentBytes": 7242
+      "indexedContentBytes": 7338
     },
     {
       "path": ".github/workflows/showcase-publish.yml",
@@ -208,7 +210,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 15103,
+      "bytes": 15855,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -241,11 +243,11 @@
         "beat-sync",
         "render"
       ],
-      "indexedContentBytes": 15103
+      "indexedContentBytes": 15855
     },
     {
       "path": "README_CN.md",
-      "bytes": 14587,
+      "bytes": 14859,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -269,7 +271,7 @@
         "chart",
         "sound-design"
       ],
-      "indexedContentBytes": 14587
+      "indexedContentBytes": 14859
     },
     {
       "path": "README_JA.md",
@@ -14012,7 +14014,7 @@
     },
     {
       "path": "references/workbench.md",
-      "bytes": 13025,
+      "bytes": 13179,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -14034,7 +14036,7 @@
         "sequence",
         "sound-design"
       ],
-      "indexedContentBytes": 13025
+      "indexedContentBytes": 13179
     },
     {
       "path": "template/.gitignore",
@@ -14071,6 +14073,21 @@
         "render"
       ],
       "indexedContentBytes": 8172
+    },
+    {
+      "path": "template/THEMES.md",
+      "bytes": 5191,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ],
+      "contentCategories": [
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 5191
     },
     {
       "path": "template/package-lock.json",
@@ -14613,79 +14630,103 @@
       "indexedContentBytes": 186
     },
     {
+      "path": "template/scripts/build-palette-assets.cjs",
+      "bytes": 2298,
+      "ext": ".cjs",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "design-system",
+        "examples-templates"
+      ],
+      "contentCategories": [
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2298
+    },
+    {
       "path": "template/src/Root.tsx",
-      "bytes": 312,
+      "bytes": 396,
       "ext": ".tsx",
       "binary": false,
       "categories": [
         "examples-templates",
-        "remotion"
+        "remotion",
+        "design-system"
       ],
       "contentCategories": [
-        "remotion"
+        "remotion",
+        "design-system"
       ],
       "signals": [],
-      "indexedContentBytes": 312
+      "indexedContentBytes": 396
     },
     {
       "path": "template/src/aifl/Caption.tsx",
-      "bytes": 1776,
+      "bytes": 2299,
       "ext": ".tsx",
       "binary": false,
       "categories": [
         "examples-templates",
-        "remotion"
+        "remotion",
+        "design-system"
       ],
       "contentCategories": [
-        "remotion"
+        "remotion",
+        "design-system"
       ],
       "signals": [
         "interpolate"
       ],
-      "indexedContentBytes": 1776
+      "indexedContentBytes": 2299
     },
     {
       "path": "template/src/aifl/DigitRoll.tsx",
-      "bytes": 1638,
+      "bytes": 1826,
       "ext": ".tsx",
       "binary": false,
       "categories": [
         "examples-templates",
         "remotion",
+        "design-system",
         "tests"
       ],
       "contentCategories": [
         "remotion",
+        "design-system",
         "tests"
       ],
       "signals": [
         "interpolate"
       ],
-      "indexedContentBytes": 1638
+      "indexedContentBytes": 1826
     },
     {
       "path": "template/src/aifl/FlashCut.tsx",
-      "bytes": 657,
+      "bytes": 892,
       "ext": ".tsx",
       "binary": false,
       "categories": [
         "transitions",
         "examples-templates",
         "remotion",
-        "effects"
+        "effects",
+        "design-system"
       ],
       "contentCategories": [
         "remotion",
-        "effects"
+        "effects",
+        "design-system"
       ],
       "signals": [
         "interpolate"
       ],
-      "indexedContentBytes": 657
+      "indexedContentBytes": 892
     },
     {
       "path": "template/src/aifl/Main.tsx",
-      "bytes": 9510,
+      "bytes": 9730,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14696,6 +14737,7 @@
         "ui-motion",
         "data-animation",
         "audio-sound",
+        "design-system",
         "tests"
       ],
       "contentCategories": [
@@ -14705,6 +14747,7 @@
         "ui-motion",
         "data-animation",
         "audio-sound",
+        "design-system",
         "tests"
       ],
       "signals": [
@@ -14714,11 +14757,11 @@
         "chart",
         "sound-design"
       ],
-      "indexedContentBytes": 9510
+      "indexedContentBytes": 9730
     },
     {
       "path": "template/src/aifl/PaperTitleCard.tsx",
-      "bytes": 3898,
+      "bytes": 4194,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14738,11 +14781,11 @@
       "signals": [
         "interpolate"
       ],
-      "indexedContentBytes": 3898
+      "indexedContentBytes": 4194
     },
     {
       "path": "template/src/aifl/live/PageCam.tsx",
-      "bytes": 6503,
+      "bytes": 6754,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14750,23 +14793,25 @@
         "remotion",
         "camera-cinematography",
         "data-animation",
-        "effects"
+        "effects",
+        "design-system"
       ],
       "contentCategories": [
         "remotion",
         "camera-cinematography",
         "data-animation",
-        "effects"
+        "effects",
+        "design-system"
       ],
       "signals": [
         "interpolate",
         "camera"
       ],
-      "indexedContentBytes": 6503
+      "indexedContentBytes": 6754
     },
     {
       "path": "template/src/aifl/live/SceneDetail.tsx",
-      "bytes": 5640,
+      "bytes": 6000,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14774,21 +14819,23 @@
         "examples-templates",
         "remotion",
         "camera-cinematography",
-        "transitions"
+        "transitions",
+        "design-system"
       ],
       "contentCategories": [
         "remotion",
         "camera-cinematography",
-        "transitions"
+        "transitions",
+        "design-system"
       ],
       "signals": [
         "interpolate"
       ],
-      "indexedContentBytes": 5640
+      "indexedContentBytes": 6000
     },
     {
       "path": "template/src/aifl/live/SceneFlyIn.tsx",
-      "bytes": 20324,
+      "bytes": 20787,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14798,25 +14845,27 @@
         "camera-cinematography",
         "ui-motion",
         "rendering",
-        "effects"
+        "effects",
+        "design-system"
       ],
       "contentCategories": [
         "remotion",
         "camera-cinematography",
         "ui-motion",
         "rendering",
-        "effects"
+        "effects",
+        "design-system"
       ],
       "signals": [
         "interpolate",
         "camera",
         "orbit"
       ],
-      "indexedContentBytes": 20324
+      "indexedContentBytes": 20787
     },
     {
       "path": "template/src/aifl/live/SceneOpen.tsx",
-      "bytes": 25107,
+      "bytes": 25822,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14844,11 +14893,11 @@
         "camera",
         "cursor"
       ],
-      "indexedContentBytes": 25107
+      "indexedContentBytes": 25822
     },
     {
       "path": "template/src/aifl/live/SceneOutroLive.tsx",
-      "bytes": 17177,
+      "bytes": 17712,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14871,11 +14920,11 @@
         "interpolate",
         "camera"
       ],
-      "indexedContentBytes": 17177
+      "indexedContentBytes": 17712
     },
     {
       "path": "template/src/aifl/live/ScenePapers.tsx",
-      "bytes": 7783,
+      "bytes": 8247,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14883,6 +14932,7 @@
         "examples-templates",
         "remotion",
         "camera-cinematography",
+        "data-animation",
         "effects",
         "design-system",
         "tests"
@@ -14890,19 +14940,21 @@
       "contentCategories": [
         "remotion",
         "camera-cinematography",
+        "data-animation",
         "effects",
         "design-system",
         "tests"
       ],
       "signals": [
         "interpolate",
-        "camera"
+        "camera",
+        "chart"
       ],
-      "indexedContentBytes": 7783
+      "indexedContentBytes": 8247
     },
     {
       "path": "template/src/aifl/live/SceneWbr.tsx",
-      "bytes": 12310,
+      "bytes": 12767,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -14926,7 +14978,7 @@
         "camera",
         "mask"
       ],
-      "indexedContentBytes": 12310
+      "indexedContentBytes": 12767
     },
     {
       "path": "template/src/aifl/live-layout.json",
@@ -14956,8 +15008,124 @@
       "indexedContentBytes": 93
     },
     {
+      "path": "template/src/themes/ThemedFilm.tsx",
+      "bytes": 364,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ],
+      "contentCategories": [
+        "design-system"
+      ],
+      "signals": [],
+      "indexedContentBytes": 364
+    },
+    {
+      "path": "template/src/themes/manifest.tsx",
+      "bytes": 3964,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates",
+        "data-animation",
+        "tests"
+      ],
+      "contentCategories": [
+        "data-animation",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "chart"
+      ],
+      "indexedContentBytes": 3964
+    },
+    {
+      "path": "template/src/themes/palette-assets.json",
+      "bytes": 105914,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates",
+        "skills",
+        "camera-cinematography",
+        "data-animation"
+      ],
+      "contentCategories": [
+        "skills",
+        "camera-cinematography",
+        "data-animation",
+        "design-system"
+      ],
+      "signals": [
+        "camera"
+      ],
+      "indexedContentBytes": 105914
+    },
+    {
+      "path": "template/src/themes/palette-assets.ts",
+      "bytes": 2209,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates",
+        "camera-cinematography",
+        "tests"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "camera"
+      ],
+      "indexedContentBytes": 2209
+    },
+    {
+      "path": "template/src/themes/palettes.json",
+      "bytes": 1547,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1547
+    },
+    {
+      "path": "template/src/themes/visual-theme.tsx",
+      "bytes": 5346,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates",
+        "remotion",
+        "rendering",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "rendering",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 5346
+    },
+    {
       "path": "template/src/workbench.ts",
-      "bytes": 9527,
+      "bytes": 9616,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -14979,7 +15147,44 @@
         "chart",
         "sound-design"
       ],
-      "indexedContentBytes": 9527
+      "indexedContentBytes": 9616
+    },
+    {
+      "path": "template/themes/.gitignore",
+      "bytes": 10,
+      "ext": "[none]",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "examples-templates"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 10
+    },
+    {
+      "path": "template/themes/ui.cjs",
+      "bytes": 23076,
+      "ext": ".cjs",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "design-system",
+        "examples-templates",
+        "skills",
+        "camera-cinematography",
+        "data-animation"
+      ],
+      "contentCategories": [
+        "skills",
+        "camera-cinematography",
+        "data-animation",
+        "design-system"
+      ],
+      "signals": [
+        "camera"
+      ],
+      "indexedContentBytes": 23076
     },
     {
       "path": "template/tsconfig.json",
@@ -15027,7 +15232,7 @@
     },
     {
       "path": "workbench/README.md",
-      "bytes": 7333,
+      "bytes": 8135,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -15047,7 +15252,7 @@
         "threejs",
         "sound-design"
       ],
-      "indexedContentBytes": 7333
+      "indexedContentBytes": 8135
     },
     {
       "path": "workbench/demosrc",
@@ -15157,13 +15362,13 @@
     },
     {
       "path": "workbench/index.html",
-      "bytes": 328,
+      "bytes": 326,
       "ext": ".html",
       "binary": false,
       "categories": [],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 328
+      "indexedContentBytes": 326
     },
     {
       "path": "workbench/package-lock.json",
@@ -15189,7 +15394,7 @@
     },
     {
       "path": "workbench/package.json",
-      "bytes": 1196,
+      "bytes": 1247,
       "ext": ".json",
       "binary": false,
       "categories": [
@@ -15203,7 +15408,7 @@
       "signals": [
         "threejs"
       ],
-      "indexedContentBytes": 1196
+      "indexedContentBytes": 1247
     },
     {
       "path": "workbench/proj-stub/workbench.ts",
@@ -15242,7 +15447,7 @@
     },
     {
       "path": "workbench/scripts/gen-index.mjs",
-      "bytes": 13016,
+      "bytes": 13757,
       "ext": ".mjs",
       "binary": false,
       "categories": [
@@ -15256,7 +15461,7 @@
       "signals": [
         "sound-design"
       ],
-      "indexedContentBytes": 13016
+      "indexedContentBytes": 13757
     },
     {
       "path": "workbench/scripts/open.mjs",
@@ -15289,8 +15494,26 @@
       "indexedContentBytes": 5209
     },
     {
+      "path": "workbench/scripts/test-themes.mjs",
+      "bytes": 9945,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests",
+        "effects"
+      ],
+      "contentCategories": [
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 9945
+    },
+    {
       "path": "workbench/src/App.tsx",
-      "bytes": 8600,
+      "bytes": 8912,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -15300,7 +15523,7 @@
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 8600
+      "indexedContentBytes": 8912
     },
     {
       "path": "workbench/src/cards/background-cards.tsx",
@@ -15320,7 +15543,7 @@
     },
     {
       "path": "workbench/src/cards/demoCards.ts",
-      "bytes": 1316,
+      "bytes": 1384,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -15328,7 +15551,7 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 1316
+      "indexedContentBytes": 1384
     },
     {
       "path": "workbench/src/cards/inkpress/caption-strip.tsx",
@@ -15412,22 +15635,24 @@
     },
     {
       "path": "workbench/src/cards/manifest.ts",
-      "bytes": 6519,
+      "bytes": 7331,
       "ext": ".ts",
       "binary": false,
       "categories": [
         "transitions",
-        "audio-sound"
+        "audio-sound",
+        "design-system"
       ],
       "contentCategories": [
         "transitions",
-        "audio-sound"
+        "audio-sound",
+        "design-system"
       ],
       "signals": [
         "sequence",
         "sound-design"
       ],
-      "indexedContentBytes": 6519
+      "indexedContentBytes": 7331
     },
     {
       "path": "workbench/src/cards/media-cards.tsx",
@@ -15447,7 +15672,7 @@
     },
     {
       "path": "workbench/src/cards/projectCards.ts",
-      "bytes": 2719,
+      "bytes": 2753,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -15457,7 +15682,7 @@
         "transitions"
       ],
       "signals": [],
-      "indexedContentBytes": 2719
+      "indexedContentBytes": 2753
     },
     {
       "path": "workbench/src/cards/registry.ts",
@@ -15487,7 +15712,7 @@
     },
     {
       "path": "workbench/src/cards/text-basic.tsx",
-      "bytes": 5252,
+      "bytes": 5248,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -15504,11 +15729,11 @@
       "signals": [
         "mask"
       ],
-      "indexedContentBytes": 5252
+      "indexedContentBytes": 5248
     },
     {
       "path": "workbench/src/cards/types.ts",
-      "bytes": 5093,
+      "bytes": 5406,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -15522,11 +15747,11 @@
       "signals": [
         "spring"
       ],
-      "indexedContentBytes": 5093
+      "indexedContentBytes": 5406
     },
     {
       "path": "workbench/src/demoProject.ts",
-      "bytes": 1445,
+      "bytes": 1436,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -15534,7 +15759,7 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 1445
+      "indexedContentBytes": 1436
     },
     {
       "path": "workbench/src/dnd.ts",
@@ -15547,6 +15772,38 @@
       "indexedContentBytes": 684
     },
     {
+      "path": "workbench/src/i18n.ts",
+      "bytes": 23723,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "transitions",
+        "typography",
+        "ui-motion",
+        "audio-sound",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "remotion",
+        "transitions",
+        "typography",
+        "ui-motion",
+        "audio-sound",
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "signals": [
+        "cursor",
+        "sound-design",
+        "mask"
+      ],
+      "indexedContentBytes": 23723
+    },
+    {
       "path": "workbench/src/main.tsx",
       "bytes": 395,
       "ext": ".tsx",
@@ -15557,36 +15814,72 @@
       "indexedContentBytes": 395
     },
     {
+      "path": "workbench/src/palettePresets.ts",
+      "bytes": 1997,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "design-system",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1997
+    },
+    {
       "path": "workbench/src/panels/Inspector.tsx",
-      "bytes": 11727,
+      "bytes": 11828,
       "ext": ".tsx",
       "binary": false,
       "categories": [
         "tests",
-        "remotion"
+        "design-system"
       ],
       "contentCategories": [
-        "remotion",
+        "design-system",
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 11727
+      "indexedContentBytes": 11828
     },
     {
       "path": "workbench/src/panels/LibraryPanel.tsx",
-      "bytes": 14664,
+      "bytes": 14950,
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "audio-sound"
+        "audio-sound",
+        "design-system"
       ],
       "contentCategories": [
-        "audio-sound"
+        "audio-sound",
+        "design-system"
       ],
       "signals": [
         "sound-design"
       ],
-      "indexedContentBytes": 14664
+      "indexedContentBytes": 14950
+    },
+    {
+      "path": "workbench/src/panels/ThemePanel.tsx",
+      "bytes": 8907,
+      "ext": ".tsx",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "effects",
+        "design-system",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 8907
     },
     {
       "path": "workbench/src/playerRef.ts",
@@ -15600,35 +15893,39 @@
     },
     {
       "path": "workbench/src/preview/Composition.tsx",
-      "bytes": 3162,
+      "bytes": 3281,
       "ext": ".tsx",
       "binary": false,
       "categories": [
         "remotion",
-        "audio-sound"
+        "audio-sound",
+        "design-system"
       ],
       "contentCategories": [
         "remotion",
-        "audio-sound"
+        "audio-sound",
+        "design-system"
       ],
       "signals": [
         "sequence"
       ],
-      "indexedContentBytes": 3162
+      "indexedContentBytes": 3281
     },
     {
       "path": "workbench/src/preview/PreviewPanel.tsx",
-      "bytes": 5580,
+      "bytes": 5975,
       "ext": ".tsx",
       "binary": false,
       "categories": [
-        "audio-sound"
+        "audio-sound",
+        "design-system"
       ],
       "contentCategories": [
-        "audio-sound"
+        "audio-sound",
+        "design-system"
       ],
       "signals": [],
-      "indexedContentBytes": 5580
+      "indexedContentBytes": 5975
     },
     {
       "path": "workbench/src/proj.d.ts",
@@ -15642,24 +15939,26 @@
     },
     {
       "path": "workbench/src/projectImport.ts",
-      "bytes": 3792,
+      "bytes": 4004,
       "ext": ".ts",
       "binary": false,
       "categories": [
         "transitions",
         "audio-sound",
+        "design-system",
         "tests"
       ],
       "contentCategories": [
         "transitions",
         "audio-sound",
+        "design-system",
         "tests"
       ],
       "signals": [
         "sequence",
         "sound-design"
       ],
-      "indexedContentBytes": 3792
+      "indexedContentBytes": 4004
     },
     {
       "path": "workbench/src/remotion/Root.tsx",
@@ -15706,39 +16005,59 @@
     },
     {
       "path": "workbench/src/store.ts",
-      "bytes": 11276,
+      "bytes": 11726,
       "ext": ".ts",
       "binary": false,
       "categories": [
         "ui-motion",
+        "design-system",
         "tests"
       ],
       "contentCategories": [
         "ui-motion",
+        "design-system",
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 11276
+      "indexedContentBytes": 11726
     },
     {
       "path": "workbench/src/styles.css",
-      "bytes": 15372,
+      "bytes": 19085,
       "ext": ".css",
       "binary": false,
       "categories": [
         "transitions",
         "ui-motion",
-        "effects"
+        "effects",
+        "design-system"
       ],
       "contentCategories": [
         "transitions",
         "ui-motion",
-        "effects"
+        "effects",
+        "design-system"
       ],
       "signals": [
         "cursor"
       ],
-      "indexedContentBytes": 15372
+      "indexedContentBytes": 19085
+    },
+    {
+      "path": "workbench/src/theme.ts",
+      "bytes": 3282,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "design-system",
+        "tests"
+      ],
+      "contentCategories": [
+        "design-system",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 3282
     },
     {
       "path": "workbench/src/time.ts",
@@ -15752,7 +16071,7 @@
     },
     {
       "path": "workbench/src/timeline/ClipView.tsx",
-      "bytes": 4615,
+      "bytes": 4681,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -15762,7 +16081,7 @@
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 4615
+      "indexedContentBytes": 4681
     },
     {
       "path": "workbench/src/timeline/Ruler.tsx",
@@ -15776,17 +16095,17 @@
     },
     {
       "path": "workbench/src/timeline/Timeline.tsx",
-      "bytes": 9819,
+      "bytes": 9841,
       "ext": ".tsx",
       "binary": false,
       "categories": [],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 9819
+      "indexedContentBytes": 9841
     },
     {
       "path": "workbench/src/types.ts",
-      "bytes": 2133,
+      "bytes": 2277,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -15796,7 +16115,7 @@
         "ui-motion"
       ],
       "signals": [],
-      "indexedContentBytes": 2133
+      "indexedContentBytes": 2277
     },
     {
       "path": "workbench/src/vite-env.d.ts",

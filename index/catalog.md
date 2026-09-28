@@ -14,11 +14,11 @@ Generated automatically from file paths plus a bounded content scan. Use this su
 | `product-launch-video-skill` | 7 | 0.1 MB | skills (5), audio-sound (5), rendering (4), shots-scenes-storyboard (2), typography (2) | render (4), storyboard (2), sound-design (1), spring (1), interpolate (1) |
 | `remotion-cinematic` | 169 | 12.0 MB | ui-motion (106), tests (43), remotion (42), audio-sound (28), typography (27) | cursor (46), sound-design (16), interpolate (15), camera (14), sequence (9) |
 | `remotion-scenes` | 253 | 1.4 MB | remotion (226), shots-scenes-storyboard (221), effects (110), ui-motion (42), design-system (39) | spring (93), cursor (21), sequence (17), interpolate (14), mask (14) |
-| `remotion-skills` | 279 | 2.2 MB | skills (277), remotion (271), rendering (99), camera-cinematography (63), 3d-webgl-shaders (50) | render (71), camera (57), interpolate (40), sequence (24), spring (6) |
+| `remotion-skills` | 283 | 2.2 MB | skills (281), remotion (275), rendering (101), camera-cinematography (63), 3d-webgl-shaders (50) | render (73), camera (57), interpolate (40), sequence (24), spring (6) |
 | `remotion-templates` | 82 | 0.2 MB | examples-templates (81), remotion (79), effects (63), transitions (20), typography (14) | interpolate (45), spring (36), mask (5), chart (4), cursor (3) |
 | `skill-remotion-geist` | 10 | 0.0 MB | skills (10), remotion (9), design-system (6), typography (5), shots-scenes-storyboard (4) | interpolate (4), tokens (2), spring (2), storyboard (2), camera (1) |
 | `theatre` | 1029 | 9.8 MB | ui-motion (247), tests (243), shots-scenes-storyboard (109), data-animation (105), 3d-webgl-shaders (56) | cursor (61), threejs (51), camera (28), render (13), chart (6) |
-| `video-shotcraft` | 970 | 52.0 MB | effects (322), examples-templates (316), remotion (244), audio-sound (229), ui-motion (207) | interpolate (187), camera (86), mask (57), spring (44), sound-design (42) |
+| `video-shotcraft` | 985 | 52.2 MB | examples-templates (326), effects (325), remotion (245), audio-sound (230), ui-motion (210) | interpolate (187), camera (89), mask (58), spring (44), sound-design (43) |
 
 ## Routing rule
 
