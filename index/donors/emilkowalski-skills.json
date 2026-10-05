@@ -2,44 +2,44 @@
   "version": 2,
   "donor": "emilkowalski-skills",
   "summary": {
-    "fileCount": 26,
-    "totalBytes": 262359,
-    "indexedContentBytes": 262359,
-    "textFiles": 26,
+    "fileCount": 28,
+    "totalBytes": 285193,
+    "indexedContentBytes": 285193,
+    "textFiles": 28,
     "binaryFiles": 0,
     "topExtensions": {
-      ".md": 22,
+      ".md": 24,
       "[none]": 4
     },
     "categoryCounts": {
-      "skills": 21,
+      "skills": 23,
+      "ui-motion": 16,
       "transitions": 16,
-      "ui-motion": 14,
       "effects": 13,
       "design-system": 13,
-      "data-animation": 9,
+      "data-animation": 10,
       "rendering": 7,
-      "camera-cinematography": 5,
-      "tests": 4,
+      "camera-cinematography": 6,
+      "tests": 5,
+      "typography": 4,
       "remotion": 3,
-      "typography": 3,
       "examples-templates": 1
     },
     "contentCategoryCounts": {
-      "skills": 16,
+      "skills": 17,
       "transitions": 16,
       "ui-motion": 13,
       "effects": 13,
       "design-system": 13,
-      "data-animation": 9,
+      "data-animation": 10,
       "rendering": 7,
-      "camera-cinematography": 5,
-      "tests": 4,
-      "remotion": 3,
-      "typography": 3
+      "camera-cinematography": 6,
+      "tests": 5,
+      "typography": 4,
+      "remotion": 3
     },
     "signalCounts": {
-      "mask": 7,
+      "mask": 8,
       "render": 7,
       "chart": 5,
       "parallax": 3,
@@ -47,7 +47,9 @@
       "tokens": 2,
       "cursor": 2,
       "interpolate": 1,
-      "motion-blur": 1
+      "motion-blur": 1,
+      "camera": 1,
+      "particles": 1
     }
   },
   "files": [
@@ -93,7 +95,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 4239,
+      "bytes": 4425,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -105,7 +107,7 @@
         "ui-motion"
       ],
       "signals": [],
-      "indexedContentBytes": 4239
+      "indexedContentBytes": 4425
     },
     {
       "path": "performance-cheatsheet.md",
@@ -309,6 +311,48 @@
         "render"
       ],
       "indexedContentBytes": 7233
+    },
+    {
+      "path": "skills/break-ui/CATALOG.md",
+      "bytes": 8268,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "ui-motion",
+        "camera-cinematography",
+        "data-animation"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "data-animation"
+      ],
+      "signals": [
+        "camera",
+        "particles"
+      ],
+      "indexedContentBytes": 8268
+    },
+    {
+      "path": "skills/break-ui/SKILL.md",
+      "bytes": 14380,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "ui-motion",
+        "typography",
+        "tests"
+      ],
+      "contentCategories": [
+        "skills",
+        "typography",
+        "tests"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 14380
     },
     {
       "path": "skills/emil-design-eng/SKILL.md",

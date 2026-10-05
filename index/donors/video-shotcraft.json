@@ -2,10 +2,10 @@
   "version": 2,
   "donor": "video-shotcraft",
   "summary": {
-    "fileCount": 985,
-    "totalBytes": 54691899,
-    "indexedContentBytes": 4213127,
-    "textFiles": 694,
+    "fileCount": 989,
+    "totalBytes": 54848232,
+    "indexedContentBytes": 4369460,
+    "textFiles": 698,
     "binaryFiles": 291,
     "topExtensions": {
       ".md": 336,
@@ -14,7 +14,7 @@
       ".jpg": 66,
       ".png": 60,
       ".ts": 30,
-      ".json": 14,
+      ".json": 18,
       "[none]": 9,
       ".py": 8,
       ".svg": 8,
@@ -26,16 +26,16 @@
       ".css": 2
     },
     "categoryCounts": {
+      "effects": 327,
       "examples-templates": 326,
-      "effects": 325,
       "remotion": 245,
       "audio-sound": 230,
-      "ui-motion": 210,
-      "transitions": 207,
+      "ui-motion": 212,
+      "transitions": 208,
       "typography": 199,
-      "camera-cinematography": 188,
+      "camera-cinematography": 189,
       "shots-scenes-storyboard": 183,
-      "data-animation": 127,
+      "data-animation": 128,
       "tests": 72,
       "design-system": 72,
       "skills": 40,
@@ -43,35 +43,35 @@
       "3d-webgl-shaders": 19
     },
     "contentCategoryCounts": {
-      "effects": 303,
+      "effects": 305,
       "remotion": 241,
-      "camera-cinematography": 165,
-      "transitions": 122,
-      "ui-motion": 93,
+      "camera-cinematography": 166,
+      "transitions": 123,
+      "ui-motion": 95,
       "typography": 93,
       "design-system": 68,
       "tests": 66,
       "audio-sound": 52,
       "skills": 39,
       "rendering": 25,
-      "data-animation": 23,
+      "data-animation": 24,
       "3d-webgl-shaders": 7,
       "shots-scenes-storyboard": 4
     },
     "signalCounts": {
       "interpolate": 187,
       "camera": 89,
-      "mask": 58,
+      "mask": 59,
       "spring": 44,
       "sound-design": 43,
       "orbit": 32,
-      "cursor": 26,
+      "cursor": 27,
       "chart": 18,
       "render": 15,
       "particles": 14,
       "sequence": 14,
+      "motion-blur": 12,
       "shot-card": 11,
-      "motion-blur": 11,
       "parallax": 6,
       "threejs": 6,
       "beat-sync": 4,
@@ -14014,7 +14014,7 @@
     },
     {
       "path": "references/workbench.md",
-      "bytes": 13179,
+      "bytes": 13212,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -14036,7 +14036,7 @@
         "sequence",
         "sound-design"
       ],
-      "indexedContentBytes": 13179
+      "indexedContentBytes": 13212
     },
     {
       "path": "template/.gitignore",
@@ -15232,7 +15232,7 @@
     },
     {
       "path": "workbench/README.md",
-      "bytes": 8135,
+      "bytes": 8377,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -15252,7 +15252,7 @@
         "threejs",
         "sound-design"
       ],
-      "indexedContentBytes": 8135
+      "indexedContentBytes": 8377
     },
     {
       "path": "workbench/demosrc",
@@ -15361,6 +15361,68 @@
       "indexedContentBytes": 0
     },
     {
+      "path": "workbench/i18n/ru/categories.json",
+      "bytes": 572,
+      "ext": ".json",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 572
+    },
+    {
+      "path": "workbench/i18n/ru/names.json",
+      "bytes": 20104,
+      "ext": ".json",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 20104
+    },
+    {
+      "path": "workbench/i18n/ru/summaries.1.json",
+      "bytes": 56086,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "camera-cinematography",
+        "ui-motion",
+        "effects"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "ui-motion",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 56086
+    },
+    {
+      "path": "workbench/i18n/ru/summaries.2.json",
+      "bytes": 60806,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "transitions",
+        "ui-motion",
+        "data-animation",
+        "effects"
+      ],
+      "contentCategories": [
+        "transitions",
+        "ui-motion",
+        "data-animation",
+        "effects"
+      ],
+      "signals": [
+        "cursor",
+        "mask",
+        "motion-blur"
+      ],
+      "indexedContentBytes": 60806
+    },
+    {
       "path": "workbench/index.html",
       "bytes": 326,
       "ext": ".html",
@@ -15447,7 +15509,7 @@
     },
     {
       "path": "workbench/scripts/gen-index.mjs",
-      "bytes": 13757,
+      "bytes": 14604,
       "ext": ".mjs",
       "binary": false,
       "categories": [
@@ -15461,7 +15523,7 @@
       "signals": [
         "sound-design"
       ],
-      "indexedContentBytes": 13757
+      "indexedContentBytes": 14604
     },
     {
       "path": "workbench/scripts/open.mjs",
@@ -15513,7 +15575,7 @@
     },
     {
       "path": "workbench/src/App.tsx",
-      "bytes": 8912,
+      "bytes": 9131,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -15523,7 +15585,7 @@
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 8912
+      "indexedContentBytes": 9131
     },
     {
       "path": "workbench/src/cards/background-cards.tsx",
@@ -15773,7 +15835,7 @@
     },
     {
       "path": "workbench/src/i18n.ts",
-      "bytes": 23723,
+      "bytes": 41147,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -15801,7 +15863,7 @@
         "sound-design",
         "mask"
       ],
-      "indexedContentBytes": 23723
+      "indexedContentBytes": 41147
     },
     {
       "path": "workbench/src/main.tsx",
