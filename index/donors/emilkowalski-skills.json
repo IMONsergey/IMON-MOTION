@@ -2,23 +2,23 @@
   "version": 2,
   "donor": "emilkowalski-skills",
   "summary": {
-    "fileCount": 28,
-    "totalBytes": 285193,
-    "indexedContentBytes": 285193,
-    "textFiles": 28,
+    "fileCount": 29,
+    "totalBytes": 299324,
+    "indexedContentBytes": 299324,
+    "textFiles": 29,
     "binaryFiles": 0,
     "topExtensions": {
-      ".md": 24,
+      ".md": 25,
       "[none]": 4
     },
     "categoryCounts": {
-      "skills": 23,
-      "ui-motion": 16,
-      "transitions": 16,
-      "effects": 13,
+      "skills": 24,
+      "ui-motion": 17,
+      "transitions": 17,
+      "effects": 14,
       "design-system": 13,
       "data-animation": 10,
-      "rendering": 7,
+      "rendering": 8,
       "camera-cinematography": 6,
       "tests": 5,
       "typography": 4,
@@ -26,13 +26,13 @@
       "examples-templates": 1
     },
     "contentCategoryCounts": {
-      "skills": 17,
-      "transitions": 16,
-      "ui-motion": 13,
-      "effects": 13,
+      "skills": 18,
+      "transitions": 17,
+      "ui-motion": 14,
+      "effects": 14,
       "design-system": 13,
       "data-animation": 10,
-      "rendering": 7,
+      "rendering": 8,
       "camera-cinematography": 6,
       "tests": 5,
       "typography": 4,
@@ -40,7 +40,7 @@
     },
     "signalCounts": {
       "mask": 8,
-      "render": 7,
+      "render": 8,
       "chart": 5,
       "parallax": 3,
       "orbit": 3,
@@ -95,7 +95,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 4425,
+      "bytes": 4590,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -107,7 +107,7 @@
         "ui-motion"
       ],
       "signals": [],
-      "indexedContentBytes": 4425
+      "indexedContentBytes": 4590
     },
     {
       "path": "performance-cheatsheet.md",
@@ -217,6 +217,30 @@
         "parallax"
       ],
       "indexedContentBytes": 17891
+    },
+    {
+      "path": "skills/animation-performance/SKILL.md",
+      "bytes": 13966,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "transitions",
+        "ui-motion",
+        "rendering",
+        "effects"
+      ],
+      "contentCategories": [
+        "skills",
+        "transitions",
+        "ui-motion",
+        "rendering",
+        "effects"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 13966
     },
     {
       "path": "skills/animation-vocabulary/SKILL.md",
