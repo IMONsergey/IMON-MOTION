@@ -3,8 +3,8 @@
   "donor": "motion-skills",
   "summary": {
     "fileCount": 9,
-    "totalBytes": 3685309,
-    "indexedContentBytes": 33661,
+    "totalBytes": 3685577,
+    "indexedContentBytes": 33929,
     "textFiles": 8,
     "binaryFiles": 1,
     "topExtensions": {
@@ -58,7 +58,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 5327,
+      "bytes": 5595,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -83,7 +83,7 @@
         "threejs",
         "render"
       ],
-      "indexedContentBytes": 5327
+      "indexedContentBytes": 5595
     },
     {
       "path": "showcase.gif",

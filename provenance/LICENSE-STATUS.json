@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceGeneratedAt": "2026-10-12T12:12:03Z",
+  "sourceGeneratedAt": "2026-10-19T10:03:34Z",
   "disclaimer": "Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.",
   "policy": {
     "missingLicenseFile": "review-required",
@@ -458,13 +458,14 @@
         "Apache-2.0"
       ],
       "assets": {
-        "files": 316,
-        "bytes": 56856030,
+        "files": 319,
+        "bytes": 59157161,
         "extensions": {
           ".mp3": 165,
           ".webp": 11,
-          ".jpg": 56,
-          ".png": 84
+          ".png": 86,
+          ".gif": 1,
+          ".jpg": 56
         },
         "samples": [
           "assets/audio/bgm/bgm-tech-house.mp3",

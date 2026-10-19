@@ -2,80 +2,82 @@
   "version": 2,
   "donor": "video-shotcraft",
   "summary": {
-    "fileCount": 1342,
-    "totalBytes": 63431414,
-    "indexedContentBytes": 6454304,
-    "textFiles": 1026,
-    "binaryFiles": 316,
+    "fileCount": 1361,
+    "totalBytes": 65821146,
+    "indexedContentBytes": 6542905,
+    "textFiles": 1042,
+    "binaryFiles": 319,
     "topExtensions": {
-      ".json": 387,
-      ".md": 274,
+      ".json": 394,
+      ".md": 279,
       ".tsx": 269,
       ".mp3": 165,
-      ".png": 84,
+      ".png": 86,
       ".jpg": 56,
       ".ts": 32,
       ".py": 15,
       ".webp": 11,
-      "[none]": 9,
+      "[none]": 10,
+      ".svg": 9,
       ".mjs": 9,
-      ".svg": 8,
-      ".html": 6,
+      ".html": 8,
       ".yml": 4,
       ".js": 3,
       ".sh": 2
     },
     "categoryCounts": {
-      "shots-scenes-storyboard": 557,
-      "effects": 514,
+      "shots-scenes-storyboard": 560,
+      "effects": 516,
       "examples-templates": 376,
-      "camera-cinematography": 343,
-      "typography": 314,
-      "remotion": 280,
+      "camera-cinematography": 344,
+      "typography": 316,
+      "remotion": 281,
       "ui-motion": 277,
-      "audio-sound": 265,
-      "transitions": 254,
-      "data-animation": 169,
-      "design-system": 103,
-      "skills": 100,
-      "tests": 92,
-      "rendering": 61,
-      "3d-webgl-shaders": 25
+      "audio-sound": 269,
+      "transitions": 256,
+      "data-animation": 171,
+      "design-system": 105,
+      "skills": 104,
+      "tests": 93,
+      "rendering": 74,
+      "3d-webgl-shaders": 26
     },
     "contentCategoryCounts": {
-      "effects": 490,
-      "camera-cinematography": 322,
+      "effects": 492,
+      "camera-cinematography": 323,
       "remotion": 276,
-      "typography": 168,
+      "typography": 170,
       "ui-motion": 155,
-      "transitions": 128,
-      "skills": 99,
-      "design-system": 97,
-      "tests": 83,
-      "audio-sound": 81,
-      "data-animation": 73,
-      "shots-scenes-storyboard": 64,
-      "rendering": 58,
-      "3d-webgl-shaders": 7
+      "transitions": 130,
+      "skills": 103,
+      "design-system": 99,
+      "audio-sound": 85,
+      "tests": 84,
+      "data-animation": 75,
+      "shots-scenes-storyboard": 67,
+      "rendering": 61,
+      "3d-webgl-shaders": 8
     },
     "signalCounts": {
-      "camera": 220,
+      "camera": 221,
       "interpolate": 126,
-      "mask": 123,
-      "sound-design": 72,
+      "mask": 125,
+      "sound-design": 75,
+      "storyboard": 61,
       "cursor": 60,
-      "storyboard": 58,
-      "chart": 54,
+      "chart": 56,
       "motion-blur": 50,
       "orbit": 47,
+      "render": 45,
       "spring": 43,
-      "render": 42,
       "parallax": 32,
-      "shot-card": 27,
+      "shot-card": 28,
       "sequence": 14,
       "particles": 11,
-      "beat-sync": 8,
-      "threejs": 6
+      "beat-sync": 10,
+      "threejs": 6,
+      "kinetic-type": 1,
+      "shader": 1
     }
   },
   "files": [
@@ -209,7 +211,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 19071,
+      "bytes": 18893,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -246,11 +248,11 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 19071
+      "indexedContentBytes": 18893
     },
     {
       "path": "README_CN.md",
-      "bytes": 18972,
+      "bytes": 18701,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -280,11 +282,11 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 18972
+      "indexedContentBytes": 18701
     },
     {
       "path": "README_JA.md",
-      "bytes": 23379,
+      "bytes": 21595,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -314,7 +316,42 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 23379
+      "indexedContentBytes": 21595
+    },
+    {
+      "path": "README_RU.md",
+      "bytes": 26993,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "data-animation",
+        "audio-sound",
+        "rendering",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "data-animation",
+        "audio-sound",
+        "rendering",
+        "design-system"
+      ],
+      "signals": [
+        "camera",
+        "shot-card",
+        "chart",
+        "sound-design",
+        "render",
+        "mask"
+      ],
+      "indexedContentBytes": 26993
     },
     {
       "path": "SKILL.md",
@@ -2798,6 +2835,56 @@
         "ui-motion",
         "examples-templates"
       ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "assets/readme/sponsors/ATTRIBUTION.md",
+      "bytes": 1331,
+      "ext": ".md",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1331
+    },
+    {
+      "path": "assets/readme/sponsors/apimart.png",
+      "bytes": 987319,
+      "ext": ".png",
+      "binary": true,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "assets/readme/sponsors/aws.svg",
+      "bytes": 3848,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 3848
+    },
+    {
+      "path": "assets/readme/sponsors/packycode.png",
+      "bytes": 363101,
+      "ext": ".png",
+      "binary": true,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
+    },
+    {
+      "path": "assets/readme/workflow.gif",
+      "bytes": 950711,
+      "ext": ".gif",
+      "binary": true,
+      "categories": [],
       "contentCategories": [],
       "signals": [],
       "indexedContentBytes": 0
@@ -21934,6 +22021,204 @@
       "indexedContentBytes": 315
     },
     {
+      "path": "videos/readme-workflow/.gitignore",
+      "bytes": 77,
+      "ext": "[none]",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 77
+    },
+    {
+      "path": "videos/readme-workflow/AGENTS.md",
+      "bytes": 8626,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "rendering",
+        "typography",
+        "3d-webgl-shaders",
+        "data-animation",
+        "audio-sound"
+      ],
+      "contentCategories": [
+        "skills",
+        "typography",
+        "3d-webgl-shaders",
+        "data-animation",
+        "audio-sound",
+        "rendering"
+      ],
+      "signals": [
+        "kinetic-type",
+        "shader",
+        "chart",
+        "render"
+      ],
+      "indexedContentBytes": 8626
+    },
+    {
+      "path": "videos/readme-workflow/BRIEF.md",
+      "bytes": 832,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "shots-scenes-storyboard"
+      ],
+      "contentCategories": [
+        "shots-scenes-storyboard"
+      ],
+      "signals": [
+        "storyboard"
+      ],
+      "indexedContentBytes": 832
+    },
+    {
+      "path": "videos/readme-workflow/README.md",
+      "bytes": 1137,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 1137
+    },
+    {
+      "path": "videos/readme-workflow/compositions/components/onboarding-stepper-flow.html",
+      "bytes": 2486,
+      "ext": ".html",
+      "binary": false,
+      "categories": [
+        "remotion",
+        "rendering",
+        "skills"
+      ],
+      "contentCategories": [
+        "skills"
+      ],
+      "signals": [],
+      "indexedContentBytes": 2486
+    },
+    {
+      "path": "videos/readme-workflow/hyperframes.json",
+      "bytes": 546,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 546
+    },
+    {
+      "path": "videos/readme-workflow/hyperframes.lock.json",
+      "bytes": 129,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 129
+    },
+    {
+      "path": "videos/readme-workflow/index.html",
+      "bytes": 9684,
+      "ext": ".html",
+      "binary": false,
+      "categories": [
+        "rendering",
+        "shots-scenes-storyboard",
+        "audio-sound",
+        "effects",
+        "tests"
+      ],
+      "contentCategories": [
+        "shots-scenes-storyboard",
+        "audio-sound",
+        "effects",
+        "tests"
+      ],
+      "signals": [
+        "storyboard",
+        "sound-design",
+        "beat-sync"
+      ],
+      "indexedContentBytes": 9684
+    },
+    {
+      "path": "videos/readme-workflow/index.motion.json",
+      "bytes": 584,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 584
+    },
+    {
+      "path": "videos/readme-workflow/meta.json",
+      "bytes": 101,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 101
+    },
+    {
+      "path": "videos/readme-workflow/package.json",
+      "bytes": 304,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 304
+    },
+    {
+      "path": "videos/readme-workflow/shot-plan.json",
+      "bytes": 1180,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "rendering",
+        "audio-sound",
+        "design-system"
+      ],
+      "contentCategories": [
+        "shots-scenes-storyboard",
+        "audio-sound",
+        "design-system"
+      ],
+      "signals": [
+        "storyboard",
+        "sound-design",
+        "beat-sync"
+      ],
+      "indexedContentBytes": 1180
+    },
+    {
       "path": "workbench/.gitignore",
       "bytes": 722,
       "ext": "[none]",
@@ -21967,7 +22252,7 @@
     },
     {
       "path": "workbench/README.md",
-      "bytes": 8629,
+      "bytes": 8739,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -21987,7 +22272,7 @@
         "threejs",
         "sound-design"
       ],
-      "indexedContentBytes": 8629
+      "indexedContentBytes": 8739
     },
     {
       "path": "workbench/demosrc",
@@ -22158,6 +22443,26 @@
       "indexedContentBytes": 60806
     },
     {
+      "path": "workbench/i18n/ru/summaries.3.json",
+      "bytes": 31049,
+      "ext": ".json",
+      "binary": false,
+      "categories": [
+        "skills",
+        "transitions",
+        "effects"
+      ],
+      "contentCategories": [
+        "skills",
+        "transitions",
+        "effects"
+      ],
+      "signals": [
+        "mask"
+      ],
+      "indexedContentBytes": 31049
+    },
+    {
       "path": "workbench/index.html",
       "bytes": 326,
       "ext": ".html",
@@ -22268,7 +22573,7 @@
     },
     {
       "path": "workbench/scripts/gen-index.mjs",
-      "bytes": 16330,
+      "bytes": 16417,
       "ext": ".mjs",
       "binary": false,
       "categories": [
@@ -22282,7 +22587,7 @@
       "signals": [
         "sound-design"
       ],
-      "indexedContentBytes": 16330
+      "indexedContentBytes": 16417
     },
     {
       "path": "workbench/scripts/open.mjs",
@@ -22651,7 +22956,7 @@
     },
     {
       "path": "workbench/src/i18n.ts",
-      "bytes": 41147,
+      "bytes": 42877,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -22679,7 +22984,7 @@
         "sound-design",
         "mask"
       ],
-      "indexedContentBytes": 41147
+      "indexedContentBytes": 42877
     },
     {
       "path": "workbench/src/main.tsx",
