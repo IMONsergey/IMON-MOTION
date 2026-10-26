@@ -1,6 +1,6 @@
 # Motion Graphics Skills for AI Coding Agents
 
-> **55 open-source skills that teach your AI coding agent to make motion graphics, animation, and video** — kinetic typography, data-driven charts, explainers, TikTok / Reels, 3D & WebGL, math animation, generative illustration, code-drawn canvas animation, transparent lower thirds, b-roll for talking-head videos, and web motion. Eighteen installable packs. Install one, and your agent just knows how.
+> **56 open-source skills that teach your AI coding agent to make motion graphics, animation, and video** — kinetic typography, data-driven charts, explainers, TikTok / Reels, 3D & WebGL, math animation, generative illustration, code-drawn canvas animation, transparent lower thirds, b-roll for talking-head videos, AI presenter films, and web motion. Nineteen installable packs. Install one, and your agent just knows how.
 
 ![Motion Graphics Skills for AI Coding Agents — animated showcase](./showcase.gif)
 
@@ -8,7 +8,7 @@ Motion is the hardest thing to get right from a prompt: timing and easing, safe 
 
 They're the open-source craft behind **[iart.ai](https://iart.ai/?utm_source=github&utm_medium=readme&utm_campaign=motion-skills&utm_content=intro)**, the AI motion agent. Bring them into the agent you already use — or let iart.ai run the whole pipeline for you.
 
-## The 18 packs
+## The 19 packs
 
 Each pack is its own repo, aimed at one audience. Install only what you need.
 
@@ -32,6 +32,7 @@ Each pack is its own repo, aimed at one audience. Install only what you need.
 | **[javascript-animation-skills](https://github.com/iart-ai/javascript-animation-skills)** | Every frame drawn in JavaScript: zero-asset canvas films + code-made music | 2 |
 | **[lower-thirds-skills](https://github.com/iart-ai/lower-thirds-skills)** | Streamers, podcasters & editors: transparent lower thirds for OBS, Premiere, Resolve | 1 |
 | **[b-roll-skills](https://github.com/iart-ai/b-roll-skills)** | YouTubers, course creators & editors: b-roll motion graphics for talking-head videos, drawn from what is said | 1 |
+| **[talking-head-skills](https://github.com/iart-ai/talking-head-skills)** | Creators & educators: generate talking-head footage from photos and a voice, then combine it with narration and motion graphics | 1 |
 
 ## Install
 

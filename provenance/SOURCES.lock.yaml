@@ -1,5 +1,5 @@
 version: 1
-generated_at: "2026-10-19T10:03:34Z"
+generated_at: "2026-10-26T10:17:53Z"
 sources:
   video-shotcraft:
     repository: "Vincentwei1021/video-shotcraft"
@@ -24,9 +24,9 @@ sources:
   motion-skills:
     repository: "iart-ai/motion-skills"
     url: "https://github.com/iart-ai/motion-skills.git"
-    commit: "bb5a3ce666110855a3437de2f70e9968c408e005"
+    commit: "238dfc55aac123d4649be39adfe58c43193ca349"
     branch: "master"
-    upstream_commit_date: "2026-10-14T22:10:05+08:00"
+    upstream_commit_date: "2026-10-25T22:18:32+08:00"
     path: "upstream/motion-skills"
     files: 9
     size_kb: 3632
@@ -64,11 +64,11 @@ sources:
   remotion-skills:
     repository: "remotion-dev/skills"
     url: "https://github.com/remotion-dev/skills.git"
-    commit: "1441a11e95db35443bd76bb318386c0d3ca00053"
+    commit: "6c67adcd9cdbe6eb84d76342da89b225f9161cb2"
     branch: "main"
-    upstream_commit_date: "2026-10-16T10:09:16+02:00"
+    upstream_commit_date: "2026-10-22T17:31:16+02:00"
     path: "upstream/remotion-skills"
-    files: 291
+    files: 293
     size_kb: 3584
     license_files: ""
   product-launch-video-skill:

@@ -2,13 +2,13 @@
   "version": 2,
   "donor": "remotion-skills",
   "summary": {
-    "fileCount": 291,
-    "totalBytes": 2374396,
-    "indexedContentBytes": 1566148,
-    "textFiles": 291,
+    "fileCount": 293,
+    "totalBytes": 2374301,
+    "indexedContentBytes": 1566053,
+    "textFiles": 293,
     "binaryFiles": 0,
     "topExtensions": {
-      ".md": 174,
+      ".md": 176,
       ".yaml": 25,
       ".svg": 25,
       ".tsx": 20,
@@ -18,47 +18,47 @@
       ".geojson": 4
     },
     "categoryCounts": {
-      "skills": 289,
-      "remotion": 283,
+      "skills": 291,
+      "remotion": 285,
       "rendering": 95,
-      "camera-cinematography": 65,
+      "camera-cinematography": 63,
       "3d-webgl-shaders": 52,
-      "tests": 35,
-      "audio-sound": 34,
+      "tests": 37,
+      "audio-sound": 36,
       "effects": 34,
-      "ui-motion": 33,
-      "transitions": 28,
-      "data-animation": 28,
-      "typography": 23,
+      "data-animation": 32,
+      "ui-motion": 31,
+      "typography": 25,
+      "transitions": 24,
       "examples-templates": 20,
       "design-system": 16,
       "shots-scenes-storyboard": 4
     },
     "contentCategoryCounts": {
-      "remotion": 122,
+      "remotion": 120,
       "rendering": 71,
-      "camera-cinematography": 65,
+      "camera-cinematography": 63,
       "3d-webgl-shaders": 48,
-      "skills": 36,
-      "tests": 35,
-      "ui-motion": 33,
-      "audio-sound": 32,
+      "tests": 37,
+      "skills": 34,
+      "audio-sound": 34,
       "effects": 32,
-      "transitions": 24,
-      "typography": 19,
+      "ui-motion": 31,
+      "typography": 21,
+      "transitions": 20,
+      "data-animation": 12,
       "design-system": 12,
-      "data-animation": 8,
       "shots-scenes-storyboard": 2
     },
     "signalCounts": {
       "render": 65,
       "camera": 57,
       "interpolate": 40,
-      "sequence": 26,
+      "sequence": 20,
       "spring": 6,
+      "chart": 6,
       "sound-design": 6,
       "cursor": 4,
-      "chart": 4,
       "threejs": 4,
       "motion-blur": 4,
       "particles": 2,
@@ -92,13 +92,13 @@
     },
     {
       "path": "package.json",
-      "bytes": 627,
+      "bytes": 611,
       "ext": ".json",
       "binary": false,
       "categories": [],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 627
+      "indexedContentBytes": 611
     },
     {
       "path": "scripts/prepare-embedded-skills.ts",
@@ -460,27 +460,23 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-interactivity/REFERENCE.md",
-      "bytes": 17974,
+      "bytes": 13829,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
         "remotion",
-        "camera-cinematography",
         "typography"
       ],
       "contentCategories": [
         "remotion",
-        "camera-cinematography",
         "typography"
       ],
       "signals": [
         "spring",
-        "interpolate",
-        "sequence",
-        "particles"
+        "interpolate"
       ],
-      "indexedContentBytes": 17974
+      "indexedContentBytes": 13829
     },
     {
       "path": "skills/remotion-best-practices/remotion-interactivity/agents/openai.yaml",
@@ -531,18 +527,25 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-interactivity/timeline-structure.md",
-      "bytes": 4140,
+      "bytes": 7016,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
-        "remotion"
+        "remotion",
+        "data-animation",
+        "audio-sound"
       ],
       "contentCategories": [
-        "remotion"
+        "remotion",
+        "data-animation",
+        "audio-sound"
       ],
-      "signals": [],
-      "indexedContentBytes": 4140
+      "signals": [
+        "chart",
+        "particles"
+      ],
+      "indexedContentBytes": 7016
     },
     {
       "path": "skills/remotion-best-practices/remotion-maps/REFERENCE.md",
@@ -1184,7 +1187,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/REFERENCE.md",
-      "bytes": 17601,
+      "bytes": 13514,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -1214,7 +1217,7 @@
         "render",
         "motion-blur"
       ],
-      "indexedContentBytes": 17601
+      "indexedContentBytes": 13514
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/agents/openai.yaml",
@@ -1231,6 +1234,24 @@
       ],
       "signals": [],
       "indexedContentBytes": 310
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-markup/arabic-text.md",
+      "bytes": 4540,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "typography",
+        "tests"
+      ],
+      "contentCategories": [
+        "typography",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 4540
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/assets/remotion-icon.svg",
@@ -1349,20 +1370,22 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/connected-compositions.md",
-      "bytes": 1356,
+      "bytes": 3511,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
         "remotion",
-        "typography"
+        "typography",
+        "data-animation"
       ],
       "contentCategories": [
         "remotion",
-        "typography"
+        "typography",
+        "data-animation"
       ],
       "signals": [],
-      "indexedContentBytes": 1356
+      "indexedContentBytes": 3511
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/cropping.md",
@@ -1387,7 +1410,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/effects.md",
-      "bytes": 10809,
+      "bytes": 10891,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -1412,7 +1435,7 @@
         "sequence",
         "shader"
       ],
-      "indexedContentBytes": 10809
+      "indexedContentBytes": 10891
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/embedding-videos.md",
@@ -1641,7 +1664,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/multi-scene-video.md",
-      "bytes": 1236,
+      "bytes": 1035,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -1652,11 +1675,10 @@
         "transitions"
       ],
       "contentCategories": [
-        "remotion",
         "transitions"
       ],
       "signals": [],
-      "indexedContentBytes": 1236
+      "indexedContentBytes": 1035
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/parameters.md",
@@ -2290,25 +2312,21 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/sequencing.md",
-      "bytes": 1946,
+      "bytes": 1293,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
         "remotion",
-        "transitions",
         "data-animation",
         "audio-sound"
       ],
       "contentCategories": [
-        "transitions",
         "data-animation",
         "audio-sound"
       ],
-      "signals": [
-        "sequence"
-      ],
-      "indexedContentBytes": 1946
+      "signals": [],
+      "indexedContentBytes": 1293
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/sfx.md",
@@ -2429,30 +2447,23 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/video-editing.md",
-      "bytes": 6392,
+      "bytes": 5839,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
         "remotion",
         "rendering",
-        "transitions",
-        "ui-motion",
         "data-animation",
         "audio-sound"
       ],
       "contentCategories": [
-        "skills",
         "remotion",
-        "transitions",
-        "ui-motion",
         "data-animation",
         "audio-sound"
       ],
-      "signals": [
-        "sequence"
-      ],
-      "indexedContentBytes": 6392
+      "signals": [],
+      "indexedContentBytes": 5839
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/voiceover.md",
@@ -3054,27 +3065,23 @@
     },
     {
       "path": "skills/remotion-interactivity/SKILL.md",
-      "bytes": 17794,
+      "bytes": 13703,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
         "remotion",
-        "camera-cinematography",
         "typography"
       ],
       "contentCategories": [
         "remotion",
-        "camera-cinematography",
         "typography"
       ],
       "signals": [
         "spring",
-        "interpolate",
-        "sequence",
-        "particles"
+        "interpolate"
       ],
-      "indexedContentBytes": 17794
+      "indexedContentBytes": 13703
     },
     {
       "path": "skills/remotion-interactivity/agents/openai.yaml",
@@ -3125,18 +3132,25 @@
     },
     {
       "path": "skills/remotion-interactivity/timeline-structure.md",
-      "bytes": 4103,
+      "bytes": 6929,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
-        "remotion"
+        "remotion",
+        "data-animation",
+        "audio-sound"
       ],
       "contentCategories": [
-        "remotion"
+        "remotion",
+        "data-animation",
+        "audio-sound"
       ],
-      "signals": [],
-      "indexedContentBytes": 4103
+      "signals": [
+        "chart",
+        "particles"
+      ],
+      "indexedContentBytes": 6929
     },
     {
       "path": "skills/remotion-maps/SKILL.md",
@@ -3778,7 +3792,7 @@
     },
     {
       "path": "skills/remotion-markup/SKILL.md",
-      "bytes": 17386,
+      "bytes": 13299,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3808,7 +3822,7 @@
         "render",
         "motion-blur"
       ],
-      "indexedContentBytes": 17386
+      "indexedContentBytes": 13299
     },
     {
       "path": "skills/remotion-markup/agents/openai.yaml",
@@ -3825,6 +3839,24 @@
       ],
       "signals": [],
       "indexedContentBytes": 310
+    },
+    {
+      "path": "skills/remotion-markup/arabic-text.md",
+      "bytes": 4540,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "typography",
+        "tests"
+      ],
+      "contentCategories": [
+        "typography",
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 4540
     },
     {
       "path": "skills/remotion-markup/assets/remotion-icon.svg",
@@ -3943,20 +3975,22 @@
     },
     {
       "path": "skills/remotion-markup/connected-compositions.md",
-      "bytes": 1305,
+      "bytes": 3460,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
         "remotion",
-        "typography"
+        "typography",
+        "data-animation"
       ],
       "contentCategories": [
         "remotion",
-        "typography"
+        "typography",
+        "data-animation"
       ],
       "signals": [],
-      "indexedContentBytes": 1305
+      "indexedContentBytes": 3460
     },
     {
       "path": "skills/remotion-markup/cropping.md",
@@ -3981,7 +4015,7 @@
     },
     {
       "path": "skills/remotion-markup/effects.md",
-      "bytes": 10809,
+      "bytes": 10891,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4006,7 +4040,7 @@
         "sequence",
         "shader"
       ],
-      "indexedContentBytes": 10809
+      "indexedContentBytes": 10891
     },
     {
       "path": "skills/remotion-markup/embedding-videos.md",
@@ -4235,7 +4269,7 @@
     },
     {
       "path": "skills/remotion-markup/multi-scene-video.md",
-      "bytes": 1185,
+      "bytes": 984,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4246,11 +4280,10 @@
         "transitions"
       ],
       "contentCategories": [
-        "remotion",
         "transitions"
       ],
       "signals": [],
-      "indexedContentBytes": 1185
+      "indexedContentBytes": 984
     },
     {
       "path": "skills/remotion-markup/parameters.md",
@@ -4885,25 +4918,21 @@
     },
     {
       "path": "skills/remotion-markup/sequencing.md",
-      "bytes": 1904,
+      "bytes": 1242,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
         "remotion",
-        "transitions",
         "data-animation",
         "audio-sound"
       ],
       "contentCategories": [
-        "transitions",
         "data-animation",
         "audio-sound"
       ],
-      "signals": [
-        "sequence"
-      ],
-      "indexedContentBytes": 1904
+      "signals": [],
+      "indexedContentBytes": 1242
     },
     {
       "path": "skills/remotion-markup/sfx.md",
@@ -5024,30 +5053,23 @@
     },
     {
       "path": "skills/remotion-markup/video-editing.md",
-      "bytes": 6304,
+      "bytes": 5649,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
         "remotion",
         "rendering",
-        "transitions",
-        "ui-motion",
         "data-animation",
         "audio-sound"
       ],
       "contentCategories": [
-        "skills",
         "remotion",
-        "transitions",
-        "ui-motion",
         "data-animation",
         "audio-sound"
       ],
-      "signals": [
-        "sequence"
-      ],
-      "indexedContentBytes": 6304
+      "signals": [],
+      "indexedContentBytes": 5649
     },
     {
       "path": "skills/remotion-markup/voiceover.md",
