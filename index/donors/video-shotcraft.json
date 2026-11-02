@@ -2,79 +2,79 @@
   "version": 2,
   "donor": "video-shotcraft",
   "summary": {
-    "fileCount": 1361,
-    "totalBytes": 65821146,
-    "indexedContentBytes": 6542905,
-    "textFiles": 1042,
-    "binaryFiles": 319,
+    "fileCount": 1218,
+    "totalBytes": 53373461,
+    "indexedContentBytes": 6493291,
+    "textFiles": 1048,
+    "binaryFiles": 170,
     "topExtensions": {
       ".json": 394,
-      ".md": 279,
+      ".md": 280,
       ".tsx": 269,
-      ".mp3": 165,
       ".png": 86,
       ".jpg": 56,
       ".ts": 32,
-      ".py": 15,
+      ".py": 18,
+      ".mp3": 16,
       ".webp": 11,
       "[none]": 10,
+      ".mjs": 10,
       ".svg": 9,
-      ".mjs": 9,
       ".html": 8,
-      ".yml": 4,
+      ".yml": 5,
       ".js": 3,
       ".sh": 2
     },
     "categoryCounts": {
       "shots-scenes-storyboard": 560,
-      "effects": 516,
-      "examples-templates": 376,
-      "camera-cinematography": 344,
-      "typography": 316,
-      "remotion": 281,
-      "ui-motion": 277,
-      "audio-sound": 269,
-      "transitions": 256,
-      "data-animation": 171,
-      "design-system": 105,
-      "skills": 104,
-      "tests": 93,
-      "rendering": 74,
+      "effects": 513,
+      "examples-templates": 377,
+      "camera-cinematography": 330,
+      "typography": 302,
+      "remotion": 280,
+      "ui-motion": 239,
+      "transitions": 225,
+      "data-animation": 157,
+      "audio-sound": 121,
+      "skills": 106,
+      "design-system": 102,
+      "tests": 98,
+      "rendering": 78,
       "3d-webgl-shaders": 26
     },
     "contentCategoryCounts": {
-      "effects": 492,
-      "camera-cinematography": 323,
+      "effects": 489,
+      "camera-cinematography": 319,
       "remotion": 276,
-      "typography": 170,
-      "ui-motion": 155,
-      "transitions": 130,
-      "skills": 103,
-      "design-system": 99,
-      "audio-sound": 85,
-      "tests": 84,
-      "data-animation": 75,
-      "shots-scenes-storyboard": 67,
-      "rendering": 61,
+      "typography": 169,
+      "ui-motion": 151,
+      "transitions": 126,
+      "skills": 105,
+      "design-system": 96,
+      "tests": 87,
+      "audio-sound": 86,
+      "data-animation": 74,
+      "shots-scenes-storyboard": 66,
+      "rendering": 65,
       "3d-webgl-shaders": 8
     },
     "signalCounts": {
-      "camera": 221,
+      "camera": 218,
       "interpolate": 126,
       "mask": 125,
-      "sound-design": 75,
+      "sound-design": 76,
       "storyboard": 61,
-      "cursor": 60,
-      "chart": 56,
+      "cursor": 58,
+      "chart": 55,
       "motion-blur": 50,
-      "orbit": 47,
-      "render": 45,
+      "render": 49,
+      "orbit": 44,
       "spring": 43,
       "parallax": 32,
-      "shot-card": 28,
-      "sequence": 14,
-      "particles": 11,
-      "beat-sync": 10,
+      "shot-card": 27,
+      "sequence": 13,
+      "beat-sync": 11,
+      "particles": 10,
       "threejs": 6,
       "kinetic-type": 1,
       "shader": 1
@@ -133,6 +133,23 @@
       "indexedContentBytes": 8145
     },
     {
+      "path": ".github/workflows/contact-sheet-tests.yml",
+      "bytes": 923,
+      "ext": ".yml",
+      "binary": false,
+      "categories": [
+        "tests",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 923
+    },
+    {
       "path": ".github/workflows/deploy-pages.yml",
       "bytes": 4796,
       "ext": ".yml",
@@ -148,7 +165,7 @@
     },
     {
       "path": ".github/workflows/pr-checks.yml",
-      "bytes": 7500,
+      "bytes": 7932,
       "ext": ".yml",
       "binary": false,
       "categories": [
@@ -167,7 +184,7 @@
         "camera",
         "shot-card"
       ],
-      "indexedContentBytes": 7500
+      "indexedContentBytes": 7932
     },
     {
       "path": ".github/workflows/showcase-publish.yml",
@@ -211,7 +228,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 18893,
+      "bytes": 19738,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -248,11 +265,11 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 18893
+      "indexedContentBytes": 19738
     },
     {
       "path": "README_CN.md",
-      "bytes": 18701,
+      "bytes": 19403,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -282,11 +299,11 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 18701
+      "indexedContentBytes": 19403
     },
     {
       "path": "README_JA.md",
-      "bytes": 21595,
+      "bytes": 22591,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -316,11 +333,11 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 21595
+      "indexedContentBytes": 22591
     },
     {
       "path": "README_RU.md",
-      "bytes": 26993,
+      "bytes": 28255,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -351,18 +368,16 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 26993
+      "indexedContentBytes": 28255
     },
     {
       "path": "SKILL.md",
-      "bytes": 20853,
+      "bytes": 21745,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
-        "shots-scenes-storyboard",
         "camera-cinematography",
-        "transitions",
         "3d-webgl-shaders",
         "audio-sound",
         "rendering",
@@ -370,9 +385,7 @@
       ],
       "contentCategories": [
         "skills",
-        "shots-scenes-storyboard",
         "camera-cinematography",
-        "transitions",
         "3d-webgl-shaders",
         "audio-sound",
         "rendering",
@@ -384,13 +397,14 @@
         "shot-card",
         "threejs",
         "sound-design",
+        "beat-sync",
         "render"
       ],
-      "indexedContentBytes": 20853
+      "indexedContentBytes": 21745
     },
     {
       "path": "agents/openai.yaml",
-      "bytes": 531,
+      "bytes": 549,
       "ext": ".yaml",
       "binary": false,
       "categories": [
@@ -402,68 +416,23 @@
         "ui-motion"
       ],
       "signals": [],
-      "indexedContentBytes": 531
+      "indexedContentBytes": 549
     },
     {
       "path": "assets/audio/ATTRIBUTION.md",
-      "bytes": 22401,
+      "bytes": 1184,
       "ext": ".md",
       "binary": false,
       "categories": [
-        "audio-sound",
-        "camera-cinematography",
-        "transitions",
-        "ui-motion",
-        "effects"
+        "audio-sound"
       ],
       "contentCategories": [
-        "camera-cinematography",
-        "transitions",
-        "ui-motion",
-        "audio-sound",
-        "effects"
+        "audio-sound"
       ],
       "signals": [
-        "camera",
         "sound-design"
       ],
-      "indexedContentBytes": 22401
-    },
-    {
-      "path": "assets/audio/AUDITION-2026-07-27.md",
-      "bytes": 36465,
-      "ext": ".md",
-      "binary": false,
-      "categories": [
-        "audio-sound",
-        "camera-cinematography",
-        "transitions",
-        "ui-motion",
-        "data-animation",
-        "rendering",
-        "effects",
-        "design-system"
-      ],
-      "contentCategories": [
-        "camera-cinematography",
-        "transitions",
-        "ui-motion",
-        "data-animation",
-        "audio-sound",
-        "rendering",
-        "effects",
-        "design-system"
-      ],
-      "signals": [
-        "camera",
-        "orbit",
-        "cursor",
-        "chart",
-        "sound-design",
-        "render",
-        "particles"
-      ],
-      "indexedContentBytes": 36465
+      "indexedContentBytes": 1184
     },
     {
       "path": "assets/audio/bgm/bgm-tech-house.mp3",
@@ -519,1892 +488,6 @@
       "ext": ".mp3",
       "binary": true,
       "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/camera/camera-autofocus.mp3",
-      "bytes": 313998,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "camera-cinematography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/camera/camera-lens-shutter.mp3",
-      "bytes": 47132,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "camera-cinematography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/camera/camera-shutter-hard.mp3",
-      "bytes": 18370,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "camera-cinematography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/camera/camera-shutter-vintage.mp3",
-      "bytes": 30533,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "camera-cinematography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/camera/click-camera.mp3",
-      "bytes": 14406,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "camera-cinematography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/camera/ui-zoom-in.mp3",
-      "bytes": 19624,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "camera-cinematography",
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/camera/ui-zoom-out.mp3",
-      "bytes": 34864,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "camera-cinematography",
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/camera/zoom-air-fast.mp3",
-      "bytes": 42071,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "camera-cinematography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/camera/zoom-futuristic.mp3",
-      "bytes": 69422,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "camera-cinematography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/camera/zoom-swipe-fast.mp3",
-      "bytes": 35650,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "camera-cinematography",
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/counter/clock-knob-spin.mp3",
-      "bytes": 16437,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/counter/clock-mech-retract.mp3",
-      "bytes": 45670,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/counter/clock-tick-single.mp3",
-      "bytes": 20508,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/counter/countdown-bleeps.mp3",
-      "bytes": 37984,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/crowd/applause-rhythmic-loop.mp3",
-      "bytes": 166404,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/crowd/clap-single.mp3",
-      "bytes": 3546,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/crowd/heartbeat-single.mp3",
-      "bytes": 36640,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/break-glitch-digital.mp3",
-      "bytes": 38314,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/data-compute.mp3",
-      "bytes": 111072,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/data-load-os.mp3",
-      "bytes": 87792,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/data-scan.mp3",
-      "bytes": 71567,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/glitch-electric-small.mp3",
-      "bytes": 36538,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/glitch-static-electric.mp3",
-      "bytes": 52196,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/glitch-static.mp3",
-      "bytes": 48177,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/glitch-virtual-quick.mp3",
-      "bytes": 66497,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/power-up-electronic.mp3",
-      "bytes": 153553,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/power-up-static.mp3",
-      "bytes": 99854,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/static-electric-present.mp3",
-      "bytes": 128770,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/sweep-digital.mp3",
-      "bytes": 38311,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/data/whoosh-electric.mp3",
-      "bytes": 72010,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "data-animation",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/film/cassette-stretch.mp3",
-      "bytes": 71499,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/film/cassette-working.mp3",
-      "bytes": 65907,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/film/projector-spin-antique.mp3",
-      "bytes": 761771,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/film/reel-rewind.mp3",
-      "bytes": 123593,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/film/tape-rewind-cine.mp3",
-      "bytes": 135704,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/film/tape-rewind-fast.mp3",
-      "bytes": 58975,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/film/vinyl-needle-drop.mp3",
-      "bytes": 12292,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/film/vinyl-scratch-small.mp3",
-      "bytes": 37797,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/fluid/liquid-bubble.mp3",
-      "bytes": 36328,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/fluid/sand-swish.mp3",
-      "bytes": 62840,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/fluid/water-bubble.mp3",
-      "bytes": 12941,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/fluid/water-drop-cave.mp3",
-      "bytes": 62144,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/fluid/water-splash.mp3",
-      "bytes": 52302,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/glass/glass-break-hammer.mp3",
-      "bytes": 36584,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/glass/glass-debris-sweep.mp3",
-      "bytes": 80791,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/glass/glass-hit-cine.mp3",
-      "bytes": 145460,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/glass/glass-plate-slide.mp3",
-      "bytes": 29486,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/bass-hit-futuristic.mp3",
-      "bytes": 73486,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/bass-hit-short.mp3",
-      "bytes": 36222,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/gravel-fall-hit.mp3",
-      "bytes": 43846,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/hit-blow.mp3",
-      "bytes": 16962,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/hit-fast-exciting.mp3",
-      "bytes": 58464,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/hit-weak.mp3",
-      "bytes": 12834,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/impact-cine-big.mp3",
-      "bytes": 225505,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/impact-deep-whoosh.mp3",
-      "bytes": 115904,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/impact-epic-trailer.mp3",
-      "bytes": 154441,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/impact-movie-epic.mp3",
-      "bytes": 161076,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/impact-transition.mp3",
-      "bytes": 154441,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/impact-zoom-quick.mp3",
-      "bytes": 39932,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/metal-spring-hit.mp3",
-      "bytes": 62622,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "remotion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/impact/stomp-apocalyptic.mp3",
-      "bytes": 91755,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/light/light-aura.mp3",
-      "bytes": 174534,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/light/light-spell.mp3",
-      "bytes": 219196,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/light/light-sweep-magic.mp3",
-      "bytes": 150006,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/light/light-transition-magic.mp3",
-      "bytes": 158830,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/light/shimmer-sparkle-sweep.mp3",
-      "bytes": 94788,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/light/sparkle-poof-hit.mp3",
-      "bytes": 83919,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/light/sparkle-touch.mp3",
-      "bytes": 73387,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/light/sparkle-wand.mp3",
-      "bytes": 77103,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/light/sparkle.mp3",
-      "bytes": 143743,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/light/stardust-swish.mp3",
-      "bytes": 150845,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/mech/door-open-futuristic.mp3",
-      "bytes": 34927,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/mech/gear-lock-metallic.mp3",
-      "bytes": 35603,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/mech/lock-digital.mp3",
-      "bytes": 34035,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/mech/lock-quick.mp3",
-      "bytes": 37894,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/mech/machine-activate-short.mp3",
-      "bytes": 77611,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/mech/mech-robotic-futuristic.mp3",
-      "bytes": 301687,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/mech/mech-tech-movement.mp3",
-      "bytes": 73906,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/mech/metal-drop-scifi-small.mp3",
-      "bytes": 45707,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/paper/paper-book-browse-fast.mp3",
-      "bytes": 306286,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/paper/paper-crumple-quick.mp3",
-      "bytes": 42178,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/paper/paper-move-quick.mp3",
-      "bytes": 31682,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/paper/paper-page-turn-big.mp3",
-      "bytes": 30379,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/paper/paper-page-turn.mp3",
-      "bytes": 18060,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/paper/paper-scissors-cut.mp3",
-      "bytes": 60324,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/paper/paper-slice-quick.mp3",
-      "bytes": 13962,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/paper/paper-slide.mp3",
-      "bytes": 37161,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/paper/paper-staple.mp3",
-      "bytes": 10006,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/paper/paper-wind-blow.mp3",
-      "bytes": 171205,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/riser/riser-cine.mp3",
-      "bytes": 145112,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/scifi/hitech-bleep.mp3",
-      "bytes": 20876,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/scifi/scifi-click.mp3",
-      "bytes": 20354,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/scifi/scifi-computer-ambience.mp3",
-      "bytes": 776699,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/scifi/space-intro-futuristic.mp3",
-      "bytes": 217447,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/scifi/tech-hum-futuristic.mp3",
-      "bytes": 156614,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/chalk-line.mp3",
-      "bytes": 36013,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/keyboard.mp3",
-      "bytes": 513831,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/marker-pen-line.mp3",
-      "bytes": 39045,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/pen-click-twice.mp3",
-      "bytes": 20965,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/pen-write-paper.mp3",
-      "bytes": 46147,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/pencil-write-short.mp3",
-      "bytes": 25257,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/typewriter-digital.mp3",
-      "bytes": 65353,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/typewriter-hit-hard.mp3",
-      "bytes": 34769,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/typewriter-hit-single.mp3",
-      "bytes": 21398,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/typewriter-hit-soft.mp3",
-      "bytes": 15396,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/typewriter-return-bell.mp3",
-      "bytes": 56060,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/write-blackboard.mp3",
-      "bytes": 444912,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/text/write-fast.mp3",
-      "bytes": 21606,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "typography",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/air-whoosh-powerful.mp3",
-      "bytes": 58983,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/air-woosh-deep.mp3",
-      "bytes": 92185,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/air-woosh-quick.mp3",
-      "bytes": 48543,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/air-zoom-vacuum.mp3",
-      "bytes": 41082,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/sweep-fast-small.mp3",
-      "bytes": 27247,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/sweep-fast.mp3",
-      "bytes": 61800,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/sweep-metal-quick.mp3",
-      "bytes": 51881,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/sweep-scifi-fast.mp3",
-      "bytes": 28596,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/sweep-short.mp3",
-      "bytes": 18057,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/swoosh-quick.mp3",
-      "bytes": 27247,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/swoosh-slow.mp3",
-      "bytes": 168187,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/transition-snap.mp3",
-      "bytes": 19051,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/transition-soft.mp3",
-      "bytes": 41082,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/transition-tech-slide.mp3",
-      "bytes": 26239,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/transition-tech.mp3",
-      "bytes": 94273,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/warp-slide.mp3",
-      "bytes": 49839,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/whoosh-big.mp3",
-      "bytes": 71724,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/whoosh-fast.mp3",
-      "bytes": 57624,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/whoosh-swirl.mp3",
-      "bytes": 79754,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/wind-pass-vibrate.mp3",
-      "bytes": 183320,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/wind-swoosh-short.mp3",
-      "bytes": 44058,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/wind-woosh-throw.mp3",
-      "bytes": 28497,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/transition/wing-flutter.mp3",
-      "bytes": 133978,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "transitions",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/chime-crystal.mp3",
-      "bytes": 52451,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/hitech-touch-magnet.mp3",
-      "bytes": 55004,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/pop-electric.mp3",
-      "bytes": 37423,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/pop.mp3",
-      "bytes": 15239,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/switch-click-quick.mp3",
-      "bytes": 35439,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/switch-light.mp3",
-      "bytes": 6054,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/switch-tap.mp3",
-      "bytes": 35811,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/ui-click-tone.mp3",
-      "bytes": 8455,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/ui-confirm-bleep.mp3",
-      "bytes": 17953,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/ui-confirm-tone.mp3",
-      "bytes": 43636,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/ui-message-pop.mp3",
-      "bytes": 13059,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/ui-notify-tech.mp3",
-      "bytes": 67229,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/ui-option-select.mp3",
-      "bytes": 51255,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/ui-popup-dry.mp3",
-      "bytes": 9706,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/ui-select-click.mp3",
-      "bytes": 35602,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/ui-select-modern.mp3",
-      "bytes": 4742,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/ui-success-soft.mp3",
-      "bytes": 53759,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
-        "audio-sound"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 0
-    },
-    {
-      "path": "assets/audio/sfx/ui/ui-tone-quick.mp3",
-      "bytes": 43375,
-      "ext": ".mp3",
-      "binary": true,
-      "categories": [
-        "ui-motion",
         "audio-sound"
       ],
       "contentCategories": [],
@@ -2925,6 +1008,29 @@
       "indexedContentBytes": 8973
     },
     {
+      "path": "assets/scripts/sfx-source.py",
+      "bytes": 18950,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "skills",
+        "rendering",
+        "tests"
+      ],
+      "contentCategories": [
+        "skills",
+        "audio-sound",
+        "rendering",
+        "tests"
+      ],
+      "signals": [
+        "sound-design",
+        "render"
+      ],
+      "indexedContentBytes": 18950
+    },
+    {
       "path": "assets/scripts/smoke-render-demos.py",
       "bytes": 6120,
       "ext": ".py",
@@ -2943,6 +1049,26 @@
       ],
       "signals": [],
       "indexedContentBytes": 6120
+    },
+    {
+      "path": "assets/scripts/test_sfx_source.py",
+      "bytes": 9258,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "tests",
+        "rendering"
+      ],
+      "contentCategories": [
+        "audio-sound",
+        "rendering"
+      ],
+      "signals": [
+        "sound-design",
+        "render"
+      ],
+      "indexedContentBytes": 9258
     },
     {
       "path": "demos/README.md",
@@ -8675,7 +6801,7 @@
     },
     {
       "path": "gallery/build-seo.py",
-      "bytes": 6318,
+      "bytes": 5555,
       "ext": ".py",
       "binary": false,
       "categories": [
@@ -8698,7 +6824,7 @@
         "shot-card",
         "sound-design"
       ],
-      "indexedContentBytes": 6318
+      "indexedContentBytes": 5555
     },
     {
       "path": "gallery/fetch-media.sh",
@@ -8712,40 +6838,7 @@
     },
     {
       "path": "gallery/index.html",
-      "bytes": 23950,
-      "ext": ".html",
-      "binary": false,
-      "categories": [
-        "skills",
-        "camera-cinematography",
-        "transitions",
-        "typography",
-        "ui-motion",
-        "rendering",
-        "effects",
-        "design-system"
-      ],
-      "contentCategories": [
-        "skills",
-        "camera-cinematography",
-        "transitions",
-        "typography",
-        "ui-motion",
-        "rendering",
-        "effects",
-        "design-system"
-      ],
-      "signals": [
-        "orbit",
-        "cursor",
-        "shot-card",
-        "render"
-      ],
-      "indexedContentBytes": 23950
-    },
-    {
-      "path": "gallery/library.html",
-      "bytes": 57591,
+      "bytes": 57567,
       "ext": ".html",
       "binary": false,
       "categories": [
@@ -8782,11 +6875,21 @@
         "motion-blur",
         "particles"
       ],
-      "indexedContentBytes": 57591
+      "indexedContentBytes": 57567
+    },
+    {
+      "path": "gallery/library.html",
+      "bytes": 526,
+      "ext": ".html",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 526
     },
     {
       "path": "gallery/llms.txt",
-      "bytes": 32287,
+      "bytes": 30688,
       "ext": ".txt",
       "binary": false,
       "categories": [
@@ -8824,7 +6927,7 @@
         "motion-blur",
         "particles"
       ],
-      "indexedContentBytes": 32287
+      "indexedContentBytes": 30688
     },
     {
       "path": "gallery/logo-mark-reverse.svg",
@@ -9449,7 +7552,7 @@
     },
     {
       "path": "gallery/showcase.html",
-      "bytes": 4775,
+      "bytes": 4763,
       "ext": ".html",
       "binary": false,
       "categories": [
@@ -9461,7 +7564,7 @@
         "design-system"
       ],
       "signals": [],
-      "indexedContentBytes": 4775
+      "indexedContentBytes": 4763
     },
     {
       "path": "gallery/showcase.js",
@@ -9483,13 +7586,13 @@
     },
     {
       "path": "gallery/sitemap.xml",
-      "bytes": 444,
+      "bytes": 329,
       "ext": ".xml",
       "binary": false,
       "categories": [],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 444
+      "indexedContentBytes": 329
     },
     {
       "path": "gallery/source/assemble-then-type-flyin.md",
@@ -11621,26 +9724,21 @@
     },
     {
       "path": "jianying-export/smoke_test.py",
-      "bytes": 3223,
+      "bytes": 3234,
       "ext": ".py",
       "binary": false,
       "categories": [
         "rendering",
-        "tests",
-        "transitions",
-        "audio-sound"
+        "tests"
       ],
       "contentCategories": [
-        "transitions",
-        "audio-sound",
         "rendering",
         "tests"
       ],
       "signals": [
-        "sound-design",
         "render"
       ],
-      "indexedContentBytes": 3223
+      "indexedContentBytes": 3234
     },
     {
       "path": "jianying-export/windows_draft.py",
@@ -11708,7 +9806,7 @@
     },
     {
       "path": "references/aesthetic-rules.md",
-      "bytes": 27528,
+      "bytes": 27182,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -11730,11 +9828,11 @@
         "orbit",
         "sound-design"
       ],
-      "indexedContentBytes": 27528
+      "indexedContentBytes": 27182
     },
     {
       "path": "references/final-review.md",
-      "bytes": 7095,
+      "bytes": 7371,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -11748,7 +9846,7 @@
       "signals": [
         "sound-design"
       ],
-      "indexedContentBytes": 7095
+      "indexedContentBytes": 7371
     },
     {
       "path": "references/guided-free-creation.md",
@@ -11813,7 +9911,7 @@
     },
     {
       "path": "references/pipeline.md",
-      "bytes": 25226,
+      "bytes": 23930,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -11829,11 +9927,10 @@
         "rendering"
       ],
       "signals": [
-        "sequence",
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 25226
+      "indexedContentBytes": 23930
     },
     {
       "path": "references/publish-upload-post.md",
@@ -11872,6 +9969,27 @@
       "contentCategories": [],
       "signals": [],
       "indexedContentBytes": 3229
+    },
+    {
+      "path": "references/sfx-sourcing.md",
+      "bytes": 6182,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "skills",
+        "rendering"
+      ],
+      "contentCategories": [
+        "skills",
+        "audio-sound",
+        "rendering"
+      ],
+      "signals": [
+        "sound-design",
+        "render"
+      ],
+      "indexedContentBytes": 6182
     },
     {
       "path": "references/shots/ATTRIBUTION.md",
@@ -14072,33 +12190,25 @@
     },
     {
       "path": "references/sound-design.md",
-      "bytes": 27677,
+      "bytes": 10155,
       "ext": ".md",
       "binary": false,
       "categories": [
         "audio-sound",
-        "camera-cinematography",
         "transitions",
-        "ui-motion",
-        "rendering",
-        "design-system"
+        "rendering"
       ],
       "contentCategories": [
-        "camera-cinematography",
         "transitions",
-        "ui-motion",
         "audio-sound",
-        "rendering",
-        "design-system"
+        "rendering"
       ],
       "signals": [
         "sequence",
-        "camera",
-        "orbit",
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 27677
+      "indexedContentBytes": 10155
     },
     {
       "path": "references/workbench.md",
@@ -20827,7 +18937,7 @@
     },
     {
       "path": "shot-polish/sheet.py",
-      "bytes": 776,
+      "bytes": 871,
       "ext": ".py",
       "binary": false,
       "categories": [
@@ -20840,7 +18950,26 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 776
+      "indexedContentBytes": 871
+    },
+    {
+      "path": "shot-polish/test_sheet.py",
+      "bytes": 2646,
+      "ext": ".py",
+      "binary": false,
+      "categories": [
+        "shots-scenes-storyboard",
+        "tests",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering",
+        "tests"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 2646
     },
     {
       "path": "shot-polish/tsc-demos.sh",
@@ -20874,7 +19003,7 @@
     },
     {
       "path": "template/TEMPLATE.md",
-      "bytes": 8172,
+      "bytes": 8590,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -20894,7 +19023,7 @@
         "sound-design",
         "render"
       ],
-      "indexedContentBytes": 8172
+      "indexedContentBytes": 8590
     },
     {
       "path": "template/THEMES.md",
@@ -20939,6 +19068,28 @@
       "contentCategories": [],
       "signals": [],
       "indexedContentBytes": 476
+    },
+    {
+      "path": "template/public/audio/ATTRIBUTION.md",
+      "bytes": 1743,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "audio-sound",
+        "examples-templates",
+        "camera-cinematography",
+        "transitions"
+      ],
+      "contentCategories": [
+        "camera-cinematography",
+        "transitions",
+        "audio-sound"
+      ],
+      "signals": [
+        "camera",
+        "sound-design"
+      ],
+      "indexedContentBytes": 1743
     },
     {
       "path": "template/public/audio/click-camera.mp3",
@@ -22230,49 +20381,43 @@
     },
     {
       "path": "workbench/GUIDE.md",
-      "bytes": 7537,
+      "bytes": 7691,
       "ext": ".md",
       "binary": false,
       "categories": [
         "ui-motion",
         "skills",
-        "camera-cinematography",
         "audio-sound"
       ],
       "contentCategories": [
         "skills",
-        "camera-cinematography",
         "audio-sound"
       ],
       "signals": [
-        "camera",
         "sound-design"
       ],
-      "indexedContentBytes": 7537
+      "indexedContentBytes": 7691
     },
     {
       "path": "workbench/README.md",
-      "bytes": 8739,
+      "bytes": 8717,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
         "3d-webgl-shaders",
-        "audio-sound",
         "effects"
       ],
       "contentCategories": [
         "skills",
         "3d-webgl-shaders",
-        "audio-sound",
         "effects"
       ],
       "signals": [
         "sequence",
-        "threejs",
-        "sound-design"
+        "threejs"
       ],
-      "indexedContentBytes": 8739
+      "indexedContentBytes": 8717
     },
     {
       "path": "workbench/demosrc",
@@ -22496,7 +20641,7 @@
     },
     {
       "path": "workbench/package.json",
-      "bytes": 1328,
+      "bytes": 1390,
       "ext": ".json",
       "binary": false,
       "categories": [
@@ -22510,7 +20655,7 @@
       "signals": [
         "threejs"
       ],
-      "indexedContentBytes": 1328
+      "indexedContentBytes": 1390
     },
     {
       "path": "workbench/proj-stub/workbench.ts",
@@ -22573,7 +20718,7 @@
     },
     {
       "path": "workbench/scripts/gen-index.mjs",
-      "bytes": 16417,
+      "bytes": 16483,
       "ext": ".mjs",
       "binary": false,
       "categories": [
@@ -22587,7 +20732,7 @@
       "signals": [
         "sound-design"
       ],
-      "indexedContentBytes": 16417
+      "indexedContentBytes": 16483
     },
     {
       "path": "workbench/scripts/open.mjs",
@@ -22605,7 +20750,7 @@
     },
     {
       "path": "workbench/scripts/parity.mjs",
-      "bytes": 5209,
+      "bytes": 5547,
       "ext": ".mjs",
       "binary": false,
       "categories": [
@@ -22617,7 +20762,7 @@
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 5209
+      "indexedContentBytes": 5547
     },
     {
       "path": "workbench/scripts/render-demos.mjs",
@@ -22653,6 +20798,24 @@
       ],
       "signals": [],
       "indexedContentBytes": 6816
+    },
+    {
+      "path": "workbench/scripts/test-platform.mjs",
+      "bytes": 5680,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "tests",
+        "rendering"
+      ],
+      "contentCategories": [
+        "rendering",
+        "tests"
+      ],
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 5680
     },
     {
       "path": "workbench/scripts/test-themes.mjs",
@@ -22956,10 +21119,11 @@
     },
     {
       "path": "workbench/src/i18n.ts",
-      "bytes": 42877,
+      "bytes": 43432,
       "ext": ".ts",
       "binary": false,
       "categories": [
+        "skills",
         "remotion",
         "transitions",
         "typography",
@@ -22970,6 +21134,7 @@
         "tests"
       ],
       "contentCategories": [
+        "skills",
         "remotion",
         "transitions",
         "typography",
@@ -22984,7 +21149,7 @@
         "sound-design",
         "mask"
       ],
-      "indexedContentBytes": 42877
+      "indexedContentBytes": 43432
     },
     {
       "path": "workbench/src/main.tsx",
@@ -23030,7 +21195,7 @@
     },
     {
       "path": "workbench/src/panels/LibraryPanel.tsx",
-      "bytes": 14950,
+      "bytes": 14678,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -23044,7 +21209,7 @@
       "signals": [
         "sound-design"
       ],
-      "indexedContentBytes": 14950
+      "indexedContentBytes": 14678
     },
     {
       "path": "workbench/src/panels/ThemePanel.tsx",
@@ -23206,7 +21371,7 @@
     },
     {
       "path": "workbench/src/styles.css",
-      "bytes": 19085,
+      "bytes": 19123,
       "ext": ".css",
       "binary": false,
       "categories": [
@@ -23224,7 +21389,7 @@
       "signals": [
         "cursor"
       ],
-      "indexedContentBytes": 19085
+      "indexedContentBytes": 19123
     },
     {
       "path": "workbench/src/theme.ts",
@@ -23322,7 +21487,7 @@
     },
     {
       "path": "workbench/vite.config.ts",
-      "bytes": 7720,
+      "bytes": 8641,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -23334,7 +21499,7 @@
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 7720
+      "indexedContentBytes": 8641
     }
   ]
 }

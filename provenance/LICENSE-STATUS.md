@@ -2,7 +2,7 @@
 
 > Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.
 
-Snapshot source timestamp: 2026-10-26T10:17:53Z
+Snapshot source timestamp: 2026-11-02T12:38:59Z
 
 ## Summary
 
@@ -37,6 +37,6 @@ Snapshot source timestamp: 2026-10-26T10:17:53Z
 | `remotion-templates` | review-required-no-license-file-detected | — | 0 | 0 |
 | `skill-remotion-geist` | review-required-no-license-file-detected | — | 0 | 0 |
 | `theatre` | license-file-detected | Apache-2.0 | 17 | 1612692 |
-| `video-shotcraft` | license-file-detected | Apache-2.0 | 319 | 59157161 |
+| `video-shotcraft` | license-file-detected | Apache-2.0 | 170 | 46759090 |
 
 See `provenance/LICENSE-STATUS.json` for machine-readable details.

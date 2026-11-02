@@ -1,15 +1,15 @@
 version: 1
-generated_at: "2026-10-26T10:17:53Z"
+generated_at: "2026-11-02T12:38:59Z"
 sources:
   video-shotcraft:
     repository: "Vincentwei1021/video-shotcraft"
     url: "https://github.com/Vincentwei1021/video-shotcraft.git"
-    commit: "43bd349a136651865ecfa6ea1cf012f6e957d304"
+    commit: "1266a3ec4831289c4d893d42dd5102723658039a"
     branch: "main"
-    upstream_commit_date: "2026-10-18T01:50:52+08:00"
+    upstream_commit_date: "2026-10-30T00:17:26+08:00"
     path: "upstream/video-shotcraft"
-    files: 1360
-    size_kb: 68240
+    files: 1217
+    size_kb: 55724
     license_files: "LICENSE"
   onda:
     repository: "degueba/onda"
@@ -44,12 +44,12 @@ sources:
   emilkowalski-skills:
     repository: "emilkowalski/skills"
     url: "https://github.com/emilkowalski/skills.git"
-    commit: "2d228630ba1446365f614a108cb8252f1feda202"
+    commit: "f1090bec277140d02ed202440185ad9d02ac1490"
     branch: "main"
-    upstream_commit_date: "2026-10-11T15:58:32+02:00"
+    upstream_commit_date: "2026-11-02T10:21:52+01:00"
     path: "upstream/emilkowalski-skills"
-    files: 29
-    size_kb: 428
+    files: 31
+    size_kb: 448
     license_files: "LICENSE"
   claude-remotion-skill:
     repository: "haidrrrry/claude-remotion-skill"
@@ -64,12 +64,12 @@ sources:
   remotion-skills:
     repository: "remotion-dev/skills"
     url: "https://github.com/remotion-dev/skills.git"
-    commit: "6c67adcd9cdbe6eb84d76342da89b225f9161cb2"
+    commit: "c7cb2fdcacd134fb2ccb9b7a44f9ffa44e467271"
     branch: "main"
-    upstream_commit_date: "2026-10-22T17:31:16+02:00"
+    upstream_commit_date: "2026-11-02T09:50:21+01:00"
     path: "upstream/remotion-skills"
-    files: 293
-    size_kb: 3584
+    files: 299
+    size_kb: 3632
     license_files: ""
   product-launch-video-skill:
     repository: "memex-lab/product-launch-video-skill"

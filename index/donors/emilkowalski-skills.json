@@ -2,21 +2,21 @@
   "version": 2,
   "donor": "emilkowalski-skills",
   "summary": {
-    "fileCount": 29,
-    "totalBytes": 299324,
-    "indexedContentBytes": 299324,
-    "textFiles": 29,
+    "fileCount": 31,
+    "totalBytes": 313500,
+    "indexedContentBytes": 313500,
+    "textFiles": 31,
     "binaryFiles": 0,
     "topExtensions": {
-      ".md": 25,
+      ".md": 27,
       "[none]": 4
     },
     "categoryCounts": {
-      "skills": 24,
-      "ui-motion": 17,
-      "transitions": 17,
-      "effects": 14,
-      "design-system": 13,
+      "skills": 25,
+      "ui-motion": 19,
+      "transitions": 19,
+      "effects": 16,
+      "design-system": 14,
       "data-animation": 10,
       "rendering": 8,
       "camera-cinematography": 6,
@@ -26,11 +26,11 @@
       "examples-templates": 1
     },
     "contentCategoryCounts": {
-      "skills": 18,
-      "transitions": 17,
-      "ui-motion": 14,
-      "effects": 14,
-      "design-system": 13,
+      "skills": 19,
+      "transitions": 19,
+      "effects": 16,
+      "ui-motion": 15,
+      "design-system": 14,
       "data-animation": 10,
       "rendering": 8,
       "camera-cinematography": 6,
@@ -44,8 +44,8 @@
       "chart": 5,
       "parallax": 3,
       "orbit": 3,
+      "cursor": 3,
       "tokens": 2,
-      "cursor": 2,
       "interpolate": 1,
       "motion-blur": 1,
       "camera": 1,
@@ -95,7 +95,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 4590,
+      "bytes": 4846,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -107,7 +107,7 @@
         "ui-motion"
       ],
       "signals": [],
-      "indexedContentBytes": 4590
+      "indexedContentBytes": 4846
     },
     {
       "path": "performance-cheatsheet.md",
@@ -149,7 +149,7 @@
     },
     {
       "path": "skills/animate/SKILL.md",
-      "bytes": 11860,
+      "bytes": 11910,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -170,7 +170,7 @@
         "chart",
         "tokens"
       ],
-      "indexedContentBytes": 11860
+      "indexedContentBytes": 11910
     },
     {
       "path": "skills/animate-expo/RECIPES.md",
@@ -220,7 +220,7 @@
     },
     {
       "path": "skills/animation-performance/SKILL.md",
-      "bytes": 13966,
+      "bytes": 14269,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -240,7 +240,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 13966
+      "indexedContentBytes": 14269
     },
     {
       "path": "skills/animation-vocabulary/SKILL.md",
@@ -380,7 +380,7 @@
     },
     {
       "path": "skills/emil-design-eng/SKILL.md",
-      "bytes": 27123,
+      "bytes": 27509,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -413,7 +413,7 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 27123
+      "indexedContentBytes": 27509
     },
     {
       "path": "skills/find-animation-opportunities/SKILL.md",
@@ -441,7 +441,7 @@
     },
     {
       "path": "skills/improve-animations/AUDIT.md",
-      "bytes": 7387,
+      "bytes": 7632,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -458,7 +458,7 @@
         "design-system"
       ],
       "signals": [],
-      "indexedContentBytes": 7387
+      "indexedContentBytes": 7632
     },
     {
       "path": "skills/improve-animations/PLAN-TEMPLATE.md",
@@ -603,8 +603,32 @@
       "indexedContentBytes": 7830
     },
     {
+      "path": "skills/remove-animations/SKILL.md",
+      "bytes": 11345,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "transitions",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "transitions",
+        "ui-motion",
+        "effects",
+        "design-system"
+      ],
+      "signals": [
+        "cursor"
+      ],
+      "indexedContentBytes": 11345
+    },
+    {
       "path": "skills/review-animations/SKILL.md",
-      "bytes": 8407,
+      "bytes": 8491,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -624,11 +648,11 @@
       "signals": [
         "mask"
       ],
-      "indexedContentBytes": 8407
+      "indexedContentBytes": 8491
     },
     {
       "path": "skills/review-animations/STANDARDS.md",
-      "bytes": 9801,
+      "bytes": 9964,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -653,7 +677,7 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 9801
+      "indexedContentBytes": 9964
     },
     {
       "path": "skills/write-swift/SKILL.md",
@@ -680,6 +704,23 @@
         "mask"
       ],
       "indexedContentBytes": 42445
+    },
+    {
+      "path": "ui-cheatsheet.md",
+      "bytes": 1344,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "ui-motion",
+        "transitions",
+        "effects"
+      ],
+      "contentCategories": [
+        "transitions",
+        "effects"
+      ],
+      "signals": [],
+      "indexedContentBytes": 1344
     }
   ]
 }

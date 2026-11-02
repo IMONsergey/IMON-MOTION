@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceGeneratedAt": "2026-10-26T10:17:53Z",
+  "sourceGeneratedAt": "2026-11-02T12:38:59Z",
   "disclaimer": "Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.",
   "policy": {
     "missingLicenseFile": "review-required",
@@ -458,10 +458,10 @@
         "Apache-2.0"
       ],
       "assets": {
-        "files": 319,
-        "bytes": 59157161,
+        "files": 170,
+        "bytes": 46759090,
         "extensions": {
-          ".mp3": 165,
+          ".mp3": 16,
           ".webp": 11,
           ".png": 86,
           ".gif": 1,
@@ -473,13 +473,13 @@
           "assets/audio/bgm/g-eazy-nba-type.mp3",
           "assets/audio/bgm/house-vibez.mp3",
           "assets/audio/bgm/tonight-hiphop.mp3",
-          "assets/audio/sfx/camera/camera-autofocus.mp3",
-          "assets/audio/sfx/camera/camera-lens-shutter.mp3",
-          "assets/audio/sfx/camera/camera-shutter-hard.mp3",
-          "assets/audio/sfx/camera/camera-shutter-vintage.mp3",
-          "assets/audio/sfx/camera/click-camera.mp3",
-          "assets/audio/sfx/camera/ui-zoom-in.mp3",
-          "assets/audio/sfx/camera/ui-zoom-out.mp3"
+          "assets/readme/cover.webp",
+          "assets/readme/examples/camera.webp",
+          "assets/readme/examples/data.webp",
+          "assets/readme/examples/effects.webp",
+          "assets/readme/examples/interaction.webp",
+          "assets/readme/examples/opening.webp",
+          "assets/readme/examples/outro.webp"
         ],
         "separateRightsReviewRecommended": true
       },

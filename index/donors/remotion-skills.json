@@ -2,15 +2,15 @@
   "version": 2,
   "donor": "remotion-skills",
   "summary": {
-    "fileCount": 293,
-    "totalBytes": 2374301,
-    "indexedContentBytes": 1566053,
-    "textFiles": 293,
+    "fileCount": 299,
+    "totalBytes": 2385871,
+    "indexedContentBytes": 1577623,
+    "textFiles": 299,
     "binaryFiles": 0,
     "topExtensions": {
-      ".md": 176,
-      ".yaml": 25,
-      ".svg": 25,
+      ".md": 178,
+      ".yaml": 27,
+      ".svg": 27,
       ".tsx": 20,
       ".json": 18,
       ".ts": 17,
@@ -18,16 +18,16 @@
       ".geojson": 4
     },
     "categoryCounts": {
-      "skills": 291,
-      "remotion": 285,
+      "skills": 297,
+      "remotion": 291,
       "rendering": 95,
       "camera-cinematography": 63,
       "3d-webgl-shaders": 52,
       "tests": 37,
       "audio-sound": 36,
       "effects": 34,
-      "data-animation": 32,
-      "ui-motion": 31,
+      "data-animation": 34,
+      "ui-motion": 33,
       "typography": 25,
       "transitions": 24,
       "examples-templates": 20,
@@ -42,11 +42,11 @@
       "tests": 37,
       "skills": 34,
       "audio-sound": 34,
+      "ui-motion": 33,
       "effects": 32,
-      "ui-motion": 31,
       "typography": 21,
       "transitions": 20,
-      "data-animation": 12,
+      "data-animation": 14,
       "design-system": 12,
       "shots-scenes-storyboard": 2
     },
@@ -55,8 +55,8 @@
       "camera": 57,
       "interpolate": 40,
       "sequence": 20,
+      "chart": 8,
       "spring": 6,
-      "chart": 6,
       "sound-design": 6,
       "cursor": 4,
       "threejs": 4,
@@ -69,7 +69,7 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 2805,
+      "bytes": 3024,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -88,7 +88,7 @@
         "camera",
         "cursor"
       ],
-      "indexedContentBytes": 2805
+      "indexedContentBytes": 3024
     },
     {
       "path": "package.json",
@@ -182,7 +182,7 @@
     },
     {
       "path": "skills/remotion-best-practices/SKILL.md",
-      "bytes": 4215,
+      "bytes": 4356,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -200,7 +200,7 @@
         "cursor",
         "render"
       ],
-      "indexedContentBytes": 4215
+      "indexedContentBytes": 4356
     },
     {
       "path": "skills/remotion-best-practices/agents/openai.yaml",
@@ -546,6 +546,48 @@
         "particles"
       ],
       "indexedContentBytes": 7016
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-license/REFERENCE.md",
+      "bytes": 484,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 484
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-license/agents/openai.yaml",
+      "bytes": 300,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 300
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-license/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-best-practices/remotion-maps/REFERENCE.md",
@@ -1187,7 +1229,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/REFERENCE.md",
-      "bytes": 13514,
+      "bytes": 13560,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -1217,7 +1259,7 @@
         "render",
         "motion-blur"
       ],
-      "indexedContentBytes": 13514
+      "indexedContentBytes": 13560
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/agents/openai.yaml",
@@ -1332,22 +1374,26 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/color-correction.md",
-      "bytes": 4396,
+      "bytes": 7476,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
         "remotion",
         "3d-webgl-shaders",
+        "data-animation",
         "audio-sound"
       ],
       "contentCategories": [
         "remotion",
         "3d-webgl-shaders",
+        "data-animation",
         "audio-sound"
       ],
-      "signals": [],
-      "indexedContentBytes": 4396
+      "signals": [
+        "chart"
+      ],
+      "indexedContentBytes": 7476
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/compositions.md",
@@ -1410,7 +1456,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/effects.md",
-      "bytes": 10891,
+      "bytes": 10900,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -1435,7 +1481,7 @@
         "sequence",
         "shader"
       ],
-      "indexedContentBytes": 10891
+      "indexedContentBytes": 10900
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/embedding-videos.md",
@@ -2578,7 +2624,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-render/REFERENCE.md",
-      "bytes": 711,
+      "bytes": 1077,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2592,7 +2638,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 711
+      "indexedContentBytes": 1077
     },
     {
       "path": "skills/remotion-best-practices/remotion-render/agents/openai.yaml",
@@ -2796,7 +2842,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-upgrade/REFERENCE.md",
-      "bytes": 1930,
+      "bytes": 1947,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2805,7 +2851,7 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 1930
+      "indexedContentBytes": 1947
     },
     {
       "path": "skills/remotion-best-practices/remotion-upgrade/agents/openai.yaml",
@@ -3151,6 +3197,48 @@
         "particles"
       ],
       "indexedContentBytes": 6929
+    },
+    {
+      "path": "skills/remotion-license/SKILL.md",
+      "bytes": 484,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 484
+    },
+    {
+      "path": "skills/remotion-license/agents/openai.yaml",
+      "bytes": 300,
+      "ext": ".yaml",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "ui-motion"
+      ],
+      "contentCategories": [
+        "ui-motion"
+      ],
+      "signals": [],
+      "indexedContentBytes": 300
+    },
+    {
+      "path": "skills/remotion-license/assets/remotion-icon.svg",
+      "bytes": 1303,
+      "ext": ".svg",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 1303
     },
     {
       "path": "skills/remotion-maps/SKILL.md",
@@ -3792,7 +3880,7 @@
     },
     {
       "path": "skills/remotion-markup/SKILL.md",
-      "bytes": 13299,
+      "bytes": 13345,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3822,7 +3910,7 @@
         "render",
         "motion-blur"
       ],
-      "indexedContentBytes": 13299
+      "indexedContentBytes": 13345
     },
     {
       "path": "skills/remotion-markup/agents/openai.yaml",
@@ -3937,22 +4025,26 @@
     },
     {
       "path": "skills/remotion-markup/color-correction.md",
-      "bytes": 4396,
+      "bytes": 7476,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
         "remotion",
         "3d-webgl-shaders",
+        "data-animation",
         "audio-sound"
       ],
       "contentCategories": [
         "remotion",
         "3d-webgl-shaders",
+        "data-animation",
         "audio-sound"
       ],
-      "signals": [],
-      "indexedContentBytes": 4396
+      "signals": [
+        "chart"
+      ],
+      "indexedContentBytes": 7476
     },
     {
       "path": "skills/remotion-markup/compositions.md",
@@ -4015,7 +4107,7 @@
     },
     {
       "path": "skills/remotion-markup/effects.md",
-      "bytes": 10891,
+      "bytes": 10900,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4040,7 +4132,7 @@
         "sequence",
         "shader"
       ],
-      "indexedContentBytes": 10891
+      "indexedContentBytes": 10900
     },
     {
       "path": "skills/remotion-markup/embedding-videos.md",
@@ -5184,7 +5276,7 @@
     },
     {
       "path": "skills/remotion-render/SKILL.md",
-      "bytes": 711,
+      "bytes": 1077,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -5198,7 +5290,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 711
+      "indexedContentBytes": 1077
     },
     {
       "path": "skills/remotion-render/agents/openai.yaml",
@@ -5402,7 +5494,7 @@
     },
     {
       "path": "skills/remotion-upgrade/SKILL.md",
-      "bytes": 1930,
+      "bytes": 1947,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -5411,7 +5503,7 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 1930
+      "indexedContentBytes": 1947
     },
     {
       "path": "skills/remotion-upgrade/agents/openai.yaml",
