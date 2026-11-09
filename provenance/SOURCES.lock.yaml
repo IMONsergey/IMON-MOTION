@@ -1,5 +1,5 @@
 version: 1
-generated_at: "2026-11-02T12:38:59Z"
+generated_at: "2026-11-09T13:03:54Z"
 sources:
   video-shotcraft:
     repository: "Vincentwei1021/video-shotcraft"
@@ -44,12 +44,12 @@ sources:
   emilkowalski-skills:
     repository: "emilkowalski/skills"
     url: "https://github.com/emilkowalski/skills.git"
-    commit: "f1090bec277140d02ed202440185ad9d02ac1490"
+    commit: "715c1807e08c497cfd1dc4feb450a2a3300ef2a9"
     branch: "main"
-    upstream_commit_date: "2026-11-02T10:21:52+01:00"
+    upstream_commit_date: "2026-11-09T13:07:26+01:00"
     path: "upstream/emilkowalski-skills"
-    files: 31
-    size_kb: 448
+    files: 34
+    size_kb: 496
     license_files: "LICENSE"
   claude-remotion-skill:
     repository: "haidrrrry/claude-remotion-skill"
@@ -64,12 +64,12 @@ sources:
   remotion-skills:
     repository: "remotion-dev/skills"
     url: "https://github.com/remotion-dev/skills.git"
-    commit: "c7cb2fdcacd134fb2ccb9b7a44f9ffa44e467271"
+    commit: "1af7e69a2a613437d46095924057970a6a7df40d"
     branch: "main"
-    upstream_commit_date: "2026-11-02T09:50:21+01:00"
+    upstream_commit_date: "2026-11-09T10:11:05+01:00"
     path: "upstream/remotion-skills"
-    files: 299
-    size_kb: 3632
+    files: 301
+    size_kb: 3640
     license_files: ""
   product-launch-video-skill:
     repository: "memex-lab/product-launch-video-skill"
@@ -84,12 +84,12 @@ sources:
   remotion-cinematic:
     repository: "codeverbojan/remotion-cinematic"
     url: "https://github.com/codeverbojan/remotion-cinematic.git"
-    commit: "18dbb50ce797b778f0867a5dd7bac82b5ce105ac"
+    commit: "b86df2d8e8e3aee7dc942b7db46ce04ab64766cd"
     branch: "main"
-    upstream_commit_date: "2026-04-25T11:05:01+02:00"
+    upstream_commit_date: "2026-11-04T16:19:21+01:00"
     path: "upstream/remotion-cinematic"
-    files: 169
-    size_kb: 12864
+    files: 201
+    size_kb: 6504
     license_files: "LICENSE"
   chuk-motion:
     repository: "IBM/chuk-motion"

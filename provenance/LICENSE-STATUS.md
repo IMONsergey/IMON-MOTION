@@ -2,7 +2,7 @@
 
 > Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.
 
-Snapshot source timestamp: 2026-11-02T12:38:59Z
+Snapshot source timestamp: 2026-11-09T13:03:54Z
 
 ## Summary
 
@@ -31,7 +31,7 @@ Snapshot source timestamp: 2026-11-02T12:38:59Z
 | `motion-skills` | license-file-detected | MIT | 1 | 3651648 |
 | `onda` | license-file-detected | MIT | 5 | 1412890 |
 | `product-launch-video-skill` | license-file-detected | MIT | 0 | 0 |
-| `remotion-cinematic` | license-file-detected | MIT | 9 | 11825928 |
+| `remotion-cinematic` | license-file-detected | MIT | 12 | 5165177 |
 | `remotion-scenes` | license-file-detected | MIT | 1 | 594102 |
 | `remotion-skills` | review-required-no-license-file-detected | — | 0 | 0 |
 | `remotion-templates` | review-required-no-license-file-detected | — | 0 | 0 |

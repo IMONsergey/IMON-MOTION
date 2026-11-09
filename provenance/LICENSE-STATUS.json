@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceGeneratedAt": "2026-11-02T12:38:59Z",
+  "sourceGeneratedAt": "2026-11-09T13:03:54Z",
   "disclaimer": "Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.",
   "policy": {
     "missingLicenseFile": "review-required",
@@ -287,14 +287,18 @@
         "MIT"
       ],
       "assets": {
-        "files": 9,
-        "bytes": 11825928,
+        "files": 12,
+        "bytes": 5165177,
         "extensions": {
+          ".png": 3,
           ".gif": 1,
           ".mp3": 8
         },
         "samples": [
+          "docs/assets/before-after-square.png",
           "docs/assets/demo-preview.gif",
+          "docs/assets/feature-landscape.png",
+          "docs/assets/walkthrough-portrait.png",
           "public/music/background.mp3",
           "public/sfx/transitions/boom.mp3",
           "public/sfx/transitions/impact.mp3",
