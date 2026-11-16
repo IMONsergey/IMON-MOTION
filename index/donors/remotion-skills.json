@@ -2,63 +2,63 @@
   "version": 2,
   "donor": "remotion-skills",
   "summary": {
-    "fileCount": 301,
-    "totalBytes": 2393342,
-    "indexedContentBytes": 1585094,
-    "textFiles": 301,
+    "fileCount": 267,
+    "totalBytes": 919165,
+    "indexedContentBytes": 919165,
+    "textFiles": 267,
     "binaryFiles": 0,
     "topExtensions": {
-      ".md": 180,
+      ".md": 174,
       ".yaml": 27,
       ".svg": 27,
-      ".tsx": 20,
-      ".json": 18,
-      ".ts": 17,
-      ".mjs": 8,
-      ".geojson": 4
+      ".ts": 13,
+      ".json": 10,
+      ".tsx": 8,
+      ".geojson": 4,
+      ".mjs": 4
     },
     "categoryCounts": {
-      "skills": 299,
-      "remotion": 293,
-      "rendering": 97,
-      "camera-cinematography": 63,
+      "skills": 265,
+      "remotion": 259,
+      "rendering": 101,
+      "camera-cinematography": 55,
       "3d-webgl-shaders": 52,
-      "audio-sound": 38,
-      "tests": 37,
-      "effects": 36,
-      "data-animation": 34,
+      "audio-sound": 40,
       "ui-motion": 33,
-      "typography": 25,
-      "transitions": 24,
-      "examples-templates": 20,
-      "design-system": 16,
+      "tests": 25,
+      "effects": 24,
+      "data-animation": 24,
+      "transitions": 20,
+      "typography": 17,
+      "examples-templates": 8,
+      "design-system": 4,
       "shots-scenes-storyboard": 4
     },
     "contentCategoryCounts": {
-      "remotion": 120,
-      "rendering": 73,
-      "camera-cinematography": 63,
+      "remotion": 106,
+      "rendering": 77,
+      "camera-cinematography": 55,
       "3d-webgl-shaders": 48,
-      "tests": 37,
-      "audio-sound": 36,
-      "skills": 34,
-      "effects": 34,
+      "skills": 45,
+      "audio-sound": 38,
       "ui-motion": 33,
-      "typography": 21,
+      "tests": 25,
+      "effects": 22,
       "transitions": 20,
-      "data-animation": 14,
-      "design-system": 12,
+      "typography": 13,
+      "data-animation": 12,
+      "design-system": 4,
       "shots-scenes-storyboard": 2
     },
     "signalCounts": {
-      "render": 67,
-      "camera": 57,
-      "interpolate": 40,
-      "sequence": 20,
-      "chart": 8,
-      "spring": 6,
+      "render": 69,
+      "camera": 49,
+      "interpolate": 30,
+      "sequence": 18,
+      "spring": 8,
       "sound-design": 6,
       "cursor": 4,
+      "chart": 4,
       "threejs": 4,
       "motion-blur": 4,
       "particles": 2,
@@ -69,7 +69,7 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3024,
+      "bytes": 3425,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -88,7 +88,7 @@
         "camera",
         "cursor"
       ],
-      "indexedContentBytes": 3024
+      "indexedContentBytes": 3425
     },
     {
       "path": "package.json",
@@ -102,7 +102,7 @@
     },
     {
       "path": "scripts/prepare-embedded-skills.ts",
-      "bytes": 4731,
+      "bytes": 5120,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -114,7 +114,7 @@
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 4731
+      "indexedContentBytes": 5120
     },
     {
       "path": "scripts/sync-agent-skills.ts",
@@ -182,7 +182,7 @@
     },
     {
       "path": "skills/remotion-best-practices/SKILL.md",
-      "bytes": 4489,
+      "bytes": 4426,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -200,7 +200,7 @@
         "cursor",
         "render"
       ],
-      "indexedContentBytes": 4489
+      "indexedContentBytes": 4426
     },
     {
       "path": "skills/remotion-best-practices/agents/openai.yaml",
@@ -277,7 +277,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-captions/display-captions.md",
-      "bytes": 5940,
+      "bytes": 5951,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -292,7 +292,7 @@
       "signals": [
         "sequence"
       ],
-      "indexedContentBytes": 5940
+      "indexedContentBytes": 5951
     },
     {
       "path": "skills/remotion-best-practices/remotion-captions/import-srt-captions.md",
@@ -329,7 +329,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-create/REFERENCE.md",
-      "bytes": 2973,
+      "bytes": 3023,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -341,7 +341,7 @@
         "remotion"
       ],
       "signals": [],
-      "indexedContentBytes": 2973
+      "indexedContentBytes": 3023
     },
     {
       "path": "skills/remotion-best-practices/remotion-create/agents/openai.yaml",
@@ -460,7 +460,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-interactivity/REFERENCE.md",
-      "bytes": 13829,
+      "bytes": 14500,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -476,7 +476,7 @@
         "spring",
         "interpolate"
       ],
-      "indexedContentBytes": 13829
+      "indexedContentBytes": 14500
     },
     {
       "path": "skills/remotion-best-practices/remotion-interactivity/agents/openai.yaml",
@@ -549,7 +549,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-license/REFERENCE.md",
-      "bytes": 484,
+      "bytes": 498,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -558,7 +558,7 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 484
+      "indexedContentBytes": 498
     },
     {
       "path": "skills/remotion-best-practices/remotion-license/agents/openai.yaml",
@@ -935,7 +935,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/TECHNIQUE.md",
-      "bytes": 4518,
+      "bytes": 3548,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -943,44 +943,23 @@
         "remotion",
         "camera-cinematography",
         "3d-webgl-shaders",
-        "rendering",
-        "design-system"
+        "rendering"
       ],
       "contentCategories": [
         "remotion",
         "camera-cinematography",
         "3d-webgl-shaders",
-        "rendering",
-        "design-system"
+        "rendering"
       ],
       "signals": [
         "camera",
         "render"
       ],
-      "indexedContentBytes": 4518
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/CountryLabel.tsx",
-      "bytes": 1849,
-      "ext": ".tsx",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "typography"
-      ],
-      "contentCategories": [
-        "remotion",
-        "typography"
-      ],
-      "signals": [
-        "interpolate"
-      ],
-      "indexedContentBytes": 1849
+      "indexedContentBytes": 3548
     },
     {
       "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
-      "bytes": 2183,
+      "bytes": 1549,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -989,99 +968,11 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 2183
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/RiverReveal.tsx",
-      "bytes": 10830,
-      "ext": ".tsx",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "transitions",
-        "camera-cinematography",
-        "effects",
-        "tests"
-      ],
-      "contentCategories": [
-        "remotion",
-        "camera-cinematography",
-        "effects",
-        "tests"
-      ],
-      "signals": [
-        "interpolate",
-        "camera"
-      ],
-      "indexedContentBytes": 10830
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/example-Root.tsx",
-      "bytes": 1039,
-      "ext": ".tsx",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "examples-templates"
-      ],
-      "contentCategories": [
-        "remotion"
-      ],
-      "signals": [],
-      "indexedContentBytes": 1039
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/sample-data/country-meta.json",
-      "bytes": 333134,
-      "ext": ".json",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "data-animation",
-        "examples-templates"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 131072
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/sample-data/yarlung-flow.json",
-      "bytes": 13082,
-      "ext": ".json",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "data-animation",
-        "examples-templates"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 13082
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/assets/tokens.ts",
-      "bytes": 1256,
-      "ext": ".ts",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "design-system",
-        "effects"
-      ],
-      "contentCategories": [
-        "effects"
-      ],
-      "signals": [],
-      "indexedContentBytes": 1256
+      "indexedContentBytes": 1549
     },
     {
       "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/references/map-data-sources.md",
-      "bytes": 4798,
+      "bytes": 4648,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -1094,50 +985,7 @@
         "effects"
       ],
       "signals": [],
-      "indexedContentBytes": 4798
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/references/map-explainer-architecture.md",
-      "bytes": 6871,
-      "ext": ".md",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "camera-cinematography",
-        "typography",
-        "effects",
-        "design-system"
-      ],
-      "contentCategories": [
-        "remotion",
-        "camera-cinematography",
-        "typography",
-        "effects",
-        "design-system"
-      ],
-      "signals": [
-        "interpolate",
-        "sequence",
-        "camera"
-      ],
-      "indexedContentBytes": 6871
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/references/map-geo-prep.md",
-      "bytes": 4098,
-      "ext": ".md",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "tests"
-      ],
-      "contentCategories": [
-        "tests"
-      ],
-      "signals": [],
-      "indexedContentBytes": 4098
+      "indexedContentBytes": 4648
     },
     {
       "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/references/render-stability.md",
@@ -1163,27 +1011,6 @@
         "camera"
       ],
       "indexedContentBytes": 3639
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-maps/techniques/maptiler/scripts/prep-geo.mjs",
-      "bytes": 7553,
-      "ext": ".mjs",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "data-animation",
-        "tests"
-      ],
-      "contentCategories": [
-        "skills",
-        "data-animation",
-        "tests"
-      ],
-      "signals": [
-        "chart"
-      ],
-      "indexedContentBytes": 7553
     },
     {
       "path": "skills/remotion-best-practices/remotion-maps/techniques/static-map/TECHNIQUE.md",
@@ -1622,7 +1449,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/local-fonts.md",
-      "bytes": 1533,
+      "bytes": 2570,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -1634,7 +1461,7 @@
         "remotion"
       ],
       "signals": [],
-      "indexedContentBytes": 1533
+      "indexedContentBytes": 2570
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/lottie.md",
@@ -1728,18 +1555,22 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/parameters.md",
-      "bytes": 2403,
+      "bytes": 2544,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
-        "remotion"
+        "remotion",
+        "rendering"
       ],
       "contentCategories": [
-        "remotion"
+        "remotion",
+        "rendering"
       ],
-      "signals": [],
-      "indexedContentBytes": 2403
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 2544
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/REFERENCE.md",
@@ -2087,7 +1918,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/TECHNIQUE.md",
-      "bytes": 4518,
+      "bytes": 3548,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2095,44 +1926,23 @@
         "remotion",
         "camera-cinematography",
         "3d-webgl-shaders",
-        "rendering",
-        "design-system"
+        "rendering"
       ],
       "contentCategories": [
         "remotion",
         "camera-cinematography",
         "3d-webgl-shaders",
-        "rendering",
-        "design-system"
+        "rendering"
       ],
       "signals": [
         "camera",
         "render"
       ],
-      "indexedContentBytes": 4518
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/CountryLabel.tsx",
-      "bytes": 1849,
-      "ext": ".tsx",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "typography"
-      ],
-      "contentCategories": [
-        "remotion",
-        "typography"
-      ],
-      "signals": [
-        "interpolate"
-      ],
-      "indexedContentBytes": 1849
+      "indexedContentBytes": 3548
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
-      "bytes": 2183,
+      "bytes": 1549,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -2141,99 +1951,11 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 2183
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/RiverReveal.tsx",
-      "bytes": 10830,
-      "ext": ".tsx",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "transitions",
-        "camera-cinematography",
-        "effects",
-        "tests"
-      ],
-      "contentCategories": [
-        "remotion",
-        "camera-cinematography",
-        "effects",
-        "tests"
-      ],
-      "signals": [
-        "interpolate",
-        "camera"
-      ],
-      "indexedContentBytes": 10830
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/example-Root.tsx",
-      "bytes": 1039,
-      "ext": ".tsx",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "examples-templates"
-      ],
-      "contentCategories": [
-        "remotion"
-      ],
-      "signals": [],
-      "indexedContentBytes": 1039
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/sample-data/country-meta.json",
-      "bytes": 333134,
-      "ext": ".json",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "data-animation",
-        "examples-templates"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 131072
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/sample-data/yarlung-flow.json",
-      "bytes": 13082,
-      "ext": ".json",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "data-animation",
-        "examples-templates"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 13082
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/assets/tokens.ts",
-      "bytes": 1256,
-      "ext": ".ts",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "design-system",
-        "effects"
-      ],
-      "contentCategories": [
-        "effects"
-      ],
-      "signals": [],
-      "indexedContentBytes": 1256
+      "indexedContentBytes": 1549
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/map-data-sources.md",
-      "bytes": 4798,
+      "bytes": 4648,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2246,50 +1968,7 @@
         "effects"
       ],
       "signals": [],
-      "indexedContentBytes": 4798
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/map-explainer-architecture.md",
-      "bytes": 6871,
-      "ext": ".md",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "camera-cinematography",
-        "typography",
-        "effects",
-        "design-system"
-      ],
-      "contentCategories": [
-        "remotion",
-        "camera-cinematography",
-        "typography",
-        "effects",
-        "design-system"
-      ],
-      "signals": [
-        "interpolate",
-        "sequence",
-        "camera"
-      ],
-      "indexedContentBytes": 6871
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/map-geo-prep.md",
-      "bytes": 4098,
-      "ext": ".md",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "tests"
-      ],
-      "contentCategories": [
-        "tests"
-      ],
-      "signals": [],
-      "indexedContentBytes": 4098
+      "indexedContentBytes": 4648
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/references/render-stability.md",
@@ -2315,27 +1994,6 @@
         "camera"
       ],
       "indexedContentBytes": 3639
-    },
-    {
-      "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/maptiler/scripts/prep-geo.mjs",
-      "bytes": 7553,
-      "ext": ".mjs",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "data-animation",
-        "tests"
-      ],
-      "contentCategories": [
-        "skills",
-        "data-animation",
-        "tests"
-      ],
-      "signals": [
-        "chart"
-      ],
-      "indexedContentBytes": 7553
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/remotion-maps/techniques/static-map/TECHNIQUE.md",
@@ -2493,7 +2151,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/video-editing.md",
-      "bytes": 5839,
+      "bytes": 5847,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2509,7 +2167,7 @@
         "audio-sound"
       ],
       "signals": [],
-      "indexedContentBytes": 5839
+      "indexedContentBytes": 5847
     },
     {
       "path": "skills/remotion-best-practices/remotion-markup/video-matting.md",
@@ -2646,7 +2304,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-render/REFERENCE.md",
-      "bytes": 1077,
+      "bytes": 2969,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2660,7 +2318,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 1077
+      "indexedContentBytes": 2969
     },
     {
       "path": "skills/remotion-best-practices/remotion-render/agents/openai.yaml",
@@ -2693,6 +2351,31 @@
       "contentCategories": [],
       "signals": [],
       "indexedContentBytes": 1303
+    },
+    {
+      "path": "skills/remotion-best-practices/remotion-render/opentimeline.md",
+      "bytes": 19794,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering",
+        "data-animation",
+        "audio-sound"
+      ],
+      "contentCategories": [
+        "remotion",
+        "data-animation",
+        "audio-sound",
+        "rendering"
+      ],
+      "signals": [
+        "spring",
+        "interpolate",
+        "sequence"
+      ],
+      "indexedContentBytes": 19794
     },
     {
       "path": "skills/remotion-best-practices/remotion-render/transparent-videos.md",
@@ -2798,7 +2481,7 @@
     },
     {
       "path": "skills/remotion-best-practices/remotion-saas/rendering.md",
-      "bytes": 3343,
+      "bytes": 4311,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2812,7 +2495,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 3343
+      "indexedContentBytes": 4311
     },
     {
       "path": "skills/remotion-best-practices/remotion-studio/REFERENCE.md",
@@ -2906,7 +2589,7 @@
     },
     {
       "path": "skills/remotion-captions/SKILL.md",
-      "bytes": 1138,
+      "bytes": 1172,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2917,7 +2600,7 @@
         "skills"
       ],
       "signals": [],
-      "indexedContentBytes": 1138
+      "indexedContentBytes": 1172
     },
     {
       "path": "skills/remotion-captions/agents/openai.yaml",
@@ -2950,7 +2633,7 @@
     },
     {
       "path": "skills/remotion-captions/display-captions.md",
-      "bytes": 5940,
+      "bytes": 5951,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -2965,7 +2648,7 @@
       "signals": [
         "sequence"
       ],
-      "indexedContentBytes": 5940
+      "indexedContentBytes": 5951
     },
     {
       "path": "skills/remotion-captions/import-srt-captions.md",
@@ -3002,7 +2685,7 @@
     },
     {
       "path": "skills/remotion-create/SKILL.md",
-      "bytes": 2711,
+      "bytes": 3073,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3014,7 +2697,7 @@
         "remotion"
       ],
       "signals": [],
-      "indexedContentBytes": 2711
+      "indexedContentBytes": 3073
     },
     {
       "path": "skills/remotion-create/agents/openai.yaml",
@@ -3081,7 +2764,7 @@
     },
     {
       "path": "skills/remotion-docs/SKILL.md",
-      "bytes": 1340,
+      "bytes": 1374,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3096,7 +2779,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 1340
+      "indexedContentBytes": 1374
     },
     {
       "path": "skills/remotion-docs/agents/openai.yaml",
@@ -3133,7 +2816,7 @@
     },
     {
       "path": "skills/remotion-interactivity/SKILL.md",
-      "bytes": 13703,
+      "bytes": 14539,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3142,6 +2825,7 @@
         "typography"
       ],
       "contentCategories": [
+        "skills",
         "remotion",
         "typography"
       ],
@@ -3149,7 +2833,7 @@
         "spring",
         "interpolate"
       ],
-      "indexedContentBytes": 13703
+      "indexedContentBytes": 14539
     },
     {
       "path": "skills/remotion-interactivity/agents/openai.yaml",
@@ -3200,7 +2884,7 @@
     },
     {
       "path": "skills/remotion-interactivity/timeline-structure.md",
-      "bytes": 6929,
+      "bytes": 7042,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3210,6 +2894,7 @@
         "audio-sound"
       ],
       "contentCategories": [
+        "skills",
         "remotion",
         "data-animation",
         "audio-sound"
@@ -3218,11 +2903,11 @@
         "chart",
         "particles"
       ],
-      "indexedContentBytes": 6929
+      "indexedContentBytes": 7042
     },
     {
       "path": "skills/remotion-license/SKILL.md",
-      "bytes": 484,
+      "bytes": 498,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3231,7 +2916,7 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 484
+      "indexedContentBytes": 498
     },
     {
       "path": "skills/remotion-license/agents/openai.yaml",
@@ -3608,7 +3293,7 @@
     },
     {
       "path": "skills/remotion-maps/techniques/maptiler/TECHNIQUE.md",
-      "bytes": 4518,
+      "bytes": 3548,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3616,44 +3301,23 @@
         "remotion",
         "camera-cinematography",
         "3d-webgl-shaders",
-        "rendering",
-        "design-system"
+        "rendering"
       ],
       "contentCategories": [
         "remotion",
         "camera-cinematography",
         "3d-webgl-shaders",
-        "rendering",
-        "design-system"
+        "rendering"
       ],
       "signals": [
         "camera",
         "render"
       ],
-      "indexedContentBytes": 4518
-    },
-    {
-      "path": "skills/remotion-maps/techniques/maptiler/assets/CountryLabel.tsx",
-      "bytes": 1849,
-      "ext": ".tsx",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "typography"
-      ],
-      "contentCategories": [
-        "remotion",
-        "typography"
-      ],
-      "signals": [
-        "interpolate"
-      ],
-      "indexedContentBytes": 1849
+      "indexedContentBytes": 3548
     },
     {
       "path": "skills/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
-      "bytes": 2183,
+      "bytes": 1549,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -3662,99 +3326,11 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 2183
-    },
-    {
-      "path": "skills/remotion-maps/techniques/maptiler/assets/RiverReveal.tsx",
-      "bytes": 10830,
-      "ext": ".tsx",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "transitions",
-        "camera-cinematography",
-        "effects",
-        "tests"
-      ],
-      "contentCategories": [
-        "remotion",
-        "camera-cinematography",
-        "effects",
-        "tests"
-      ],
-      "signals": [
-        "interpolate",
-        "camera"
-      ],
-      "indexedContentBytes": 10830
-    },
-    {
-      "path": "skills/remotion-maps/techniques/maptiler/assets/example-Root.tsx",
-      "bytes": 1039,
-      "ext": ".tsx",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "examples-templates"
-      ],
-      "contentCategories": [
-        "remotion"
-      ],
-      "signals": [],
-      "indexedContentBytes": 1039
-    },
-    {
-      "path": "skills/remotion-maps/techniques/maptiler/assets/sample-data/country-meta.json",
-      "bytes": 333134,
-      "ext": ".json",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "data-animation",
-        "examples-templates"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 131072
-    },
-    {
-      "path": "skills/remotion-maps/techniques/maptiler/assets/sample-data/yarlung-flow.json",
-      "bytes": 13082,
-      "ext": ".json",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "data-animation",
-        "examples-templates"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 13082
-    },
-    {
-      "path": "skills/remotion-maps/techniques/maptiler/assets/tokens.ts",
-      "bytes": 1256,
-      "ext": ".ts",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "design-system",
-        "effects"
-      ],
-      "contentCategories": [
-        "effects"
-      ],
-      "signals": [],
-      "indexedContentBytes": 1256
+      "indexedContentBytes": 1549
     },
     {
       "path": "skills/remotion-maps/techniques/maptiler/references/map-data-sources.md",
-      "bytes": 4798,
+      "bytes": 4648,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3767,50 +3343,7 @@
         "effects"
       ],
       "signals": [],
-      "indexedContentBytes": 4798
-    },
-    {
-      "path": "skills/remotion-maps/techniques/maptiler/references/map-explainer-architecture.md",
-      "bytes": 6871,
-      "ext": ".md",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "camera-cinematography",
-        "typography",
-        "effects",
-        "design-system"
-      ],
-      "contentCategories": [
-        "remotion",
-        "camera-cinematography",
-        "typography",
-        "effects",
-        "design-system"
-      ],
-      "signals": [
-        "interpolate",
-        "sequence",
-        "camera"
-      ],
-      "indexedContentBytes": 6871
-    },
-    {
-      "path": "skills/remotion-maps/techniques/maptiler/references/map-geo-prep.md",
-      "bytes": 4098,
-      "ext": ".md",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "tests"
-      ],
-      "contentCategories": [
-        "tests"
-      ],
-      "signals": [],
-      "indexedContentBytes": 4098
+      "indexedContentBytes": 4648
     },
     {
       "path": "skills/remotion-maps/techniques/maptiler/references/render-stability.md",
@@ -3838,29 +3371,8 @@
       "indexedContentBytes": 3639
     },
     {
-      "path": "skills/remotion-maps/techniques/maptiler/scripts/prep-geo.mjs",
-      "bytes": 7553,
-      "ext": ".mjs",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "data-animation",
-        "tests"
-      ],
-      "contentCategories": [
-        "skills",
-        "data-animation",
-        "tests"
-      ],
-      "signals": [
-        "chart"
-      ],
-      "indexedContentBytes": 7553
-    },
-    {
       "path": "skills/remotion-maps/techniques/static-map/TECHNIQUE.md",
-      "bytes": 1062,
+      "bytes": 1121,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3869,13 +3381,14 @@
         "camera-cinematography"
       ],
       "contentCategories": [
+        "skills",
         "remotion",
         "camera-cinematography"
       ],
       "signals": [
         "camera"
       ],
-      "indexedContentBytes": 1062
+      "indexedContentBytes": 1121
     },
     {
       "path": "skills/remotion-markup/3d.md",
@@ -3902,7 +3415,7 @@
     },
     {
       "path": "skills/remotion-markup/SKILL.md",
-      "bytes": 13615,
+      "bytes": 13826,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -3932,7 +3445,7 @@
         "render",
         "motion-blur"
       ],
-      "indexedContentBytes": 13615
+      "indexedContentBytes": 13826
     },
     {
       "path": "skills/remotion-markup/agents/openai.yaml",
@@ -4026,7 +3539,7 @@
     },
     {
       "path": "skills/remotion-markup/calculate-metadata.md",
-      "bytes": 3350,
+      "bytes": 3537,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4043,7 +3556,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 3350
+      "indexedContentBytes": 3537
     },
     {
       "path": "skills/remotion-markup/color-correction.md",
@@ -4070,7 +3583,7 @@
     },
     {
       "path": "skills/remotion-markup/compositions.md",
-      "bytes": 5090,
+      "bytes": 5147,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4079,17 +3592,18 @@
         "ui-motion"
       ],
       "contentCategories": [
+        "skills",
         "remotion",
         "ui-motion"
       ],
       "signals": [
         "sequence"
       ],
-      "indexedContentBytes": 5090
+      "indexedContentBytes": 5147
     },
     {
       "path": "skills/remotion-markup/connected-compositions.md",
-      "bytes": 3460,
+      "bytes": 3524,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4099,16 +3613,17 @@
         "data-animation"
       ],
       "contentCategories": [
+        "skills",
         "remotion",
         "typography",
         "data-animation"
       ],
       "signals": [],
-      "indexedContentBytes": 3460
+      "indexedContentBytes": 3524
     },
     {
       "path": "skills/remotion-markup/cropping.md",
-      "bytes": 1282,
+      "bytes": 1315,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4117,6 +3632,7 @@
         "audio-sound"
       ],
       "contentCategories": [
+        "skills",
         "remotion",
         "audio-sound"
       ],
@@ -4125,7 +3641,7 @@
         "sequence",
         "mask"
       ],
-      "indexedContentBytes": 1282
+      "indexedContentBytes": 1315
     },
     {
       "path": "skills/remotion-markup/effects.md",
@@ -4295,7 +3811,7 @@
     },
     {
       "path": "skills/remotion-markup/local-fonts.md",
-      "bytes": 1533,
+      "bytes": 2570,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4307,7 +3823,7 @@
         "remotion"
       ],
       "signals": [],
-      "indexedContentBytes": 1533
+      "indexedContentBytes": 2570
     },
     {
       "path": "skills/remotion-markup/lottie.md",
@@ -4383,7 +3899,7 @@
     },
     {
       "path": "skills/remotion-markup/multi-scene-video.md",
-      "bytes": 984,
+      "bytes": 1048,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4394,25 +3910,30 @@
         "transitions"
       ],
       "contentCategories": [
+        "skills",
         "transitions"
       ],
       "signals": [],
-      "indexedContentBytes": 984
+      "indexedContentBytes": 1048
     },
     {
       "path": "skills/remotion-markup/parameters.md",
-      "bytes": 2403,
+      "bytes": 2544,
       "ext": ".md",
       "binary": false,
       "categories": [
         "skills",
-        "remotion"
+        "remotion",
+        "rendering"
       ],
       "contentCategories": [
-        "remotion"
+        "remotion",
+        "rendering"
       ],
-      "signals": [],
-      "indexedContentBytes": 2403
+      "signals": [
+        "render"
+      ],
+      "indexedContentBytes": 2544
     },
     {
       "path": "skills/remotion-markup/remotion-maps/REFERENCE.md",
@@ -4760,7 +4281,7 @@
     },
     {
       "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/TECHNIQUE.md",
-      "bytes": 4518,
+      "bytes": 3548,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4768,44 +4289,23 @@
         "remotion",
         "camera-cinematography",
         "3d-webgl-shaders",
-        "rendering",
-        "design-system"
+        "rendering"
       ],
       "contentCategories": [
         "remotion",
         "camera-cinematography",
         "3d-webgl-shaders",
-        "rendering",
-        "design-system"
+        "rendering"
       ],
       "signals": [
         "camera",
         "render"
       ],
-      "indexedContentBytes": 4518
-    },
-    {
-      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/CountryLabel.tsx",
-      "bytes": 1849,
-      "ext": ".tsx",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "typography"
-      ],
-      "contentCategories": [
-        "remotion",
-        "typography"
-      ],
-      "signals": [
-        "interpolate"
-      ],
-      "indexedContentBytes": 1849
+      "indexedContentBytes": 3548
     },
     {
       "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/MapTilerVectorElement.ts",
-      "bytes": 2183,
+      "bytes": 1549,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -4814,99 +4314,11 @@
       ],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 2183
-    },
-    {
-      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/RiverReveal.tsx",
-      "bytes": 10830,
-      "ext": ".tsx",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "transitions",
-        "camera-cinematography",
-        "effects",
-        "tests"
-      ],
-      "contentCategories": [
-        "remotion",
-        "camera-cinematography",
-        "effects",
-        "tests"
-      ],
-      "signals": [
-        "interpolate",
-        "camera"
-      ],
-      "indexedContentBytes": 10830
-    },
-    {
-      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/example-Root.tsx",
-      "bytes": 1039,
-      "ext": ".tsx",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "examples-templates"
-      ],
-      "contentCategories": [
-        "remotion"
-      ],
-      "signals": [],
-      "indexedContentBytes": 1039
-    },
-    {
-      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/sample-data/country-meta.json",
-      "bytes": 333134,
-      "ext": ".json",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "data-animation",
-        "examples-templates"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 131072
-    },
-    {
-      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/sample-data/yarlung-flow.json",
-      "bytes": 13082,
-      "ext": ".json",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "data-animation",
-        "examples-templates"
-      ],
-      "contentCategories": [],
-      "signals": [],
-      "indexedContentBytes": 13082
-    },
-    {
-      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/assets/tokens.ts",
-      "bytes": 1256,
-      "ext": ".ts",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "design-system",
-        "effects"
-      ],
-      "contentCategories": [
-        "effects"
-      ],
-      "signals": [],
-      "indexedContentBytes": 1256
+      "indexedContentBytes": 1549
     },
     {
       "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/references/map-data-sources.md",
-      "bytes": 4798,
+      "bytes": 4648,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -4919,50 +4331,7 @@
         "effects"
       ],
       "signals": [],
-      "indexedContentBytes": 4798
-    },
-    {
-      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/references/map-explainer-architecture.md",
-      "bytes": 6871,
-      "ext": ".md",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "camera-cinematography",
-        "typography",
-        "effects",
-        "design-system"
-      ],
-      "contentCategories": [
-        "remotion",
-        "camera-cinematography",
-        "typography",
-        "effects",
-        "design-system"
-      ],
-      "signals": [
-        "interpolate",
-        "sequence",
-        "camera"
-      ],
-      "indexedContentBytes": 6871
-    },
-    {
-      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/references/map-geo-prep.md",
-      "bytes": 4098,
-      "ext": ".md",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "tests"
-      ],
-      "contentCategories": [
-        "tests"
-      ],
-      "signals": [],
-      "indexedContentBytes": 4098
+      "indexedContentBytes": 4648
     },
     {
       "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/references/render-stability.md",
@@ -4990,29 +4359,8 @@
       "indexedContentBytes": 3639
     },
     {
-      "path": "skills/remotion-markup/remotion-maps/techniques/maptiler/scripts/prep-geo.mjs",
-      "bytes": 7553,
-      "ext": ".mjs",
-      "binary": false,
-      "categories": [
-        "skills",
-        "remotion",
-        "data-animation",
-        "tests"
-      ],
-      "contentCategories": [
-        "skills",
-        "data-animation",
-        "tests"
-      ],
-      "signals": [
-        "chart"
-      ],
-      "indexedContentBytes": 7553
-    },
-    {
       "path": "skills/remotion-markup/remotion-maps/techniques/static-map/TECHNIQUE.md",
-      "bytes": 1083,
+      "bytes": 1116,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -5028,11 +4376,11 @@
       "signals": [
         "camera"
       ],
-      "indexedContentBytes": 1083
+      "indexedContentBytes": 1116
     },
     {
       "path": "skills/remotion-markup/sequencing.md",
-      "bytes": 1242,
+      "bytes": 1306,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -5042,11 +4390,12 @@
         "audio-sound"
       ],
       "contentCategories": [
+        "skills",
         "data-animation",
         "audio-sound"
       ],
       "signals": [],
-      "indexedContentBytes": 1242
+      "indexedContentBytes": 1306
     },
     {
       "path": "skills/remotion-markup/sfx.md",
@@ -5089,7 +4438,7 @@
     },
     {
       "path": "skills/remotion-markup/text-highlights.md",
-      "bytes": 1809,
+      "bytes": 1842,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -5098,16 +4447,17 @@
         "typography"
       ],
       "contentCategories": [
+        "skills",
         "remotion"
       ],
       "signals": [
         "interpolate"
       ],
-      "indexedContentBytes": 1809
+      "indexedContentBytes": 1842
     },
     {
       "path": "skills/remotion-markup/timing-props.md",
-      "bytes": 3271,
+      "bytes": 3304,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -5116,13 +4466,14 @@
         "audio-sound"
       ],
       "contentCategories": [
+        "skills",
         "remotion",
         "audio-sound"
       ],
       "signals": [
         "sequence"
       ],
-      "indexedContentBytes": 3271
+      "indexedContentBytes": 3304
     },
     {
       "path": "skills/remotion-markup/timing.md",
@@ -5146,7 +4497,7 @@
     },
     {
       "path": "skills/remotion-markup/transitions.md",
-      "bytes": 8747,
+      "bytes": 8811,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -5156,6 +4507,7 @@
         "shots-scenes-storyboard"
       ],
       "contentCategories": [
+        "skills",
         "remotion",
         "shots-scenes-storyboard",
         "transitions"
@@ -5163,11 +4515,11 @@
       "signals": [
         "interpolate"
       ],
-      "indexedContentBytes": 8747
+      "indexedContentBytes": 8811
     },
     {
       "path": "skills/remotion-markup/video-editing.md",
-      "bytes": 5649,
+      "bytes": 5842,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -5178,12 +4530,13 @@
         "audio-sound"
       ],
       "contentCategories": [
+        "skills",
         "remotion",
         "data-animation",
         "audio-sound"
       ],
       "signals": [],
-      "indexedContentBytes": 5649
+      "indexedContentBytes": 5842
     },
     {
       "path": "skills/remotion-markup/video-matting.md",
@@ -5209,7 +4562,7 @@
     },
     {
       "path": "skills/remotion-markup/voiceover.md",
-      "bytes": 3594,
+      "bytes": 3655,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -5219,6 +4572,7 @@
         "rendering"
       ],
       "contentCategories": [
+        "skills",
         "remotion",
         "audio-sound",
         "rendering"
@@ -5226,7 +4580,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 3594
+      "indexedContentBytes": 3655
     },
     {
       "path": "skills/remotion-multimedia/SKILL.md",
@@ -5320,7 +4674,7 @@
     },
     {
       "path": "skills/remotion-render/SKILL.md",
-      "bytes": 1077,
+      "bytes": 2960,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -5329,12 +4683,13 @@
         "rendering"
       ],
       "contentCategories": [
+        "skills",
         "rendering"
       ],
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 1077
+      "indexedContentBytes": 2960
     },
     {
       "path": "skills/remotion-render/agents/openai.yaml",
@@ -5367,6 +4722,31 @@
       "contentCategories": [],
       "signals": [],
       "indexedContentBytes": 1303
+    },
+    {
+      "path": "skills/remotion-render/opentimeline.md",
+      "bytes": 19794,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "remotion",
+        "rendering",
+        "data-animation",
+        "audio-sound"
+      ],
+      "contentCategories": [
+        "remotion",
+        "data-animation",
+        "audio-sound",
+        "rendering"
+      ],
+      "signals": [
+        "spring",
+        "interpolate",
+        "sequence"
+      ],
+      "indexedContentBytes": 19794
     },
     {
       "path": "skills/remotion-render/transparent-videos.md",
@@ -5472,7 +4852,7 @@
     },
     {
       "path": "skills/remotion-saas/rendering.md",
-      "bytes": 3343,
+      "bytes": 4302,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -5481,12 +4861,13 @@
         "rendering"
       ],
       "contentCategories": [
+        "skills",
         "rendering"
       ],
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 3343
+      "indexedContentBytes": 4302
     },
     {
       "path": "skills/remotion-studio/SKILL.md",

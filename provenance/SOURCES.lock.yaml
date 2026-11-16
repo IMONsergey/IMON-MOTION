@@ -1,15 +1,15 @@
 version: 1
-generated_at: "2026-11-09T13:03:54Z"
+generated_at: "2026-11-16T12:56:12Z"
 sources:
   video-shotcraft:
     repository: "Vincentwei1021/video-shotcraft"
     url: "https://github.com/Vincentwei1021/video-shotcraft.git"
-    commit: "1266a3ec4831289c4d893d42dd5102723658039a"
+    commit: "42f922fe076f6428814d10f6184caf22a8b2adc2"
     branch: "main"
-    upstream_commit_date: "2026-10-30T00:17:26+08:00"
+    upstream_commit_date: "2026-11-16T09:23:20Z"
     path: "upstream/video-shotcraft"
-    files: 1217
-    size_kb: 55724
+    files: 1223
+    size_kb: 55844
     license_files: "LICENSE"
   onda:
     repository: "degueba/onda"
@@ -24,12 +24,12 @@ sources:
   motion-skills:
     repository: "iart-ai/motion-skills"
     url: "https://github.com/iart-ai/motion-skills.git"
-    commit: "238dfc55aac123d4649be39adfe58c43193ca349"
+    commit: "9b9ce041932da787cc856d4cdf23afb6cd13d4bf"
     branch: "master"
-    upstream_commit_date: "2026-10-25T22:18:32+08:00"
+    upstream_commit_date: "2026-11-13T07:03:23-08:00"
     path: "upstream/motion-skills"
-    files: 9
-    size_kb: 3632
+    files: 10
+    size_kb: 5084
     license_files: "LICENSE"
   motion-design-skill:
     repository: "LottieFiles/motion-design-skill"
@@ -44,12 +44,12 @@ sources:
   emilkowalski-skills:
     repository: "emilkowalski/skills"
     url: "https://github.com/emilkowalski/skills.git"
-    commit: "715c1807e08c497cfd1dc4feb450a2a3300ef2a9"
+    commit: "64eb3deb9a5fbfa041faf783e0bc3fd635872e9c"
     branch: "main"
-    upstream_commit_date: "2026-11-09T13:07:26+01:00"
+    upstream_commit_date: "2026-11-15T13:42:50+01:00"
     path: "upstream/emilkowalski-skills"
-    files: 34
-    size_kb: 496
+    files: 36
+    size_kb: 524
     license_files: "LICENSE"
   claude-remotion-skill:
     repository: "haidrrrry/claude-remotion-skill"
@@ -64,12 +64,12 @@ sources:
   remotion-skills:
     repository: "remotion-dev/skills"
     url: "https://github.com/remotion-dev/skills.git"
-    commit: "1af7e69a2a613437d46095924057970a6a7df40d"
+    commit: "3e20ac75161bc34468845df714701cc9bf6075f4"
     branch: "main"
-    upstream_commit_date: "2026-11-09T10:11:05+01:00"
+    upstream_commit_date: "2026-11-16T09:11:07+01:00"
     path: "upstream/remotion-skills"
-    files: 301
-    size_kb: 3640
+    files: 267
+    size_kb: 2072
     license_files: ""
   product-launch-video-skill:
     repository: "memex-lab/product-launch-video-skill"

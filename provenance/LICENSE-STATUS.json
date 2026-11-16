@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourceGeneratedAt": "2026-11-09T13:03:54Z",
+  "sourceGeneratedAt": "2026-11-16T12:56:12Z",
   "disclaimer": "Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.",
   "policy": {
     "missingLicenseFile": "review-required",
@@ -194,12 +194,13 @@
         "MIT"
       ],
       "assets": {
-        "files": 1,
-        "bytes": 3651648,
+        "files": 2,
+        "bytes": 5138279,
         "extensions": {
-          ".gif": 1
+          ".gif": 2
         },
         "samples": [
+          "iart-showcase.gif",
           "showcase.gif"
         ],
         "separateRightsReviewRecommended": true
@@ -462,14 +463,14 @@
         "Apache-2.0"
       ],
       "assets": {
-        "files": 170,
-        "bytes": 46759090,
+        "files": 171,
+        "bytes": 46822201,
         "extensions": {
           ".mp3": 16,
           ".webp": 11,
           ".png": 86,
           ".gif": 1,
-          ".jpg": 56
+          ".jpg": 57
         },
         "samples": [
           "assets/audio/bgm/bgm-tech-house.mp3",

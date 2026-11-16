@@ -2,26 +2,26 @@
   "version": 2,
   "donor": "video-shotcraft",
   "summary": {
-    "fileCount": 1218,
-    "totalBytes": 53373461,
-    "indexedContentBytes": 6493291,
-    "textFiles": 1048,
-    "binaryFiles": 170,
+    "fileCount": 1224,
+    "totalBytes": 53474298,
+    "indexedContentBytes": 6531017,
+    "textFiles": 1053,
+    "binaryFiles": 171,
     "topExtensions": {
       ".json": 394,
-      ".md": 280,
+      ".md": 281,
       ".tsx": 269,
       ".png": 86,
-      ".jpg": 56,
-      ".ts": 32,
+      ".jpg": 57,
+      ".ts": 33,
       ".py": 18,
       ".mp3": 16,
+      ".mjs": 12,
       ".webp": 11,
       "[none]": 10,
-      ".mjs": 10,
       ".svg": 9,
       ".html": 8,
-      ".yml": 5,
+      ".yml": 6,
       ".js": 3,
       ".sh": 2
     },
@@ -29,45 +29,45 @@
       "shots-scenes-storyboard": 560,
       "effects": 513,
       "examples-templates": 377,
-      "camera-cinematography": 330,
-      "typography": 302,
+      "camera-cinematography": 331,
+      "typography": 303,
       "remotion": 280,
       "ui-motion": 239,
-      "transitions": 225,
-      "data-animation": 157,
-      "audio-sound": 121,
-      "skills": 106,
-      "design-system": 102,
-      "tests": 98,
-      "rendering": 78,
+      "transitions": 226,
+      "data-animation": 158,
+      "audio-sound": 122,
+      "skills": 107,
+      "design-system": 103,
+      "tests": 100,
+      "rendering": 81,
       "3d-webgl-shaders": 26
     },
     "contentCategoryCounts": {
       "effects": 489,
-      "camera-cinematography": 319,
+      "camera-cinematography": 320,
       "remotion": 276,
-      "typography": 169,
+      "typography": 170,
       "ui-motion": 151,
-      "transitions": 126,
-      "skills": 105,
-      "design-system": 96,
-      "tests": 87,
-      "audio-sound": 86,
-      "data-animation": 74,
+      "transitions": 127,
+      "skills": 106,
+      "design-system": 97,
+      "tests": 89,
+      "audio-sound": 87,
+      "data-animation": 75,
+      "rendering": 67,
       "shots-scenes-storyboard": 66,
-      "rendering": 65,
       "3d-webgl-shaders": 8
     },
     "signalCounts": {
-      "camera": 218,
+      "camera": 219,
+      "mask": 126,
       "interpolate": 126,
-      "mask": 125,
-      "sound-design": 76,
+      "sound-design": 77,
       "storyboard": 61,
       "cursor": 58,
-      "chart": 55,
+      "chart": 56,
+      "render": 51,
       "motion-blur": 50,
-      "render": 49,
       "orbit": 44,
       "spring": 43,
       "parallax": 32,
@@ -98,6 +98,16 @@
         "sound-design"
       ],
       "indexedContentBytes": 549
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "bytes": 70,
+      "ext": ".yml",
+      "binary": false,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 70
     },
     {
       "path": ".github/ISSUE_TEMPLATE/showcase.yml",
@@ -228,7 +238,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 19738,
+      "bytes": 18870,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -265,11 +275,11 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 19738
+      "indexedContentBytes": 18870
     },
     {
       "path": "README_CN.md",
-      "bytes": 19403,
+      "bytes": 18561,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -299,11 +309,11 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 19403
+      "indexedContentBytes": 18561
     },
     {
       "path": "README_JA.md",
-      "bytes": 22591,
+      "bytes": 21689,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -333,11 +343,11 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 22591
+      "indexedContentBytes": 21689
     },
     {
       "path": "README_RU.md",
-      "bytes": 28255,
+      "bytes": 25857,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -368,7 +378,41 @@
         "render",
         "mask"
       ],
-      "indexedContentBytes": 28255
+      "indexedContentBytes": 25857
+    },
+    {
+      "path": "README_TW.md",
+      "bytes": 17992,
+      "ext": ".md",
+      "binary": false,
+      "categories": [
+        "skills",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "data-animation",
+        "audio-sound",
+        "rendering",
+        "design-system"
+      ],
+      "contentCategories": [
+        "skills",
+        "camera-cinematography",
+        "transitions",
+        "typography",
+        "data-animation",
+        "audio-sound",
+        "rendering",
+        "design-system"
+      ],
+      "signals": [
+        "camera",
+        "chart",
+        "sound-design",
+        "render",
+        "mask"
+      ],
+      "indexedContentBytes": 17992
     },
     {
       "path": "SKILL.md",
@@ -1069,6 +1113,16 @@
         "render"
       ],
       "indexedContentBytes": 9258
+    },
+    {
+      "path": "assets/wechat-sponsor.jpg",
+      "bytes": 63111,
+      "ext": ".jpg",
+      "binary": true,
+      "categories": [],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 0
     },
     {
       "path": "demos/README.md",
@@ -6838,7 +6892,7 @@
     },
     {
       "path": "gallery/index.html",
-      "bytes": 57567,
+      "bytes": 57971,
       "ext": ".html",
       "binary": false,
       "categories": [
@@ -6875,7 +6929,7 @@
         "motion-blur",
         "particles"
       ],
-      "indexedContentBytes": 57567
+      "indexedContentBytes": 57971
     },
     {
       "path": "gallery/library.html",
@@ -9629,7 +9683,7 @@
     },
     {
       "path": "gallery/translations.js",
-      "bytes": 49314,
+      "bytes": 49390,
       "ext": ".js",
       "binary": false,
       "categories": [
@@ -9666,7 +9720,7 @@
         "motion-blur",
         "particles"
       ],
-      "indexedContentBytes": 49314
+      "indexedContentBytes": 49390
     },
     {
       "path": "jianying-export/.gitignore",
@@ -12212,7 +12266,7 @@
     },
     {
       "path": "references/workbench.md",
-      "bytes": 13212,
+      "bytes": 13901,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -12234,7 +12288,7 @@
         "sequence",
         "sound-design"
       ],
-      "indexedContentBytes": 13212
+      "indexedContentBytes": 13901
     },
     {
       "path": "shot-polish/BRAND-BRIEF.md",
@@ -19838,7 +19892,7 @@
     },
     {
       "path": "template/src/aifl/live/SceneOpen.tsx",
-      "bytes": 25822,
+      "bytes": 25803,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -19866,7 +19920,7 @@
         "camera",
         "cursor"
       ],
-      "indexedContentBytes": 25822
+      "indexedContentBytes": 25803
     },
     {
       "path": "template/src/aifl/live/SceneOutroLive.tsx",
@@ -20371,13 +20425,13 @@
     },
     {
       "path": "workbench/.gitignore",
-      "bytes": 722,
+      "bytes": 742,
       "ext": "[none]",
       "binary": false,
       "categories": [],
       "contentCategories": [],
       "signals": [],
-      "indexedContentBytes": 722
+      "indexedContentBytes": 742
     },
     {
       "path": "workbench/GUIDE.md",
@@ -20400,7 +20454,7 @@
     },
     {
       "path": "workbench/README.md",
-      "bytes": 8717,
+      "bytes": 9423,
       "ext": ".md",
       "binary": false,
       "categories": [
@@ -20417,7 +20471,7 @@
         "sequence",
         "threejs"
       ],
-      "indexedContentBytes": 8717
+      "indexedContentBytes": 9423
     },
     {
       "path": "workbench/demosrc",
@@ -20718,7 +20772,7 @@
     },
     {
       "path": "workbench/scripts/gen-index.mjs",
-      "bytes": 16483,
+      "bytes": 16826,
       "ext": ".mjs",
       "binary": false,
       "categories": [
@@ -20732,11 +20786,11 @@
       "signals": [
         "sound-design"
       ],
-      "indexedContentBytes": 16483
+      "indexedContentBytes": 16826
     },
     {
-      "path": "workbench/scripts/open.mjs",
-      "bytes": 8254,
+      "path": "workbench/scripts/link.mjs",
+      "bytes": 880,
       "ext": ".mjs",
       "binary": false,
       "categories": [
@@ -20746,7 +20800,21 @@
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 8254
+      "indexedContentBytes": 880
+    },
+    {
+      "path": "workbench/scripts/open.mjs",
+      "bytes": 8210,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "tests"
+      ],
+      "contentCategories": [
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 8210
     },
     {
       "path": "workbench/scripts/parity.mjs",
@@ -20763,6 +20831,20 @@
       ],
       "signals": [],
       "indexedContentBytes": 5547
+    },
+    {
+      "path": "workbench/scripts/public-assets.mjs",
+      "bytes": 4304,
+      "ext": ".mjs",
+      "binary": false,
+      "categories": [
+        "tests"
+      ],
+      "contentCategories": [
+        "tests"
+      ],
+      "signals": [],
+      "indexedContentBytes": 4304
     },
     {
       "path": "workbench/scripts/render-demos.mjs",
@@ -20801,7 +20883,7 @@
     },
     {
       "path": "workbench/scripts/test-platform.mjs",
-      "bytes": 5680,
+      "bytes": 20809,
       "ext": ".mjs",
       "binary": false,
       "categories": [
@@ -20815,7 +20897,7 @@
       "signals": [
         "render"
       ],
-      "indexedContentBytes": 5680
+      "indexedContentBytes": 20809
     },
     {
       "path": "workbench/scripts/test-themes.mjs",
@@ -20837,7 +20919,7 @@
     },
     {
       "path": "workbench/src/App.tsx",
-      "bytes": 9131,
+      "bytes": 9534,
       "ext": ".tsx",
       "binary": false,
       "categories": [
@@ -20847,7 +20929,7 @@
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 9131
+      "indexedContentBytes": 9534
     },
     {
       "path": "workbench/src/cards/background-cards.tsx",
@@ -21118,8 +21200,20 @@
       "indexedContentBytes": 684
     },
     {
+      "path": "workbench/src/export-errors.ts",
+      "bytes": 157,
+      "ext": ".ts",
+      "binary": false,
+      "categories": [
+        "rendering"
+      ],
+      "contentCategories": [],
+      "signals": [],
+      "indexedContentBytes": 157
+    },
+    {
       "path": "workbench/src/i18n.ts",
-      "bytes": 43432,
+      "bytes": 44712,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -21129,6 +21223,7 @@
         "typography",
         "ui-motion",
         "audio-sound",
+        "rendering",
         "effects",
         "design-system",
         "tests"
@@ -21140,6 +21235,7 @@
         "typography",
         "ui-motion",
         "audio-sound",
+        "rendering",
         "effects",
         "design-system",
         "tests"
@@ -21147,9 +21243,10 @@
       "signals": [
         "cursor",
         "sound-design",
+        "render",
         "mask"
       ],
-      "indexedContentBytes": 43432
+      "indexedContentBytes": 44712
     },
     {
       "path": "workbench/src/main.tsx",
@@ -21487,7 +21584,7 @@
     },
     {
       "path": "workbench/vite.config.ts",
-      "bytes": 8641,
+      "bytes": 8987,
       "ext": ".ts",
       "binary": false,
       "categories": [
@@ -21499,7 +21596,7 @@
         "tests"
       ],
       "signals": [],
-      "indexedContentBytes": 8641
+      "indexedContentBytes": 8987
     }
   ]
 }

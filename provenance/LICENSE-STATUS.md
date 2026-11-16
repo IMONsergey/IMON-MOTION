@@ -2,7 +2,7 @@
 
 > Automated provenance signal only. This is not legal advice and does not determine whether a particular use is permitted.
 
-Snapshot source timestamp: 2026-11-09T13:03:54Z
+Snapshot source timestamp: 2026-11-16T12:56:12Z
 
 ## Summary
 
@@ -28,7 +28,7 @@ Snapshot source timestamp: 2026-11-09T13:03:54Z
 | `emilkowalski-skills` | license-file-detected | MIT | 0 | 0 |
 | `motion-canvas-examples` | license-file-detected | MIT | 52 | 41427204 |
 | `motion-design-skill` | license-file-detected | MIT | 0 | 0 |
-| `motion-skills` | license-file-detected | MIT | 1 | 3651648 |
+| `motion-skills` | license-file-detected | MIT | 2 | 5138279 |
 | `onda` | license-file-detected | MIT | 5 | 1412890 |
 | `product-launch-video-skill` | license-file-detected | MIT | 0 | 0 |
 | `remotion-cinematic` | license-file-detected | MIT | 12 | 5165177 |
@@ -37,6 +37,6 @@ Snapshot source timestamp: 2026-11-09T13:03:54Z
 | `remotion-templates` | review-required-no-license-file-detected | — | 0 | 0 |
 | `skill-remotion-geist` | review-required-no-license-file-detected | — | 0 | 0 |
 | `theatre` | license-file-detected | Apache-2.0 | 17 | 1612692 |
-| `video-shotcraft` | license-file-detected | Apache-2.0 | 170 | 46759090 |
+| `video-shotcraft` | license-file-detected | Apache-2.0 | 171 | 46822201 |
 
 See `provenance/LICENSE-STATUS.json` for machine-readable details.

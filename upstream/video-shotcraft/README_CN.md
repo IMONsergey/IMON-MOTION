@@ -8,7 +8,9 @@
 
 # video-shotcraft
 
-[English](README.md) | **中文** | [日本語](README_JA.md) | [Русский](README_RU.md)
+<a href="#support"><img src="https://img.shields.io/badge/%E2%98%95%20%E6%94%AF%E6%8C%81%E4%BD%9C%E8%80%85-16803C?style=for-the-badge" alt="☕ 支持作者" height="32"></a>
+
+[English](README.md) | **中文** | [繁體中文](README_TW.md) | [日本語](README_JA.md) | [Русский](README_RU.md)
 
 [![Gallery](https://img.shields.io/badge/Gallery-live%20previews-d3923c)](https://vincentwei1021.github.io/video-shotcraft/)
 [![Showcase](https://img.shields.io/badge/Showcase-community%20videos-7c3aed)](https://vincentwei1021.github.io/video-shotcraft/showcase.html)
@@ -55,26 +57,6 @@
 ## ❤️ Sponsors
 
 <table>
-<tr>
-<td align="center" valign="middle" width="25%">
-  <a href="https://go.apimart.ai/tw-video-shotcraft"><img src="./assets/readme/sponsors/apimart.png" width="200" alt="APIMart 标志"></a><br>
-  <a href="https://go.apimart.ai/tw-video-shotcraft"><b>APIMart</b></a>
-</td>
-<td>
-  <p>感谢 APIMart 赞助了本项目！APIMart 是专注 AI 图片/视频生成的低价 API 平台，GPT-Image-2 低至 $0.006/张，1 美元可出图 160+ 张。图片、视频一套异步 API 通吃，提交任务拿 ID、回调取结果，跑批万张不超时、换模型不改代码。按量付费、无月费，通过此<a href="https://go.apimart.ai/tw-video-shotcraft">注册链接</a>注册即可开用。</p>
-</td>
-</tr>
-<tr>
-<td align="center" valign="middle" width="25%">
-  <a href="https://www.packyapi.ai/register?aff=l9IZ"><img src="./assets/readme/sponsors/packycode.png" width="200" alt="PackyCode 标志"></a><br>
-  <a href="https://www.packyapi.ai/register?aff=l9IZ"><b>PackyCode</b></a>
-</td>
-<td>
-  <p>PackyCode 是一家稳定、高效的 API 中转服务商，通过统一域名、统一密钥接入主流大模型，支持智能容灾切换，并提供专属 Codex / Claude Code 高速通道。</p>
-  <p>新用户可获 $1 免费体验额度，首充享折扣，多分组折扣低至 2 折起。支持人民币 1:1 充值，无汇率加价及额外充值手续费。</p>
-  <p><a href="https://www.packyapi.ai/register?aff=l9IZ">注册并开始使用 PackyCode →</a></p>
-</td>
-</tr>
 <tr>
 <td align="center" valign="middle" width="25%">
   <a href="https://aws.amazon.com/"><img src="./assets/readme/sponsors/aws.svg" width="200" alt="AWS 标志"></a><br>
@@ -280,6 +262,18 @@ Video Shotcraft 的搜索与下载 CLI 为独立实现。
 **[Freesound](https://freesound.org)** 与音效贡献者；
 **[Mixkit](https://mixkit.co/)** 提供的 BGM 与模板历史音频；游戏手感与动画社区的公开方法论，
 多张镜头卡受其启发；以及 **Claude Code**——本库自身的构建、迭代与验收都由它完成，用的正是这个 skill 教的工作流。
+
+<a id="support"></a>
+
+## ☕ 支持作者
+
+如果这个项目帮到了你，欢迎请我喝杯咖啡，支持后续开发与维护。
+
+<img src="assets/wechat-sponsor.jpg" alt="微信赞助收款码" width="280">
+
+微信扫一扫，金额随意。手机查看时，可保存图片，再在微信「扫一扫」中从相册选择。
+
+赞助完全自愿，Star、反馈和分享同样感谢。赞助不改变本项目现有的许可条款。
 
 ## 关注我
 
